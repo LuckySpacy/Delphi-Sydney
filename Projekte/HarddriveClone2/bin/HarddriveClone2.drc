@@ -1,0 +1,2874 @@
+/* VER340
+  Generiert vom Embarcadero Delphi Pascal Compiler,
+  weil -GD oder --drc an den Compiler übergeben wurde.
+
+  Diese Datei enthält vom Compiler erzeugte Ressourcen, die an die ausführbare Datei gebunden wurden. Wenn diese Datei leer ist, dann wurden keine vom Compiler generierten Ressourcen an die erzeugte ausführbare Datei gebunden.
+*/
+
+#define Xml_XMLConst_SMismatchedRegItems 64112
+#define Xml_XMLConst_SNotSingleTextNode 64113
+#define Xml_XMLConst_SNoDOMParseOptions 64114
+#define Xml_XMLConst_SMissingItemTag 64115
+#define Xml_XMLConst_SNodeReadOnly 64116
+#define Xml_XMLConst_SNoRefresh 64117
+#define Xml_XMLConst_SMissingFileName 64118
+#define Xml_XMLConst_SLine 64119
+#define GDIPicture_GDIPERRMSG 64120
+#define Vcl_Imaging_GIFConsts_sProgressConverting 64128
+#define Vcl_Imaging_GIFConsts_sProgressRendering 64129
+#define Vcl_Imaging_GIFConsts_sProgressCopying 64130
+#define Vcl_Imaging_GIFConsts_sProgressOptimizing 64131
+#define Xml_XMLConst_SDuplicateRegistration 64132
+#define Xml_XMLConst_SNoMatchingDOMVendor 64133
+#define Xml_XMLConst_SNoDOMNodeEx 64134
+#define Xml_XMLConst_SDOMNotSupported 64135
+#define Xml_XMLConst_SNoDOMVendorSelected 64136
+#define Xml_XMLConst_SNodeExpected 64137
+#define Xml_XMLConst_SMSDOMNotInstalled 64138
+#define Xml_XMLConst_SNotActive 64139
+#define Xml_XMLConst_SNodeNotFound 64140
+#define Xml_XMLConst_SMissingNode 64141
+#define Xml_XMLConst_SNoAttributes 64142
+#define Xml_XMLConst_SInvalidNodeType 64143
+#define Vcl_Imaging_GIFConsts_sScreenSizeExceeded 64144
+#define Vcl_Imaging_GIFConsts_sNoColorTable 64145
+#define Vcl_Imaging_GIFConsts_sBadPixelCoordinates 64146
+#define Vcl_Imaging_GIFConsts_sInvalidPixelFormat 64147
+#define Vcl_Imaging_GIFConsts_sBadDimension 64148
+#define Vcl_Imaging_GIFConsts_sNoDIB 64149
+#define Vcl_Imaging_GIFConsts_sInvalidStream 64150
+#define Vcl_Imaging_GIFConsts_sInvalidColor 64151
+#define Vcl_Imaging_GIFConsts_sInvalidBitSize 64152
+#define Vcl_Imaging_GIFConsts_sEmptyColorMap 64153
+#define Vcl_Imaging_GIFConsts_sEmptyImage 64154
+#define Vcl_Imaging_GIFConsts_sMultipleGCE 64155
+#define Vcl_Imaging_GIFConsts_sNoPalette 64156
+#define Vcl_Imaging_GIFConsts_sGIFImageFile 64157
+#define Vcl_Imaging_GIFConsts_sProgressLoading 64158
+#define Vcl_Imaging_GIFConsts_sProgressSaving 64159
+#define Vcl_Imaging_GIFConsts_sGIFErrorSaveEmpty 64160
+#define Vcl_Imaging_GIFConsts_sBadSignature 64161
+#define Vcl_Imaging_GIFConsts_sScreenBadColorSize 64162
+#define Vcl_Imaging_GIFConsts_sImageBadColorSize 64163
+#define Vcl_Imaging_GIFConsts_sUnknownExtension 64164
+#define Vcl_Imaging_GIFConsts_sBadExtensionLabel 64165
+#define Vcl_Imaging_GIFConsts_sOutOfMemDIB 64166
+#define Vcl_Imaging_GIFConsts_sDecodeTooFewBits 64167
+#define Vcl_Imaging_GIFConsts_sDecodeCircular 64168
+#define Vcl_Imaging_GIFConsts_sBadTrailer 64169
+#define Vcl_Imaging_GIFConsts_sBadExtensionInstance 64170
+#define Vcl_Imaging_GIFConsts_sBadBlockSize 64171
+#define Vcl_Imaging_GIFConsts_sBadBlock 64172
+#define Vcl_Imaging_GIFConsts_sUnsupportedClass 64173
+#define Vcl_Imaging_GIFConsts_sInvalidData 64174
+#define Vcl_Imaging_GIFConsts_sBadSize 64175
+#define Vcl_Imaging_pnglang_EPNGCannotAssignChunkText 64176
+#define Vcl_Imaging_pnglang_EPNGUnexpectedEndText 64177
+#define Vcl_Imaging_pnglang_EPNGNoImageDataText 64178
+#define Vcl_Imaging_pnglang_EPNGCannotAddChunkText 64179
+#define Vcl_Imaging_pnglang_EPNGCannotAddInvalidImageText 64180
+#define Vcl_Imaging_pnglang_EPNGCouldNotLoadResourceText 64181
+#define Vcl_Imaging_pnglang_EPNGOutMemoryText 64182
+#define Vcl_Imaging_pnglang_EPNGCannotChangeTransparentText 64183
+#define Vcl_Imaging_pnglang_EPNGHeaderNotPresentText 64184
+#define Vcl_Imaging_pnglang_EInvalidNewSize 64185
+#define Vcl_Imaging_pnglang_EInvalidSpec 64186
+#define Vcl_Imaging_pnglang_EPNGInvalidBitDepthText 64187
+#define Vcl_Imaging_GIFConsts_sOutOfData 64188
+#define Vcl_Imaging_GIFConsts_sTooManyColors 64189
+#define Vcl_Imaging_GIFConsts_sBadColorIndex 64190
+#define Vcl_Imaging_GIFConsts_sBadColorIndexFixed 64191
+#define Vcl_Imaging_JConsts_sChangeJPGSize 64192
+#define Vcl_Imaging_JConsts_sJPEGError 64193
+#define Vcl_Imaging_JConsts_sJPEGImageFile 64194
+#define Vcl_Imaging_pnglang_EPngInvalidCRCText 64195
+#define Vcl_Imaging_pnglang_EPNGInvalidIHDRText 64196
+#define Vcl_Imaging_pnglang_EPNGMissingMultipleIDATText 64197
+#define Vcl_Imaging_pnglang_EPNGZLIBErrorText 64198
+#define Vcl_Imaging_pnglang_EPNGInvalidPaletteText 64199
+#define Vcl_Imaging_pnglang_EPNGInvalidFileHeaderText 64200
+#define Vcl_Imaging_pnglang_EPNGIHDRNotFirstText 64201
+#define Vcl_Imaging_pnglang_EPNGSizeExceedsText 64202
+#define Vcl_Imaging_pnglang_EPNGUnknownPalEntryText 64203
+#define Vcl_Imaging_pnglang_EPNGUnknownCriticalChunkText 64204
+#define Vcl_Imaging_pnglang_EPNGUnknownCompressionText 64205
+#define Vcl_Imaging_pnglang_EPNGUnknownInterlaceText 64206
+#define Vcl_Imaging_pnglang_EPNGUnknownColorTypeText 64207
+#define Log4D_ParsingAppenderMsg 64208
+#define Log4D_ParsingLoggerMsg 64209
+#define Log4D_ParsingErrorHandlerMsg 64210
+#define Log4D_ParsingFiltersMsg 64211
+#define Log4D_ParsingLayoutMsg 64212
+#define Log4D_PleaseInitMsg 64213
+#define Log4D_RendererMsg 64214
+#define Log4D_SessionStartMsg 64215
+#define Log4D_SettingAdditivityMsg 64216
+#define Log4D_SettingAppenderMsg 64217
+#define Log4D_SettingBackupMsg 64218
+#define Log4D_SettingLevelMsg 64219
+#define Log4D_SettingLoggerMsg 64220
+#define Log4D_ThreadHdr 64221
+#define Log4D_TimeHdr 64222
+#define Log4D_ValueUnknownMsg 64223
+#define Log4D_LevelHdr 64224
+#define Log4D_LevelTokenMsg 64225
+#define Log4D_LoggerFactoryMsg 64226
+#define Log4D_LoggerHdr 64227
+#define Log4D_MessageHdr 64228
+#define Log4D_NDCHdr 64229
+#define Log4D_NilErrorHandlerMsg 64230
+#define Log4D_NilLevelMsg 64231
+#define Log4D_NoAppendersMsg 64232
+#define Log4D_NoAppenderCreatedMsg 64233
+#define Log4D_NoClassMsg 64234
+#define Log4D_NoLayoutMsg 64235
+#define Log4D_NoRenderedCreatedMsg 64236
+#define Log4D_NoRendererMsg 64237
+#define Log4D_NoRendererCreatedMsg 64238
+#define Log4D_NoRootLoggerMsg 64239
+#define Log4D_AddingLoggerMsg 64240
+#define Log4D_AppenderDefinedMsg 64241
+#define Log4D_BadConfigFileMsg 64242
+#define Log4D_ClosedAppenderMsg 64243
+#define Log4D_ConvertErrorMsg 64244
+#define Log4D_EndAppenderMsg 64245
+#define Log4D_EndErrorHandlerMsg 64246
+#define Log4D_EndFiltersMsg 64247
+#define Log4D_EndLayoutMsg 64248
+#define Log4D_FallbackMsg 64249
+#define Log4D_FallbackReplaceMsg 64250
+#define Log4D_FinishedConfigMsg 64251
+#define Log4D_HandlingAdditivityMsg 64252
+#define Log4D_IgnoreConfigMsg 64253
+#define Log4D_InterfaceNotImplMsg 64254
+#define Log4D_LayoutRequiredMsg 64255
+#define FMX_Consts_SPresentationProxyClassIsNil 64256
+#define FMX_Consts_SPresentationProxyNameIsEmpty 64257
+#define FMX_Consts_SPresentationAlreadyRegistered 64258
+#define FMX_Consts_SDataModelKeyEmpty 64259
+#define FMX_Consts_SFormatAlreadyRegistered 64260
+#define FMX_Consts_SFormatWasNotRegistered 64261
+#define FMX_Consts_SCannotFindParentBySpecifiedCriteria 64262
+#define System_RegularExpressionsConsts_SRegExMissingExpression 64263
+#define System_RegularExpressionsConsts_SRegExExpressionError 64264
+#define System_RegularExpressionsConsts_SRegExStudyError 64265
+#define System_RegularExpressionsConsts_SRegExMatchRequired 64266
+#define System_RegularExpressionsConsts_SRegExStringsRequired 64267
+#define System_RegularExpressionsConsts_SRegExInvalidIndexType 64268
+#define System_RegularExpressionsConsts_SRegExIndexOutOfBounds 64269
+#define System_RegularExpressionsConsts_SRegExInvalidGroupName 64270
+#define FMX_Edit_Win_sInvalidComCtl32 64271
+#define FMX_Consts_SInvalidControlItem 64272
+#define FMX_Consts_SCannotDeleteColumn 64273
+#define FMX_Consts_SCannotDeleteDefColumn 64274
+#define FMX_Consts_SCannotDeleteRow 64275
+#define FMX_Consts_SCellMember 64276
+#define FMX_Consts_SCellSizeType 64277
+#define FMX_Consts_SCellValue 64278
+#define FMX_Consts_SCellAutoSize 64279
+#define FMX_Consts_SCellPercentSize 64280
+#define FMX_Consts_SCellAbsoluteSize 64281
+#define FMX_Consts_SCellColumn 64282
+#define FMX_Consts_SCellRow 64283
+#define FMX_Consts_SWrongModelClassType 64284
+#define FMX_Consts_SWrongParameter 64285
+#define FMX_Consts_SControlClassIsNil 64286
+#define FMX_Consts_SPresentationProxyCreateError 64287
+#define FMX_Consts_SCannotFindSuitablePixelFormat 64288
+#define FMX_Consts_SCannotFindSuitableShader 64289
+#define FMX_Consts_SCannotDetermineDirect3DLevel 64290
+#define FMX_Consts_SCannotCreateD2DFactory 64291
+#define FMX_Consts_SCannotCreateDWriteFactory 64292
+#define FMX_Consts_SCannotCreateWICImagingFactory 64293
+#define FMX_Consts_SCannotCreateRenderTarget 64294
+#define FMX_Consts_SCannotCreateD3DDevice 64295
+#define FMX_Consts_SCannotAcquireDXGIFactory 64296
+#define FMX_Consts_SCannotCreateTexture 64297
+#define FMX_Consts_SCannotCreateRenderTargetView 64298
+#define FMX_Consts_SCannotCreateSwapChain 64299
+#define FMX_Consts_SCannotAddFixedSize 64300
+#define FMX_Consts_SInvalidSpan 64301
+#define FMX_Consts_SInvalidRowIndex 64302
+#define FMX_Consts_SInvalidColumnIndex 64303
+#define FMX_Consts_StrEDupScale 64304
+#define FMX_Consts_StrOther 64305
+#define FMX_Consts_StrScale1 64306
+#define FMX_Consts_SCodecFileExtensionCannotEmpty 64307
+#define FMX_Consts_SCodecClassCannotBeNil 64308
+#define FMX_Consts_SCodecAlreadyExists 64309
+#define FMX_Consts_SBitmapIncorrectSize 64310
+#define FMX_Consts_SBitmapLoadingFailed 64311
+#define FMX_Consts_SBitmapLoadingFailedNamed 64312
+#define FMX_Consts_SBitmapSizeTooBig 64313
+#define FMX_Consts_SInvalidCanvasParameter 64314
+#define FMX_Consts_SThumbnailLoadingFailedNamed 64315
+#define FMX_Consts_SBitmapSavingFailed 64316
+#define FMX_Consts_SBitmapSavingFailedNamed 64317
+#define FMX_Consts_SRetrieveSurfaceContents 64318
+#define FMX_Consts_SInvalidCallingConditions 64319
+#define FMX_Consts_SEditPaste 64320
+#define FMX_Consts_SEditDelete 64321
+#define FMX_Consts_SEditSelectAll 64322
+#define FMX_Consts_SCannotCreateCircularDependence 64323
+#define FMX_Consts_SPrinterDPIChangeError 64324
+#define FMX_Consts_SPrinterSettingsReadError 64325
+#define FMX_Consts_SPrinterSettingsWriteError 64326
+#define FMX_Consts_SVAllFiles 64327
+#define FMX_Consts_SVBitmaps 64328
+#define FMX_Consts_SVIcons 64329
+#define FMX_Consts_SVTIFFImages 64330
+#define FMX_Consts_SVJPGImages 64331
+#define FMX_Consts_SVPNGImages 64332
+#define FMX_Consts_SVGIFImages 64333
+#define FMX_Consts_SWMPImages 64334
+#define FMX_Consts_StrEChangeFixed 64335
+#define FMX_Consts_SMsgDlgHelp 64336
+#define FMX_Consts_SMsgDlgAbort 64337
+#define FMX_Consts_SMsgDlgRetry 64338
+#define FMX_Consts_SMsgDlgIgnore 64339
+#define FMX_Consts_SMsgDlgAll 64340
+#define FMX_Consts_SMsgDlgNoToAll 64341
+#define FMX_Consts_SMsgDlgYesToAll 64342
+#define FMX_Consts_SMsgDlgClose 64343
+#define FMX_Consts_SWindowsVistaRequired 64344
+#define FMX_Consts_SUsername 64345
+#define FMX_Consts_SPassword 64346
+#define FMX_Consts_SDomain 64347
+#define FMX_Consts_SLogin 64348
+#define FMX_Consts_SAppDefault 64349
+#define FMX_Consts_SEditCopy 64350
+#define FMX_Consts_SEditCut 64351
+#define FMX_Consts_SMainMenuSupportsOnlyTMenuItems 64352
+#define FMX_Consts_SNoImplementation 64353
+#define FMX_Consts_SBitmapSizeNotEqual 64354
+#define FMX_Consts_SInvalidSceneUpdatingPairCall 64355
+#define FMX_Consts_SNoPlatformStyle 64356
+#define FMX_Consts_SInvalidPlatformStyle 64357
+#define FMX_Consts_SNoIDeviceBehaviorBehavior 64358
+#define FMX_Consts_SDialogMustBeRunInUIThread 64359
+#define FMX_Consts_SMsgDlgWarning 64360
+#define FMX_Consts_SMsgDlgError 64361
+#define FMX_Consts_SMsgDlgInformation 64362
+#define FMX_Consts_SMsgDlgConfirm 64363
+#define FMX_Consts_SMsgDlgYes 64364
+#define FMX_Consts_SMsgDlgNo 64365
+#define FMX_Consts_SMsgDlgOK 64366
+#define FMX_Consts_SMsgDlgCancel 64367
+#define FMX_Consts_SCannotCreateTimer 64368
+#define FMX_Consts_SErrorShortCut 64369
+#define FMX_Consts_SEUseHeirs 64370
+#define FMX_Consts_SUnavailableMenuId 64371
+#define FMX_Consts_SInvalidGestureID 64372
+#define FMX_Consts_SOutOfRange 64373
+#define FMX_Consts_SAddIStylusAsyncPluginError 64374
+#define FMX_Consts_SAddIStylusSyncPluginError 64375
+#define FMX_Consts_SRemoveIStylusAsyncPluginError 64376
+#define FMX_Consts_SRemoveIStylusSyncPluginError 64377
+#define FMX_Consts_SStylusHandleError 64378
+#define FMX_Consts_SStylusEnableError 64379
+#define FMX_Consts_SEnableRecognizerError 64380
+#define FMX_Consts_SInitialGesturePointError 64381
+#define FMX_Consts_SSetStylusGestureError 64382
+#define FMX_Consts_StrESingleMainMenu 64383
+#define FMX_Consts_SResultCanNotBeNil 64384
+#define FMX_Consts_SInvalidStyleForPlatform 64385
+#define FMX_Consts_SCannotLoadStyleFromStream 64386
+#define FMX_Consts_SCannotLoadStyleFromRes 64387
+#define FMX_Consts_SCannotLoadStyleFromFile 64388
+#define FMX_Consts_SInvalidPrinterClass 64389
+#define FMX_Consts_SPromptArrayTooShort 64390
+#define FMX_Consts_SPromptArrayEmpty 64391
+#define FMX_Consts_SInvalidFmxHandle 64392
+#define FMX_Consts_SUnsupportedPlatformService 64393
+#define FMX_Consts_SServiceAlreadyRegistered 64394
+#define FMX_Consts_SUnsupportedOSVersion 64395
+#define FMX_Consts_SNotInstance 64396
+#define FMX_Consts_SFlasherNotRegistered 64397
+#define FMX_Consts_SUnsupportedInterface 64398
+#define FMX_Consts_SNullException 64399
+#define UniConsts_SInvalidTimestamp 64400
+#define UniConsts_SNotCompletedIF 64401
+#define UniConsts_SUnexpectedChar 64402
+#define UniConsts_SUnexpectedElse 64403
+#define UniConsts_SUnexpectedEndif 64404
+#define UniConsts_SUnknownFunction 64405
+#define UniConsts_SWrongArgCnt 64406
+#define UniConsts_SCyclicConditions 64407
+#define FMX_Consts_SInvalidPrinterOp 64408
+#define FMX_Consts_SInvalidPrinter 64409
+#define FMX_Consts_SPrinterIndexError 64410
+#define FMX_Consts_SDeviceOnPort 64411
+#define FMX_Consts_SNoDefaultPrinter 64412
+#define FMX_Consts_SNotPrinting 64413
+#define FMX_Consts_SPrinting 64414
+#define FMX_Consts_StrCannotFocus 64415
+#define CRVioTcp_SUnknownSocksAddressType 64416
+#define CRVioTcp_SUnsupportedCommandType 64417
+#define CRVioTcp_SUnsupportedAuthType 64418
+#define CRVioTcp_SUnknownSocksVersion 64419
+#define DBMonitorClient_SAppStarted 64420
+#define DBMonitorClient_SAppFinished 64421
+#define UniConsts_SProviderNotDefined 64422
+#define UniConsts_SInvalidProviderName 64423
+#define UniConsts_SProviderNotRegistered 64424
+#define UniConsts_SAlertsNotSupported 64425
+#define UniConsts_SInvalidOptionName 64426
+#define UniConsts_SEmptyFunctionName 64427
+#define UniConsts_SEmptyMacroOrFunction 64428
+#define UniConsts_SInvalidBracketCount 64429
+#define UniConsts_SInvalidDate 64430
+#define UniConsts_SInvalidTime 64431
+#define CRVioTcp_SCannotBind 64432
+#define CRVioTcp_SCannotConnect 64433
+#define CRVioTcp_SConnectionTimeout 64434
+#define CRVioTcp_SErrorOnListening 64435
+#define CRVioTcp_SErrorOnAccepting 64436
+#define CRVioTcp_SErrorOnSettingOptions 64437
+#define CRVioTcp_SErrorOnRetrievingOptions 64438
+#define CRVioTcp_SErrorOnDataReading 64439
+#define CRVioTcp_SErrorOnDataWriting 64440
+#define CRVioTcp_SInvalidDataWriting 64441
+#define CRVioTcp_SSocketErrWithErr 64442
+#define CRVioTcp_SHttpResponseTooLarge 64443
+#define CRVioTcp_SUnknownHttpVersion 64444
+#define CRVioTcp_SHttpError 64445
+#define CRVioTcp_SSocksAccessDenided 64446
+#define CRVioTcp_SSocksResponseTooLarge 64447
+#define DAConsts_SOpeningWasCanceled 64448
+#define System_ZLibConst_sTargetBufferTooSmall 64449
+#define System_ZLibConst_sError 64450
+#define CRVio_SVioError 64451
+#define CRVio_SNotOverriden 64452
+#define CRVioSocket_SSocketError 64453
+#define CRVioSocket_SSocketNotConnected 64454
+#define CRVioSocket_SErrorOnDataWaiting 64455
+#define CRVioSocket_SCannotChangeHost 64456
+#define CRVioSocket_SCannotChangePort 64457
+#define CRVioSocket_SCannotChangeTcpVersion 64458
+#define CRVioTcp_SUnknownSocketError 64459
+#define CRVioTcp_SWSAStartupFailed 64460
+#define CRVioTcp_SUnknownHost 64461
+#define CRVioTcp_SCannotCreateSocket 64462
+#define CRVioTcp_SSocketAborted 64463
+#define DAConsts_SValueTooLong 64464
+#define DAConsts_SStringTooLong 64465
+#define DAConsts_SBinaryTooLong 64466
+#define DAConsts_SInvalidIndex 64467
+#define DAConsts_SInvalidDmlArrayType 64468
+#define DAConsts_SCannotGetSingleValue 64469
+#define DAConsts_SParameterTypeDiffers 64470
+#define DAConsts_SInvalidBatchOperation 64471
+#define DAConsts_SInvalidBatchParameters 64472
+#define DAConsts_SConditionNotFound 64473
+#define DAConsts_SNoDataToFetch 64474
+#define DAConsts_SUnknownSmartFetchMode 64475
+#define DAConsts_SOnlySelectAllowed 64476
+#define DAConsts_SSmartFetchIsUnallowed 64477
+#define DAConsts_SFieldsNotCorresponding 64478
+#define DAConsts_SIndexFieldNamesWithLiveBlock 64479
+#define DAConsts_SInvalidFieldLength 64480
+#define DAConsts_SInvalidFieldScale 64481
+#define DAConsts_SInvalidDataMapping 64482
+#define DAConsts_SInvalidIntegerValue 64483
+#define DAConsts_SInvalidNumericValue 64484
+#define DAConsts_SInvalidBooleanValue 64485
+#define DAConsts_SInvalidDateTimeValue 64486
+#define DAConsts_SInvalidSQLTimeStampValue 64487
+#define DAConsts_SInvalidGUIDValue 64488
+#define DAConsts_SInvalidIntervalValue 64489
+#define DAConsts_SInvalidBinaryValue 64490
+#define DAConsts_SInvalidBlobValue 64491
+#define DAConsts_SValueOutOfRange 64492
+#define DAConsts_SInvalidValueScale 64493
+#define DAConsts_SFractionTruncated 64494
+#define DAConsts_SDataTruncated 64495
+#define DAConsts_SConnectParamAddedTwice 64496
+#define DAConsts_SInvalidConnectParamValue 64497
+#define DAConsts_SConnectParamInternalError 64498
+#define DAConsts_SLoginParameterServer 64499
+#define DAConsts_SLoginParameterUsername 64500
+#define DAConsts_SLoginParameterPassword 64501
+#define DAConsts_SUnsupportedMapping 64502
+#define DAConsts_SInvalidMapRuleExpr 64503
+#define DAConsts_SUnexpectedEndOfMapRuleExpr 64504
+#define DAConsts_SUnexpectedSymbolInMapRuleExpr 64505
+#define DAConsts_SNotDefinedDBType 64506
+#define DAConsts_SUnsupportedDBType 64507
+#define DAConsts_SInvalidDBLength 64508
+#define DAConsts_SInvalidDBScale 64509
+#define DAConsts_SNotDefinedFieldType 64510
+#define DAConsts_SUnsupportedFieldType 64511
+#define DAConsts_SUnsupportedMetaDataKind 64512
+#define DAConsts_SMDIsNotMemDataSet 64513
+#define DAConsts_SNotInitialized 64514
+#define DAConsts_SInvalidIV 64515
+#define DAConsts_SInvalidKey 64516
+#define DAConsts_SInvalidKeySize 64517
+#define DAConsts_SGCMModeMustBeUsed 64518
+#define DAConsts_SGCMCannotBeUsed 64519
+#define DAConsts_SEncryptionNotSupported 64520
+#define DAConsts_SInvalidEncDataSize 64521
+#define DAConsts_SInvalidEncData 64522
+#define DAConsts_SInvalidHash 64523
+#define DAConsts_SEncryptorNotDefined 64524
+#define DAConsts_SEncrFieldsNotDefined 64525
+#define DAConsts_SConnectParamNameUnknown 64526
+#define DAConsts_SConnectParamNameMissing 64527
+#define DAConsts_SNoTimers 64528
+#define DAConsts_sBlobNotCompressed 64529
+#define DAConsts_SCompressorNotLinked 64530
+#define DAConsts_SUncompressorNotLinked 64531
+#define DAConsts_SUpdateComponentCircularReferences 64532
+#define DAConsts_SUpdateComponentInvalidType 64533
+#define DAConsts_SUpdateObjectEmptySQL 64534
+#define DAConsts_SWrongTblCount 64535
+#define DAConsts_SBackupQueryWrongTableCount 64536
+#define DAConsts_SEmptySQLStatement 64537
+#define DAConsts_SInvalidBlobPosition 64538
+#define DAConsts_SConnectionInTransactionNotActive 64539
+#define DAConsts_SIsolationLevelNotSupportedWithMTS 64540
+#define DAConsts_SOperationNotSupported 64541
+#define DAConsts_SMultipleTransactionsNotSupported 64542
+#define DAConsts_SInvalidParamsArray 64543
+#define DAConsts_SMacroNotFound 64544
+#define DAConsts_SNotInTransaction 64545
+#define DAConsts_SInTransaction 64546
+#define DAConsts_STransactionNotAssigned 64547
+#define DAConsts_SUpdateFailed 64548
+#define DAConsts_SCustomUpdateFailed 64549
+#define DAConsts_SRefreshFailed 64550
+#define DAConsts_SInvalidFetchRows 64551
+#define DAConsts_SNoCorrespondParam 64552
+#define DAConsts_SUnknownParamDataType 64553
+#define DAConsts_SRecordChanged 64554
+#define DAConsts_SRecordNotFound 64555
+#define DAConsts_STableNameNotDefined 64556
+#define DAConsts_SStoredProcNotDefined 64557
+#define DAConsts_SCannotPerformIfPooling 64558
+#define DAConsts_SDataSetNotDefined 64559
+#define DAConsts_SBadStatementType 64560
+#define DAConsts_SBadUpdatingTable 64561
+#define DAConsts_SIndexFieldNamesWithUniDirectional 64562
+#define DAConsts_SInvalidUnComprBlobSize 64563
+#define DAConsts_SInvalidComprBlobSize 64564
+#define DAConsts_SInvalidComprBlobHeader 64565
+#define DAConsts_SInvalidComprBlobData 64566
+#define DAConsts_SDataSetIsNotPrepared 64567
+#define DAConsts_SNotCachedUpdate 64568
+#define DAConsts_SUpdateWrongDB 64569
+#define DAConsts_SDataSetMustBeInState 64570
+#define DAConsts_SDataSetMustNotHavePendingUpdates 64571
+#define DAConsts_SConnectionNotDefined 64572
+#define DAConsts_SConnectionNotConnected 64573
+#define DAConsts_SConnectionOpen 64574
+#define DAConsts_SCannotConnect 64575
+#define CRFunctions_SCannotCreateEvent 64576
+#define DAConsts_SUnknownDataType 64577
+#define DAConsts_SDataTypeNotSupported 64578
+#define DAConsts_SFieldNotFound 64579
+#define DAConsts_SAttributeNotFount 64580
+#define DAConsts_SCannotConvertType 64581
+#define DAConsts_SIllegalFilter 64582
+#define DAConsts_SIllegalConstraint 64583
+#define DAConsts_SNeedBlobType 64584
+#define DAConsts_SInvalidSharedObject 64585
+#define DAConsts_SInvalidBlob 64586
+#define DAConsts_SBlobMustBeCached 64587
+#define DAConsts_SKeyFieldsRequired 64588
+#define DAConsts_SKeyFieldsReq 64589
+#define DAConsts_SNoKeyFields 64590
+#define DAConsts_SBadTableInfoName 64591
+#define FireDAC_Stan_ResStrs_S_FD_ClntConnDefParams 64592
+#define FireDAC_Stan_ResStrs_S_FD_ClntClientInfo 64593
+#define FireDAC_Stan_ResStrs_S_FD_ClntSessionInfo 64594
+#define FireDAC_Stan_ResStrs_S_FD_ClntFailedToLoad 64595
+#define FireDAC_Stan_ResStrs_S_FD_ClntFailedToConnect 64596
+#define FireDAC_Stan_ResStrs_S_FD_ClntNotConnected 64597
+#define FireDAC_Stan_ResStrs_S_FD_ClntCheckingSession 64598
+#define FireDAC_Stan_ResStrs_S_FD_NotFound 64599
+#define FireDAC_Stan_ResStrs_S_FD_Unnamed 64600
+#define FireDAC_Stan_ResStrs_S_FD_Warning 64601
+#define FireDAC_Stan_ResStrs_S_FD_Error 64602
+#define FireDAC_Stan_ResStrs_S_FD_IBWarnNotIBSrv 64603
+#define FireDAC_Stan_ResStrs_S_FD_IBWarnNotIBClnt 64604
+#define FireDAC_Stan_ResStrs_S_FD_IBBWarnGDSFB 64605
+#define FireDAC_Stan_ResStrs_S_FD_IBBWarnFBCIB 64606
+#define FireDAC_Stan_ResStrs_S_FD_PhysWarnMajVerDiff 64607
+#define FireDAC_Stan_ResStrs_S_FD_MSSQLFSIOError 64608
+#define FireDAC_Stan_ResStrs_S_FD_MSSQLQNSubError 64609
+#define FireDAC_Stan_ResStrs_S_FD_MongoError 64610
+#define FireDAC_Stan_ResStrs_S_FD_MongoBadURI 64611
+#define FireDAC_Stan_ResStrs_S_FD_MongoDocReadOnly 64612
+#define FireDAC_Stan_ResStrs_S_FD_MongoFailedInitBSON 64613
+#define FireDAC_Stan_ResStrs_S_FD_MongoBulkError 64614
+#define FireDAC_Stan_ResStrs_S_FD_MongoCursorError 64615
+#define FireDAC_Stan_ResStrs_S_FD_MongoExecuteError 64616
+#define FireDAC_Stan_ResStrs_S_FD_MongoDBRefInvalid 64617
+#define FireDAC_Stan_ResStrs_S_FD_MongoDBRefNotFound 64618
+#define FireDAC_Stan_ResStrs_S_FD_MongoCannotOpenDataSet 64619
+#define FireDAC_Stan_ResStrs_S_FD_MongoFieldTypeMismatch 64620
+#define FireDAC_Stan_ResStrs_S_FD_MongoFieldIsNotFound 64621
+#define FireDAC_Stan_ResStrs_S_FD_MongoAlertToMany 64622
+#define FireDAC_Stan_ResStrs_S_FD_ClntNotAccessible 64623
+#define FireDAC_Stan_ResStrs_S_FD_SQLitePwdInvalid 64624
+#define FireDAC_Stan_ResStrs_S_FD_SQLiteLinkageNotSupported 64625
+#define FireDAC_Stan_ResStrs_S_FD_SQLiteVTabInvalidArgs 64626
+#define FireDAC_Stan_ResStrs_S_FD_SQLiteVTabDSNotFoundOrEmpty 64627
+#define FireDAC_Stan_ResStrs_S_FD_SQLiteVTabDSNotSupported 64628
+#define FireDAC_Stan_ResStrs_S_FD_SQLiteVTabDSSPNotFound 64629
+#define FireDAC_Stan_ResStrs_S_FD_SQLiteVTabDSDataModFailed 64630
+#define FireDAC_Stan_ResStrs_S_FD_SQLiteVTabDSRowidInvalid 64631
+#define FireDAC_Stan_ResStrs_S_FD_SQLiteVTabDSChangedOrFreed 64632
+#define FireDAC_Stan_ResStrs_S_FD_SQLiteVTabDSNoRowExists 64633
+#define FireDAC_Stan_ResStrs_S_FD_SQLiteVTabDSCursorInvalid 64634
+#define FireDAC_Stan_ResStrs_S_FD_SQLiteVTabCannotAttach 64635
+#define FireDAC_Stan_ResStrs_S_FD_SQLiteVTabDataSetBusy 64636
+#define FireDAC_Stan_ResStrs_S_FD_ASADBToolNotFound 64637
+#define FireDAC_Stan_ResStrs_S_FD_MSSQLFSNoTx 64638
+#define FireDAC_Stan_ResStrs_S_FD_MSSQLFSNoPath 64639
+#define FireDAC_Stan_ResStrs_S_FD_OraNotPLSQLObj 64640
+#define FireDAC_Stan_ResStrs_S_FD_OraNotPackageProc 64641
+#define FireDAC_Stan_ResStrs_S_FD_OraBadTableType 64642
+#define FireDAC_Stan_ResStrs_S_FD_OraUnNamedRecParam 64643
+#define FireDAC_Stan_ResStrs_S_FD_OraCantConvNum 64644
+#define FireDAC_Stan_ResStrs_S_FD_OraPipeAlertToMany 64645
+#define FireDAC_Stan_ResStrs_S_FD_IBTraceIsActive 64646
+#define FireDAC_Stan_ResStrs_S_FD_PgProcNotFound 64647
+#define FireDAC_Stan_ResStrs_S_FD_PgMultiDimArrNotSup 64648
+#define FireDAC_Stan_ResStrs_S_FD_PgUnsupArrValueTypeNotSup 64649
+#define FireDAC_Stan_ResStrs_S_FD_PgArrIndexOutOfBound 64650
+#define FireDAC_Stan_ResStrs_S_FD_PgCannotDescribeType 64651
+#define FireDAC_Stan_ResStrs_S_FD_PgIsNotArray 64652
+#define FireDAC_Stan_ResStrs_S_FD_PgUnsupTextType 64653
+#define FireDAC_Stan_ResStrs_S_FD_SQLiteInitFailed 64654
+#define FireDAC_Stan_ResStrs_S_FD_SQLiteDBNotFound 64655
+#define FireDAC_Stan_ResStrs_S_FD_MySQLCantSetPort 64656
+#define FireDAC_Stan_ResStrs_S_FD_MySQLBadParams 64657
+#define FireDAC_Stan_ResStrs_S_FD_MySQLCantInitEmbeddedServer 64658
+#define FireDAC_Stan_ResStrs_S_FD_MySQLFieldDataTypeUnsup 64659
+#define FireDAC_Stan_ResStrs_S_FD_OdbcVarDataTypeUnsup 64660
+#define FireDAC_Stan_ResStrs_S_FD_OraNoCursor 64661
+#define FireDAC_Stan_ResStrs_S_FD_OraCantSetCharset 64662
+#define FireDAC_Stan_ResStrs_S_FD_OraCantAssFILE 64663
+#define FireDAC_Stan_ResStrs_S_FD_OraNoCursorParams 64664
+#define FireDAC_Stan_ResStrs_S_FD_OraNotInstalled 64665
+#define FireDAC_Stan_ResStrs_S_FD_OraBadVersion 64666
+#define FireDAC_Stan_ResStrs_S_FD_OraBadVarType 64667
+#define FireDAC_Stan_ResStrs_S_FD_OraTooLongGTRID 64668
+#define FireDAC_Stan_ResStrs_S_FD_OraTooLongBQUAL 64669
+#define FireDAC_Stan_ResStrs_S_FD_OraTooLongTXName 64670
+#define FireDAC_Stan_ResStrs_S_FD_OraDBTNManyClBraces 64671
+#define FireDAC_Stan_ResStrs_S_FD_StanStrgInvJSONFmt 64672
+#define FireDAC_Stan_ResStrs_S_FD_ScrCantExecHostCmd 64673
+#define FireDAC_Stan_ResStrs_S_FD_ScrStrSize1 64674
+#define FireDAC_Stan_ResStrs_S_FD_ScrStrNotAlphaNum 64675
+#define FireDAC_Stan_ResStrs_S_FD_ScrSetArgInvalid 64676
+#define FireDAC_Stan_ResStrs_S_FD_ScrInvalidSyntax 64677
+#define FireDAC_Stan_ResStrs_S_FD_ScrAccMustSpecVar 64678
+#define FireDAC_Stan_ResStrs_S_FD_ScrDefReqValue 64679
+#define FireDAC_Stan_ResStrs_S_FD_ScrVarMissedCloseBrace 64680
+#define FireDAC_Stan_ResStrs_S_FD_ScrVarUnsupType 64681
+#define FireDAC_Stan_ResStrs_S_FD_ScrNotLogged 64682
+#define FireDAC_Stan_ResStrs_S_FD_ScrNoCmds 64683
+#define FireDAC_Stan_ResStrs_S_FD_ScrNoScript 64684
+#define FireDAC_Stan_ResStrs_S_FD_DBXParMBNotEmpty 64685
+#define FireDAC_Stan_ResStrs_S_FD_DBXNoDriverCfg 64686
+#define FireDAC_Stan_ResStrs_S_FD_MySQLBadVersion 64687
+#define FireDAC_Stan_ResStrs_S_FD_StanCantGetBlob 64688
+#define FireDAC_Stan_ResStrs_S_FD_StanCantNonblocking 64689
+#define FireDAC_Stan_ResStrs_S_FD_StanMacroNotFound 64690
+#define FireDAC_Stan_ResStrs_S_FD_StanBadParRowIndex 64691
+#define FireDAC_Stan_ResStrs_S_FD_StanPoolTooManyItems 64692
+#define FireDAC_Stan_ResStrs_S_FD_StanHowToReg 64693
+#define FireDAC_Stan_ResStrs_S_FD_StanHowToInc 64694
+#define FireDAC_Stan_ResStrs_S_FD_StanStrgInvBinFmt 64695
+#define FireDAC_Stan_ResStrs_S_FD_StanStrgCantReadProp 64696
+#define FireDAC_Stan_ResStrs_S_FD_StanStrgCantReadObj 64697
+#define FireDAC_Stan_ResStrs_S_FD_StanStrgCantReadCDATA 64698
+#define FireDAC_Stan_ResStrs_S_FD_StanStrgDictOverflow 64699
+#define FireDAC_Stan_ResStrs_S_FD_StanStrgClassUnknown 64700
+#define FireDAC_Stan_ResStrs_S_FD_StanStrgUnknownFmt 64701
+#define FireDAC_Stan_ResStrs_S_FD_StanStrgFileError 64702
+#define FireDAC_Stan_ResStrs_S_FD_StanStrgInvDIntFmt 64703
+#define FireDAC_Stan_ResStrs_S_FD_DPNoTxtDest 64704
+#define FireDAC_Stan_ResStrs_S_FD_DPNoTxtSrc 64705
+#define FireDAC_Stan_ResStrs_S_FD_DPBadFixedSize 64706
+#define FireDAC_Stan_ResStrs_S_FD_DPTxtFldDup 64707
+#define FireDAC_Stan_ResStrs_S_FD_DPBadTextFmt 64708
+#define FireDAC_Stan_ResStrs_S_FD_DPSrcUndefined 64709
+#define FireDAC_Stan_ResStrs_S_FD_DPDestNoKeyFields 64710
+#define FireDAC_Stan_ResStrs_S_FD_DPNoSQLTab 64711
+#define FireDAC_Stan_ResStrs_S_FD_DPNoSQLBatch 64712
+#define FireDAC_Stan_ResStrs_S_FD_DPNoTxtFlds 64713
+#define FireDAC_Stan_ResStrs_S_FD_DPNoJsonDest 64714
+#define FireDAC_Stan_ResStrs_S_FD_DPNoJsonSrc 64715
+#define FireDAC_Stan_ResStrs_S_FD_DPNoJsonFld 64716
+#define FireDAC_Stan_ResStrs_S_FD_DPJsonFldDup 64717
+#define FireDAC_Stan_ResStrs_S_FD_DPMapUndefined 64718
+#define FireDAC_Stan_ResStrs_S_FD_StanTimeout 64719
+#define FireDAC_Stan_ResStrs_S_FD_ClntAdaptMBActive 64720
+#define FireDAC_Stan_ResStrs_S_FD_ClntAdaptMBInactive 64721
+#define FireDAC_Stan_ResStrs_S_FD_ClntNotCachedUpdates 64722
+#define FireDAC_Stan_ResStrs_S_FD_ClntDbNotDefined 64723
+#define FireDAC_Stan_ResStrs_S_FD_ClntDbMBOnline 64724
+#define FireDAC_Stan_ResStrs_S_FD_ClntCantShareAdapt 64725
+#define FireDAC_Stan_ResStrs_S_FD_ClntConnNotMatch 64726
+#define FireDAC_Stan_ResStrs_S_FD_ClntPKNotFound 64727
+#define FireDAC_Stan_ResStrs_S_FD_ClntLocalSQLMisuse 64728
+#define FireDAC_Stan_ResStrs_S_FD_ClntWrongIndex 64729
+#define FireDAC_Stan_ResStrs_S_FD_ClntDSNameEmpty 64730
+#define FireDAC_Stan_ResStrs_S_FD_ClntDSNameNotUnique 64731
+#define FireDAC_Stan_ResStrs_S_FD_ClntDataSetParamIncompat 64732
+#define FireDAC_Stan_ResStrs_S_FD_DPNoTxtFld 64733
+#define FireDAC_Stan_ResStrs_S_FD_DPNoSrcDS 64734
+#define FireDAC_Stan_ResStrs_S_FD_DPNoDestDS 64735
+#define FireDAC_Stan_ResStrs_S_FD_DAptRecordIsDeleted 64736
+#define FireDAC_Stan_ResStrs_S_FD_DAptRecordIsDeletedReasons 64737
+#define FireDAC_Stan_ResStrs_S_FD_DAptNoSelectCmd 64738
+#define FireDAC_Stan_ResStrs_S_FD_DAptApplyUpdateFailed 64739
+#define FireDAC_Stan_ResStrs_S_FD_DAptCantEdit 64740
+#define FireDAC_Stan_ResStrs_S_FD_DAptCantInsert 64741
+#define FireDAC_Stan_ResStrs_S_FD_DAptCantDelete 64742
+#define FireDAC_Stan_ResStrs_S_FD_ClntSessMBSingle 64743
+#define FireDAC_Stan_ResStrs_S_FD_ClntSessMBInactive 64744
+#define FireDAC_Stan_ResStrs_S_FD_ClntSessMBActive 64745
+#define FireDAC_Stan_ResStrs_S_FD_ClntDbDupName 64746
+#define FireDAC_Stan_ResStrs_S_FD_ClntDbMBInactive 64747
+#define FireDAC_Stan_ResStrs_S_FD_ClntDbMBActive 64748
+#define FireDAC_Stan_ResStrs_S_FD_ClntDbLoginAborted 64749
+#define FireDAC_Stan_ResStrs_S_FD_ClntDbCantConnPooled 64750
+#define FireDAC_Stan_ResStrs_S_FD_ClntDBNotFound 64751
+#define FireDAC_Stan_ResStrs_S_FD_AccCantAssignTxIntf 64752
+#define FireDAC_Stan_ResStrs_S_FD_AccParSetChanged 64753
+#define FireDAC_Stan_ResStrs_S_FD_AccDataToLarge 64754
+#define FireDAC_Stan_ResStrs_S_FD_AccDbNotExists 64755
+#define FireDAC_Stan_ResStrs_S_FD_AccClassNotRegistered 64756
+#define FireDAC_Stan_ResStrs_S_FD_AccSysClassNotRegistered 64757
+#define FireDAC_Stan_ResStrs_S_FD_AccUnrecognizedDbFormat 64758
+#define FireDAC_Stan_ResStrs_S_FD_AccNotValidPassword 64759
+#define FireDAC_Stan_ResStrs_S_FD_AccUnknownOleError 64760
+#define FireDAC_Stan_ResStrs_S_FD_AccUnsupParamObjValue 64761
+#define FireDAC_Stan_ResStrs_S_FD_AccUnsupColumnType 64762
+#define FireDAC_Stan_ResStrs_S_FD_AccLongDataStream 64763
+#define FireDAC_Stan_ResStrs_S_FD_AccArrayDMLWithIntStr 64764
+#define FireDAC_Stan_ResStrs_S_FD_SvcLinkMBSet 64765
+#define FireDAC_Stan_ResStrs_S_FD_SvcMBActive 64766
+#define FireDAC_Stan_ResStrs_S_FD_SvcCannotUninstall 64767
+#define FireDAC_Stan_ResStrs_S_FD_AccDrvMngrMB 64768
+#define FireDAC_Stan_ResStrs_S_FD_AccPrepMissed 64769
+#define FireDAC_Stan_ResStrs_S_FD_AccPrepTooLongIdent 64770
+#define FireDAC_Stan_ResStrs_S_FD_AccParamArrayMismatch 64771
+#define FireDAC_Stan_ResStrs_S_FD_AccAsyncOperInProgress 64772
+#define FireDAC_Stan_ResStrs_S_FD_AccEscapeIsnotSupported 64773
+#define FireDAC_Stan_ResStrs_S_FD_AccMetaInfoReset 64774
+#define FireDAC_Stan_ResStrs_S_FD_AccWhereIsEmpty 64775
+#define FireDAC_Stan_ResStrs_S_FD_AccUpdateTabUndefined 64776
+#define FireDAC_Stan_ResStrs_S_FD_AccNameHasErrors 64777
+#define FireDAC_Stan_ResStrs_S_FD_AccEscapeBadSyntax 64778
+#define FireDAC_Stan_ResStrs_S_FD_AccShutdownTO 64779
+#define FireDAC_Stan_ResStrs_S_FD_AccParTypeUnknown 64780
+#define FireDAC_Stan_ResStrs_S_FD_AccParDataMapNotSup 64781
+#define FireDAC_Stan_ResStrs_S_FD_AccParDefChanged 64782
+#define FireDAC_Stan_ResStrs_S_FD_AccMetaInfoNotDefined 64783
+#define FireDAC_Stan_ResStrs_S_FD_AccTxMBActive 64784
+#define FireDAC_Stan_ResStrs_S_FD_AccTxMBInActive 64785
+#define FireDAC_Stan_ResStrs_S_FD_AccCantChngCommandState 64786
+#define FireDAC_Stan_ResStrs_S_FD_AccCommandMBFilled 64787
+#define FireDAC_Stan_ResStrs_S_FD_AccEscapeEmptyName 64788
+#define FireDAC_Stan_ResStrs_S_FD_AccCmdMHRowSet 64789
+#define FireDAC_Stan_ResStrs_S_FD_AccCmdMBPrepared 64790
+#define FireDAC_Stan_ResStrs_S_FD_AccCantExecCmdWithRowSet 64791
+#define FireDAC_Stan_ResStrs_S_FD_AccCmdMBOpen4Fetch 64792
+#define FireDAC_Stan_ResStrs_S_FD_AccExactMismatch 64793
+#define FireDAC_Stan_ResStrs_S_FD_AccMetaInfoMismatch 64794
+#define FireDAC_Stan_ResStrs_S_FD_AccCantLoadLibrary 64795
+#define FireDAC_Stan_ResStrs_S_FD_AccCantLoadLibraryHint 64796
+#define FireDAC_Stan_ResStrs_S_FD_AccCantGetLibraryEntry 64797
+#define FireDAC_Stan_ResStrs_S_FD_AccSrvMBDisConnected 64798
+#define FireDAC_Stan_ResStrs_S_FD_AccToManyLogins 64799
+#define FireDAC_Stan_ResStrs_S_FD_DSFieldNotFound 64800
+#define FireDAC_Stan_ResStrs_S_FD_DSCantOffline 64801
+#define FireDAC_Stan_ResStrs_S_FD_DSCantOffCachedUpdates 64802
+#define FireDAC_Stan_ResStrs_S_FD_DefCircular 64803
+#define FireDAC_Stan_ResStrs_S_FD_DefRO 64804
+#define FireDAC_Stan_ResStrs_S_FD_DefCantMakePers 64805
+#define FireDAC_Stan_ResStrs_S_FD_DefAlreadyLoaded 64806
+#define FireDAC_Stan_ResStrs_S_FD_DefNotExists 64807
+#define FireDAC_Stan_ResStrs_S_FD_DefDupName 64808
+#define FireDAC_Stan_ResStrs_S_FD_AccSrvNotFound 64809
+#define FireDAC_Stan_ResStrs_S_FD_AccCannotReleaseDrv 64810
+#define FireDAC_Stan_ResStrs_S_FD_AccSrcNotFoundExists 64811
+#define FireDAC_Stan_ResStrs_S_FD_AccSrcNotFoundNotExists 64812
+#define FireDAC_Stan_ResStrs_S_FD_AccSrvNotDefined 64813
+#define FireDAC_Stan_ResStrs_S_FD_AccSrvMBConnected 64814
+#define FireDAC_Stan_ResStrs_S_FD_AccCapabilityNotSup 64815
+#define FireDAC_Stan_ResStrs_S_FD_DSNoBookmark 64816
+#define FireDAC_Stan_ResStrs_S_FD_DSViewNotSorted 64817
+#define FireDAC_Stan_ResStrs_S_FD_DSNoAdapter 64818
+#define FireDAC_Stan_ResStrs_S_FD_DSNoNestedMasterSource 64819
+#define FireDAC_Stan_ResStrs_S_FD_DSCircularDataLink 64820
+#define FireDAC_Stan_ResStrs_S_FD_DSRefreshError 64821
+#define FireDAC_Stan_ResStrs_S_FD_DSNoDataTable 64822
+#define FireDAC_Stan_ResStrs_S_FD_DSIndNotFound 64823
+#define FireDAC_Stan_ResStrs_S_FD_DSAggNotFound 64824
+#define FireDAC_Stan_ResStrs_S_FD_DSIndNotComplete 64825
+#define FireDAC_Stan_ResStrs_S_FD_DSAggNotComplete 64826
+#define FireDAC_Stan_ResStrs_S_FD_DSCantUnidir 64827
+#define FireDAC_Stan_ResStrs_S_FD_DSIncompatBmkFields 64828
+#define FireDAC_Stan_ResStrs_S_FD_DSCantEdit 64829
+#define FireDAC_Stan_ResStrs_S_FD_DSCantInsert 64830
+#define FireDAC_Stan_ResStrs_S_FD_DSCantDelete 64831
+#define FireDAC_Stan_ResStrs_S_FD_ExprCantAgg 64832
+#define FireDAC_Stan_ResStrs_S_FD_ExprTypeMis 64833
+#define FireDAC_Stan_ResStrs_S_FD_ExprIncorrect 64834
+#define FireDAC_Stan_ResStrs_S_FD_InvalidKeywordUse 64835
+#define FireDAC_Stan_ResStrs_S_FD_ExprInvalidChar 64836
+#define FireDAC_Stan_ResStrs_S_FD_ExprNameError 64837
+#define FireDAC_Stan_ResStrs_S_FD_ExprStringError 64838
+#define FireDAC_Stan_ResStrs_S_FD_ExprNoLParen 64839
+#define FireDAC_Stan_ResStrs_S_FD_ExprNoRParenOrComma 64840
+#define FireDAC_Stan_ResStrs_S_FD_ExprNoRParen 64841
+#define FireDAC_Stan_ResStrs_S_FD_ExprEmptyInList 64842
+#define FireDAC_Stan_ResStrs_S_FD_ExprExpected 64843
+#define FireDAC_Stan_ResStrs_S_FD_ExprNoArith 64844
+#define FireDAC_Stan_ResStrs_S_FD_ExprBadScope 64845
+#define FireDAC_Stan_ResStrs_S_FD_ExprEmpty 64846
+#define FireDAC_Stan_ResStrs_S_FD_ExprEvalError 64847
+#define FireDAC_Stan_ResStrs_S_FD_VarLenDataMismatch 64848
+#define FireDAC_Stan_ResStrs_S_FD_BadForeignKey 64849
+#define FireDAC_Stan_ResStrs_S_FD_BadUniqueKey 64850
+#define FireDAC_Stan_ResStrs_S_FD_CantChngColType 64851
+#define FireDAC_Stan_ResStrs_S_FD_BadRelation 64852
+#define FireDAC_Stan_ResStrs_S_FD_CantCreateParentView 64853
+#define FireDAC_Stan_ResStrs_S_FD_CantChangeTableStruct 64854
+#define FireDAC_Stan_ResStrs_S_FD_FoundCascadeLoop 64855
+#define FireDAC_Stan_ResStrs_S_FD_RecLocked 64856
+#define FireDAC_Stan_ResStrs_S_FD_RecNotLocked 64857
+#define FireDAC_Stan_ResStrs_S_FD_TypeIncompat 64858
+#define FireDAC_Stan_ResStrs_S_FD_ValueOutOfRange 64859
+#define FireDAC_Stan_ResStrs_S_FD_CantMerge 64860
+#define FireDAC_Stan_ResStrs_S_FD_ColumnDoesnotFound 64861
+#define FireDAC_Stan_ResStrs_S_FD_ExprTermination 64862
+#define FireDAC_Stan_ResStrs_S_FD_ExprMBAgg 64863
+#define FireDAC_Stan_ResStrs_S_FD_DuplicateRows 64864
+#define FireDAC_Stan_ResStrs_S_FD_NoMasterRow 64865
+#define FireDAC_Stan_ResStrs_S_FD_HasChildRows 64866
+#define FireDAC_Stan_ResStrs_S_FD_CantCompareRows 64867
+#define FireDAC_Stan_ResStrs_S_FD_ConvIsNotSupported 64868
+#define FireDAC_Stan_ResStrs_S_FD_ColIsNotSearchable 64869
+#define FireDAC_Stan_ResStrs_S_FD_RowMayHaveSingleParent 64870
+#define FireDAC_Stan_ResStrs_S_FD_CantOperateInvObj 64871
+#define FireDAC_Stan_ResStrs_S_FD_CantSetParentRow 64872
+#define FireDAC_Stan_ResStrs_S_FD_RowIsNotNested 64873
+#define FireDAC_Stan_ResStrs_S_FD_ColumnIsNotRef 64874
+#define FireDAC_Stan_ResStrs_S_FD_ColumnIsNotSetRef 64875
+#define FireDAC_Stan_ResStrs_S_FD_OperCNBPerfInState 64876
+#define FireDAC_Stan_ResStrs_S_FD_CantSetUpdReg 64877
+#define FireDAC_Stan_ResStrs_S_FD_TooManyAggs 64878
+#define FireDAC_Stan_ResStrs_S_FD_GrpLvlExceeds 64879
+#define IBX_IBXConst_SBatchParamFieldMisMatch 64880
+#define FireDAC_Stan_ResStrs_S_FD_LoginDialogDefCaption 64881
+#define FireDAC_Stan_ResStrs_S_FD_DuplicatedName 64882
+#define FireDAC_Stan_ResStrs_S_FD_NameNotFound 64883
+#define FireDAC_Stan_ResStrs_S_FD_ColTypeUndefined 64884
+#define FireDAC_Stan_ResStrs_S_FD_NoColsDefined 64885
+#define FireDAC_Stan_ResStrs_S_FD_CheckViolated 64886
+#define FireDAC_Stan_ResStrs_S_FD_CantBeginEdit 64887
+#define FireDAC_Stan_ResStrs_S_FD_CantCreateChildView 64888
+#define FireDAC_Stan_ResStrs_S_FD_RowCantBeDeleted 64889
+#define FireDAC_Stan_ResStrs_S_FD_ColMBBLob 64890
+#define FireDAC_Stan_ResStrs_S_FD_FixedLenDataMismatch 64891
+#define FireDAC_Stan_ResStrs_S_FD_RowNotInEditableState 64892
+#define FireDAC_Stan_ResStrs_S_FD_ColIsReadOnly 64893
+#define FireDAC_Stan_ResStrs_S_FD_RowCantBeInserted 64894
+#define FireDAC_Stan_ResStrs_S_FD_RowColMBNotNull 64895
+#define IBX_IBXConst_SStringTooLarge 64896
+#define IBX_IBXConst_SNoTimers 64897
+#define IBX_IBXConst_SIB65feature 64898
+#define IBX_IBXConst_SLoginPromptFailure 64899
+#define IBX_IBXConst_SIBMemoryError 64900
+#define IBX_IBXConst_SIB70feature 64901
+#define IBX_IBXConst_SIB71feature 64902
+#define IBX_IBXConst_SIB80feature 64903
+#define IBX_IBXConst_SFileSizeDumpCountIncompatibility 64904
+#define IBX_IBXConst_SCannotPerformDumpOnActiveConnection 64905
+#define IBX_IBXConst_SIBUnknownServerType 64906
+#define IBX_IBXConst_SInvalidLibraryType 64907
+#define IBX_IBXConst_SCannotChangeServerType 64908
+#define IBX_IBXConst_SColumnEncryptionError 64909
+#define IBX_IBXConst_SEncryptionError 64910
+#define IBX_IBXConst_SInvalidODSVersion 64911
+#define IBX_IBXConst_SSuccess 64912
+#define IBX_IBXConst_SDelphiException 64913
+#define IBX_IBXConst_SNoOptionsSet 64914
+#define IBX_IBXConst_SNoDestinationDirectory 64915
+#define IBX_IBXConst_SNosourceDirectory 64916
+#define IBX_IBXConst_SNoUninstallFile 64917
+#define IBX_IBXConst_SOptionNeedsClient 64918
+#define IBX_IBXConst_SOptionNeedsServer 64919
+#define IBX_IBXConst_SInvalidOption 64920
+#define IBX_IBXConst_SInvalidOnErrorResult 64921
+#define IBX_IBXConst_SInvalidOnStatusResult 64922
+#define IBX_IBXConst_SDPBConstantUnknownEx 64923
+#define IBX_IBXConst_STPBConstantUnknownEx 64924
+#define IBX_IBXConst_SUnknownPlan 64925
+#define IBX_IBXConst_SFieldSizeMismatch 64926
+#define IBX_IBXConst_SEventAlreadyRegistered 64927
+#define IBX_IBXConst_SSQLDialectInvalid 64928
+#define IBX_IBXConst_SSPBConstantNotSupported 64929
+#define IBX_IBXConst_SSPBConstantUnknown 64930
+#define IBX_IBXConst_SServiceActive 64931
+#define IBX_IBXConst_SServiceInActive 64932
+#define IBX_IBXConst_SServerNameMissing 64933
+#define IBX_IBXConst_SQueryParamsError 64934
+#define IBX_IBXConst_SStartParamsError 64935
+#define IBX_IBXConst_SOutputParsingError 64936
+#define IBX_IBXConst_SUseSpecificProcedures 64937
+#define IBX_IBXConst_SSQLMonitorAlreadyPresent 64938
+#define IBX_IBXConst_SCantPrintValue 64939
+#define IBX_IBXConst_SEOFReached 64940
+#define IBX_IBXConst_SEOFInComment 64941
+#define IBX_IBXConst_SEOFInString 64942
+#define IBX_IBXConst_SParamNameExpected 64943
+#define IBX_IBXConst_SNotCachedUpdates 64944
+#define IBX_IBXConst_SNotLiveRequest 64945
+#define IBX_IBXConst_SNoProvider 64946
+#define IBX_IBXConst_SNoRecordsAffected 64947
+#define IBX_IBXConst_SNoTableName 64948
+#define IBX_IBXConst_SCannotCreatePrimaryIndex 64949
+#define IBX_IBXConst_SCannotDropSystemIndex 64950
+#define IBX_IBXConst_STableNameMismatch 64951
+#define IBX_IBXConst_SIndexFieldMissing 64952
+#define IBX_IBXConst_SInvalidCancellation 64953
+#define IBX_IBXConst_SInvalidEvent 64954
+#define IBX_IBXConst_SMaximumEvents 64955
+#define IBX_IBXConst_SNoEventsRegistered 64956
+#define IBX_IBXConst_SInvalidQueueing 64957
+#define IBX_IBXConst_SInvalidRegistration 64958
+#define IBX_IBXConst_SInvalidBatchMove 64959
+#define IBX_IBXConst_SSQLParseError 64960
+#define IBX_IBXConst_SUserAbort 64961
+#define IBX_IBXConst_SDataSetUniDirectional 64962
+#define IBX_IBXConst_SCannotCreateSharedResource 64963
+#define IBX_IBXConst_SWindowsAPIError 64964
+#define IBX_IBXConst_SColumnListsDontMatch 64965
+#define IBX_IBXConst_SColumnTypesDontMatch 64966
+#define IBX_IBXConst_SCantEndSharedTransaction 64967
+#define IBX_IBXConst_SFieldUnsupportedType 64968
+#define IBX_IBXConst_SCircularDataLink 64969
+#define IBX_IBXConst_SEmptySQLStatement 64970
+#define IBX_IBXConst_SIsASelectStatement 64971
+#define IBX_IBXConst_SRequiredParamNotSet 64972
+#define IBX_IBXConst_SNoStoredProcName 64973
+#define IBX_IBXConst_SIsAExecuteProcedure 64974
+#define IBX_IBXConst_SUpdateFailed 64975
+#define IBX_IBXConst_SColumnIsNotNullable 64976
+#define IBX_IBXConst_SBlobCannotBeRead 64977
+#define IBX_IBXConst_SBlobCannotBeWritten 64978
+#define IBX_IBXConst_SEmptyQuery 64979
+#define IBX_IBXConst_SCannotOpenNonSQLSelect 64980
+#define IBX_IBXConst_SNoFieldAccess 64981
+#define IBX_IBXConst_SFieldReadOnly 64982
+#define IBX_IBXConst_SFieldNotFound 64983
+#define IBX_IBXConst_SNotEditing 64984
+#define IBX_IBXConst_SCannotInsert 64985
+#define IBX_IBXConst_SCannotPost 64986
+#define IBX_IBXConst_SCannotUpdate 64987
+#define IBX_IBXConst_SCannotDelete 64988
+#define IBX_IBXConst_SCannotRefresh 64989
+#define IBX_IBXConst_SBufferNotSet 64990
+#define IBX_IBXConst_SCircularReference 64991
+#define IBX_IBXConst_SUpdateWrongTR 64992
+#define IBX_IBXConst_SDatabaseNotAssigned 64993
+#define IBX_IBXConst_STransactionNotAssigned 64994
+#define IBX_IBXConst_SXSQLDAIndexOutOfRange 64995
+#define IBX_IBXConst_SXSQLDANameDoesNotExist 64996
+#define IBX_IBXConst_SEOF 64997
+#define IBX_IBXConst_SBOF 64998
+#define IBX_IBXConst_SInvalidStatementHandle 64999
+#define IBX_IBXConst_SSQLOpen 65000
+#define IBX_IBXConst_SSQLClosed 65001
+#define IBX_IBXConst_SDatasetOpen 65002
+#define IBX_IBXConst_SDatasetClosed 65003
+#define IBX_IBXConst_SUnknownSQLDataType 65004
+#define IBX_IBXConst_SInvalidColumnIndex 65005
+#define IBX_IBXConst_SInvalidParamColumnIndex 65006
+#define IBX_IBXConst_SInvalidDataConversion 65007
+#define IBX_IBXConst_SConnectionTimeout 65008
+#define IBX_IBXConst_SCannotSetDatabase 65009
+#define IBX_IBXConst_SCannotSetTransaction 65010
+#define IBX_IBXConst_SOperationCancelled 65011
+#define IBX_IBXConst_SDPBConstantNotSupported 65012
+#define IBX_IBXConst_SDPBConstantUnknown 65013
+#define IBX_IBXConst_STPBConstantNotSupported 65014
+#define IBX_IBXConst_STPBConstantUnknown 65015
+#define IBX_IBXConst_SDatabaseClosed 65016
+#define IBX_IBXConst_SDatabaseOpen 65017
+#define IBX_IBXConst_SDatabaseNameMissing 65018
+#define IBX_IBXConst_SNotInTransaction 65019
+#define IBX_IBXConst_SInTransaction 65020
+#define IBX_IBXConst_STimeoutNegative 65021
+#define IBX_IBXConst_SNoDatabasesInTransaction 65022
+#define IBX_IBXConst_SUpdateWrongDB 65023
+#define IBX_IBXConst_StrPrepare 65024
+#define IBX_IBXConst_StrPlan 65025
+#define IBX_IBXConst_StrPlanCantRetrive 65026
+#define IBX_IBXConst_StrCommitHardComm 65027
+#define IBX_IBXConst_StrCommitRetaining 65028
+#define IBX_IBXConst_StrRollback 65029
+#define IBX_IBXConst_StrRollbackRetainin 65030
+#define IBX_IBXConst_StrStartTransaction 65031
+#define IBX_IBXConst_StrApplication 65032
+#define IBX_IBXConst_SUnknownError 65033
+#define IBX_IBXConst_SInterBaseMissing 65034
+#define IBX_IBXConst_SInterBaseInstallMissing 65035
+#define IBX_IBXConst_SIB60feature 65036
+#define IBX_IBXConst_SNotSupported 65037
+#define IBX_IBXConst_SNotPermitted 65038
+#define IBX_IBXConst_SFileAccessError 65039
+#define Data_DBConsts_SUnassignedVar 65040
+#define Data_DBConsts_SRecordNotFound 65041
+#define Data_DBConsts_SBcdOverflow 65042
+#define Data_DBConsts_SInvalidBcdValue 65043
+#define Data_DBConsts_SCouldNotParseTimeStamp 65044
+#define Data_DBConsts_SInvalidSqlTimeStamp 65045
+#define IBX_IBXConst_StrMisc 65046
+#define IBX_IBXConst_StrError 65047
+#define IBX_IBXConst_StrAttach 65048
+#define IBX_IBXConst_StrDetach 65049
+#define IBX_IBXConst_StrQuery 65050
+#define IBX_IBXConst_StrStart 65051
+#define IBX_IBXConst_StrExecute 65052
+#define IBX_IBXConst_StrNULL 65053
+#define IBX_IBXConst_StrBLOB 65054
+#define IBX_IBXConst_StrFetch 65055
+#define Data_DBConsts_SLookupInfoError 65056
+#define Data_DBConsts_SDataSourceChange 65057
+#define Data_DBConsts_SDataSetOpen 65058
+#define Data_DBConsts_SNotEditing 65059
+#define Data_DBConsts_SDataSetClosed 65060
+#define Data_DBConsts_SDataSetEmpty 65061
+#define Data_DBConsts_SDataSetReadOnly 65062
+#define Data_DBConsts_SNestedDataSetClass 65063
+#define Data_DBConsts_STextFalse 65064
+#define Data_DBConsts_STextTrue 65065
+#define Data_DBConsts_SParameterNotFound 65066
+#define Data_DBConsts_SInvalidVersion 65067
+#define Data_DBConsts_SBadFieldType 65068
+#define Data_DBConsts_SProviderSQLNotSupported 65069
+#define Data_DBConsts_SProviderExecuteNotSupported 65070
+#define Data_DBConsts_SDataSetUnidirectional 65071
+#define Data_DBConsts_SInvalidFloatValue 65072
+#define Data_DBConsts_SFieldTypeMismatch 65073
+#define Data_DBConsts_SFieldSizeMismatch 65074
+#define Data_DBConsts_SInvalidVarByteArray 65075
+#define Data_DBConsts_SFieldOutOfRange 65076
+#define Data_DBConsts_SFieldRequired 65077
+#define Data_DBConsts_SDataSetMissing 65078
+#define Data_DBConsts_SInvalidCalcType 65079
+#define Data_DBConsts_SFieldReadOnly 65080
+#define Data_DBConsts_SNoFieldIndexes 65081
+#define Data_DBConsts_SNotIndexField 65082
+#define Data_DBConsts_SDuplicateIndexName 65083
+#define Data_DBConsts_SNoIndexForFields 65084
+#define Data_DBConsts_SIndexNotFound 65085
+#define Data_DBConsts_SDBDuplicateName 65086
+#define Data_DBConsts_SCircularDataLink 65087
+#define Vcl_ComStrs_sFailSetCalDateTime 65088
+#define Vcl_ComStrs_sFailSetCalMaxSelRange 65089
+#define Vcl_ComStrs_sFailSetCalMinMaxRange 65090
+#define Vcl_ComStrs_sFailsetCalSelRange 65091
+#define Data_DBConsts_SInvalidFieldSize 65092
+#define Data_DBConsts_SInvalidFieldKind 65093
+#define Data_DBConsts_SUnknownFieldType 65094
+#define Data_DBConsts_SFieldNameMissing 65095
+#define Data_DBConsts_SDuplicateFieldName 65096
+#define Data_DBConsts_SFieldNotFound 65097
+#define Data_DBConsts_SFieldAccessError 65098
+#define Data_DBConsts_SFieldValueError 65099
+#define Data_DBConsts_SFieldRangeError 65100
+#define Data_DBConsts_SBcdFieldRangeError 65101
+#define Data_DBConsts_SInvalidIntegerValue 65102
+#define Data_DBConsts_SInvalidBoolValue 65103
+#define Vcl_Consts_sBeginInvokeNoHandle 65104
+#define System_Win_ComConst_SOleError 65105
+#define System_Win_ComConst_SNoMethod 65106
+#define System_Win_ComConst_SVarNotObject 65107
+#define System_Win_ComConst_STooManyParams 65108
+#define System_Win_ComConst_SInvalidLicense 65109
+#define System_Win_ComConst_SNotLicensed 65110
+#define System_Win_ComConst_SCannotActivate 65111
+#define System_Win_ComConst_SNoWindowHandle 65112
+#define Vcl_ComStrs_sRichEditInsertError 65113
+#define Vcl_ComStrs_sRichEditLoadFail 65114
+#define Vcl_ComStrs_sRichEditSaveFail 65115
+#define Vcl_ComStrs_sInvalidComCtl32 65116
+#define Vcl_ComStrs_sDateTimeMax 65117
+#define Vcl_ComStrs_sDateTimeMin 65118
+#define Vcl_ComStrs_sNeedAllowNone 65119
+#define Vcl_Consts_SDirect2DInvalidBrushStyle 65120
+#define Vcl_Consts_SStyleLoadError 65121
+#define Vcl_Consts_SStyleLoadErrors 65122
+#define Vcl_Consts_SStyleRegisterError 65123
+#define Vcl_Consts_SStyleClassRegisterError 65124
+#define Vcl_Consts_SStyleNotFound 65125
+#define Vcl_Consts_SStyleClassNotFound 65126
+#define Vcl_Consts_SStyleInvalidHandle 65127
+#define Vcl_Consts_SStyleFormatError 65128
+#define Vcl_Consts_SStyleHookClassRegistered 65129
+#define Vcl_Consts_SStyleHookClassNotRegistered 65130
+#define Vcl_Consts_SStyleInvalidParameter 65131
+#define Vcl_Consts_SStyleFeatureNotSupported 65132
+#define Vcl_Consts_SStyleNotRegistered 65133
+#define Vcl_Consts_SStyleUnregisterError 65134
+#define Vcl_Consts_SStyleNotRegisteredNoName 65135
+#define Vcl_Consts_SUsername 65136
+#define Vcl_Consts_SPassword 65137
+#define Vcl_Consts_SDomain 65138
+#define Vcl_Consts_SLogin 65139
+#define Vcl_Consts_SErrorSettingCount 65140
+#define Vcl_Consts_SListBoxMustBeVirtual 65141
+#define Vcl_Consts_STrayIconRemoveError 65142
+#define Vcl_Consts_SWindowsVistaRequired 65143
+#define Vcl_Consts_STaskDlgButtonCaption 65144
+#define Vcl_Consts_STaskDlgRadioButtonCaption 65145
+#define Vcl_Consts_SInvalidTaskDlgButtonCaption 65146
+#define Vcl_Consts_SInvalidCanvasOperation 65147
+#define Vcl_Consts_SNoOwner 65148
+#define Vcl_Consts_SRequireSameOwner 65149
+#define Vcl_Consts_SDirect2DInvalidOwner 65150
+#define Vcl_Consts_SDirect2DInvalidSolidBrush 65151
+#define Vcl_Consts_sAllFilter 65152
+#define Vcl_Consts_SInsertLineError 65153
+#define Vcl_Consts_SInvalidClipFmt 65154
+#define Vcl_Consts_SIconToClipboard 65155
+#define Vcl_Consts_SCannotOpenClipboard 65156
+#define Vcl_Consts_SInvalidMemoSize 65157
+#define Vcl_Consts_SInvalidPrinterOp 65158
+#define Vcl_Consts_SNoDefaultPrinter 65159
+#define Vcl_Consts_SDuplicateMenus 65160
+#define Vcl_Consts_SDockedCtlNeedsName 65161
+#define Vcl_Consts_SDockTreeRemoveError 65162
+#define Vcl_Consts_SDockZoneNotFound 65163
+#define Vcl_Consts_SDockZoneHasNoCtl 65164
+#define Vcl_Consts_SDockZoneVersionConflict 65165
+#define Vcl_Consts_SPromptArrayTooShort 65166
+#define Vcl_Consts_SPromptArrayEmpty 65167
+#define Vcl_Consts_SmkcEnter 65168
+#define Vcl_Consts_SmkcSpace 65169
+#define Vcl_Consts_SmkcPgUp 65170
+#define Vcl_Consts_SmkcPgDn 65171
+#define Vcl_Consts_SmkcEnd 65172
+#define Vcl_Consts_SmkcHome 65173
+#define Vcl_Consts_SmkcLeft 65174
+#define Vcl_Consts_SmkcUp 65175
+#define Vcl_Consts_SmkcRight 65176
+#define Vcl_Consts_SmkcDown 65177
+#define Vcl_Consts_SmkcIns 65178
+#define Vcl_Consts_SmkcDel 65179
+#define Vcl_Consts_SmkcShift 65180
+#define Vcl_Consts_SmkcCtrl 65181
+#define Vcl_Consts_SmkcAlt 65182
+#define Vcl_Consts_SOutOfRange 65183
+#define Vcl_Consts_SMsgDlgConfirm 65184
+#define Vcl_Consts_SMsgDlgYes 65185
+#define Vcl_Consts_SMsgDlgNo 65186
+#define Vcl_Consts_SMsgDlgOK 65187
+#define Vcl_Consts_SMsgDlgCancel 65188
+#define Vcl_Consts_SMsgDlgHelp 65189
+#define Vcl_Consts_SMsgDlgAbort 65190
+#define Vcl_Consts_SMsgDlgRetry 65191
+#define Vcl_Consts_SMsgDlgIgnore 65192
+#define Vcl_Consts_SMsgDlgAll 65193
+#define Vcl_Consts_SMsgDlgNoToAll 65194
+#define Vcl_Consts_SMsgDlgYesToAll 65195
+#define Vcl_Consts_SMsgDlgClose 65196
+#define Vcl_Consts_SmkcBkSp 65197
+#define Vcl_Consts_SmkcTab 65198
+#define Vcl_Consts_SmkcEsc 65199
+#define Vcl_Consts_SVMetafiles 65200
+#define Vcl_Consts_SVEnhMetafiles 65201
+#define Vcl_Consts_SVIcons 65202
+#define Vcl_Consts_SVBitmaps 65203
+#define Vcl_Consts_SVTIFFImages 65204
+#define Vcl_Consts_SGridTooLarge 65205
+#define Vcl_Consts_STooManyDeleted 65206
+#define Vcl_Consts_SIndexOutOfRange 65207
+#define Vcl_Consts_SFixedColTooBig 65208
+#define Vcl_Consts_SFixedRowTooBig 65209
+#define Vcl_Consts_SInvalidStringGridOp 65210
+#define Vcl_Consts_SMaskErr 65211
+#define Vcl_Consts_SMaskEditErr 65212
+#define Vcl_Consts_SMsgDlgWarning 65213
+#define Vcl_Consts_SMsgDlgError 65214
+#define Vcl_Consts_SMsgDlgInformation 65215
+#define Vcl_Consts_SDeviceOnPort 65216
+#define Vcl_Consts_SGroupIndexTooLow 65217
+#define Vcl_Consts_SNoMDIForm 65218
+#define Vcl_Consts_SImageCanvasNeedsBitmap 65219
+#define Vcl_Consts_SControlParentSetToSelf 65220
+#define Vcl_Consts_SOKButton 65221
+#define Vcl_Consts_SCancelButton 65222
+#define Vcl_Consts_SYesButton 65223
+#define Vcl_Consts_SNoButton 65224
+#define Vcl_Consts_SHelpButton 65225
+#define Vcl_Consts_SCloseButton 65226
+#define Vcl_Consts_SIgnoreButton 65227
+#define Vcl_Consts_SRetryButton 65228
+#define Vcl_Consts_SAbortButton 65229
+#define Vcl_Consts_SAllButton 65230
+#define Vcl_Consts_SCannotDragForm 65231
+#define Vcl_Consts_SParentRequired 65232
+#define Vcl_Consts_SControlPath 65233
+#define Vcl_Consts_SParentGivenNotAParent 65234
+#define Vcl_Consts_SMDIChildNotVisible 65235
+#define Vcl_Consts_SVisibleChanged 65236
+#define Vcl_Consts_SCannotShowModal 65237
+#define Vcl_Consts_SScrollBarRange 65238
+#define Vcl_Consts_SPropertyOutOfRange 65239
+#define Vcl_Consts_SMenuIndexError 65240
+#define Vcl_Consts_SMenuReinserted 65241
+#define Vcl_Consts_SMenuNotFound 65242
+#define Vcl_Consts_SNoTimers 65243
+#define Vcl_Consts_SNotPrinting 65244
+#define Vcl_Consts_SPrinting 65245
+#define Vcl_Consts_SPrinterIndexError 65246
+#define Vcl_Consts_SInvalidPrinter 65247
+#define Vcl_Consts_SUnknownExtension 65248
+#define Vcl_Consts_SUnknownClipboardFormat 65249
+#define Vcl_Consts_SUnknownStreamFormat 65250
+#define Vcl_Consts_SOutOfResources 65251
+#define Vcl_Consts_SNoCanvasHandle 65252
+#define Vcl_Consts_SInvalidTextFormatFlag 65253
+#define Vcl_Consts_SInvalidImageSize 65254
+#define Vcl_Consts_SInvalidImageList 65255
+#define Vcl_Consts_SReplaceImage 65256
+#define Vcl_Consts_SInsertImage 65257
+#define Vcl_Consts_SImageIndexError 65258
+#define Vcl_Consts_SImageReadFail 65259
+#define Vcl_Consts_SImageWriteFail 65260
+#define Vcl_Consts_SWindowDCError 65261
+#define Vcl_Consts_SWindowClass 65262
+#define Vcl_Consts_SCannotFocus 65263
+#define System_RTLConsts_SInvalidDateString 65264
+#define System_RTLConsts_SInvalidTimeString 65265
+#define System_RTLConsts_SInvalidOffsetString 65266
+#define System_RTLConsts_sCannotManuallyConstructDevice 65267
+#define System_RTLConsts_sAttributeExists 65268
+#define System_RTLConsts_sDeviceExists 65269
+#define System_RTLConsts_sMustWaitOnOneEvent 65270
+#define System_RTLConsts_sBeginInvokeDestroying 65271
+#define Vcl_Consts_SInvalidBitmap 65272
+#define Vcl_Consts_SInvalidIcon 65273
+#define Vcl_Consts_SInvalidMetafile 65274
+#define Vcl_Consts_SInvalidPixelFormat 65275
+#define Vcl_Consts_SScanLine 65276
+#define Vcl_Consts_SChangeIconSize 65277
+#define Vcl_Consts_SChangeWicSize 65278
+#define Vcl_Consts_SOleGraphic 65279
+#define System_RTLConsts_SWindowsServer2003 65280
+#define System_RTLConsts_SWindowsServer2003R2 65281
+#define System_RTLConsts_SWindowsServer2012 65282
+#define System_RTLConsts_SWindowsServer2012R2 65283
+#define System_RTLConsts_SWindowsServer2016 65284
+#define System_RTLConsts_SWindowsServer2019 65285
+#define System_RTLConsts_SWindows8 65286
+#define System_RTLConsts_SWindows8Point1 65287
+#define System_RTLConsts_SWindows10 65288
+#define System_RTLConsts_SWinRTInstanceError 65289
+#define System_RTLConsts_sObserverUnsupported 65290
+#define System_RTLConsts_sObserverMultipleSingleCast 65291
+#define System_RTLConsts_sObserverNoInterface 65292
+#define System_RTLConsts_sObserverNoSinglecastFound 65293
+#define System_RTLConsts_sObserverNoMulticastFound 65294
+#define System_RTLConsts_sObserverNotAvailable 65295
+#define System_RTLConsts_SInsufficientRtti 65296
+#define System_RTLConsts_SParameterCountMismatch 65297
+#define System_RTLConsts_SNonPublicType 65298
+#define System_RTLConsts_SByRefArgMismatch 65299
+#define System_RTLConsts_SServiceNotFound 65300
+#define System_RTLConsts_SVersionStr 65301
+#define System_RTLConsts_SSPVersionStr 65302
+#define System_RTLConsts_SVersion32 65303
+#define System_RTLConsts_SVersion64 65304
+#define System_RTLConsts_SWindows 65305
+#define System_RTLConsts_SWindowsVista 65306
+#define System_RTLConsts_SWindowsServer2008 65307
+#define System_RTLConsts_SWindows7 65308
+#define System_RTLConsts_SWindowsServer2008R2 65309
+#define System_RTLConsts_SWindows2000 65310
+#define System_RTLConsts_SWindowsXP 65311
+#define System_RTLConsts_sInvalidTimespanDuration 65312
+#define System_RTLConsts_sTimespanValueCannotBeNan 65313
+#define System_RTLConsts_sCannotNegateTimespan 65314
+#define System_RTLConsts_sInvalidTimespanFormat 65315
+#define System_RTLConsts_sTimespanElementTooLong 65316
+#define System_RTLConsts_SNoContext 65317
+#define System_RTLConsts_SNoContextFound 65318
+#define System_RTLConsts_SNoIndex 65319
+#define System_RTLConsts_SNoSearch 65320
+#define System_RTLConsts_SNoTableOfContents 65321
+#define System_RTLConsts_SNoTopics 65322
+#define System_RTLConsts_SNothingFound 65323
+#define System_RTLConsts_SArgumentOutOfRange 65324
+#define System_RTLConsts_SArgumentNil 65325
+#define System_RTLConsts_SGenericItemNotFound 65326
+#define System_RTLConsts_SGenericDuplicateItem 65327
+#define System_RTLConsts_SSpecifiedFileNotFound 65328
+#define System_RTLConsts_SMissingDateTimeField 65329
+#define System_RTLConsts_SLocalTimeInvalid 65330
+#define System_RTLConsts_hNoFilterViewer 65331
+#define System_RTLConsts_sArgumentInvalid 65332
+#define System_RTLConsts_sArgumentOutOfRange_Index 65333
+#define System_RTLConsts_sArgumentOutOfRange_StringIndex 65334
+#define System_RTLConsts_sArgumentOutOfRange_InvalidUTF32 65335
+#define System_RTLConsts_sArgument_InvalidHighSurrogate 65336
+#define System_RTLConsts_sArgument_InvalidLowSurrogate 65337
+#define System_RTLConsts_sInvalidStringAndObjectArrays 65338
+#define System_RTLConsts_sSameArrays 65339
+#define System_RTLConsts_sNoConstruct 65340
+#define System_RTLConsts_sInvalidTimeoutValue 65341
+#define System_RTLConsts_sSpinCountOutOfRange 65342
+#define System_RTLConsts_sTimespanTooLong 65343
+#define System_RTLConsts_SUnknownProperty 65344
+#define System_RTLConsts_SWriteError 65345
+#define System_RTLConsts_SThreadCreateError 65346
+#define System_RTLConsts_SThreadError 65347
+#define System_RTLConsts_SThreadExternalTerminate 65348
+#define System_RTLConsts_SThreadExternalWait 65349
+#define System_RTLConsts_SThreadStartError 65350
+#define System_RTLConsts_SThreadExternalCheckTerminated 65351
+#define System_RTLConsts_SThreadExternalSetReturnValue 65352
+#define System_RTLConsts_SParamIsNil 65353
+#define System_RTLConsts_SParamIsNegative 65354
+#define System_RTLConsts_SInputBufferExceed 65355
+#define System_RTLConsts_SInvalidCharsInPath 65356
+#define System_RTLConsts_SPathTooLong 65357
+#define System_RTLConsts_SPathNotFound 65358
+#define System_RTLConsts_SPathFormatNotSupported 65359
+#define System_RTLConsts_SNoComSupport 65360
+#define System_RTLConsts_SNumberExpected 65361
+#define System_RTLConsts_SAnsiUTF8Expected 65362
+#define System_RTLConsts_SParseError 65363
+#define System_RTLConsts_SPropertyException 65364
+#define System_RTLConsts_SReadError 65365
+#define System_RTLConsts_SReadOnlyProperty 65366
+#define System_RTLConsts_SRegCreateFailed 65367
+#define System_RTLConsts_SRegGetDataFailed 65368
+#define System_RTLConsts_SRegSetDataFailed 65369
+#define System_RTLConsts_SResNotFound 65370
+#define System_RTLConsts_SSeekNotImplemented 65371
+#define System_RTLConsts_SSortedListError 65372
+#define System_RTLConsts_SStringExpected 65373
+#define System_RTLConsts_SSymbolExpected 65374
+#define System_RTLConsts_SUnknownGroup 65375
+#define System_RTLConsts_SInvalidKnownFilename 65376
+#define System_RTLConsts_SInvalidImage 65377
+#define System_RTLConsts_SInvalidMask 65378
+#define System_RTLConsts_SInvalidName 65379
+#define System_RTLConsts_SInvalidProperty 65380
+#define System_RTLConsts_SInvalidPropertyElement 65381
+#define System_RTLConsts_SInvalidPropertyPath 65382
+#define System_RTLConsts_SInvalidPropertyType 65383
+#define System_RTLConsts_SInvalidPropertyValue 65384
+#define System_RTLConsts_SInvalidRegType 65385
+#define System_RTLConsts_SInvalidString 65386
+#define System_RTLConsts_SLineTooLong 65387
+#define System_RTLConsts_SListCapacityError 65388
+#define System_RTLConsts_SListCountError 65389
+#define System_RTLConsts_SListIndexError 65390
+#define System_RTLConsts_SMemoryStreamError 65391
+#define System_RTLConsts_SBitsIndexError 65392
+#define System_RTLConsts_SCantWriteResourceStreamError 65393
+#define System_RTLConsts_SCharExpected 65394
+#define System_RTLConsts_SCheckSynchronizeError 65395
+#define System_RTLConsts_SClassNotFound 65396
+#define System_RTLConsts_SDuplicateClass 65397
+#define System_RTLConsts_SDuplicateItem 65398
+#define System_RTLConsts_SDuplicateName 65399
+#define System_RTLConsts_SDuplicateString 65400
+#define System_RTLConsts_SFCreateErrorEx 65401
+#define System_RTLConsts_SFOpenErrorEx 65402
+#define System_RTLConsts_SIdentifierExpected 65403
+#define System_RTLConsts_SIniFileWriteError 65404
+#define System_RTLConsts_StrNoClientClass 65405
+#define System_RTLConsts_StrEActionNoSuported 65406
+#define System_RTLConsts_SInvalidBinary 65407
+#define System_SysConst_SLongDayNameThu 65408
+#define System_SysConst_SLongDayNameFri 65409
+#define System_SysConst_SLongDayNameSat 65410
+#define System_SysConst_SCannotCreateDir 65411
+#define System_SysConst_SInvalidSourceArray 65412
+#define System_SysConst_SInvalidDestinationArray 65413
+#define System_SysConst_SCharIndexOutOfBounds 65414
+#define System_SysConst_SByteIndexOutOfBounds 65415
+#define System_SysConst_SInvalidCharCount 65416
+#define System_SysConst_SInvalidDestinationIndex 65417
+#define System_SysConst_SInvalidCodePage 65418
+#define System_SysConst_SInvalidEncodingName 65419
+#define System_SysConst_SNoMappingForUnicodeCharacter 65420
+#define System_SysConst_SInvalidStringBaseIndex 65421
+#define System_RTLConsts_SAncestorNotFound 65422
+#define System_RTLConsts_SAssignError 65423
+#define System_SysConst_SLongMonthNameAug 65424
+#define System_SysConst_SLongMonthNameSep 65425
+#define System_SysConst_SLongMonthNameOct 65426
+#define System_SysConst_SLongMonthNameNov 65427
+#define System_SysConst_SLongMonthNameDec 65428
+#define System_SysConst_SShortDayNameSun 65429
+#define System_SysConst_SShortDayNameMon 65430
+#define System_SysConst_SShortDayNameTue 65431
+#define System_SysConst_SShortDayNameWed 65432
+#define System_SysConst_SShortDayNameThu 65433
+#define System_SysConst_SShortDayNameFri 65434
+#define System_SysConst_SShortDayNameSat 65435
+#define System_SysConst_SLongDayNameSun 65436
+#define System_SysConst_SLongDayNameMon 65437
+#define System_SysConst_SLongDayNameTue 65438
+#define System_SysConst_SLongDayNameWed 65439
+#define System_SysConst_SShortMonthNameApr 65440
+#define System_SysConst_SShortMonthNameMay 65441
+#define System_SysConst_SShortMonthNameJun 65442
+#define System_SysConst_SShortMonthNameJul 65443
+#define System_SysConst_SShortMonthNameAug 65444
+#define System_SysConst_SShortMonthNameSep 65445
+#define System_SysConst_SShortMonthNameOct 65446
+#define System_SysConst_SShortMonthNameNov 65447
+#define System_SysConst_SShortMonthNameDec 65448
+#define System_SysConst_SLongMonthNameJan 65449
+#define System_SysConst_SLongMonthNameFeb 65450
+#define System_SysConst_SLongMonthNameMar 65451
+#define System_SysConst_SLongMonthNameApr 65452
+#define System_SysConst_SLongMonthNameMay 65453
+#define System_SysConst_SLongMonthNameJun 65454
+#define System_SysConst_SLongMonthNameJul 65455
+#define System_SysConst_SExternalException 65456
+#define System_SysConst_SAssertionFailed 65457
+#define System_SysConst_SIntfCastError 65458
+#define System_SysConst_SSafecallException 65459
+#define System_SysConst_SMonitorLockException 65460
+#define System_SysConst_SNoMonitorSupportException 65461
+#define System_SysConst_SNotImplemented 65462
+#define System_SysConst_SObjectDisposed 65463
+#define System_SysConst_SAssertError 65464
+#define System_SysConst_SAbstractError 65465
+#define System_SysConst_SModuleAccessViolation 65466
+#define System_SysConst_SOSError 65467
+#define System_SysConst_SUnkOSError 65468
+#define System_SysConst_SShortMonthNameJan 65469
+#define System_SysConst_SShortMonthNameFeb 65470
+#define System_SysConst_SShortMonthNameMar 65471
+#define System_SysConst_SVarArrayLocked 65472
+#define System_SysConst_SInvalidVarCast 65473
+#define System_SysConst_SInvalidVarOp 65474
+#define System_SysConst_SInvalidVarNullOp 65475
+#define System_SysConst_SInvalidVarOpWithHResultWithPrefix 65476
+#define System_SysConst_SVarTypeOutOfRangeWithPrefix 65477
+#define System_SysConst_SVarTypeAlreadyUsedWithPrefix 65478
+#define System_SysConst_SVarTypeNotUsableWithPrefix 65479
+#define System_SysConst_SVarTypeTooManyCustom 65480
+#define System_SysConst_SVarTypeCouldNotConvert 65481
+#define System_SysConst_SVarTypeConvertOverflow 65482
+#define System_SysConst_SVarOverflow 65483
+#define System_SysConst_SVarInvalid 65484
+#define System_SysConst_SVarBadType 65485
+#define System_SysConst_SVarNotImplemented 65486
+#define System_SysConst_SVarUnexpected 65487
+#define System_SysConst_SStackOverflow 65488
+#define System_SysConst_SControlC 65489
+#define System_SysConst_SPrivilege 65490
+#define System_SysConst_SOperationAborted 65491
+#define System_SysConst_SException 65492
+#define System_SysConst_SExceptTitle 65493
+#define System_SysConst_SInvalidFormat 65494
+#define System_SysConst_SArgumentMissing 65495
+#define System_SysConst_SDispatchError 65496
+#define System_SysConst_SReadAccess 65497
+#define System_SysConst_SWriteAccess 65498
+#define System_SysConst_SExecuteAccess 65499
+#define System_SysConst_SInvalidAccess 65500
+#define System_SysConst_SFormatTooLong 65501
+#define System_SysConst_SVarArrayCreate 65502
+#define System_SysConst_SVarArrayBounds 65503
+#define System_SysConst_STooManyOpenFiles 65504
+#define System_SysConst_SAccessDenied 65505
+#define System_SysConst_SEndOfFile 65506
+#define System_SysConst_SDiskFull 65507
+#define System_SysConst_SInvalidInput 65508
+#define System_SysConst_SDivByZero 65509
+#define System_SysConst_SRangeError 65510
+#define System_SysConst_SIntOverflow 65511
+#define System_SysConst_SInvalidOp 65512
+#define System_SysConst_SZeroDivide 65513
+#define System_SysConst_SOverflow 65514
+#define System_SysConst_SUnderflow 65515
+#define System_SysConst_SInvalidPointer 65516
+#define System_SysConst_SInvalidCast 65517
+#define System_SysConst_SAccessViolationArg3 65518
+#define System_SysConst_SAccessViolationNoArg 65519
+#define System_SysConst_SUnknown 65520
+#define System_SysConst_SInvalidInteger 65521
+#define System_SysConst_SInvalidInteger2 65522
+#define System_SysConst_SInvalidFloat 65523
+#define System_SysConst_SInvalidDate 65524
+#define System_SysConst_SInvalidTime 65525
+#define System_SysConst_SInvalidDateTime 65526
+#define System_SysConst_SInvalidTimeStamp 65527
+#define System_SysConst_SInvalidGUID 65528
+#define System_SysConst_SInvalidBoolean 65529
+#define System_SysConst_STimeEncodeError 65530
+#define System_SysConst_SDateEncodeError 65531
+#define System_SysConst_SOutOfMemory 65532
+#define System_SysConst_SInOutError 65533
+#define System_SysConst_SFileNotFound 65534
+#define System_SysConst_SInvalidUnknownFilename 65535
+STRINGTABLE
+BEGIN
+	Xml_XMLConst_SMismatchedRegItems,	L"Nicht \x00fcbereinstimmende Parameter bei RegisterChildNodes"
+	Xml_XMLConst_SNotSingleTextNode,	L"Element \"%s\" enth\x00e4lt keinen einzelnen Textknoten"
+	Xml_XMLConst_SNoDOMParseOptions,	L"DOM-Implementierung unterst\x00fctzt nicht IDOMParseOptions"
+	Xml_XMLConst_SMissingItemTag,	L"Die Eigenschaft ItemTag ist nicht initialisiert"
+	Xml_XMLConst_SNodeReadOnly,	L"Knoten ist schreibgesch\x00fctzt"
+	Xml_XMLConst_SNoRefresh,	L"Aktualisierung wird nur unterst\x00fctzt, wenn die Eigenschaften FileName oder XML gesetzt sind"
+	Xml_XMLConst_SMissingFileName,	L"FileName muss angegeben werden"
+	Xml_XMLConst_SLine,	L"Zeile"
+	GDIPicture_GDIPERRMSG,	L"Could not allocate memory for image"
+	Vcl_Imaging_GIFConsts_sProgressConverting,	L"Konvertierung"
+	Vcl_Imaging_GIFConsts_sProgressRendering,	L"\x00dcbergabe"
+	Vcl_Imaging_GIFConsts_sProgressCopying,	L"Kopieren"
+	Vcl_Imaging_GIFConsts_sProgressOptimizing,	L"Optimierung"
+	Xml_XMLConst_SDuplicateRegistration,	L"DOM-Implementierung \"%s\" bereits registriert"
+	Xml_XMLConst_SNoMatchingDOMVendor,	L"Kein entsprechender DOM-Hersteller: \"%s\""
+	Xml_XMLConst_SNoDOMNodeEx,	L"Der gew\x00e4hlte DOM-Hersteller unterst\x00fctzt diese Eigenschaft oder Methode nicht"
+	Xml_XMLConst_SDOMNotSupported,	L"Eigenschaft oder Methode \"%s\" wird vom DOM-Hersteller \"%s\" nicht unterst\x00fctzt"
+	Xml_XMLConst_SNoDOMVendorSelected,	L"Kein DOM-Anbieter ausgew\x00e4hlt"
+	Xml_XMLConst_SNodeExpected,	L"Knoten kann nicht Null sein"
+	Xml_XMLConst_SMSDOMNotInstalled,	L"Microsoft MSXML ist nicht installiert"
+	Xml_XMLConst_SNotActive,	L"Kein aktives Dokument"
+	Xml_XMLConst_SNodeNotFound,	L"Knoten \"%s\" nicht gefunden"
+	Xml_XMLConst_SMissingNode,	L"IDOMNode erforderlich"
+	Xml_XMLConst_SNoAttributes,	L"Attribute werden bei diesem Knotentyp nicht unterst\x00fctzt"
+	Xml_XMLConst_SInvalidNodeType,	L"Ung\x00fcltiger Knotentyp"
+	Vcl_Imaging_GIFConsts_sScreenSizeExceeded,	L"Bild \x00fcberschreitet logische Bildschirmgr\x00f6\x00dfe"
+	Vcl_Imaging_GIFConsts_sNoColorTable,	L"Keine globale oder lokale Farbtabelle definiert"
+	Vcl_Imaging_GIFConsts_sBadPixelCoordinates,	L"Ung\x00fcltige Pixel-Koordinaten"
+	Vcl_Imaging_GIFConsts_sInvalidPixelFormat,	L"Nicht unterst\x00fctztes Pixel-Format"
+	Vcl_Imaging_GIFConsts_sBadDimension,	L"Ung\x00fcltige Bilddimensionen"
+	Vcl_Imaging_GIFConsts_sNoDIB,	L"Bild hat kein DIB"
+	Vcl_Imaging_GIFConsts_sInvalidStream,	L"Ung\x00fcltige Stream-Operation"
+	Vcl_Imaging_GIFConsts_sInvalidColor,	L"Farbe nicht in der Farbtabelle"
+	Vcl_Imaging_GIFConsts_sInvalidBitSize,	L"Ung\x00fcltiger Wert f\x00fcr Bits pro Pixel"
+	Vcl_Imaging_GIFConsts_sEmptyColorMap,	L"Farbtabelle ist leer"
+	Vcl_Imaging_GIFConsts_sEmptyImage,	L"Bild ist leer"
+	Vcl_Imaging_GIFConsts_sMultipleGCE,	L"Frame enth\x00e4lt mehrere Bl\x00f6cke mit grafischen Steuerelementerweiterungen"
+	Vcl_Imaging_GIFConsts_sNoPalette,	L"Fehlende, ung\x00fcltige oder leere Palette"
+	Vcl_Imaging_GIFConsts_sGIFImageFile,	L"GIF-Bild"
+	Vcl_Imaging_GIFConsts_sProgressLoading,	L"Laden"
+	Vcl_Imaging_GIFConsts_sProgressSaving,	L"Speichern von "
+	Vcl_Imaging_GIFConsts_sGIFErrorSaveEmpty,	L"Leeres GIF kann nicht gespeichert werden"
+	Vcl_Imaging_GIFConsts_sBadSignature,	L"Ung\x00fcltige GIF-Signatur"
+	Vcl_Imaging_GIFConsts_sScreenBadColorSize,	L"Ung\x00fcltige Farbanzahl bei Bildschirmbeschreibung angegeben"
+	Vcl_Imaging_GIFConsts_sImageBadColorSize,	L"Ung\x00fcltige Farbanzahl bei Bildbeschreibung angegeben"
+	Vcl_Imaging_GIFConsts_sUnknownExtension,	L"Unbekannter Erweiterungstyp"
+	Vcl_Imaging_GIFConsts_sBadExtensionLabel,	L"Ung\x00fcltige Erweiterungseinf\x00fchrung"
+	Vcl_Imaging_GIFConsts_sOutOfMemDIB,	L"Fehler bei der Speicherzuweisung f\x00fcr GIF DIB"
+	Vcl_Imaging_GIFConsts_sDecodeTooFewBits,	L"Zu wenig Bits im Decoder-Puffer"
+	Vcl_Imaging_GIFConsts_sDecodeCircular,	L"Zirkul\x00e4rer Eintrag in Decoder-Tabelle"
+	Vcl_Imaging_GIFConsts_sBadTrailer,	L"Ung\x00fcltiger Bild-Trailer"
+	Vcl_Imaging_GIFConsts_sBadExtensionInstance,	L"Interner Fehler: Erweiterungsinstanz entspricht nicht dem Erweiterungs-Label"
+	Vcl_Imaging_GIFConsts_sBadBlockSize,	L"Nicht unterst\x00fctzte Blockgr\x00f6\x00dfe f\x00fcr Anwendungserweiterung"
+	Vcl_Imaging_GIFConsts_sBadBlock,	L"Unbekannter GIF-Blocktyp"
+	Vcl_Imaging_GIFConsts_sUnsupportedClass,	L"Objekttyp f\x00fcr Operation nicht unterst\x00fctzt"
+	Vcl_Imaging_GIFConsts_sInvalidData,	L"Ung\x00fcltige GIF-Daten"
+	Vcl_Imaging_GIFConsts_sBadSize,	L"Ung\x00fcltige Bildgr\x00f6\x00dfe"
+	Vcl_Imaging_pnglang_EPNGCannotAssignChunkText,	L"Die Abschnitte m\x00fcssen kompatibel sein, damit sie zugewiesen werden k\x00f6nnen."
+	Vcl_Imaging_pnglang_EPNGUnexpectedEndText,	L"Dieses \"Portable Network Graphics\" Bild ist ung\x00fcltig: Der Dekoder ist unerwartete auf das Ende der Datei gesto\x00dfen."
+	Vcl_Imaging_pnglang_EPNGNoImageDataText,	L"Dieses \"Portable Network Graphics\" Bild enth\x00e4lt keine Daten."
+	Vcl_Imaging_pnglang_EPNGCannotAddChunkText,	L"Das Programm versucht einen existierenden und notwendigen Abschnitt zum aktuellen Bild hinzuzuf\x00fcgen. Dies ist nicht zul\x00e4ssig."
+	Vcl_Imaging_pnglang_EPNGCannotAddInvalidImageText,	L"Es ist nicht zul\x00e4ssig, einem ung\x00fcltigen Bild einen neuen Abschnitt hinzuzuf\x00fcgen."
+	Vcl_Imaging_pnglang_EPNGCouldNotLoadResourceText,	L"Das PNG Bild konnte nicht aus den Resourcendaten geladen werden."
+	Vcl_Imaging_pnglang_EPNGOutMemoryText,	L"Es stehen nicht gen\x00fcgend Resourcen im System zur Verf\x00fcgung, um die Operation auszuf\x00fchren. Schlie\x00dfen Sie einige Fenster und versuchen Sie es erneut."
+	Vcl_Imaging_pnglang_EPNGCannotChangeTransparentText,	L"Das Setzen der Bit-Transparent-Farbe ist f\x00fcr PNG-Images die Alpha-Werte f\x00fcr jedes Pixel enthalten (COLOR_RGBALPHA und COLOR_GRAYSCALEALPHA) nicht zul\x00e4ssig"
+	Vcl_Imaging_pnglang_EPNGHeaderNotPresentText,	L"Die Datei, die gelesen wird, ist kein g\x00fcltiges \"Portable Network Graphics\" Bild, da es keinen g\x00fcltigen Header enth\x00e4lt."
+	Vcl_Imaging_pnglang_EInvalidNewSize,	L"Die neue Gr\x00f6\x00dfe f\x00fcr die Gr\x00f6\x00dfenanpassung des Bildes ist ung\x00fcltig."
+	Vcl_Imaging_pnglang_EInvalidSpec,	L"\"Portable Network Graphics\" konnte nicht erstellt werden, weil ung\x00fcltige Bildtypparameter angegeben wurden."
+	Vcl_Imaging_pnglang_EPNGInvalidBitDepthText,	L"Das PNG-Bild (Portable Network Graphics) konnte nicht geladen werden, weil das Bild eine ung\x00fcltige Bit-Tiefe verwendet."
+	Vcl_Imaging_GIFConsts_sOutOfData,	L"Vorzeitiges Datenende"
+	Vcl_Imaging_GIFConsts_sTooManyColors,	L"Farbtabellen\x00fcberlauf"
+	Vcl_Imaging_GIFConsts_sBadColorIndex,	L"Ung\x00fcltiger Farbindex"
+	Vcl_Imaging_GIFConsts_sBadColorIndexFixed,	L"Ung\x00fcltiger Farbindex - Farbzuordnung erweitert"
+	Vcl_Imaging_JConsts_sChangeJPGSize,	L"Die Gr\x00f6\x00dfe einer JPEG-Grafik kann nicht ver\x00e4ndert werden"
+	Vcl_Imaging_JConsts_sJPEGError,	L"JPEG-Fehler #%d"
+	Vcl_Imaging_JConsts_sJPEGImageFile,	L"JPEG-Grafikdatei"
+	Vcl_Imaging_pnglang_EPngInvalidCRCText,	L"Dieses \"Portable Network Graphics\" Bild ist ung\x00fcltig, weil Teile der Daten fehlerhaft sind (CRC-Fehler)"
+	Vcl_Imaging_pnglang_EPNGInvalidIHDRText,	L"Dieses \"Portable Network Graphics\" Bild konnte nicht geladen werden, weil wahrscheinlich einer der Hauptdatenbreiche (IHDR) besch\x00e4digt ist"
+	Vcl_Imaging_pnglang_EPNGMissingMultipleIDATText,	L"Dieses \"Portable Network Graphics\" Bild ist ung\x00fcltig, weil Grafikdaten fehlen."
+	Vcl_Imaging_pnglang_EPNGZLIBErrorText,	L"Die Grafik konnte nicht entpackt werden, weil Teile der komprimierten Daten fehlerhaft sind. \r\nBeschreibung: "
+	Vcl_Imaging_pnglang_EPNGInvalidPaletteText,	L"Das \"Portable Network Graphics\" Bild enth\x00e4lt eine ung\x00fcltige Palette."
+	Vcl_Imaging_pnglang_EPNGInvalidFileHeaderText,	L"Die gerade gelesene Datei ist kein g\x00fcltiges PNG-Bild (\"Portable Network Graphics\"), weil sie keinen g\x00fcltigen Header enth\x00e4lt. Diese Datei ist m\x00f6glicherweise besch\x00e4digt. Versuchen Sie, eine neue Version davon zu bekommen"
+	Vcl_Imaging_pnglang_EPNGIHDRNotFirstText,	L"Dieses \"Portable Network Graphics\" Bild wird nicht unterst\x00fctzt oder ist ung\x00fcltig.\r\n(Der IHDR-Abschnitt ist nicht der erste Abschnitt in der Datei)."
+	Vcl_Imaging_pnglang_EPNGSizeExceedsText,	L"Dieses PNG-Bild (Portable Network Graphics) wird nicht unterst\x00fctzt, weil die Breite oder H\x00f6he die maximale Gr\x00f6\x00dfe von 65535 Pixel \x00fcberschreitet."
+	Vcl_Imaging_pnglang_EPNGUnknownPalEntryText,	L"Es gibt keinen solchen Palettenwert."
+	Vcl_Imaging_pnglang_EPNGUnknownCriticalChunkText,	L"Dieses \"Portable Network Graphics\" Bild enh\x00e4lt einen unbekannten aber notwendigen Teil, welcher nicht entschl\x00fcsselt werden kann."
+	Vcl_Imaging_pnglang_EPNGUnknownCompressionText,	L"Dieses \"Portable Network Graphics\" Bild wurde mit einem unbekannten Komprimierungsalgorithmus kodiert, welcher nicht entschl\x00fcsselt werden kann."
+	Vcl_Imaging_pnglang_EPNGUnknownInterlaceText,	L"Dieses \"Portable Network Graphics\" Bild benutzt ein unbekanntes Interlace-Schema, welches nicht entschl\x00fcsselt werden kann."
+	Vcl_Imaging_pnglang_EPNGUnknownColorTypeText,	L"Dieses PNG-Bild (Portable Network Graphics) verwendet einen unbekannten Farbtyp, der nicht decodiert werden konnte."
+	Log4D_ParsingAppenderMsg,	L"Parsing appender named \"%s\""
+	Log4D_ParsingLoggerMsg,	L"Parsing for logger \"%s\" with value=\"%s\""
+	Log4D_ParsingErrorHandlerMsg,	L"Parsing error handler options for \"%s\""
+	Log4D_ParsingFiltersMsg,	L"Parsing filter options for \"%s\""
+	Log4D_ParsingLayoutMsg,	L"Parsing layout options for \"%s\""
+	Log4D_PleaseInitMsg,	L"Please initialise the Log4D system properly"
+	Log4D_RendererMsg,	L"Rendering class: \"%s\", Rendered class: \"%s\""
+	Log4D_SessionStartMsg,	L"Log session start time"
+	Log4D_SettingAdditivityMsg,	L"Setting additivity for \"%s\" to \"%s\""
+	Log4D_SettingAppenderMsg,	L"Setting appender \"%s\" in error handler"
+	Log4D_SettingBackupMsg,	L"Setting backup appender \"%s\" in error handler"
+	Log4D_SettingLevelMsg,	L"Logger \"%s\" set to level \"%s\""
+	Log4D_SettingLoggerMsg,	L"Setting logger \"%s\" in error handler"
+	Log4D_ThreadHdr,	L"Thread"
+	Log4D_TimeHdr,	L"Time"
+	Log4D_ValueUnknownMsg,	L"Unknown"
+	Log4D_LevelHdr,	L"Level"
+	Log4D_LevelTokenMsg,	L"Level token is \"%s\""
+	Log4D_LoggerFactoryMsg,	L"Setting logger factory to \"%s\""
+	Log4D_LoggerHdr,	L"Logger"
+	Log4D_MessageHdr,	L"Message"
+	Log4D_NDCHdr,	L"NDC"
+	Log4D_NilErrorHandlerMsg,	L"An appender cannot have a nil error handler"
+	Log4D_NilLevelMsg,	L"The root can't have a nil level"
+	Log4D_NoAppendersMsg,	L"No appenders could be found for logger \"%s\""
+	Log4D_NoAppenderCreatedMsg,	L"Couldn't create appender named \"%s\""
+	Log4D_NoClassMsg,	L"Couldn't find class %s"
+	Log4D_NoLayoutMsg,	L"No layout set for appender named \"%s\""
+	Log4D_NoRenderedCreatedMsg,	L"Couldn't find rendered class \"%s\""
+	Log4D_NoRendererMsg,	L"No renderer found for class %s"
+	Log4D_NoRendererCreatedMsg,	L"Couldn't create renderer \"%s\""
+	Log4D_NoRootLoggerMsg,	L"Couldn't find root logger information. Is this OK?"
+	Log4D_AddingLoggerMsg,	L"Adding logger \"%s\" in error handler"
+	Log4D_AppenderDefinedMsg,	L"Appender \"%s\" was already parsed"
+	Log4D_BadConfigFileMsg,	L"Couldn't read configuration file \"%s\" - %s"
+	Log4D_ClosedAppenderMsg,	L"Not allowed to write to a closed appender"
+	Log4D_ConvertErrorMsg,	L"Could not convert \"%s\" to level"
+	Log4D_EndAppenderMsg,	L"Parsed \"%s\" options"
+	Log4D_EndErrorHandlerMsg,	L"End of parsing for \"%s\" error handler"
+	Log4D_EndFiltersMsg,	L"End of parsing for \"%s\" filter"
+	Log4D_EndLayoutMsg,	L"End of parsing for \"%s\" layout"
+	Log4D_FallbackMsg,	L"Fallback on error %s"
+	Log4D_FallbackReplaceMsg,	L"Fallback replacing \"%s\" with \"%s\" in logger \"%s\""
+	Log4D_FinishedConfigMsg,	L"Finished configuring with %s"
+	Log4D_HandlingAdditivityMsg,	L"Handling %s=\"%s\""
+	Log4D_IgnoreConfigMsg,	L"Ignoring configuration file \"%s\""
+	Log4D_InterfaceNotImplMsg,	L"%s doesn't implement %s"
+	Log4D_LayoutRequiredMsg,	L"Appender \"%s\" requires a layout"
+	FMX_Consts_SPresentationProxyClassIsNil,	L"APresentationProxyClass ist nil. Generator kann Darstellung mit einer Darstellungs-Proxy-Klasse \"nil\" nicht registrieren."
+	FMX_Consts_SPresentationProxyNameIsEmpty,	L"APresentationName ist leer. Generator kann Darstellung mit einem leeren Darstellungsnamen nicht registrieren"
+	FMX_Consts_SPresentationAlreadyRegistered,	L"Darstellungs-Proxy-Klasse [%s] f\x00fcr diesen Darstellungsnamen [%s] wurde bereits registriert."
+	FMX_Consts_SDataModelKeyEmpty,	L"Schl\x00fcssel darf nicht leer sein. Datenmodell kann keine Daten \x00fcber einen Schl\x00fcssel mit leerem Namen festlegen oder abrufen."
+	FMX_Consts_SFormatAlreadyRegistered,	L"Benutzerdefiniertes Zwischenablagenformat \"%s\" ist bereits registriert"
+	FMX_Consts_SFormatWasNotRegistered,	L"Benutzerdefiniertes Zwischenablagenformat \"%s\" ist nicht registriert"
+	FMX_Consts_SCannotFindParentBySpecifiedCriteria,	L"\x00dcbergeordnetes Element mit den angegebenen Kriterien nicht gefunden"
+	System_RegularExpressionsConsts_SRegExMissingExpression,	L"Ein in RegEx angegebener regul\x00e4rer Ausdruck ist erforderlich"
+	System_RegularExpressionsConsts_SRegExExpressionError,	L"Fehler in regul\x00e4rem Ausdruck bei Offset %d: %s"
+	System_RegularExpressionsConsts_SRegExStudyError,	L"Fehler beim Untersuchen von regex: %s"
+	System_RegularExpressionsConsts_SRegExMatchRequired,	L"\x00dcbereinstimmung erforderlich"
+	System_RegularExpressionsConsts_SRegExStringsRequired,	L"Strings-Parameter darf nicht Nil sein"
+	System_RegularExpressionsConsts_SRegExInvalidIndexType,	L"Ung\x00fcltiger Indextyp"
+	System_RegularExpressionsConsts_SRegExIndexOutOfBounds,	L"Index \x00fcberschreitet das Maximum (%d)"
+	System_RegularExpressionsConsts_SRegExInvalidGroupName,	L"Ung\x00fcltiger Gruppenname (%s)"
+	FMX_Edit_Win_sInvalidComCtl32,	L"This control requires version 4.70 or greater of COMCTL32.DLL"
+	FMX_Consts_SInvalidControlItem,	L"ControlItem.Control darf nicht auf besitzendes GridPanel gesetzt werden"
+	FMX_Consts_SCannotDeleteColumn,	L"Eine Spalte, die Steuerelemente enth\x00e4lt, kann nicht gel\x00f6scht werden"
+	FMX_Consts_SCannotDeleteDefColumn,	L"Eine Spalte kann nicht standardm\x00e4\x00dfig gel\x00f6scht werden"
+	FMX_Consts_SCannotDeleteRow,	L"Eine Zeile, die Steuerelemente enth\x00e4lt, kann nicht gel\x00f6scht werden"
+	FMX_Consts_SCellMember,	L"Member"
+	FMX_Consts_SCellSizeType,	L"Gr\x00f6\x00dfentyp"
+	FMX_Consts_SCellValue,	L"Wert"
+	FMX_Consts_SCellAutoSize,	L"Auto"
+	FMX_Consts_SCellPercentSize,	L"Prozent"
+	FMX_Consts_SCellAbsoluteSize,	L"Absolut"
+	FMX_Consts_SCellColumn,	L"Spalte%d"
+	FMX_Consts_SCellRow,	L"Zeile%d"
+	FMX_Consts_SWrongModelClassType,	L"Modell ist keine g\x00fcltige Klasse. [%s] erwartet, aber [%s] erhalten"
+	FMX_Consts_SWrongParameter,	L"[%]-Parameter darf nicht nil sein"
+	FMX_Consts_SControlClassIsNil,	L"AControlClass darf nicht nil sein. Generator kann Darstellungsname nicht generieren."
+	FMX_Consts_SPresentationProxyCreateError,	L"Darstellungs-Proxy mit nil-Modell oder PresentedControl kann nicht erstellt werden. Verwenden Sie die \x00fcberladene Version des Konstruktors mit Parametern, und \x00fcbergeben Sie korrekte Werte."
+	FMX_Consts_SCannotFindSuitablePixelFormat,	L"Passendes Pixel-Format f\x00fcr '%s' nicht gefunden."
+	FMX_Consts_SCannotFindSuitableShader,	L"Passenden Schattierer f\x00fcr '%s' nicht gefunden."
+	FMX_Consts_SCannotDetermineDirect3DLevel,	L"Direct3D-Unterst\x00fctzungsstufe kann nicht ermittelt werden."
+	FMX_Consts_SCannotCreateD2DFactory,	L"Direct2D Factory-Objekt f\x00fcr '%s' kann nicht erstellt werden."
+	FMX_Consts_SCannotCreateDWriteFactory,	L"DirectWrite Factory-Objekt f\x00fcr '%s' kann nicht erstellt werden."
+	FMX_Consts_SCannotCreateWICImagingFactory,	L"WIC Imaging Factory-Objekt f\x00fcr '%s' kann nicht erstellt werden."
+	FMX_Consts_SCannotCreateRenderTarget,	L"Render-Ziel f\x00fcr '%s' kann nicht erstellt werden."
+	FMX_Consts_SCannotCreateD3DDevice,	L"Direct3D-Ger\x00e4t f\x00fcr '%s' kann nicht erstellt werden."
+	FMX_Consts_SCannotAcquireDXGIFactory,	L"DXGI-Generator von Direct3D-Ger\x00e4t f\x00fcr '%s' kann nicht zugeteilt werden."
+	FMX_Consts_SCannotCreateTexture,	L"Textur f\x00fcr '%s' kann nicht erstellt werden."
+	FMX_Consts_SCannotCreateRenderTargetView,	L"Render-Zielansicht f\x00fcr '%s' kann nicht erstellt werden."
+	FMX_Consts_SCannotCreateSwapChain,	L"Swapchain f\x00fcr '%s' kann nicht erstellt werden."
+	FMX_Consts_SCannotAddFixedSize,	L"Spalten oder Zeilen k\x00f6nnen nicht hinzugef\x00fcgt werden, wenn ExpandStyle TExpandStyle.FixedSize ist"
+	FMX_Consts_SInvalidSpan,	L"'%d' ist keine g\x00fcltige Spanne"
+	FMX_Consts_SInvalidRowIndex,	L"Zeilenindex, %d, au\x00dferhalb des g\x00fcltigen Bereichs"
+	FMX_Consts_SInvalidColumnIndex,	L"Spaltenindex, %d, au\x00dferhalb des g\x00fcltigen Bereichs"
+	FMX_Consts_StrEDupScale,	L"Doppelter Skalierungswert %s"
+	FMX_Consts_StrOther,	L"Andere Skalierung"
+	FMX_Consts_StrScale1,	L"Normal"
+	FMX_Consts_SCodecFileExtensionCannotEmpty,	L"Bitmap-Codec kann nicht registriert werden. Codec-Dateierweiterung darf nicht leer sein."
+	FMX_Consts_SCodecClassCannotBeNil,	L"Bitmap-Codec kann nicht registriert werden. Codec-Klasse darf nicht nil sein."
+	FMX_Consts_SCodecAlreadyExists,	L"Bitmap-Codec kann nicht registriert werden. Codec f\x00fcr angegebene Dateierweiterung \"%s\" war bereits vorhanden."
+	FMX_Consts_SBitmapIncorrectSize,	L"Falsche Gr\x00f6\x00dfe von Bitmap-Parameter(n)."
+	FMX_Consts_SBitmapLoadingFailed,	L"Laden des Bitmaps fehlgeschlagen."
+	FMX_Consts_SBitmapLoadingFailedNamed,	L"Laden des Bitmaps fehlgeschlagen (%s)."
+	FMX_Consts_SBitmapSizeTooBig,	L"Bitmap zu gro\x00df."
+	FMX_Consts_SInvalidCanvasParameter,	L"Ung\x00fcltiger Aufruf von GetParameter."
+	FMX_Consts_SThumbnailLoadingFailedNamed,	L"Laden der Miniaturansicht fehlgeschlagen (%s)."
+	FMX_Consts_SBitmapSavingFailed,	L"Speichern des Bitmaps fehlgeschlagen."
+	FMX_Consts_SBitmapSavingFailedNamed,	L"Speichern des Bitmaps fehlgeschlagen (%s)."
+	FMX_Consts_SRetrieveSurfaceContents,	L"Oberfl\x00e4cheninhalt konnte nicht abgerufen werden."
+	FMX_Consts_SInvalidCallingConditions,	L"Ung\x00fcltige Aufrufbedingungen f\x00fcr '%s'."
+	FMX_Consts_SEditPaste,	L"Einf\x00fcgen"
+	FMX_Consts_SEditDelete,	L"L\x00f6schen"
+	FMX_Consts_SEditSelectAll,	L"Alles markieren"
+	FMX_Consts_SCannotCreateCircularDependence,	L"Zirkul\x00e4re Abh\x00e4ngigkeit zwischen Komponenten kann nicht erstellt werden"
+	FMX_Consts_SPrinterDPIChangeError,	L"DPI des aktiven Druckers kann w\x00e4hrend des Druckens nicht ge\x00e4ndert werden"
+	FMX_Consts_SPrinterSettingsReadError,	L"Fehler beim Lesen der Druckereinstellungen: %s"
+	FMX_Consts_SPrinterSettingsWriteError,	L"Fehler beim Schreiben der Druckereinstellungen: %s"
+	FMX_Consts_SVAllFiles,	L"Alle Dateien"
+	FMX_Consts_SVBitmaps,	L"Bitmaps"
+	FMX_Consts_SVIcons,	L"Symbole"
+	FMX_Consts_SVTIFFImages,	L"TIFF-Bilder"
+	FMX_Consts_SVJPGImages,	L"JPEG-Bilder"
+	FMX_Consts_SVPNGImages,	L"PNG-Bilder"
+	FMX_Consts_SVGIFImages,	L"GIF-Bilder"
+	FMX_Consts_SWMPImages,	L"WMP-Bilder"
+	FMX_Consts_StrEChangeFixed,	L"\"%s\" kann nicht ge\x00e4ndert werden (Fixed = True)"
+	FMX_Consts_SMsgDlgHelp,	L"Hilfe"
+	FMX_Consts_SMsgDlgAbort,	L"Abbrechen"
+	FMX_Consts_SMsgDlgRetry,	L"Wiederholen"
+	FMX_Consts_SMsgDlgIgnore,	L"Ignorieren"
+	FMX_Consts_SMsgDlgAll,	L"Alle"
+	FMX_Consts_SMsgDlgNoToAll,	L"Alle Nein"
+	FMX_Consts_SMsgDlgYesToAll,	L"A&lle Ja"
+	FMX_Consts_SMsgDlgClose,	L"Schlie\x00dfen"
+	FMX_Consts_SWindowsVistaRequired,	L"F\x00fcr %s ist Windows Vista oder h\x00f6her erforderlich"
+	FMX_Consts_SUsername,	L"&Benutzername"
+	FMX_Consts_SPassword,	L"&Passwort"
+	FMX_Consts_SDomain,	L"&Dom\x00e4ne"
+	FMX_Consts_SLogin,	L"Anmelden"
+	FMX_Consts_SAppDefault,	L"Anwendung"
+	FMX_Consts_SEditCopy,	L"Kopieren"
+	FMX_Consts_SEditCut,	L"Ausschneiden"
+	FMX_Consts_SMainMenuSupportsOnlyTMenuItems,	L"Ein Hauptmen\x00fc unterst\x00fctzt nur untergeordnete Elemente von TMenuItem"
+	FMX_Consts_SNoImplementation,	L"Keine %s-Implementierung gefunden"
+	FMX_Consts_SBitmapSizeNotEqual,	L"Bitmap-Gr\x00f6\x00dfe muss in Kopieroperation gleich sein"
+	FMX_Consts_SInvalidSceneUpdatingPairCall,	L"Ung\x00fcltiges Aufrufpaar IScene.DisableUpdating/IScene.EnableUpdating"
+	FMX_Consts_SNoPlatformStyle,	L"Kein Plattformstil gefunden"
+	FMX_Consts_SInvalidPlatformStyle,	L"Kein Plattformstil f\x00fcr die aktuelle Plattform gefunden"
+	FMX_Consts_SNoIDeviceBehaviorBehavior,	L"Erforderliches IDeviceBehavior ist nicht registriert"
+	FMX_Consts_SDialogMustBeRunInUIThread,	L"Meldungen m\x00fcssen im Haupt-UI-Thread angezeigt werden."
+	FMX_Consts_SMsgDlgWarning,	L"Warnung"
+	FMX_Consts_SMsgDlgError,	L"Fehler"
+	FMX_Consts_SMsgDlgInformation,	L"Informationen"
+	FMX_Consts_SMsgDlgConfirm,	L"Best\x00e4tigen"
+	FMX_Consts_SMsgDlgYes,	L"Ja"
+	FMX_Consts_SMsgDlgNo,	L"Nein"
+	FMX_Consts_SMsgDlgOK,	L"OK"
+	FMX_Consts_SMsgDlgCancel,	L"Abbrechen"
+	FMX_Consts_SCannotCreateTimer,	L"Timer kann nicht erstellt werden: systemErrorCode=%d"
+	FMX_Consts_SErrorShortCut,	L"Eine unbekannte Tastenkombination %s"
+	FMX_Consts_SEUseHeirs,	L"Sie k\x00f6nnen nur die Erben der Klasse \"%s\" verwenden"
+	FMX_Consts_SUnavailableMenuId,	L"Men\x00fc-ID kann nicht erstellt werden. Alle IDs sind bereits zugewiesen"
+	FMX_Consts_SInvalidGestureID,	L"Ung\x00fcltige Gesten-ID (%d)"
+	FMX_Consts_SOutOfRange,	L"Wert muss zwischen %d und %d liegen"
+	FMX_Consts_SAddIStylusAsyncPluginError,	L"IStylusAsyncPlugin kann nicht hinzugef\x00fcgt werden: %s"
+	FMX_Consts_SAddIStylusSyncPluginError,	L"IStylusSyncPlugin kann nicht hinzugef\x00fcgt werden: %s"
+	FMX_Consts_SRemoveIStylusAsyncPluginError,	L"IStylusAsyncPlugin kann nicht entfernt werden: %s"
+	FMX_Consts_SRemoveIStylusSyncPluginError,	L"IStylusSyncPlugin kann nicht entfernt werden: %s"
+	FMX_Consts_SStylusHandleError,	L"Fenster-Handle kann nicht ermittelt oder gesetzt werden: %s"
+	FMX_Consts_SStylusEnableError,	L"IRealTimeStylus kann nicht aktiviert oder deaktiviert werden: %s"
+	FMX_Consts_SEnableRecognizerError,	L"IGestureRecognizer kann nicht aktiviert oder deaktiviert werden: %s"
+	FMX_Consts_SInitialGesturePointError,	L"Startpunkt f\x00fcr Geste kann nicht ermittelt werden"
+	FMX_Consts_SSetStylusGestureError,	L"Gesten f\x00fcr Eingabestift k\x00f6nnen nicht gesetzt werden: %s"
+	FMX_Consts_StrESingleMainMenu,	L"Das Hauptmen\x00fc darf nur eine einzelne Instanz sein"
+	FMX_Consts_SResultCanNotBeNil,	L"Die Funktion '%s' darf keinen nil-Wert zur\x00fcckgeben"
+	FMX_Consts_SInvalidStyleForPlatform,	L"Der ausgew\x00e4hlte Stil steht f\x00fcr die aktuell ausgew\x00e4hlte Zielplattform nicht zur Verf\x00fcgung. Sie k\x00f6nnen einen benutzerdefinierten Stil ausw\x00e4hlen oder das Stilbuch entfernen, damit FireMonkey den nativen Stil zur Laufzeit automatisch laden kann"
+	FMX_Consts_SCannotLoadStyleFromStream,	L"Stil kann nicht aus Stream geladen werden"
+	FMX_Consts_SCannotLoadStyleFromRes,	L"Stil kann nicht aus Ressource geladen werden"
+	FMX_Consts_SCannotLoadStyleFromFile,	L"Stil kann nicht aus Datei %s geladen werden"
+	FMX_Consts_SInvalidPrinterClass,	L"Ung\x00fcltige Druckerklasse: %s"
+	FMX_Consts_SPromptArrayTooShort,	L"L\x00e4nge des Werte-Arrays muss >= der L\x00e4nge des Prompt-Arrays sein"
+	FMX_Consts_SPromptArrayEmpty,	L"Prompt-Array darf nicht leer sein"
+	FMX_Consts_SInvalidFmxHandle,	L"Ung\x00fcltiges FMX-Handle: %s%.*x"
+	FMX_Consts_SUnsupportedPlatformService,	L"Nicht unterst\x00fctzter Plattformdienst: %s"
+	FMX_Consts_SServiceAlreadyRegistered,	L"Dienst %s bereits registriert"
+	FMX_Consts_SUnsupportedOSVersion,	L"Nicht unterst\x00fctzte Betriebssystemversion: %s"
+	FMX_Consts_SNotInstance,	L"Instanz von \"%s\" wurde nicht erstellt"
+	FMX_Consts_SFlasherNotRegistered,	L"Klasse des Blink-Steuerelements ist nicht registriert"
+	FMX_Consts_SUnsupportedInterface,	L"Klasse %0:s unterst\x00fctzt Interface %1:s nicht"
+	FMX_Consts_SNullException,	L"Behandelte Null-Exception"
+	UniConsts_SInvalidTimestamp,	L"Invalid timestamp string. The format is {timestamp 'yyyy-mm-dd hh:mm:ss'}"
+	UniConsts_SNotCompletedIF,	L"{if} statement not completed"
+	UniConsts_SUnexpectedChar,	L"Unexpected character"
+	UniConsts_SUnexpectedElse,	L"Unexpected {else}"
+	UniConsts_SUnexpectedEndif,	L"Unexpected {endif}"
+	UniConsts_SUnknownFunction,	L"Unknown function: %s"
+	UniConsts_SWrongArgCnt,	L"Wrong argument count for function: %s"
+	UniConsts_SCyclicConditions,	L"Cyclic macros conditions"
+	FMX_Consts_SInvalidPrinterOp,	L"Operation auf ausgew\x00e4hltem Drucker nicht verf\x00fcgbar"
+	FMX_Consts_SInvalidPrinter,	L"Ausgew\x00e4hlter Drucker ist ung\x00fcltig"
+	FMX_Consts_SPrinterIndexError,	L"Druckerindex au\x00dferhalb des zul\x00e4ssigen Bereichs"
+	FMX_Consts_SDeviceOnPort,	L"%s an %s"
+	FMX_Consts_SNoDefaultPrinter,	L"Aktuell ist kein Standarddrucker ausgew\x00e4hlt"
+	FMX_Consts_SNotPrinting,	L"Der Drucker druckt aktuell nicht"
+	FMX_Consts_SPrinting,	L"Druckvorgang l\x00e4uft"
+	FMX_Consts_StrCannotFocus,	L"Fokus kann nicht auf dieses Steuerelement gesetzt werden"
+	CRVioTcp_SUnknownSocksAddressType,	L"Unknown Socks address type"
+	CRVioTcp_SUnsupportedCommandType,	L"Unsupported Socks command type"
+	CRVioTcp_SUnsupportedAuthType,	L"Unsupported Socks auth type"
+	CRVioTcp_SUnknownSocksVersion,	L"Unknown Socks version"
+	DBMonitorClient_SAppStarted,	L"%s monitoring is started"
+	DBMonitorClient_SAppFinished,	L"%s monitoring is finished"
+	UniConsts_SProviderNotDefined,	L"Provider is not defined"
+	UniConsts_SInvalidProviderName,	L"%s is not a valid provider name"
+	UniConsts_SProviderNotRegistered,	L"%s provider is not registered. You should add the %s unit to the uses clause of any unit in your project or place the %s component on the form."
+	UniConsts_SAlertsNotSupported,	L"Event notification is not supported by DBMS or provider"
+	UniConsts_SInvalidOptionName,	L"\"%s\" is not a valid option name for %s UniProvider"
+	UniConsts_SEmptyFunctionName,	L"Empty function name"
+	UniConsts_SEmptyMacroOrFunction,	L"Empty macro or function name"
+	UniConsts_SInvalidBracketCount,	L"Invalid bracket count in function call"
+	UniConsts_SInvalidDate,	L"Invalid year-month-day string. The format is {date 'yyyy-mm-dd'}"
+	UniConsts_SInvalidTime,	L"Invalid hour-minute-second string. The format is {time 'hh:mm:ss'}"
+	CRVioTcp_SCannotBind,	L"Cannot bind to address '%s':\r\n%s.\r\nSocket Error Code: %d($%X)"
+	CRVioTcp_SCannotConnect,	L"Cannot connect to server on host '%s':\r\n%s.\r\nSocket Error Code: %d($%X)"
+	CRVioTcp_SConnectionTimeout,	L"Cannot connect to server on host '%s': Connection timed out"
+	CRVioTcp_SErrorOnListening,	L"Error on listening for incoming connection:\r\n%s.\r\nSocket Error Code: %d($%X)"
+	CRVioTcp_SErrorOnAccepting,	L"Error on accepting of incoming connection attempt:\r\n%s.\r\nSocket Error Code: %d($%X)"
+	CRVioTcp_SErrorOnSettingOptions,	L"Error on setting socket options:\r\n%s.\r\nSocket Error Code: %d($%X)"
+	CRVioTcp_SErrorOnRetrievingOptions,	L"Error on retrieving socket options:\r\n%s.\r\nSocket Error Code: %d($%X)"
+	CRVioTcp_SErrorOnDataReading,	L"Error on data reading from the connection:\r\n%s.\r\nSocket Error Code: %d($%X)"
+	CRVioTcp_SErrorOnDataWriting,	L"Error on data writing to the connection:\r\n%s.\r\nSocket Error Code: %d($%X)"
+	CRVioTcp_SInvalidDataWriting,	L"Error on data writing to the connection: Invalid socket"
+	CRVioTcp_SSocketErrWithErr,	L"Socket error.\r\nSocket Error Code = %d($%X)"
+	CRVioTcp_SHttpResponseTooLarge,	L"HTTP response is too large"
+	CRVioTcp_SUnknownHttpVersion,	L"Unknown HTTP version: "
+	CRVioTcp_SHttpError,	L"HTTP error: "
+	CRVioTcp_SSocksAccessDenided,	L"Socks access denided"
+	CRVioTcp_SSocksResponseTooLarge,	L"Socks response is too large"
+	DAConsts_SOpeningWasCanceled,	L"Query opening was canceled during data fetching"
+	System_ZLibConst_sTargetBufferTooSmall,	L"Zlib-Fehler: Zielpuffer k\x00f6nnte zu klein sein"
+	System_ZLibConst_sError,	L"Fehler"
+	CRVio_SVioError,	L"Input/Output error"
+	CRVio_SNotOverriden,	L"Not overriden in an inherited class"
+	CRVioSocket_SSocketError,	L"Socket error"
+	CRVioSocket_SSocketNotConnected,	L"Socket not connected"
+	CRVioSocket_SErrorOnDataWaiting,	L"Error on data waiting from the connection:\r\n%s.\r\nSocket Error Code: %d($%X)"
+	CRVioSocket_SCannotChangeHost,	L"Cannot change host for the active connection"
+	CRVioSocket_SCannotChangePort,	L"Cannot change port for the active connection"
+	CRVioSocket_SCannotChangeTcpVersion,	L"Cannot change TCP/IP version for the active connection"
+	CRVioTcp_SUnknownSocketError,	L"Unknown socket error"
+	CRVioTcp_SWSAStartupFailed,	L"WSAStartup failed.\r\nSocket Error Code: %d"
+	CRVioTcp_SUnknownHost,	L"Unknown host '%s'.\r\nSocket Error Code: %d($%X)"
+	CRVioTcp_SCannotCreateSocket,	L"Cannot create TCP/IP socket:\r\n%s.\r\nSocket Error Code: %d($%X)"
+	CRVioTcp_SSocketAborted,	L"Socket was aborted"
+	DAConsts_SValueTooLong,	L"Value is too long: %s"
+	DAConsts_SStringTooLong,	L"String value is too long: %s"
+	DAConsts_SBinaryTooLong,	L"Binary value is too long: %s"
+	DAConsts_SInvalidIndex,	L"Array index out of range"
+	DAConsts_SInvalidDmlArrayType,	L"Data type is not allowed for a DML array"
+	DAConsts_SCannotGetSingleValue,	L"Can not access a DML array as a single value"
+	DAConsts_SParameterTypeDiffers,	L"The parameter has different data type"
+	DAConsts_SInvalidBatchOperation,	L"The SQL statement is not allowable for a bulk operation"
+	DAConsts_SInvalidBatchParameters,	L"Invalid batch parameters count"
+	DAConsts_SConditionNotFound,	L"Condition %s not found"
+	DAConsts_SNoDataToFetch,	L"There is no data to fetch"
+	DAConsts_SUnknownSmartFetchMode,	L"Unknown smart fetch mode"
+	DAConsts_SOnlySelectAllowed,	L"Only SELECT statement is allowed"
+	DAConsts_SSmartFetchIsUnallowed,	L"%s can't be called in the SmartFetch mode"
+	DAConsts_SFieldsNotCorresponding,	L"Fields of received result set do not correspond to fields of source dataset"
+	DAConsts_SIndexFieldNamesWithLiveBlock,	L"IndexFieldNames must be empty when LiveBlock is True in SmartFetch mode"
+	DAConsts_SInvalidFieldLength,	L"Length can't be specified for the \"%s\" field type"
+	DAConsts_SInvalidFieldScale,	L"Scale can't be specified for the \"%s\" field type"
+	DAConsts_SInvalidDataMapping,	L"Value can't be converted: %s"
+	DAConsts_SInvalidIntegerValue,	L"%s is an invalid integer value"
+	DAConsts_SInvalidNumericValue,	L"%s is an invalid numeric value"
+	DAConsts_SInvalidBooleanValue,	L"%s is an invalid boolean value"
+	DAConsts_SInvalidDateTimeValue,	L"%s is an invalid date or time value"
+	DAConsts_SInvalidSQLTimeStampValue,	L"%s is an invalid SQLTimeStamp value"
+	DAConsts_SInvalidGUIDValue,	L"%s is an invalid GUID value"
+	DAConsts_SInvalidIntervalValue,	L"%s is an invalid Interval value"
+	DAConsts_SInvalidBinaryValue,	L"Invalid binary value: %s"
+	DAConsts_SInvalidBlobValue,	L"Invalid blob value: %s"
+	DAConsts_SValueOutOfRange,	L"Value is out of range: %s"
+	DAConsts_SInvalidValueScale,	L"%s has invalid scale"
+	DAConsts_SFractionTruncated,	L"Fractional part was truncated: %s"
+	DAConsts_SDataTruncated,	L"Date or time value was truncated: %s"
+	DAConsts_SConnectParamAddedTwice,	L"Connection parameter can't be added twice: %s"
+	DAConsts_SInvalidConnectParamValue,	L"Invalid connection parameter or value:\r\n  %s=%s"
+	DAConsts_SConnectParamInternalError,	L"Internal error\r\nConnection parameter: %s"
+	DAConsts_SLoginParameterServer,	L"SERVER"
+	DAConsts_SLoginParameterUsername,	L"USERNAME"
+	DAConsts_SLoginParameterPassword,	L"PASSWORD"
+	DAConsts_SUnsupportedMapping,	L"Unsupported data type mapping: \"%s\" to \"%s\""
+	DAConsts_SInvalidMapRuleExpr,	L"Invalid data type map rule expression"
+	DAConsts_SUnexpectedEndOfMapRuleExpr,	L"Unexpected end of data type map rule expression"
+	DAConsts_SUnexpectedSymbolInMapRuleExpr,	L"Expected \"%s\" instead of \"%s\" in data type map rule expression"
+	DAConsts_SNotDefinedDBType,	L"Database type is not defined"
+	DAConsts_SUnsupportedDBType,	L"Unsupported database type: %s"
+	DAConsts_SInvalidDBLength,	L"Length can't be specified for the \"%s\" database type"
+	DAConsts_SInvalidDBScale,	L"Scale can't be specified for the \"%s\" database type"
+	DAConsts_SNotDefinedFieldType,	L"Field type is not defined"
+	DAConsts_SUnsupportedFieldType,	L"Unsupported field type: %s"
+	DAConsts_SUnsupportedMetaDataKind,	L"Unsupported metadata kind"
+	DAConsts_SMDIsNotMemDataSet,	L"Master dataset must be inherited from TMemDataSet"
+	DAConsts_SNotInitialized,	L"%s is not initialized. Set Key first"
+	DAConsts_SInvalidIV,	L"Invalid Initialization Vector"
+	DAConsts_SInvalidKey,	L"Key is invalid. Set Key or Password first"
+	DAConsts_SInvalidKeySize,	L"Length from Encryption key is invalid.\r\nKeysize for %s must be %d-%d bytes"
+	DAConsts_SGCMModeMustBeUsed,	L"GCM mode must be used"
+	DAConsts_SGCMCannotBeUsed,	L"GCM supports only symmetric block ciphers whose block size is 128 bits"
+	DAConsts_SEncryptionNotSupported,	L"Data type can't be encrypted: %s"
+	DAConsts_SInvalidEncDataSize,	L"Invalid encrypted data size"
+	DAConsts_SInvalidEncData,	L"Encrypted data is corrupt"
+	DAConsts_SInvalidHash,	L"Encrypted data is corrupt - Invalid hash"
+	DAConsts_SEncryptorNotDefined,	L"Encryptor is not defined"
+	DAConsts_SEncrFieldsNotDefined,	L"Fields for encryption are not defined"
+	DAConsts_SConnectParamNameUnknown,	L"Connection parameter name is unknown: %s"
+	DAConsts_SConnectParamNameMissing,	L"Connection parameter name missing"
+	DAConsts_SNoTimers,	L"Not enough timers available"
+	DAConsts_sBlobNotCompressed,	L"Blob is not compressed"
+	DAConsts_SCompressorNotLinked,	L"Compressor function is not linked"
+	DAConsts_SUncompressorNotLinked,	L"Uncompressor function is not linked"
+	DAConsts_SUpdateComponentCircularReferences,	L"Circular references are not allowed between TCustomDADataset and TCustomDAUpdateSQL objects"
+	DAConsts_SUpdateComponentInvalidType,	L"Only %s and %s objects are allowed in update properties"
+	DAConsts_SUpdateObjectEmptySQL,	L"SQL property of InsertObject, ModifyObject, DeleteObject or RefreshObject can't be empty"
+	DAConsts_SWrongTblCount,	L"To execute BackupQuery TableNames must have not more than one table"
+	DAConsts_SBackupQueryWrongTableCount,	L"Query must contain one table"
+	DAConsts_SEmptySQLStatement,	L"No SQL statement provided"
+	DAConsts_SInvalidBlobPosition,	L"Invalid BLOB position"
+	DAConsts_SConnectionInTransactionNotActive,	L"One of the connections in the transaction is not active"
+	DAConsts_SIsolationLevelNotSupportedWithMTS,	L"Transaction isolation level is not supported with MTS"
+	DAConsts_SOperationNotSupported,	L"Operation is not supported by the database"
+	DAConsts_SMultipleTransactionsNotSupported,	L"Multiple transactions are not supported by the database"
+	DAConsts_SInvalidParamsArray,	L"Invalid Params array. Valid format: <Name1>,<Value1>[,<Name2>,<Value2>[...]]"
+	DAConsts_SMacroNotFound,	L"Macro %s not found"
+	DAConsts_SNotInTransaction,	L"Can't perform operation on inactive transaction"
+	DAConsts_SInTransaction,	L"Can't perform operation on active transaction"
+	DAConsts_STransactionNotAssigned,	L"Transaction not assigned"
+	DAConsts_SUpdateFailed,	L"Update failed. Found %d records"
+	DAConsts_SCustomUpdateFailed,	L"Update failed"
+	DAConsts_SRefreshFailed,	L"Refresh failed. Found %d records"
+	DAConsts_SInvalidFetchRows,	L"FetchRows must be 1..65535"
+	DAConsts_SNoCorrespondParam,	L"Not found field corresponding parameter %s"
+	DAConsts_SUnknownParamDataType,	L"Unknown data type of parameter %s"
+	DAConsts_SRecordChanged,	L"Record was changed by another user"
+	DAConsts_SRecordNotFound,	L"Record is not found"
+	DAConsts_STableNameNotDefined,	L"TableName must be defined"
+	DAConsts_SStoredProcNotDefined,	L"StoredProcName must be defined"
+	DAConsts_SCannotPerformIfPooling,	L"Operation is not allowed when Pooling is True"
+	DAConsts_SDataSetNotDefined,	L"DataSet must be defined"
+	DAConsts_SBadStatementType,	L"Bad statement type"
+	DAConsts_SBadUpdatingTable,	L"Wrong UpdatingTable value - table %s is unknown"
+	DAConsts_SIndexFieldNamesWithUniDirectional,	L"IndexFieldNames must be empty when UniDirectional is True"
+	DAConsts_SInvalidUnComprBlobSize,	L"Invalid uncompressed blob size"
+	DAConsts_SInvalidComprBlobSize,	L"Invalid compressed blob size"
+	DAConsts_SInvalidComprBlobHeader,	L"Invalid compressed blob header"
+	DAConsts_SInvalidComprBlobData,	L"Invalid compressed blob data"
+	DAConsts_SDataSetIsNotPrepared,	L"DataSet is not prepared"
+	DAConsts_SNotCachedUpdate,	L"Not in cached update mode"
+	DAConsts_SUpdateWrongDB,	L"Cannot update, %s is not owned by %s"
+	DAConsts_SDataSetMustBeInState,	L"DataSet must be in the %s state"
+	DAConsts_SDataSetMustNotHavePendingUpdates,	L"DataSet must not have pending updates"
+	DAConsts_SConnectionNotDefined,	L"Connection is not defined"
+	DAConsts_SConnectionNotConnected,	L"Connection is not connected"
+	DAConsts_SConnectionOpen,	L"Cannot perform this operation on an opened connection"
+	DAConsts_SCannotConnect,	L"Cannot connect to database"
+	CRFunctions_SCannotCreateEvent,	L"Cannot create event:\r\n%s.\r\nError Code: %d"
+	DAConsts_SUnknownDataType,	L"Unknown data type"
+	DAConsts_SDataTypeNotSupported,	L"Data type is not supported"
+	DAConsts_SFieldNotFound,	L"Field %s not found"
+	DAConsts_SAttributeNotFount,	L"Attribute %s not found"
+	DAConsts_SCannotConvertType,	L"Cannot convert type"
+	DAConsts_SIllegalFilter,	L"Illegal filter expression"
+	DAConsts_SIllegalConstraint,	L"Illegal constraint expression"
+	DAConsts_SNeedBlobType,	L"Field is not BLOB"
+	DAConsts_SInvalidSharedObject,	L"Invalid SharedObject"
+	DAConsts_SInvalidBlob,	L"Invalid BLOB"
+	DAConsts_SBlobMustBeCached,	L"Blob must be in cached mode"
+	DAConsts_SKeyFieldsRequired,	L"Key fields required to call FindKey or FindNearest"
+	DAConsts_SKeyFieldsReq,	L"Unique key fields required"
+	DAConsts_SNoKeyFields,	L"Key fields not found"
+	DAConsts_SBadTableInfoName,	L"TableInfo name must be provided"
+	FireDAC_Stan_ResStrs_S_FD_ClntConnDefParams,	L"Verbindungsdefinitionsparameter"
+	FireDAC_Stan_ResStrs_S_FD_ClntClientInfo,	L"Client-Info"
+	FireDAC_Stan_ResStrs_S_FD_ClntSessionInfo,	L"Sitzungs-Info"
+	FireDAC_Stan_ResStrs_S_FD_ClntFailedToLoad,	L"Laden des DBMS-Clients fehlgeschlagen!"
+	FireDAC_Stan_ResStrs_S_FD_ClntFailedToConnect,	L"Verbindung zu DBMS fehlgeschlagen!"
+	FireDAC_Stan_ResStrs_S_FD_ClntNotConnected,	L"Nicht mit DBMS verbunden."
+	FireDAC_Stan_ResStrs_S_FD_ClntCheckingSession,	L"Sitzung wird \x00fcberpr\x00fcft..."
+	FireDAC_Stan_ResStrs_S_FD_NotFound,	L"<nicht gefunden>"
+	FireDAC_Stan_ResStrs_S_FD_Unnamed,	L"Unbenannt"
+	FireDAC_Stan_ResStrs_S_FD_Warning,	L"Warnung:"
+	FireDAC_Stan_ResStrs_S_FD_Error,	L"Fehler:"
+	FireDAC_Stan_ResStrs_S_FD_IBWarnNotIBSrv,	L"Warnung: Verwenden Sie den InterBase-Treiber f\x00fcr die Verbindung zu InterBase"
+	FireDAC_Stan_ResStrs_S_FD_IBWarnNotIBClnt,	L"Warnung: Verwenden Sie gds32.dll mit dem InterBase-Treiber"
+	FireDAC_Stan_ResStrs_S_FD_IBBWarnGDSFB,	L"Warnung: Verwenden Sie f\x00fcr Firebird die DLL fbclient.dll"
+	FireDAC_Stan_ResStrs_S_FD_IBBWarnFBCIB,	L"Warnung: Verwenden Sie f\x00fcr InterBase die DLL gds32.dll"
+	FireDAC_Stan_ResStrs_S_FD_PhysWarnMajVerDiff,	L"Warnung: Der Unterschied zwischen der Client- und der Server-Hauptversion ([%s], [%s]) ist > 1."
+	FireDAC_Stan_ResStrs_S_FD_MSSQLFSIOError,	L"FileStream-Zugriffsfehler. %s"
+	FireDAC_Stan_ResStrs_S_FD_MSSQLQNSubError,	L"Abonnementfehler bei Abfragebenachrichtigung. Info [%s]"
+	FireDAC_Stan_ResStrs_S_FD_MongoError,	L"Methode [%s] fehlgeschlagen"
+	FireDAC_Stan_ResStrs_S_FD_MongoBadURI,	L"Analyse des URI fehlgeschlagen"
+	FireDAC_Stan_ResStrs_S_FD_MongoDocReadOnly,	L"Schreibgesch\x00fctztes Dokument kann nicht bearbeitet werden"
+	FireDAC_Stan_ResStrs_S_FD_MongoFailedInitBSON,	L"Abrufen von BSON f\x00fcr das Dokument fehlgeschlagen"
+	FireDAC_Stan_ResStrs_S_FD_MongoBulkError,	L"Verwaltung der Massenoperation fehlgeschlagen"
+	FireDAC_Stan_ResStrs_S_FD_MongoCursorError,	L"Cursor kann von diesem Objekt nicht abgerufen werden. Verwenden Sie eine andere [%s] \x00fcberladene Methode"
+	FireDAC_Stan_ResStrs_S_FD_MongoExecuteError,	L"Dieses Objekt kann nicht ausgef\x00fchrt werden. Verwenden Sie eine andere [%s] \x00fcberladene Methode"
+	FireDAC_Stan_ResStrs_S_FD_MongoDBRefInvalid,	L"DBRef [%s] ist ung\x00fcltig"
+	FireDAC_Stan_ResStrs_S_FD_MongoDBRefNotFound,	L"DBRef [%s] wurde nicht gefunden"
+	FireDAC_Stan_ResStrs_S_FD_MongoCannotOpenDataSet,	L"\x00d6ffnen der Datenmenge [%s] nicht m\x00f6glich. %s muss zugewiesen sein"
+	FireDAC_Stan_ResStrs_S_FD_MongoFieldTypeMismatch,	L"Nicht \x00fcbereinstimmender Datentyp von Eintrag [%s]. Aktueller Typ [%s], neuer Typ [%s]"
+	FireDAC_Stan_ResStrs_S_FD_MongoFieldIsNotFound,	L"Feld [%s] nicht gefunden"
+	FireDAC_Stan_ResStrs_S_FD_MongoAlertToMany,	L"Tail-Ereigniswarnung unterst\x00fctzt nur einzelne Ereignisnamen"
+	FireDAC_Stan_ResStrs_S_FD_ClntNotAccessible,	L"Nicht verf\x00fcgbar."
+	FireDAC_Stan_ResStrs_S_FD_SQLitePwdInvalid,	L"Ung\x00fcltiges Passwort angegeben"
+	FireDAC_Stan_ResStrs_S_FD_SQLiteLinkageNotSupported,	L"SQLite-Bibliotheksverkn\x00fcpfung [%s] nicht gefunden. Hinweis: Wenn eine statische Verkn\x00fcpfung erforderlich ist und unterst\x00fctzt wird, schlie\x00dfen Sie [FireDAC.Phys.SQLiteWrapper.Stat] in Ihr Projekt ein"
+	FireDAC_Stan_ResStrs_S_FD_SQLiteVTabInvalidArgs,	L"VTab: Ung\x00fcltige Anzahl von Argumenten bei VTabCreate. Erwartet [%d], erhalten [%d]"
+	FireDAC_Stan_ResStrs_S_FD_SQLiteVTabDSNotFoundOrEmpty,	L"VTab: Datenmenge [%s] nicht gefunden"
+	FireDAC_Stan_ResStrs_S_FD_SQLiteVTabDSNotSupported,	L"VTab: Operation wird nicht unterst\x00fctzt"
+	FireDAC_Stan_ResStrs_S_FD_SQLiteVTabDSSPNotFound,	L"VTab: Speicherpunkt [%s] nicht gefunden"
+	FireDAC_Stan_ResStrs_S_FD_SQLiteVTabDSDataModFailed,	L"VTab: Datenmengen\x00e4nderung fehlgeschlagen"
+	FireDAC_Stan_ResStrs_S_FD_SQLiteVTabDSRowidInvalid,	L"VTab: Explizite ROWID bei INSERT wird nicht unterst\x00fctzt"
+	FireDAC_Stan_ResStrs_S_FD_SQLiteVTabDSChangedOrFreed,	L"VTab: Datenmengenstatus wurde ge\x00e4ndert. Durchf\x00fchren der Operation nicht m\x00f6glich"
+	FireDAC_Stan_ResStrs_S_FD_SQLiteVTabDSNoRowExists,	L"VTab: Angegebene Zeile ist nicht vorhanden"
+	FireDAC_Stan_ResStrs_S_FD_SQLiteVTabDSCursorInvalid,	L"VTab: Ung\x00fcltiger Cursor"
+	FireDAC_Stan_ResStrs_S_FD_SQLiteVTabCannotAttach,	L"TFDLocalSQL muss einer aktiven SQLite-Verbindung hinzugef\x00fcgt werden"
+	FireDAC_Stan_ResStrs_S_FD_SQLiteVTabDataSetBusy,	L"VTab: Datenmenge [%s] ist von einer anderen Ergebnismenge belegt"
+	FireDAC_Stan_ResStrs_S_FD_ASADBToolNotFound,	L"Durchf\x00fchren der Aktion nicht m\x00f6glich. DBTOOLn.DLL wurde nicht gefunden"
+	FireDAC_Stan_ResStrs_S_FD_MSSQLFSNoTx,	L"Ein FileStream kann ohne eine Transaktion nicht ge\x00f6ffnet werden"
+	FireDAC_Stan_ResStrs_S_FD_MSSQLFSNoPath,	L"Ein FileStream kann nicht mit einem leeren Pfad ge\x00f6ffnet werden"
+	FireDAC_Stan_ResStrs_S_FD_OraNotPLSQLObj,	L"[%s] ist kein aufrufbares PL/SQL-Objekt (NOE130/SP)"
+	FireDAC_Stan_ResStrs_S_FD_OraNotPackageProc,	L"[%s, #%d] in Package [%s] nicht gefunden (NOE134/SP)"
+	FireDAC_Stan_ResStrs_S_FD_OraBadTableType,	L"Parameter mit dem Typ TABLE OF BOOLEAN/RECORD wird nicht unterst\x00fctzt (verwenden Sie TFDQuery) (NOE135/SP)"
+	FireDAC_Stan_ResStrs_S_FD_OraUnNamedRecParam,	L"Parameter mit dem Typ RECORD muss einen benannten Typ haben (verwenden Sie TFDQuery) (NOE142/SP)"
+	FireDAC_Stan_ResStrs_S_FD_OraCantConvNum,	L"Konvertieren von Oracle Number [%s] in TBcd nicht m\x00f6glich"
+	FireDAC_Stan_ResStrs_S_FD_OraPipeAlertToMany,	L"DBMS_PIPE-Ereigniswarnung unterst\x00fctzt nur einzelne Ereignisnamen"
+	FireDAC_Stan_ResStrs_S_FD_IBTraceIsActive,	L"Starten einer Ablaufverfolgungssitzung nicht m\x00f6glich, wenn bereits eine aktiv ist"
+	FireDAC_Stan_ResStrs_S_FD_PgProcNotFound,	L"Gespeicherte Prozedur [%s] nicht gefunden"
+	FireDAC_Stan_ResStrs_S_FD_PgMultiDimArrNotSup,	L"Dimensionen der Array-Variable werden nicht unterst\x00fctzt (Array-Variable: [%s], Dimensionen: [%d]). Nur eindimensionale einfache Typ-Arrays werden unterst\x00fctzt"
+	FireDAC_Stan_ResStrs_S_FD_PgUnsupArrValueTypeNotSup,	L"Nicht unterst\x00fctzter Elementtyp der Array-Variable (Array-Variable: [%s], Elementtyp: [%d]). Nur eindimensionale einfache Typ-Arrays werden unterst\x00fctzt"
+	FireDAC_Stan_ResStrs_S_FD_PgArrIndexOutOfBound,	L"Index des Eintrags in Array-Variable ist au\x00dferhalb des g\x00fcltigen Bereichs (Array-Variable: [%s], Index: [%d], Bereich: [%d, %d])"
+	FireDAC_Stan_ResStrs_S_FD_PgCannotDescribeType,	L"Beschreibung des Typs [%s] nicht m\x00f6glich. %s"
+	FireDAC_Stan_ResStrs_S_FD_PgIsNotArray,	L"Variable [%s] ist kein Array"
+	FireDAC_Stan_ResStrs_S_FD_PgUnsupTextType,	L"Die direkte Ausf\x00fchrung unterst\x00fctzt den Variablentyp [%s] nicht. Es werden nur einfache Typen unterst\x00fctzt"
+	FireDAC_Stan_ResStrs_S_FD_SQLiteInitFailed,	L"Initialisierung der SQLite-Bibliothek fehlgeschlagen. Hauptcode [%d], erweiterter Code [%d]"
+	FireDAC_Stan_ResStrs_S_FD_SQLiteDBNotFound,	L"Durch Handle [%p] angegebene Datenbank nicht gefunden"
+	FireDAC_Stan_ResStrs_S_FD_MySQLCantSetPort,	L"Port-Nummer kann nicht ge\x00e4ndert werden"
+	FireDAC_Stan_ResStrs_S_FD_MySQLBadParams,	L"Fehler in Definition von Parameter [%s]. %s"
+	FireDAC_Stan_ResStrs_S_FD_MySQLCantInitEmbeddedServer,	L"Fehler bei der Initialisierung des eingebetteten Servers. Einzelheiten finden Sie in den MySQL-Protokolldateien"
+	FireDAC_Stan_ResStrs_S_FD_MySQLFieldDataTypeUnsup,	L"Feld [%d], Datentyp [%d] wird nicht unterst\x00fctzt"
+	FireDAC_Stan_ResStrs_S_FD_OdbcVarDataTypeUnsup,	L"C-Datentyp der Variable wird nicht unterst\x00fctzt (Variable: [%s], C-Datentyp: [%d])"
+	FireDAC_Stan_ResStrs_S_FD_OraNoCursor,	L"Keine Cursors verf\x00fcgbar"
+	FireDAC_Stan_ResStrs_S_FD_OraCantSetCharset,	L"Initialisieren von OCI mit Zeichensatz [%s] nicht m\x00f6glich. M\x00f6gliche Ursache: %s"
+	FireDAC_Stan_ResStrs_S_FD_OraCantAssFILE,	L"Zuweisen eines Wertes zum BFILE/CFILE-Parameter [%s] nicht m\x00f6glich"
+	FireDAC_Stan_ResStrs_S_FD_OraNoCursorParams,	L"Keine Cursorparameter definiert. Beziehen Sie fiMeta in FetchOptions.Items ein"
+	FireDAC_Stan_ResStrs_S_FD_OraNotInstalled,	L"OCI ist auf diesem Computer nicht ordnungsgem\x00e4\x00df installiert (NOE1/INIT)"
+	FireDAC_Stan_ResStrs_S_FD_OraBadVersion,	L"Nicht unterst\x00fctzte Version der OCI-Bibliothek (OCI-Bibliothek: [%s], Version: [%s]) Es ist mindestens Version 8.0.3 erforderlich (NOE2/INIT)"
+	FireDAC_Stan_ResStrs_S_FD_OraBadVarType,	L"Falscher oder nicht definierter Variablenparametertyp (NOE12/VAR)"
+	FireDAC_Stan_ResStrs_S_FD_OraTooLongGTRID,	L"Maximale L\x00e4nge (%d) von GTRID \x00fcberschritten - %d (NOE18/TX)"
+	FireDAC_Stan_ResStrs_S_FD_OraTooLongBQUAL,	L"Maximale L\x00e4nge (%d) von BQUAL \x00fcberschritten - %d (NOE19/TX)"
+	FireDAC_Stan_ResStrs_S_FD_OraTooLongTXName,	L"Maximale L\x00e4nge (%d) des Transaktionsnamens \x00fcberschritten - %d (NOE20/TX)"
+	FireDAC_Stan_ResStrs_S_FD_OraDBTNManyClBraces,	L"Zu viele schlie\x00dfende geschweifte Klammern in Namensdatei nach Alias [%s] (NOE105/DB)"
+	FireDAC_Stan_ResStrs_S_FD_StanStrgInvJSONFmt,	L"Ung\x00fcltiges JSON-Speicherformat. Position [%d]"
+	FireDAC_Stan_ResStrs_S_FD_ScrCantExecHostCmd,	L"Ausf\x00fchren der Host-Anweisung [%s] nicht m\x00f6glich. %s"
+	FireDAC_Stan_ResStrs_S_FD_ScrStrSize1,	L"String muss 1 Zeichen lang sein"
+	FireDAC_Stan_ResStrs_S_FD_ScrStrNotAlphaNum,	L"Zeichen darf nicht alphanumerisch oder Whitespace sein"
+	FireDAC_Stan_ResStrs_S_FD_ScrSetArgInvalid,	L"Ung\x00fcltiges SET-Anweisungsargument"
+	FireDAC_Stan_ResStrs_S_FD_ScrInvalidSyntax,	L"Ung\x00fcltige Syntax f\x00fcr Anweisung [%s]"
+	FireDAC_Stan_ResStrs_S_FD_ScrAccMustSpecVar,	L"ACCEPT-Anweisung muss einen Variablennamen angeben"
+	FireDAC_Stan_ResStrs_S_FD_ScrDefReqValue,	L"DEFINE erfordert einen Wert nach dem Gleichheitszeichen"
+	FireDAC_Stan_ResStrs_S_FD_ScrVarMissedCloseBrace,	L"Bei VARIABLE fehlt rechte geschweifte Klammer"
+	FireDAC_Stan_ResStrs_S_FD_ScrVarUnsupType,	L"VARIABLE hat einen nicht unterst\x00fctzten Datentyp"
+	FireDAC_Stan_ResStrs_S_FD_ScrNotLogged,	L"Ausf\x00fchren der Anweisung nicht m\x00f6glich. Nicht angemeldet"
+	FireDAC_Stan_ResStrs_S_FD_ScrNoCmds,	L"Keine Skriptanweisungen registriert. M\x00f6gliche Ursache: Unit FireDAC.Comp.ScriptCommands ist nicht mit der Anwendung verkn\x00fcpft"
+	FireDAC_Stan_ResStrs_S_FD_ScrNoScript,	L"Kein Skript zum Ausf\x00fchren f\x00fcr [%s]. M\x00f6gliche Ursache: SQLScriptFileName und SQLScripts sind beide leer"
+	FireDAC_Stan_ResStrs_S_FD_DBXParMBNotEmpty,	L"Verbindungsparameter [%s] darf nicht leer sein"
+	FireDAC_Stan_ResStrs_S_FD_DBXNoDriverCfg,	L"dbExpress-Treiberkonfigurationsdatei [%s] nicht gefunden. M\x00f6gliche Ursache: dbExpress ist auf diesem Computer nicht ordnungsgem\x00e4\x00df installiert"
+	FireDAC_Stan_ResStrs_S_FD_MySQLBadVersion,	L"Nicht unterst\x00fctzte MySQL-Version [%d]. Unterst\x00fctzt werden Client und Server der Version 3.20"
+	FireDAC_Stan_ResStrs_S_FD_StanCantGetBlob,	L"Zugriff auf BLOB-Rohdaten nicht m\x00f6glich"
+	FireDAC_Stan_ResStrs_S_FD_StanCantNonblocking,	L"Durchf\x00fchren der nicht blockierenden Aktion nicht m\x00f6glich, w\x00e4hrend ein andere nicht blockierende Aktion ausgef\x00fchrt wird"
+	FireDAC_Stan_ResStrs_S_FD_StanMacroNotFound,	L"Makro [%s] nicht gefunden"
+	FireDAC_Stan_ResStrs_S_FD_StanBadParRowIndex,	L"Index des Parameterwertes ist au\x00dferhalb des g\x00fcltigen Bereichs (Parameter: [%s], Index: [%d], Bereich: [0..%d])"
+	FireDAC_Stan_ResStrs_S_FD_StanPoolTooManyItems,	L"Abrufen des Elements (Verbindung) aus dem Pool nicht m\x00f6glich. Maximalanzahl [%d] von gleichzeitigen Elementen (Verbindungen) erreicht."
+	FireDAC_Stan_ResStrs_S_FD_StanHowToReg,	L"Sie k\x00f6nnen eine [%s]-Komponente in Ihr Projekt aufnehmen, um sie zu registrieren"
+	FireDAC_Stan_ResStrs_S_FD_StanHowToInc,	L"Sie k\x00f6nnen die Unit [%s] in Ihr Projekt einbeziehen, um sie zu registrieren"
+	FireDAC_Stan_ResStrs_S_FD_StanStrgInvBinFmt,	L"Ung\x00fcltiges bin\x00e4res Speicherformat"
+	FireDAC_Stan_ResStrs_S_FD_StanStrgCantReadProp,	L"Lesen der Eigenschaft [%s] nicht m\x00f6glich"
+	FireDAC_Stan_ResStrs_S_FD_StanStrgCantReadObj,	L"Lesen des Objekts [%s] nicht m\x00f6glich"
+	FireDAC_Stan_ResStrs_S_FD_StanStrgCantReadCDATA,	L"Lesen der RAW-Daten des Objekts [%s] nicht m\x00f6glich"
+	FireDAC_Stan_ResStrs_S_FD_StanStrgDictOverflow,	L"Dictionary-\x00dcberlauf"
+	FireDAC_Stan_ResStrs_S_FD_StanStrgClassUnknown,	L"Klasse [%s] ist nicht registriert"
+	FireDAC_Stan_ResStrs_S_FD_StanStrgUnknownFmt,	L"Unbekanntes Speicherformat [%s]. Hinweis: Sie k\x00f6nnen eine [TFDStanStorageXxxLink]-Komponente in Ihr Projekt aufnehmen, um das Speicherformat zu registrieren"
+	FireDAC_Stan_ResStrs_S_FD_StanStrgFileError,	L"Verschieben der Datei [%s] nach [%s] nicht m\x00f6glich. %s"
+	FireDAC_Stan_ResStrs_S_FD_StanStrgInvDIntFmt,	L"Ung\x00fcltiges Format f\x00fcr Datumsintervall [%s]"
+	FireDAC_Stan_ResStrs_S_FD_DPNoTxtDest,	L"Dateiname oder Stream f\x00fcr Zieltextdaten muss angegeben werden"
+	FireDAC_Stan_ResStrs_S_FD_DPNoTxtSrc,	L"Dateiname oder Stream f\x00fcr Quelltextdaten muss angegeben werden"
+	FireDAC_Stan_ResStrs_S_FD_DPBadFixedSize,	L"Gr\x00f6\x00dfe des Textfeldes [%s] ist im Format \"Feste Datensatzgr\x00f6\x00dfe\" nicht definiert"
+	FireDAC_Stan_ResStrs_S_FD_DPTxtFldDup,	L"Name des Textfeldes [%s] ist doppelt vorhanden"
+	FireDAC_Stan_ResStrs_S_FD_DPBadTextFmt,	L"Falsches Format des Textwertes [%s] f\x00fcr Zuordnung des Eintrags [%s]. %s"
+	FireDAC_Stan_ResStrs_S_FD_DPSrcUndefined,	L"Nicht festgelegtes Quellfeld oder nicht festgelegter Ausdruck f\x00fcr Zielfeld [%s]"
+	FireDAC_Stan_ResStrs_S_FD_DPDestNoKeyFields,	L"Keine Schl\x00fcsselfelder definiert"
+	FireDAC_Stan_ResStrs_S_FD_DPNoSQLTab,	L"SQL-Tabelle ist nicht definiert"
+	FireDAC_Stan_ResStrs_S_FD_DPNoSQLBatch,	L"CommitCount muss gr\x00f6\x00dfer als null sein"
+	FireDAC_Stan_ResStrs_S_FD_DPNoTxtFlds,	L"Keine Textfelder definiert. Hinweis: Verwenden Sie TFDBatchMove.Analyze"
+	FireDAC_Stan_ResStrs_S_FD_DPNoJsonDest,	L"Ziel f\x00fcr JSON-Ausgabe muss angegeben werden"
+	FireDAC_Stan_ResStrs_S_FD_DPNoJsonSrc,	L"Quelle f\x00fcr JSON-Eingabe muss angegeben werden"
+	FireDAC_Stan_ResStrs_S_FD_DPNoJsonFld,	L"JSON-Feld [%s] nicht gefunden"
+	FireDAC_Stan_ResStrs_S_FD_DPJsonFldDup,	L"Name des JSON-Feldes [%s] ist doppelt vorhanden"
+	FireDAC_Stan_ResStrs_S_FD_DPMapUndefined,	L"Zuordnung von Quell- zu Zielfeldern ist nicht definiert"
+	FireDAC_Stan_ResStrs_S_FD_StanTimeout,	L"Zeitlimit abgelaufen"
+	FireDAC_Stan_ResStrs_S_FD_ClntAdaptMBActive,	L"Anweisung [%s] muss sich im aktiven Status befinden"
+	FireDAC_Stan_ResStrs_S_FD_ClntAdaptMBInactive,	L"Anweisung [%s] muss sich im inaktiven Status befinden"
+	FireDAC_Stan_ResStrs_S_FD_ClntNotCachedUpdates,	L"Datenmenge [%s] muss sich im Modus \"Zwischengespeicherte Aktualisierung\" befinden"
+	FireDAC_Stan_ResStrs_S_FD_ClntDbNotDefined,	L"Verbindung ist nicht f\x00fcr [%s] festgelegt. M\x00f6gliche Ursache: Die Eigenschaftswerte von Connection und ConnectionName sind beide leer"
+	FireDAC_Stan_ResStrs_S_FD_ClntDbMBOnline,	L"Verbindung [%s] muss online sein"
+	FireDAC_Stan_ResStrs_S_FD_ClntCantShareAdapt,	L"Tabellenadapter [%s] kann [%s] nicht zugewiesen werden, weil er bereits [%s] zugewiesen ist und nicht von Datenmengen gemeinsam benutzt werden kann"
+	FireDAC_Stan_ResStrs_S_FD_ClntConnNotMatch,	L"Datenmengenverbindung stimmt nicht mit aufgerufener Verbindung \x00fcberein"
+	FireDAC_Stan_ResStrs_S_FD_ClntPKNotFound,	L"Tabelle [%s] muss einen Prim\x00e4rschl\x00fcssel haben"
+	FireDAC_Stan_ResStrs_S_FD_ClntLocalSQLMisuse,	L"Falsche Anwendung der Local SQL-Engine durch [%s]. Hinweis: Aktivieren Sie die Verbindung vor der Aktivierung der Datenmenge"
+	FireDAC_Stan_ResStrs_S_FD_ClntWrongIndex,	L"Index der Tabelle muss ein vorhandener Nicht-Ausdrucksindex sein (Tabelle: [%s], Index: [%s])"
+	FireDAC_Stan_ResStrs_S_FD_ClntDSNameEmpty,	L"Datenmengenname darf nicht leer sein"
+	FireDAC_Stan_ResStrs_S_FD_ClntDSNameNotUnique,	L"Datenmengenname [%s] muss in den [%s]-Datenmengen von Local SQL eindeutig sein"
+	FireDAC_Stan_ResStrs_S_FD_ClntDataSetParamIncompat,	L"Dataset-Parameterwert muss den Typ TFDDataSet oder TFDDatSTable haben"
+	FireDAC_Stan_ResStrs_S_FD_DPNoTxtFld,	L"Textfeld [%s] nicht gefunden"
+	FireDAC_Stan_ResStrs_S_FD_DPNoSrcDS,	L"Quelldatenmenge nicht festgelegt"
+	FireDAC_Stan_ResStrs_S_FD_DPNoDestDS,	L"Zieldatenmenge nicht festgelegt"
+	FireDAC_Stan_ResStrs_S_FD_DAptRecordIsDeleted,	L"%s-Anweisung %s [%d] anstelle von [1] Datensatz. M\x00f6gliche Ursachen: %s"
+	FireDAC_Stan_ResStrs_S_FD_DAptRecordIsDeletedReasons,	L"Aktualisierungstabelle hat keinen Prim\x00e4rschl\x00fcssel oder Zeilenbezeichner, Datensatz wurde von einem anderen Benutzer ge\x00e4ndert/gel\x00f6scht"
+	FireDAC_Stan_ResStrs_S_FD_DAptNoSelectCmd,	L"Vorgang kann ohne zugewiesenem SelectCommand nicht durchgef\x00fchrt werden"
+	FireDAC_Stan_ResStrs_S_FD_DAptApplyUpdateFailed,	L"Aktualisierungseintragung fehlgeschlagen"
+	FireDAC_Stan_ResStrs_S_FD_DAptCantEdit,	L"Bearbeiten von Zeilen deaktiviert"
+	FireDAC_Stan_ResStrs_S_FD_DAptCantInsert,	L"Einf\x00fcgen von Zeilen deaktiviert"
+	FireDAC_Stan_ResStrs_S_FD_DAptCantDelete,	L"L\x00f6schen von Zeilen deaktiviert"
+	FireDAC_Stan_ResStrs_S_FD_ClntSessMBSingle,	L"Anwendung darf nur einen FDManager haben"
+	FireDAC_Stan_ResStrs_S_FD_ClntSessMBInactive,	L"FDManager muss inaktiv sein"
+	FireDAC_Stan_ResStrs_S_FD_ClntSessMBActive,	L"FDManager muss aktiv sein"
+	FireDAC_Stan_ResStrs_S_FD_ClntDbDupName,	L"Verbindungsname [%s] muss eindeutig sein"
+	FireDAC_Stan_ResStrs_S_FD_ClntDbMBInactive,	L"Verbindung [%s] muss inaktiv sein"
+	FireDAC_Stan_ResStrs_S_FD_ClntDbMBActive,	L"Verbindung [%s] muss aktiv sein"
+	FireDAC_Stan_ResStrs_S_FD_ClntDbLoginAborted,	L"Einrichten der Verbindung [%s] wurde abgebrochen"
+	FireDAC_Stan_ResStrs_S_FD_ClntDbCantConnPooled,	L"Verbindung [%s] kann nicht in den Pool gestellt werden. M\x00f6gliche Ursache: Die Verbindungsdefinition befindet sich nicht in der FDManager.ConnectionDefs-Liste, oder TFDConnection.Params hat zus\x00e4tzliche Parameter"
+	FireDAC_Stan_ResStrs_S_FD_ClntDBNotFound,	L"Verbindung [%s] nicht gefunden. M\x00f6gliche Ursache: [%s] ConnectionName-Eigenschaft ist falsch geschrieben oder verweist auf eine nicht vorhandene Verbindung"
+	FireDAC_Stan_ResStrs_S_FD_AccCantAssignTxIntf,	L"Festlegen der Standardtransaktion nicht m\x00f6glich"
+	FireDAC_Stan_ResStrs_S_FD_AccParSetChanged,	L"Die Parametermenge wurde ge\x00e4ndert. Abfrage muss erneut vorbereitet werden. Erwartete Anzahl an Parametern ist [%d], aber die tats\x00e4chliche Anzahl betr\x00e4gt [%d]. M\x00f6gliche Ursache: Ein Parameter wurde hinzugef\x00fcgt oder gel\x00f6scht"
+	FireDAC_Stan_ResStrs_S_FD_AccDataToLarge,	L"Daten zu gro\x00df f\x00fcr Variable [%s]. Maximale L\x00e4nge = [%d], tats\x00e4chliche L\x00e4nge = [%d] Hinweis: Setzen Sie TFDParam.Size auf einen gr\x00f6\x00dferen Wert"
+	FireDAC_Stan_ResStrs_S_FD_AccDbNotExists,	L"Datenbank [%s] ist nicht vorhanden"
+	FireDAC_Stan_ResStrs_S_FD_AccClassNotRegistered,	L"Erforderlicher OLEDB-Provider fehlt auf dem Client-Computer. Hinweis: Setzen Sie den genauen DBVersion-Wert, bzw. installieren Sie die MS Access Database-Engine: Access 2003 oder fr\x00fcher: http://support.microsoft.com/kb/239114 Access 2007: http://www.microsoft.com/download/en/details.aspx?displaylang=en&id=23734 Access 2010: http://www.microsoft.com/download/en/details.aspx?id=13255"
+	FireDAC_Stan_ResStrs_S_FD_AccSysClassNotRegistered,	L"Die Klasse JRO.JetEngine fehlt auf dem Client-Computer. Hinweis: Installieren Sie die neueste Engine von: http://support.microsoft.com/kb/239114"
+	FireDAC_Stan_ResStrs_S_FD_AccUnrecognizedDbFormat,	L"Datenbankformat wurde nicht erkannt. M\x00f6gliche Ursache: DBVersion-Wert stimmt nicht mit der Datenbankversion \x00fcberein."
+	FireDAC_Stan_ResStrs_S_FD_AccNotValidPassword,	L"Angegebenes Datenbankpasswort ist ung\x00fcltig"
+	FireDAC_Stan_ResStrs_S_FD_AccUnknownOleError,	L"Unbekannter OLE-Fehler [%s]"
+	FireDAC_Stan_ResStrs_S_FD_AccUnsupParamObjValue,	L"Objektwert f\x00fcr Parameter [%s] mit dem Typ [ft%s] wird nicht unterst\x00fctzt"
+	FireDAC_Stan_ResStrs_S_FD_AccUnsupColumnType,	L"Spalte [%s] hat einen nicht unterst\x00fctzten Datentyp [dt%s]"
+	FireDAC_Stan_ResStrs_S_FD_AccLongDataStream,	L"%s-Stream f\x00fcr Variable [%s] nicht m\x00f6glich"
+	FireDAC_Stan_ResStrs_S_FD_AccArrayDMLWithIntStr,	L"Interne Streams d\x00fcrfen in Array DML nicht verwendet werden"
+	FireDAC_Stan_ResStrs_S_FD_SvcLinkMBSet,	L"Zum Durchf\x00fchren der Operation muss DriverLink angegeben sein"
+	FireDAC_Stan_ResStrs_S_FD_SvcMBActive,	L"Zum Durchf\x00fchren der Operation muss der Dienst aktiv sein"
+	FireDAC_Stan_ResStrs_S_FD_SvcCannotUninstall,	L"Deinstallation einer SQLite-Sortierung nicht m\x00f6glich, wenn aktive Verbindungen vorhanden sind"
+	FireDAC_Stan_ResStrs_S_FD_AccDrvMngrMB,	L"Zum Durchf\x00fchren der Operation muss der Treiber-Manager [%s] sein"
+	FireDAC_Stan_ResStrs_S_FD_AccPrepMissed,	L"Zeichen [%s] fehlt"
+	FireDAC_Stan_ResStrs_S_FD_AccPrepTooLongIdent,	L"Bezeichner zu lang (> 255)"
+	FireDAC_Stan_ResStrs_S_FD_AccParamArrayMismatch,	L"ArraySize von Parameter ist kleiner als ATimes (Parameter: [%s], ArraySize: [%d], ATimes: [%d])"
+	FireDAC_Stan_ResStrs_S_FD_AccAsyncOperInProgress,	L"Ausf\x00fchren der Aktion nicht m\x00f6glich, weil die vorherige Aktion noch nicht abgeschlossen ist"
+	FireDAC_Stan_ResStrs_S_FD_AccEscapeIsnotSupported,	L"Escape-Funktion [%s] wird nicht unterst\x00fctzt"
+	FireDAC_Stan_ResStrs_S_FD_AccMetaInfoReset,	L"Define(mmReset) wird nur beim Abrufen von Metainfos unterst\x00fctzt"
+	FireDAC_Stan_ResStrs_S_FD_AccWhereIsEmpty,	L"Erzeugen der Aktualisierungsabfrage nicht m\x00f6glich. WHERE-Bedingung ist leer"
+	FireDAC_Stan_ResStrs_S_FD_AccUpdateTabUndefined,	L"Erzeugen der Aktualisierungsabfrage nicht m\x00f6glich. Aktualisierungstabelle nicht festgelegt"
+	FireDAC_Stan_ResStrs_S_FD_AccNameHasErrors,	L"Objektname kann nicht analysiert werden - [%s]"
+	FireDAC_Stan_ResStrs_S_FD_AccEscapeBadSyntax,	L"Syntaxfehler in Escape-Funktion [%s]. %s"
+	FireDAC_Stan_ResStrs_S_FD_AccShutdownTO,	L"Zeit\x00fcberschreitung beim Schlie\x00dfen von FDPhysManager. M\x00f6gliche Ursache: Die Anwendung hat nicht alle Verbindungs-Interfaces freigegeben"
+	FireDAC_Stan_ResStrs_S_FD_AccParTypeUnknown,	L"Datentyp des Parameters [%s] ist unbekannt. Hinweis: Geben Sie TFDParam.DataType an, oder weisen Sie den TFDParam-Wert vor dem \"Prepare\"/\"Execute\"-Aufruf zu"
+	FireDAC_Stan_ResStrs_S_FD_AccParDataMapNotSup,	L"Datentyp des Parameters [%s] wird nicht unterst\x00fctzt"
+	FireDAC_Stan_ResStrs_S_FD_AccParDefChanged,	L"Typ des Parameters [%s] von [ft%s] in [ft%s] ge\x00e4ndert. Abfrage muss erneut vorbereitet werden. M\x00f6gliche Ursache: Durch eine Zuweisung zu einer TFDParam.AsXXX-Eigenschaft wurde der Datentyp des Parameters implizit ge\x00e4ndert. Hinweis: Verwenden Sie TFDParam.Value oder eine geeignete TFDParam.AsXXX-Eigenschaft"
+	FireDAC_Stan_ResStrs_S_FD_AccMetaInfoNotDefined,	L"Ein Wert f\x00fcr das Metadatenargument [%s] muss angegeben werden"
+	FireDAC_Stan_ResStrs_S_FD_AccTxMBActive,	L"Transaktion [%s] muss aktiv sein"
+	FireDAC_Stan_ResStrs_S_FD_AccTxMBInActive,	L"Transaktion [%s] muss inaktiv sein Verschachtelte Transaktionen sind deaktiviert"
+	FireDAC_Stan_ResStrs_S_FD_AccCantChngCommandState,	L"\x00c4ndern des Anweisungsstatus nicht m\x00f6glich"
+	FireDAC_Stan_ResStrs_S_FD_AccCommandMBFilled,	L"Anweisungstext [%s] darf nicht leer sein"
+	FireDAC_Stan_ResStrs_S_FD_AccEscapeEmptyName,	L"Der Name der Escape-Funktion darf nicht leer sein"
+	FireDAC_Stan_ResStrs_S_FD_AccCmdMHRowSet,	L"Anweisung, die keine Ergebnismengen zur\x00fcckgibt, kann nicht ge\x00f6ffnet/definiert werden. Hinweis: Verwenden Sie die Methode \"Execute/ExecSQL\" f\x00fcr Nicht-SELECT-Anweisungen"
+	FireDAC_Stan_ResStrs_S_FD_AccCmdMBPrepared,	L"Anweisung muss vorbereitet sein"
+	FireDAC_Stan_ResStrs_S_FD_AccCantExecCmdWithRowSet,	L"Anweisung, die Ergebnismengen zur\x00fcckgibt, kann nicht ausgef\x00fchrt werden. Hinweis: Verwenden Sie die \"Open\"-Methode f\x00fcr SELECT-\x00e4hnliche Anweisungen"
+	FireDAC_Stan_ResStrs_S_FD_AccCmdMBOpen4Fetch,	L"Anweisung muss f\x00fcr das Abrufen ge\x00f6ffnet sein"
+	FireDAC_Stan_ResStrs_S_FD_AccExactMismatch,	L"Genau %s [%d] Zeilen, [%d] wurden angefordert"
+	FireDAC_Stan_ResStrs_S_FD_AccMetaInfoMismatch,	L"Metainformationen stimmen nicht \x00fcberein"
+	FireDAC_Stan_ResStrs_S_FD_AccCantLoadLibrary,	L"Laden der Herstellerbibliothek [%s] nicht m\x00f6glich. %s"
+	FireDAC_Stan_ResStrs_S_FD_AccCantLoadLibraryHint,	L"Hinweis: \x00dcberpr\x00fcfen Sie, ob sie sich im PATH oder in Anwendungs-EXE-Verzeichnissen befindet und eine Bitanzahl von %s hat."
+	FireDAC_Stan_ResStrs_S_FD_AccCantGetLibraryEntry,	L"Abrufen der Eintrittspunkte f\x00fcr Herstellerbibliothek nicht m\x00f6glich. [%s]"
+	FireDAC_Stan_ResStrs_S_FD_AccSrvMBDisConnected,	L"Verbindung muss inaktiv sein"
+	FireDAC_Stan_ResStrs_S_FD_AccToManyLogins,	L"Zu viele Anmeldeversuche. Zul\x00e4ssig sind [%d] Versuche"
+	FireDAC_Stan_ResStrs_S_FD_DSFieldNotFound,	L"Feld [%s], das in %s der Datenmenge [%s] angegeben ist, ist nicht vorhanden"
+	FireDAC_Stan_ResStrs_S_FD_DSCantOffline,	L"Setzen der Datenmenge [%s] in den Offline-Modus nicht m\x00f6glich. Hinweis: Stellen Sie sicher, dass FetchOptions.AutoFetchAll nicht auf afDisable gesetzt ist"
+	FireDAC_Stan_ResStrs_S_FD_DSCantOffCachedUpdates,	L"Deaktivieren des Modus \"Zwischengespeicherte Aktualisierungen\" f\x00fcr Datenmenge [%s] nicht m\x00f6glich. Hinweis: Datenmenge hat aktualisierte Zeilen, brechen Sie Aktualisierungen vor der Aktion ab, oder \x00fcbernehmen Sie sie"
+	FireDAC_Stan_ResStrs_S_FD_DefCircular,	L"Zirkul\x00e4re Referenz f\x00fcr Definition [%s] kann nicht festgelegt werden"
+	FireDAC_Stan_ResStrs_S_FD_DefRO,	L"%s von Definition [%s] nicht m\x00f6glich. Es ist eine zugeordnete Verbindung vorhanden"
+	FireDAC_Stan_ResStrs_S_FD_DefCantMakePers,	L"Definition kann nicht als persistent festgelegt werden"
+	FireDAC_Stan_ResStrs_S_FD_DefAlreadyLoaded,	L"Laden der Definitionsliste nicht m\x00f6glich, weil sie bereits geladen ist"
+	FireDAC_Stan_ResStrs_S_FD_DefNotExists,	L"Definition [%s] in [%s] nicht gefunden"
+	FireDAC_Stan_ResStrs_S_FD_DefDupName,	L"Definitionsname [%s] ist doppelt vorhanden"
+	FireDAC_Stan_ResStrs_S_FD_AccSrvNotFound,	L"Treiber [%s] ist nicht registriert. %s"
+	FireDAC_Stan_ResStrs_S_FD_AccCannotReleaseDrv,	L"Freigeben des Treibers [%s] nicht m\x00f6glich. Hinweis: Schlie\x00dfen Sie alle TFDConnection-Objekte, und geben Sie die Pools frei"
+	FireDAC_Stan_ResStrs_S_FD_AccSrcNotFoundExists,	L"Sie k\x00f6nnen eine [TFDPhys%sDriverLink]-Komponente in Ihr Projekt aufnehmen, um sie zu registrieren"
+	FireDAC_Stan_ResStrs_S_FD_AccSrcNotFoundNotExists,	L"Korrigieren Sie die Treiber-ID, oder legen Sie den virtuellen Treiber [%s] in %s fest"
+	FireDAC_Stan_ResStrs_S_FD_AccSrvNotDefined,	L"Treiber-ID ist nicht festgelegt. Setzen Sie TFDConnection.DriverName, oder f\x00fcgen Sie Ihrer Verbindungsdefinition DriverID hinzu"
+	FireDAC_Stan_ResStrs_S_FD_AccSrvMBConnected,	L"Verbindung muss aktiv sein"
+	FireDAC_Stan_ResStrs_S_FD_AccCapabilityNotSup,	L"Funktionalit\x00e4t wird nicht unterst\x00fctzt"
+	FireDAC_Stan_ResStrs_S_FD_DSNoBookmark,	L"Positionsmarke f\x00fcr Datenmenge [%s] nicht gefunden"
+	FireDAC_Stan_ResStrs_S_FD_DSViewNotSorted,	L"Sicht [%s] ist keine sortierte Sicht"
+	FireDAC_Stan_ResStrs_S_FD_DSNoAdapter,	L"Adapter-Interface muss angegeben werden"
+	FireDAC_Stan_ResStrs_S_FD_DSNoNestedMasterSource,	L"Setzen von MasterSource f\x00fcr Datenmenge [%s] nicht m\x00f6glich. Bei verschachtelten Datenmengen ist MasterSource nicht zul\x00e4ssig"
+	FireDAC_Stan_ResStrs_S_FD_DSCircularDataLink,	L"Setzen von MasterSource f\x00fcr Datenmenge [%s] nicht m\x00f6glich. Zirkul\x00e4re Datenverkn\x00fcpfungen sind nicht zul\x00e4ssig"
+	FireDAC_Stan_ResStrs_S_FD_DSRefreshError,	L"Aktualisieren der Datenmenge [%s] nicht m\x00f6glich. Zwischengespeicherte Aktualisierungen m\x00fcssen vor der Aktualisierung \x00fcbergeben oder abgebrochen und der Stapelmodus beendet werden"
+	FireDAC_Stan_ResStrs_S_FD_DSNoDataTable,	L"\x00d6ffnen der Datenmenge [%s] nicht m\x00f6glich. Ein DataTable- oder DataView-Objekt muss angegeben werden. Hinweis: Verwenden Sie f\x00fcr TFDMemTable zum \x00d6ffnen der Datenmenge CreateDataSet oder CloneCursor"
+	FireDAC_Stan_ResStrs_S_FD_DSIndNotFound,	L"Index [%s] f\x00fcr Datenmenge [%s] nicht gefunden"
+	FireDAC_Stan_ResStrs_S_FD_DSAggNotFound,	L"Aggregat [%s] f\x00fcr Datenmenge [%s] nicht gefunden"
+	FireDAC_Stan_ResStrs_S_FD_DSIndNotComplete,	L"Definition des Index [%s] ist f\x00fcr Datenmenge [%s] nicht vollst\x00e4ndig"
+	FireDAC_Stan_ResStrs_S_FD_DSAggNotComplete,	L"Definition des Aggregats [%s] ist f\x00fcr Datenmenge [%s] nicht vollst\x00e4ndig"
+	FireDAC_Stan_ResStrs_S_FD_DSCantUnidir,	L"Durchf\x00fchren der Operation f\x00fcr unidirektionale Datenmenge [%s] nicht m\x00f6glich"
+	FireDAC_Stan_ResStrs_S_FD_DSIncompatBmkFields,	L"Positionsmarkenschl\x00fcsselfelder [%s] sind mit den in der Datenmenge [%s] vorhandenen Schl\x00fcsselfeldern [%s] nicht kompatibel"
+	FireDAC_Stan_ResStrs_S_FD_DSCantEdit,	L"Bearbeiten von Datens\x00e4tzen ist f\x00fcr Datenmenge [%s] deaktiviert"
+	FireDAC_Stan_ResStrs_S_FD_DSCantInsert,	L"Einf\x00fcgen von Datens\x00e4tzen ist f\x00fcr Datenmenge [%s] deaktiviert"
+	FireDAC_Stan_ResStrs_S_FD_DSCantDelete,	L"L\x00f6schen von Datens\x00e4tzen ist f\x00fcr Datenmenge [%s] deaktiviert"
+	FireDAC_Stan_ResStrs_S_FD_ExprCantAgg,	L"Ausdruck kann nicht aggregiert werden"
+	FireDAC_Stan_ResStrs_S_FD_ExprTypeMis,	L"Keine Typ\x00fcbereinstimmung im Ausdruck"
+	FireDAC_Stan_ResStrs_S_FD_ExprIncorrect,	L"Ausdruck ist nicht korrekt"
+	FireDAC_Stan_ResStrs_S_FD_InvalidKeywordUse,	L"Ung\x00fcltige Verwendung eines Schl\x00fcsselworts"
+	FireDAC_Stan_ResStrs_S_FD_ExprInvalidChar,	L"Ung\x00fcltiges Zeichen gefunden [%s]"
+	FireDAC_Stan_ResStrs_S_FD_ExprNameError,	L"Name ist nicht ordnungsgem\x00e4\x00df abgeschlossen"
+	FireDAC_Stan_ResStrs_S_FD_ExprStringError,	L"String-Konstante ist nicht korrekt abgeschlossen oder zu lang"
+	FireDAC_Stan_ResStrs_S_FD_ExprNoLParen,	L"'(' erwartet, aber [%s] gefunden"
+	FireDAC_Stan_ResStrs_S_FD_ExprNoRParenOrComma,	L"')' oder ',' erwartet, aber [%s] gefunden"
+	FireDAC_Stan_ResStrs_S_FD_ExprNoRParen,	L"')' erwartet, aber [%s] gefunden"
+	FireDAC_Stan_ResStrs_S_FD_ExprEmptyInList,	L"Die IN-Pr\x00e4dikatliste darf nicht leer sein"
+	FireDAC_Stan_ResStrs_S_FD_ExprExpected,	L"Erwartet [%s]"
+	FireDAC_Stan_ResStrs_S_FD_ExprNoArith,	L"Arithmetik in Filterausdr\x00fccken wird nicht unterst\x00fctzt"
+	FireDAC_Stan_ResStrs_S_FD_ExprBadScope,	L"Die Operation kann keine Aggregatwerte mit wechselnden Datensatzwerten mischen"
+	FireDAC_Stan_ResStrs_S_FD_ExprEmpty,	L"Leerer Ausdruck"
+	FireDAC_Stan_ResStrs_S_FD_ExprEvalError,	L"Fehler beim Auswerten des Ausdrucks. %s"
+	FireDAC_Stan_ResStrs_S_FD_VarLenDataMismatch,	L"\x00dcberlauf der Spalte [%s] mit variabler L\x00e4nge. Wertl\x00e4nge - [%d], Maximall\x00e4nge der Spalte - [%d]"
+	FireDAC_Stan_ResStrs_S_FD_BadForeignKey,	L"Ung\x00fcltiger Fremdschl\x00fcssel [%s]"
+	FireDAC_Stan_ResStrs_S_FD_BadUniqueKey,	L"Ung\x00fcltiger eindeutiger Schl\x00fcssel [%s]"
+	FireDAC_Stan_ResStrs_S_FD_CantChngColType,	L"\x00c4ndern des Datentyps der Spalte [%s] nicht m\x00f6glich"
+	FireDAC_Stan_ResStrs_S_FD_BadRelation,	L"Ung\x00fcltige Beziehung [%s]"
+	FireDAC_Stan_ResStrs_S_FD_CantCreateParentView,	L"Erstellen der \x00fcbergeordneten Ansicht nicht m\x00f6glich. Beziehung [%s]"
+	FireDAC_Stan_ResStrs_S_FD_CantChangeTableStruct,	L"\x00c4ndern der Struktur von Tabelle [%s] nicht m\x00f6glich, wenn die Tabelle Zeilen enth\x00e4lt"
+	FireDAC_Stan_ResStrs_S_FD_FoundCascadeLoop,	L"Beim \x00dcberpr\x00fcfen des Fremdschl\x00fcssels [%s] Schleife mit \x00fcberlappenden Aktionen gefunden"
+	FireDAC_Stan_ResStrs_S_FD_RecLocked,	L"Datensatz ist bereits gesperrt"
+	FireDAC_Stan_ResStrs_S_FD_RecNotLocked,	L"Datensatz ist nicht gesperrt"
+	FireDAC_Stan_ResStrs_S_FD_TypeIncompat,	L"Zuweisen des Wertes [%s] ist nicht kompatibel mit Datentyp der Spalte [%s]. %s"
+	FireDAC_Stan_ResStrs_S_FD_ValueOutOfRange,	L"Wert [%s] ist au\x00dferhalb des g\x00fcltigen Bereichs des Datentyps [%s]"
+	FireDAC_Stan_ResStrs_S_FD_CantMerge,	L"Zusammenf\x00fchren nicht m\x00f6glich, weil [%s] %s"
+	FireDAC_Stan_ResStrs_S_FD_ColumnDoesnotFound,	L"Spalte oder Funktion [%s] nicht gefunden. Hinweis: F\x00fcgen Sie der uses-Klausel FireDAC.Stan.ExprFuncs hinzu, wenn der Name ein Funktionsname ist"
+	FireDAC_Stan_ResStrs_S_FD_ExprTermination,	L"Ausdruck unerwartet beendet"
+	FireDAC_Stan_ResStrs_S_FD_ExprMBAgg,	L"Ausdruck muss aggregiert sein"
+	FireDAC_Stan_ResStrs_S_FD_DuplicateRows,	L"Doppelte Zeile f\x00fcr eindeutigen Index gefunden. Einschr\x00e4nkung [%s]"
+	FireDAC_Stan_ResStrs_S_FD_NoMasterRow,	L"Verarbeitung nicht m\x00f6glich - keine \x00fcbergeordnete Zeile gefunden. Einschr\x00e4nkung [%s]"
+	FireDAC_Stan_ResStrs_S_FD_HasChildRows,	L"Verarbeitung nicht m\x00f6glich - untergeordnete Zeilen gefunden. Einschr\x00e4nkung [%s]"
+	FireDAC_Stan_ResStrs_S_FD_CantCompareRows,	L"Vergleichen von Zeilen nicht m\x00f6glich"
+	FireDAC_Stan_ResStrs_S_FD_ConvIsNotSupported,	L"Datentypkonvertierung wird nicht unterst\x00fctzt"
+	FireDAC_Stan_ResStrs_S_FD_ColIsNotSearchable,	L"Spalte [%s] kann nicht durchsucht werden"
+	FireDAC_Stan_ResStrs_S_FD_RowMayHaveSingleParent,	L"Zeile darf nur eine einzelne Spalte mit dem Datentyp [dtParentRowRef] haben"
+	FireDAC_Stan_ResStrs_S_FD_CantOperateInvObj,	L"Daten k\x00f6nnen nicht aus der invarianten Spalte [%s] gelesen oder in diese geschrieben werden. Hinweis: Verwenden Sie Eigenschaften und Methoden, wie NestedTable"
+	FireDAC_Stan_ResStrs_S_FD_CantSetParentRow,	L"Festlegen der \x00fcbergeordneten Zeile nicht m\x00f6glich"
+	FireDAC_Stan_ResStrs_S_FD_RowIsNotNested,	L"Zeile ist nicht verschachtelt"
+	FireDAC_Stan_ResStrs_S_FD_ColumnIsNotRef,	L"Spalte [%s] ist keine Referenz auf eine andere Zeile"
+	FireDAC_Stan_ResStrs_S_FD_ColumnIsNotSetRef,	L"Spalte [%s] ist keine Referenz auf einen anderen Zeilensatz"
+	FireDAC_Stan_ResStrs_S_FD_OperCNBPerfInState,	L"Durchf\x00fchren der Operation f\x00fcr Zeilenstatus nicht m\x00f6glich"
+	FireDAC_Stan_ResStrs_S_FD_CantSetUpdReg,	L"\x00c4ndern der Aktualisierungsregistrierung f\x00fcr DatS-Manager [%s] nicht m\x00f6glich"
+	FireDAC_Stan_ResStrs_S_FD_TooManyAggs,	L"Zu viele Aggregatwerte pro Sicht"
+	FireDAC_Stan_ResStrs_S_FD_GrpLvlExceeds,	L"Gruppierungsebene \x00fcberschreitet maximal zul\x00e4ssige Ebenen f\x00fcr Aggregat [%s]"
+	IBX_IBXConst_SBatchParamFieldMisMatch,	L"All Params must have a matching field with the same name in the passed TIBSQL"
+	FireDAC_Stan_ResStrs_S_FD_LoginDialogDefCaption,	L"FireDAC-Anmeldung"
+	FireDAC_Stan_ResStrs_S_FD_DuplicatedName,	L"Name [%s] ist in der Liste doppelt vorhanden"
+	FireDAC_Stan_ResStrs_S_FD_NameNotFound,	L"Objekt [%s] nicht gefunden"
+	FireDAC_Stan_ResStrs_S_FD_ColTypeUndefined,	L"Typ der Spalte [%s] ist unbekannt oder nicht definiert"
+	FireDAC_Stan_ResStrs_S_FD_NoColsDefined,	L"Keine Spalten definiert f\x00fcr Tabelle"
+	FireDAC_Stan_ResStrs_S_FD_CheckViolated,	L"Verletzung der Pr\x00fcfbedingung. Bedingung [%s]"
+	FireDAC_Stan_ResStrs_S_FD_CantBeginEdit,	L"Bearbeitung der Zeile kann nicht begonnen werden"
+	FireDAC_Stan_ResStrs_S_FD_CantCreateChildView,	L"Erstellen der untergeordneten Ansicht nicht m\x00f6glich. Beziehung [%s]"
+	FireDAC_Stan_ResStrs_S_FD_RowCantBeDeleted,	L"L\x00f6schen der Zeile nicht m\x00f6glich"
+	FireDAC_Stan_ResStrs_S_FD_ColMBBLob,	L"Spalte [%s] muss einen Blob-Wert haben"
+	FireDAC_Stan_ResStrs_S_FD_FixedLenDataMismatch,	L"Datenl\x00e4nge passt nicht f\x00fcr Spalte [%s] mit fester L\x00e4nge. Wertl\x00e4nge - [%d], feste L\x00e4nge der Spalte - [%d]"
+	FireDAC_Stan_ResStrs_S_FD_RowNotInEditableState,	L"Zeile befindet sich nicht im Bearbeitungsstatus"
+	FireDAC_Stan_ResStrs_S_FD_ColIsReadOnly,	L"Spalte [%s] ist schreibgesch\x00fctzt"
+	FireDAC_Stan_ResStrs_S_FD_RowCantBeInserted,	L"Einf\x00fcgen der Zeile in die Tabelle nicht m\x00f6glich"
+	FireDAC_Stan_ResStrs_S_FD_RowColMBNotNull,	L"Wert der Spalte [%s] darf nicht null sein"
+	IBX_IBXConst_SStringTooLarge,	L"Trying to store a string of length %d into a field that can only contain %d"
+	IBX_IBXConst_SNoTimers,	L"Not enough timers available"
+	IBX_IBXConst_SIB65feature,	L"%s is an InterBase 6.5 function. Please upgrade to InterBase 6.5 to use this functonality"
+	IBX_IBXConst_SLoginPromptFailure,	L"Can not find default login prompt dialog.  Please add DBLogDlg to the uses section of your main file."
+	IBX_IBXConst_SIBMemoryError,	L"Out of memory"
+	IBX_IBXConst_SIB70feature,	L"%s is an InterBase 7.0 function. Please upgrade to InterBase 7.0 to use this functonality"
+	IBX_IBXConst_SIB71feature,	L"%s is an InterBase 7.1 function. Please upgrade to InterBase 7.1 to use this functonality"
+	IBX_IBXConst_SIB80feature,	L"%s is an InterBase 2007 function. Please upgrade to InterBase 2007 to use this functonality"
+	IBX_IBXConst_SFileSizeDumpCountIncompatibility,	L"If you supply sizes you must supply 1 size for every file in the Files list (last size optional)"
+	IBX_IBXConst_SCannotPerformDumpOnActiveConnection,	L"Database can not be connected when performing an Online Dump"
+	IBX_IBXConst_SIBUnknownServerType,	L"%s is not a registered server type"
+	IBX_IBXConst_SInvalidLibraryType,	L"Invalid library type assigned.  Valid strings are %s"
+	IBX_IBXConst_SCannotChangeServerType,	L"ServerType can not be changed on an active connection"
+	IBX_IBXConst_SColumnEncryptionError,	L"Both tablename and column name are required to set column level encryption passwords"
+	IBX_IBXConst_SEncryptionError,	L"Connection must be active to set encryption passwords"
+	IBX_IBXConst_SInvalidODSVersion,	L"Invalid ODS Major Restore version. Valid options are 0 (no change) and >= ODS 13"
+	IBX_IBXConst_SSuccess,	L"Successful execution"
+	IBX_IBXConst_SDelphiException,	L"DelphiException %s"
+	IBX_IBXConst_SNoOptionsSet,	L"No Install Options selected"
+	IBX_IBXConst_SNoDestinationDirectory,	L"DestinationDirectory is not set"
+	IBX_IBXConst_SNosourceDirectory,	L"SourceDirectory is not set"
+	IBX_IBXConst_SNoUninstallFile,	L"Uninstall File Name is not set"
+	IBX_IBXConst_SOptionNeedsClient,	L"%s component requires Client to function properly"
+	IBX_IBXConst_SOptionNeedsServer,	L"%s component requires Server to function properly"
+	IBX_IBXConst_SInvalidOption,	L"Invalid option specified"
+	IBX_IBXConst_SInvalidOnErrorResult,	L"Unexpected onError return value"
+	IBX_IBXConst_SInvalidOnStatusResult,	L"Unexpected onStatus return value"
+	IBX_IBXConst_SDPBConstantUnknownEx,	L"DPB Constant (%s) is unknown"
+	IBX_IBXConst_STPBConstantUnknownEx,	L"TPB Constant (%s) is unknown"
+	IBX_IBXConst_SUnknownPlan,	L"Unknown Error - Can't retrieve plan"
+	IBX_IBXConst_SFieldSizeMismatch,	L"Size Mismatch - Field %s size is too small for data"
+	IBX_IBXConst_SEventAlreadyRegistered,	L"Events already registered"
+	IBX_IBXConst_SSQLDialectInvalid,	L"SQL Dialect Invalid"
+	IBX_IBXConst_SSPBConstantNotSupported,	L"SPB Constant Not supported"
+	IBX_IBXConst_SSPBConstantUnknown,	L"SPB Constant Unknown"
+	IBX_IBXConst_SServiceActive,	L"Cannot perform operation -- service is not attached"
+	IBX_IBXConst_SServiceInActive,	L"Cannot perform operation -- service is attached"
+	IBX_IBXConst_SServerNameMissing,	L"Server Name Missing"
+	IBX_IBXConst_SQueryParamsError,	L"Query Parameters missing or incorrect"
+	IBX_IBXConst_SStartParamsError,	L"start Parameters missing or incorrect"
+	IBX_IBXConst_SOutputParsingError,	L"Unexpected Output buffer value"
+	IBX_IBXConst_SUseSpecificProcedures,	L"Generic ServiceStart not applicable: Use Specific Procedures to set configuration params"
+	IBX_IBXConst_SSQLMonitorAlreadyPresent,	L"SQL Monitor Instance is already present"
+	IBX_IBXConst_SCantPrintValue,	L"Cannot print value"
+	IBX_IBXConst_SEOFReached,	L"SEOFReached"
+	IBX_IBXConst_SEOFInComment,	L"EOF in comment detected"
+	IBX_IBXConst_SEOFInString,	L"EOF in string detected"
+	IBX_IBXConst_SParamNameExpected,	L"Parameter name expected"
+	IBX_IBXConst_SNotCachedUpdates,	L"CachedUpdates not enabled"
+	IBX_IBXConst_SNotLiveRequest,	L"Request is not live - cannot modify"
+	IBX_IBXConst_SNoProvider,	L"No Provider"
+	IBX_IBXConst_SNoRecordsAffected,	L"No Records Affected"
+	IBX_IBXConst_SNoTableName,	L"No Table Name assigned"
+	IBX_IBXConst_SCannotCreatePrimaryIndex,	L"Cannot Create Primary Index; are created automatically"
+	IBX_IBXConst_SCannotDropSystemIndex,	L"Cannot Drop System Index"
+	IBX_IBXConst_STableNameMismatch,	L"Table Name Mismatch"
+	IBX_IBXConst_SIndexFieldMissing,	L"Index Field Missing"
+	IBX_IBXConst_SInvalidCancellation,	L"Cannot Cancel events while processing"
+	IBX_IBXConst_SInvalidEvent,	L"Invalid Event"
+	IBX_IBXConst_SMaximumEvents,	L"Exceded Maximum Event limits"
+	IBX_IBXConst_SNoEventsRegistered,	L"No Events Registered"
+	IBX_IBXConst_SInvalidQueueing,	L"Invalid Queueing"
+	IBX_IBXConst_SInvalidRegistration,	L"Invalid Registration"
+	IBX_IBXConst_SInvalidBatchMove,	L"Invalid Batch Move"
+	IBX_IBXConst_SSQLParseError,	L"SQL Parse Error:\r\n\r\n%s"
+	IBX_IBXConst_SUserAbort,	L"User abort"
+	IBX_IBXConst_SDataSetUniDirectional,	L"Data set is uni-directional"
+	IBX_IBXConst_SCannotCreateSharedResource,	L"Cannot create shared resource. (Windows error %d)"
+	IBX_IBXConst_SWindowsAPIError,	L"Windows API error. (Windows error %d [$%.8x])"
+	IBX_IBXConst_SColumnListsDontMatch,	L"Column lists do not match"
+	IBX_IBXConst_SColumnTypesDontMatch,	L"Column types don't match. (From index: %d; To index: %d)"
+	IBX_IBXConst_SCantEndSharedTransaction,	L"Can't end a shared transaction unless it is forced and equal to the transaction's TimeoutAction"
+	IBX_IBXConst_SFieldUnsupportedType,	L"Unsupported Field Type"
+	IBX_IBXConst_SCircularDataLink,	L"Circular DataLink Reference"
+	IBX_IBXConst_SEmptySQLStatement,	L"Empty SQL Statement"
+	IBX_IBXConst_SIsASelectStatement,	L"use Open for a Select Statement"
+	IBX_IBXConst_SRequiredParamNotSet,	L"Required Param value not set"
+	IBX_IBXConst_SNoStoredProcName,	L"No Stored Procedure Name assigned"
+	IBX_IBXConst_SIsAExecuteProcedure,	L"use ExecProc for Procedure; use TQuery for Select procedures"
+	IBX_IBXConst_SUpdateFailed,	L"Update Failed"
+	IBX_IBXConst_SColumnIsNotNullable,	L"Column cannot be set to null (%s)"
+	IBX_IBXConst_SBlobCannotBeRead,	L"Blob stream cannot be read"
+	IBX_IBXConst_SBlobCannotBeWritten,	L"Blob stream cannot be written"
+	IBX_IBXConst_SEmptyQuery,	L"Empty query"
+	IBX_IBXConst_SCannotOpenNonSQLSelect,	L"Cannot \"open\" a non-select statement. Use ExecQuery"
+	IBX_IBXConst_SNoFieldAccess,	L"No access to field \"%s\""
+	IBX_IBXConst_SFieldReadOnly,	L"Field \"%s\" is read-only"
+	IBX_IBXConst_SFieldNotFound,	L"Field \"%s\" not found"
+	IBX_IBXConst_SNotEditing,	L"Not in edit mode"
+	IBX_IBXConst_SCannotInsert,	L"Cannot insert into dataset. (No insert query)"
+	IBX_IBXConst_SCannotPost,	L"Cannot post. (No update/insert query)"
+	IBX_IBXConst_SCannotUpdate,	L"Cannot update. (No update query)"
+	IBX_IBXConst_SCannotDelete,	L"Cannot delete from dataset. (No delete query)"
+	IBX_IBXConst_SCannotRefresh,	L"Cannot refresh row. (No refresh query)"
+	IBX_IBXConst_SBufferNotSet,	L"Buffer not set"
+	IBX_IBXConst_SCircularReference,	L"Circular references not permitted"
+	IBX_IBXConst_SUpdateWrongTR,	L"Updating wrong transaction. Unique transaction expected in set"
+	IBX_IBXConst_SDatabaseNotAssigned,	L"Database not assigned"
+	IBX_IBXConst_STransactionNotAssigned,	L"Transaction not assigned"
+	IBX_IBXConst_SXSQLDAIndexOutOfRange,	L"XSQLDA index out of range"
+	IBX_IBXConst_SXSQLDANameDoesNotExist,	L"XSQLDA name does not exist (%s)"
+	IBX_IBXConst_SEOF,	L"End of file"
+	IBX_IBXConst_SBOF,	L"Beginning of file"
+	IBX_IBXConst_SInvalidStatementHandle,	L"Invalid statement handle"
+	IBX_IBXConst_SSQLOpen,	L"IBSQL Open"
+	IBX_IBXConst_SSQLClosed,	L"IBSQL Closed"
+	IBX_IBXConst_SDatasetOpen,	L"Dataset open"
+	IBX_IBXConst_SDatasetClosed,	L"Dataset closed"
+	IBX_IBXConst_SUnknownSQLDataType,	L"Unknown SQL Data type (%d)"
+	IBX_IBXConst_SInvalidColumnIndex,	L"Invalid column index (index exceeds permitted range)"
+	IBX_IBXConst_SInvalidParamColumnIndex,	L"Invalid parameter index (index exceeds permitted range)"
+	IBX_IBXConst_SInvalidDataConversion,	L"Invalid data conversion"
+	IBX_IBXConst_SConnectionTimeout,	L"Database connection timed out"
+	IBX_IBXConst_SCannotSetDatabase,	L"Cannot set database"
+	IBX_IBXConst_SCannotSetTransaction,	L"Cannot set transaction"
+	IBX_IBXConst_SOperationCancelled,	L"Operation cancelled at user's request"
+	IBX_IBXConst_SDPBConstantNotSupported,	L"DPB Constant (isc_dpb_%s) is unsupported"
+	IBX_IBXConst_SDPBConstantUnknown,	L"DPB Constant (%d) is unknown"
+	IBX_IBXConst_STPBConstantNotSupported,	L"TPB Constant (isc_tpb_%s) is unsupported"
+	IBX_IBXConst_STPBConstantUnknown,	L"TPB Constant (%d) is unknown"
+	IBX_IBXConst_SDatabaseClosed,	L"Cannot perform operation -- DB is not open"
+	IBX_IBXConst_SDatabaseOpen,	L"Cannot perform operation -- DB is currently open"
+	IBX_IBXConst_SDatabaseNameMissing,	L"Database name is missing"
+	IBX_IBXConst_SNotInTransaction,	L"Transaction is not active"
+	IBX_IBXConst_SInTransaction,	L"Transaction is active"
+	IBX_IBXConst_STimeoutNegative,	L"Timeout values cannot be negative"
+	IBX_IBXConst_SNoDatabasesInTransaction,	L"No databases are listed in transaction component"
+	IBX_IBXConst_SUpdateWrongDB,	L"Updating wrong database"
+	IBX_IBXConst_StrPrepare,	L": [Prepare] "
+	IBX_IBXConst_StrPlan,	L"  Plan: "
+	IBX_IBXConst_StrPlanCantRetrive,	L"  Plan: Can't retrieve plan - too large"
+	IBX_IBXConst_StrCommitHardComm,	L": [Commit (Hard commit)]"
+	IBX_IBXConst_StrCommitRetaining,	L": [Commit retaining (Soft commit)]"
+	IBX_IBXConst_StrRollback,	L": [Rollback]"
+	IBX_IBXConst_StrRollbackRetainin,	L": [Rollback retaining (Soft rollback)]"
+	IBX_IBXConst_StrStartTransaction,	L": [Start transaction on default database name %s]"
+	IBX_IBXConst_StrApplication,	L"[Application: "
+	IBX_IBXConst_SUnknownError,	L"Unknown error"
+	IBX_IBXConst_SInterBaseMissing,	L"InterBase library %s not found in the path. Please install InterBase to use this functionality"
+	IBX_IBXConst_SInterBaseInstallMissing,	L"InterBase Install DLL ibinstall.dll not found in the path. Please install InterBase 6 to use this functionality"
+	IBX_IBXConst_SIB60feature,	L"%s is an InterBase 6 function. Please upgrade to InterBase 6 to use this functonality"
+	IBX_IBXConst_SNotSupported,	L"Unsupported feature"
+	IBX_IBXConst_SNotPermitted,	L"Not permitted"
+	IBX_IBXConst_SFileAccessError,	L"Temporary file access error"
+	Data_DBConsts_SUnassignedVar,	L"Nicht zugewiesener Variant-Wert"
+	Data_DBConsts_SRecordNotFound,	L"Datensatz nicht gefunden"
+	Data_DBConsts_SBcdOverflow,	L"BCD-\x00dcberlauf"
+	Data_DBConsts_SInvalidBcdValue,	L"%s ist kein g\x00fcltiger BCD-Wert"
+	Data_DBConsts_SCouldNotParseTimeStamp,	L"SQL-TimeStamp-String konnte nicht analysiert werden"
+	Data_DBConsts_SInvalidSqlTimeStamp,	L"Ung\x00fcltige SQL-Datums-/Uhrzeitwerte"
+	IBX_IBXConst_StrMisc,	L"[Misc] "
+	IBX_IBXConst_StrError,	L"[Error] "
+	IBX_IBXConst_StrAttach,	L": [Attach]"
+	IBX_IBXConst_StrDetach,	L": [Detach]"
+	IBX_IBXConst_StrQuery,	L": [Query]"
+	IBX_IBXConst_StrStart,	L": [Start]"
+	IBX_IBXConst_StrExecute,	L": [Execute] "
+	IBX_IBXConst_StrNULL,	L"<NULL>"
+	IBX_IBXConst_StrBLOB,	L"<BLOB>"
+	IBX_IBXConst_StrFetch,	L": [Fetch] "
+	Data_DBConsts_SLookupInfoError,	L"Lookup-Information f\x00fcr Feld '%s' ist unvollst\x00e4ndig"
+	Data_DBConsts_SDataSourceChange,	L"DataSource kann nicht ge\x00e4ndert werden"
+	Data_DBConsts_SDataSetOpen,	L"Operation bei ge\x00f6ffneter Datenmenge nicht ausf\x00fchrbar"
+	Data_DBConsts_SNotEditing,	L"Datenmenge weder im Editier- noch im Einf\x00fcgemodus"
+	Data_DBConsts_SDataSetClosed,	L"Operation bei geschlossener Datenmenge nicht ausf\x00fchrbar"
+	Data_DBConsts_SDataSetEmpty,	L"Operation bei leerer Datenmenge nicht ausf\x00fchrbar"
+	Data_DBConsts_SDataSetReadOnly,	L"Eine Datenmenge, die nur zum Lesen ist, kann nicht ge\x00e4ndert werden"
+	Data_DBConsts_SNestedDataSetClass,	L"Verschachtelte Datenmengen m\x00fcssen von %s vererbt sein"
+	Data_DBConsts_STextFalse,	L"Falsch"
+	Data_DBConsts_STextTrue,	L"Wahr"
+	Data_DBConsts_SParameterNotFound,	L"Parameter '%s' nicht gefunden"
+	Data_DBConsts_SInvalidVersion,	L"Bind-Parameter k\x00f6nnen nicht geladen werden"
+	Data_DBConsts_SBadFieldType,	L"Der Typ von Feld '%s' wird nicht unterst\x00fctzt"
+	Data_DBConsts_SProviderSQLNotSupported,	L"SQL wird nicht unterst\x00fctzt"
+	Data_DBConsts_SProviderExecuteNotSupported,	L"Execute wird nicht unterst\x00fctzt"
+	Data_DBConsts_SDataSetUnidirectional,	L"Diese Operation ist bei einer unidirektionalen Datenmenge nicht gestattet"
+	Data_DBConsts_SInvalidFloatValue,	L"'%s' ist kein g\x00fcltiger Flie\x00dfkommawert f\x00fcr Feld '%s'"
+	Data_DBConsts_SFieldTypeMismatch,	L"Unterschiedliche Typen f\x00fcr Feld '%s'; erwartet: %s, gefunden: %s"
+	Data_DBConsts_SFieldSizeMismatch,	L"Unterschiedliche Gr\x00f6\x00dfe f\x00fcr Feld '%s'; erwartet: %d, gefunden: %d"
+	Data_DBConsts_SInvalidVarByteArray,	L"Variant-Typ oder -gr\x00f6\x00dfe f\x00fcr Feld '%s' ist ung\x00fcltig"
+	Data_DBConsts_SFieldOutOfRange,	L"Wert des Feldes '%s' ist au\x00dferhalb des zul\x00e4ssigen Bereichs"
+	Data_DBConsts_SFieldRequired,	L"Feld '%s' muss einen Wert haben"
+	Data_DBConsts_SDataSetMissing,	L"Feld '%s' hat keine Datenmenge"
+	Data_DBConsts_SInvalidCalcType,	L"Feld '%s' kann kein berechnetes oder Nachschlage-Feld sein"
+	Data_DBConsts_SFieldReadOnly,	L"Feld '%s' kann nicht ver\x00e4ndert werden"
+	Data_DBConsts_SNoFieldIndexes,	L"Es ist momentan kein Index aktiv"
+	Data_DBConsts_SNotIndexField,	L"Feld '%s' ist nicht indiziert und kann nicht ver\x00e4ndert werden"
+	Data_DBConsts_SDuplicateIndexName,	L"Doppelter Indexname '%s'"
+	Data_DBConsts_SNoIndexForFields,	L"Kein Index f\x00fcr die Felder '%s' vorhanden"
+	Data_DBConsts_SIndexNotFound,	L"Index '%s' wurde nicht gefunden"
+	Data_DBConsts_SDBDuplicateName,	L"Doppelter Name '%s' in %s"
+	Data_DBConsts_SCircularDataLink,	L"Zirkul\x00e4re Datenverbindungen sind nicht erlaubt"
+	Vcl_ComStrs_sFailSetCalDateTime,	L"Kalenderzeit oder -datum konnte nicht gesetzt werden"
+	Vcl_ComStrs_sFailSetCalMaxSelRange,	L"Der max. Auswahlbereich konnte nicht gesetzt werden"
+	Vcl_ComStrs_sFailSetCalMinMaxRange,	L"Der max./min. Bereich des Kalenders konnte nicht gesetzt werden"
+	Vcl_ComStrs_sFailsetCalSelRange,	L"Der ausgew\x00e4hlte Bereich des Kalenders kann nicht gesetzt werden"
+	Data_DBConsts_SInvalidFieldSize,	L"Ung\x00fcltige Feldgr\x00f6\x00dfe"
+	Data_DBConsts_SInvalidFieldKind,	L"FieldKind ung\x00fcltig"
+	Data_DBConsts_SUnknownFieldType,	L"Typ f\x00fcr Feld '%s' ist unbekannt"
+	Data_DBConsts_SFieldNameMissing,	L"Feldname fehlt"
+	Data_DBConsts_SDuplicateFieldName,	L"Doppelter Feldname '%s'"
+	Data_DBConsts_SFieldNotFound,	L"Das Feld '%s' wurde nicht gefunden"
+	Data_DBConsts_SFieldAccessError,	L"Feld '%s' kann nicht als Typ %s angesprochen werden"
+	Data_DBConsts_SFieldValueError,	L"Ung\x00fcltiger Wert f\x00fcr Feld '%s'"
+	Data_DBConsts_SFieldRangeError,	L"%g ist kein g\x00fcltiger Wert f\x00fcr das Feld '%s'. Der zul\x00e4ssige Bereich ist %g bis %g"
+	Data_DBConsts_SBcdFieldRangeError,	L"%s ist kein g\x00fcltiger Wert f\x00fcr Feld '%s'. Der zul\x00e4ssige Bereich ist %s bis %s"
+	Data_DBConsts_SInvalidIntegerValue,	L"'%s' ist kein g\x00fcltiger Integerwert f\x00fcr Feld '%s'"
+	Data_DBConsts_SInvalidBoolValue,	L"'%s' ist kein g\x00fcltiger boolescher Wert f\x00fcr Feld '%s'"
+	Vcl_Consts_sBeginInvokeNoHandle,	L"BeginInvoke kann nicht ohne \x00fcbergeordnetes Element oder Fenster-Handle aufgerufen werden"
+	System_Win_ComConst_SOleError,	L"OLE-Fehler %.8x"
+	System_Win_ComConst_SNoMethod,	L"Die Methode '%s' wird vom Automatisierungsobjekt nicht unterst\x00fctzt"
+	System_Win_ComConst_SVarNotObject,	L"Variante referenziert kein Automatisierungsobjekt"
+	System_Win_ComConst_STooManyParams,	L"Dispatch-Methoden unterst\x00fctzen maximal 64 Parameter."
+	System_Win_ComConst_SInvalidLicense,	L"Lizenz-Information f\x00fcr %s ist ung\x00fcltig"
+	System_Win_ComConst_SNotLicensed,	L"Lizenz-Information f\x00fcr %s nicht gefunden. Sie k\x00f6nnen dieses Steuerelement im Entwurfsmodus nicht verwenden"
+	System_Win_ComConst_SCannotActivate,	L"Aktivierung des OLE-Steuerelements misslungen"
+	System_Win_ComConst_SNoWindowHandle,	L"Das Fenster-Handle des OLE-Elements nicht verf\x00fcgbar"
+	Vcl_ComStrs_sRichEditInsertError,	L"Fehler beim Einf\x00fcgen einer Zeile in RichEdit"
+	Vcl_ComStrs_sRichEditLoadFail,	L"Stream konnte nicht geladen werden"
+	Vcl_ComStrs_sRichEditSaveFail,	L"Stream konnte nicht gespeichert werden"
+	Vcl_ComStrs_sInvalidComCtl32,	L"Dieses Element ben\x00f6tigt COMCTL32.DLL in der Version 4.70 oder h\x00f6her"
+	Vcl_ComStrs_sDateTimeMax,	L"Das Datum \x00fcberschreitet das Maximum von %s"
+	Vcl_ComStrs_sDateTimeMin,	L"Das Datum unterschreitet das Minimum von %s"
+	Vcl_ComStrs_sNeedAllowNone,	L"Um das Datum zu setzen, m\x00fcssen Sie im Modus ShowCheckbox sein"
+	Vcl_Consts_SDirect2DInvalidBrushStyle,	L"Ung\x00fcltiger Pinselstil"
+	Vcl_Consts_SStyleLoadError,	L"Stil '%s' kann nicht geladen werden"
+	Vcl_Consts_SStyleLoadErrors,	L"Stile %s k\x00f6nnen nicht geladen werden"
+	Vcl_Consts_SStyleRegisterError,	L"Stil '%s' bereits registriert"
+	Vcl_Consts_SStyleClassRegisterError,	L"Stilklasse '%s' bereits registriert"
+	Vcl_Consts_SStyleNotFound,	L"Stil '%s' nicht gefunden"
+	Vcl_Consts_SStyleClassNotFound,	L"Stilklasse '%s' nicht gefunden"
+	Vcl_Consts_SStyleInvalidHandle,	L"Ung\x00fcltiges Stil-Handle"
+	Vcl_Consts_SStyleFormatError,	L"Ung\x00fcltiges Stilformat"
+	Vcl_Consts_SStyleHookClassRegistered,	L"Klasse '%s' ist f\x00fcr '%s' bereits registriert"
+	Vcl_Consts_SStyleHookClassNotRegistered,	L"Klasse '%s' ist f\x00fcr '%s' nicht registriert"
+	Vcl_Consts_SStyleInvalidParameter,	L"Parameter %s darf nicht nil sein"
+	Vcl_Consts_SStyleFeatureNotSupported,	L"Funktion wird von diesem Stil nicht unterst\x00fctzt"
+	Vcl_Consts_SStyleNotRegistered,	L"Der Stil '%s' ist nicht registriert"
+	Vcl_Consts_SStyleUnregisterError,	L"Die Registrierung des Systemstils kann nicht aufgehoben werden"
+	Vcl_Consts_SStyleNotRegisteredNoName,	L"Stil nicht registriert"
+	Vcl_Consts_SUsername,	L"&Benutzername"
+	Vcl_Consts_SPassword,	L"&Passwort"
+	Vcl_Consts_SDomain,	L"&Dom\x00e4ne"
+	Vcl_Consts_SLogin,	L"Anmelden"
+	Vcl_Consts_SErrorSettingCount,	L"Fehler beim Setzen von %s.Count"
+	Vcl_Consts_SListBoxMustBeVirtual,	L"Stil des Listenfeldes (%s) muss virtuell sein, damit Count gesetzt werden kann"
+	Vcl_Consts_STrayIconRemoveError,	L"Shell-Benachrichtigungssymbol kann nicht entfernt werden"
+	Vcl_Consts_SWindowsVistaRequired,	L"F\x00fcr %s ist Windows Vista oder h\x00f6her erforderlich"
+	Vcl_Consts_STaskDlgButtonCaption,	L"Button%d"
+	Vcl_Consts_STaskDlgRadioButtonCaption,	L"RadioButton%d"
+	Vcl_Consts_SInvalidTaskDlgButtonCaption,	L"Caption darf nicht leer sein"
+	Vcl_Consts_SInvalidCanvasOperation,	L"Ung\x00fcltige Zeichenfl\x00e4chenoperation"
+	Vcl_Consts_SNoOwner,	L"%s hat keinen Eigent\x00fcmer"
+	Vcl_Consts_SRequireSameOwner,	L"F\x00fcr Quelle und Ziel ist derselbe Eigent\x00fcmer erforderlich"
+	Vcl_Consts_SDirect2DInvalidOwner,	L"Andere Zeichenfl\x00e4che kann nicht Eigent\x00fcmer von %s sein"
+	Vcl_Consts_SDirect2DInvalidSolidBrush,	L"Kein Pinsel mit einer einheitlichen Farbe"
+	Vcl_Consts_sAllFilter,	L"Alle"
+	Vcl_Consts_SInsertLineError,	L"Zeile kann nicht eingef\x00fcgt werden"
+	Vcl_Consts_SInvalidClipFmt,	L"Ung\x00fcltiges Zwischenablagenformat"
+	Vcl_Consts_SIconToClipboard,	L"Zwischenablage unterst\x00fctzt keine Symbole"
+	Vcl_Consts_SCannotOpenClipboard,	L"Zwischenablage %s kann nicht ge\x00f6ffnet werden"
+	Vcl_Consts_SInvalidMemoSize,	L"Text \x00fcberschreitet Memo-Kapazit\x00e4t"
+	Vcl_Consts_SInvalidPrinterOp,	L"Operation auf ausgew\x00e4hltem Drucker nicht verf\x00fcgbar"
+	Vcl_Consts_SNoDefaultPrinter,	L"Aktuell ist kein Standarddrucker ausgew\x00e4hlt"
+	Vcl_Consts_SDuplicateMenus,	L"Men\x00fc '%s' wird bereits von einem anderen Formular verwendet"
+	Vcl_Consts_SDockedCtlNeedsName,	L"Angedocktes Steuerelement muss einen Namen haben."
+	Vcl_Consts_SDockTreeRemoveError,	L"Fehler beim Entfernen des Steuerelements aus der Andock-Hierarchie"
+	Vcl_Consts_SDockZoneNotFound,	L" - Andockzone nicht gefunden"
+	Vcl_Consts_SDockZoneHasNoCtl,	L" - Andockzone enth\x00e4lt kein Steuerelement"
+	Vcl_Consts_SDockZoneVersionConflict,	L"Fehler beim Laden der Andockzone aus dem Stream. Version %d erwartet, aber %d gefunden."
+	Vcl_Consts_SPromptArrayTooShort,	L"L\x00e4nge des Werte-Arrays muss >= der L\x00e4nge des Prompt-Arrays sein"
+	Vcl_Consts_SPromptArrayEmpty,	L"Prompt-Array darf nicht leer sein"
+	Vcl_Consts_SmkcEnter,	L"Eingabe"
+	Vcl_Consts_SmkcSpace,	L"Leer"
+	Vcl_Consts_SmkcPgUp,	L"BildAuf"
+	Vcl_Consts_SmkcPgDn,	L"BildAb"
+	Vcl_Consts_SmkcEnd,	L"Ende"
+	Vcl_Consts_SmkcHome,	L"Pos1"
+	Vcl_Consts_SmkcLeft,	L"Links"
+	Vcl_Consts_SmkcUp,	L"Auf"
+	Vcl_Consts_SmkcRight,	L"Rechts"
+	Vcl_Consts_SmkcDown,	L"Ab"
+	Vcl_Consts_SmkcIns,	L"Einfg"
+	Vcl_Consts_SmkcDel,	L"Entf"
+	Vcl_Consts_SmkcShift,	L"Umsch+"
+	Vcl_Consts_SmkcCtrl,	L"Strg+"
+	Vcl_Consts_SmkcAlt,	L"Alt+"
+	Vcl_Consts_SOutOfRange,	L"Wert muss zwischen %d und %d liegen"
+	Vcl_Consts_SMsgDlgConfirm,	L"Best\x00e4tigen"
+	Vcl_Consts_SMsgDlgYes,	L"&Ja"
+	Vcl_Consts_SMsgDlgNo,	L"&Nein"
+	Vcl_Consts_SMsgDlgOK,	L"OK"
+	Vcl_Consts_SMsgDlgCancel,	L"Abbrechen"
+	Vcl_Consts_SMsgDlgHelp,	L"&Hilfe"
+	Vcl_Consts_SMsgDlgAbort,	L"&Abbrechen"
+	Vcl_Consts_SMsgDlgRetry,	L"&Wiederholen"
+	Vcl_Consts_SMsgDlgIgnore,	L"&Ignorieren"
+	Vcl_Consts_SMsgDlgAll,	L"&Alle"
+	Vcl_Consts_SMsgDlgNoToAll,	L"&Alle Nein"
+	Vcl_Consts_SMsgDlgYesToAll,	L"A&lle Ja"
+	Vcl_Consts_SMsgDlgClose,	L"S&chlie\x00dfen"
+	Vcl_Consts_SmkcBkSp,	L"R\x00fcck"
+	Vcl_Consts_SmkcTab,	L"Tab"
+	Vcl_Consts_SmkcEsc,	L"Esc"
+	Vcl_Consts_SVMetafiles,	L"Metadateien"
+	Vcl_Consts_SVEnhMetafiles,	L"Erweiterte Metadateien"
+	Vcl_Consts_SVIcons,	L"Symbole"
+	Vcl_Consts_SVBitmaps,	L"Bitmaps"
+	Vcl_Consts_SVTIFFImages,	L"TIFF-Grafiken"
+	Vcl_Consts_SGridTooLarge,	L"Gitter zu gro\x00df f\x00fcr Operation"
+	Vcl_Consts_STooManyDeleted,	L"Zu viele Zeilen oder Spalten gel\x00f6scht"
+	Vcl_Consts_SIndexOutOfRange,	L"Gitterindex au\x00dferhalb des zul\x00e4ssigen Bereichs"
+	Vcl_Consts_SFixedColTooBig,	L"Die Anzahl fester Spalten muss kleiner sein als die Spaltenanzahl"
+	Vcl_Consts_SFixedRowTooBig,	L"Die Anzahl fester Zeilen muss kleiner sein als die Zeilenanzahl"
+	Vcl_Consts_SInvalidStringGridOp,	L"Es k\x00f6nnen keine Zeilen des Tabellengitters gel\x00f6scht oder eingef\x00fcgt werden"
+	Vcl_Consts_SMaskErr,	L"Ung\x00fcltiger Eingabewert"
+	Vcl_Consts_SMaskEditErr,	L"Ung\x00fcltiger Eingabewert. Mit der Taste ESC machen Sie die \x00c4nderungen r\x00fcckg\x00e4ngig"
+	Vcl_Consts_SMsgDlgWarning,	L"Warnung"
+	Vcl_Consts_SMsgDlgError,	L"Fehler"
+	Vcl_Consts_SMsgDlgInformation,	L"Informationen"
+	Vcl_Consts_SDeviceOnPort,	L"%s an %s"
+	Vcl_Consts_SGroupIndexTooLow,	L"GroupIndex darf nicht kleiner sein als der GroupIndex eines vorherigen Men\x00fcelements"
+	Vcl_Consts_SNoMDIForm,	L"Formular kann nicht erstellt werden. Aktuell sind keine MDI-Formulare aktiv"
+	Vcl_Consts_SImageCanvasNeedsBitmap,	L"Ein Bild kann nur ge\x00e4ndert werden, wenn es ein Bitmap enth\x00e4lt"
+	Vcl_Consts_SControlParentSetToSelf,	L"Steuerelement kann nicht sich selbst als Vorfahr haben"
+	Vcl_Consts_SOKButton,	L"OK"
+	Vcl_Consts_SCancelButton,	L"Abbrechen"
+	Vcl_Consts_SYesButton,	L"&Ja"
+	Vcl_Consts_SNoButton,	L"&Nein"
+	Vcl_Consts_SHelpButton,	L"&Hilfe"
+	Vcl_Consts_SCloseButton,	L"&Schlie\x00dfen"
+	Vcl_Consts_SIgnoreButton,	L"&Ignorieren"
+	Vcl_Consts_SRetryButton,	L"&Wiederholen"
+	Vcl_Consts_SAbortButton,	L"Abbrechen"
+	Vcl_Consts_SAllButton,	L"&Alle"
+	Vcl_Consts_SCannotDragForm,	L"Formulare k\x00f6nnen nicht gezogen werden"
+	Vcl_Consts_SParentRequired,	L"Element '%s' hat kein \x00fcbergeordnetes Fenster"
+	Vcl_Consts_SControlPath,	L". Pfad:\r\n%s"
+	Vcl_Consts_SParentGivenNotAParent,	L"Das angegebene \x00fcbergeordnete Element ist kein \x00fcbergeordnetes Element von '%s'"
+	Vcl_Consts_SMDIChildNotVisible,	L"Untergeordnetes MDI-Formular kann nicht verborgen werden"
+	Vcl_Consts_SVisibleChanged,	L"Eigenschaft Visible kann in OnShow oder OnHide nicht ver\x00e4ndert werden"
+	Vcl_Consts_SCannotShowModal,	L"Sichtbares Fenster kann nicht in modales ge\x00e4ndert werden"
+	Vcl_Consts_SScrollBarRange,	L"Eigenschaft Scrollbar au\x00dferhalb des zul\x00e4ssigen Bereichs"
+	Vcl_Consts_SPropertyOutOfRange,	L"Eigenschaft %s au\x00dferhalb des zul\x00e4ssigen Bereichs"
+	Vcl_Consts_SMenuIndexError,	L"Men\x00fcindex au\x00dferhalb des zul\x00e4ssigen Bereichs"
+	Vcl_Consts_SMenuReinserted,	L"Men\x00fc zweimal eingef\x00fcgt"
+	Vcl_Consts_SMenuNotFound,	L"Untermen\x00fc ist nicht im Men\x00fc"
+	Vcl_Consts_SNoTimers,	L"Nicht gen\x00fcgend Timer verf\x00fcgbar"
+	Vcl_Consts_SNotPrinting,	L"Der Drucker druckt aktuell nicht"
+	Vcl_Consts_SPrinting,	L"Druckvorgang l\x00e4uft"
+	Vcl_Consts_SPrinterIndexError,	L"Druckerindex au\x00dferhalb des zul\x00e4ssigen Bereichs"
+	Vcl_Consts_SInvalidPrinter,	L"Ausgew\x00e4hlter Drucker ist ung\x00fcltig"
+	Vcl_Consts_SUnknownExtension,	L"Unbekannte Bilddateierweiterung (.%s)"
+	Vcl_Consts_SUnknownClipboardFormat,	L"Nicht unterst\x00fctztes Zwischenablagenformat"
+	Vcl_Consts_SUnknownStreamFormat,	L"Nicht unterst\x00fctztes Stream-Format"
+	Vcl_Consts_SOutOfResources,	L"Systemressourcen ersch\x00f6pft"
+	Vcl_Consts_SNoCanvasHandle,	L"Canvas erlaubt kein Zeichnen"
+	Vcl_Consts_SInvalidTextFormatFlag,	L"Das Textformat-Flag '%s' wird nicht unterst\x00fctzt"
+	Vcl_Consts_SInvalidImageSize,	L"Ung\x00fcltige Bildgr\x00f6\x00dfe"
+	Vcl_Consts_SInvalidImageList,	L"Ung\x00fcltige Bilderliste"
+	Vcl_Consts_SReplaceImage,	L"Bild kann nicht ersetzt werden"
+	Vcl_Consts_SInsertImage,	L"Bild kann nicht eingef\x00fcgt werden"
+	Vcl_Consts_SImageIndexError,	L"Ung\x00fcltiger ImageList-Index"
+	Vcl_Consts_SImageReadFail,	L"ImageList-Daten konnten nicht aus dem Stream gelesen werden"
+	Vcl_Consts_SImageWriteFail,	L"ImageList-Daten konnten nicht in den Stream geschrieben werden"
+	Vcl_Consts_SWindowDCError,	L"Fehler beim Erstellen des Fenster-Ger\x00e4tekontexts"
+	Vcl_Consts_SWindowClass,	L"Fehler beim Erzeugen einer Fensterklasse"
+	Vcl_Consts_SCannotFocus,	L"Deaktiviertes oder unsichtbares Fenster kann den Fokus nicht erhalten"
+	System_RTLConsts_SInvalidDateString,	L"Ung\x00fcltiger Datums-String: %s"
+	System_RTLConsts_SInvalidTimeString,	L"Ung\x00fcltiger Zeit-String: %s"
+	System_RTLConsts_SInvalidOffsetString,	L"Ung\x00fcltiger Zeit-Offset-String: %s"
+	System_RTLConsts_sCannotManuallyConstructDevice,	L"Die manuelle Erstellung von TDeviceInfo wird nicht unterst\x00fctzt"
+	System_RTLConsts_sAttributeExists,	L"Attribut '%s' ist bereits vorhanden"
+	System_RTLConsts_sDeviceExists,	L"Ger\x00e4t '%s' ist bereits vorhanden"
+	System_RTLConsts_sMustWaitOnOneEvent,	L"Es muss auf mindestens ein Ereignis gewartet werden"
+	System_RTLConsts_sBeginInvokeDestroying,	L"BeginInvoke kann bei der Freigabe f\x00fcr TComponent nicht aufgerufen werden"
+	Vcl_Consts_SInvalidBitmap,	L"Bitmap ist ung\x00fcltig"
+	Vcl_Consts_SInvalidIcon,	L"Ung\x00fcltiges Symbol"
+	Vcl_Consts_SInvalidMetafile,	L"Metadatei ist ung\x00fcltig"
+	Vcl_Consts_SInvalidPixelFormat,	L"Ung\x00fcltiges Pixel-Format"
+	Vcl_Consts_SScanLine,	L"Bereichs\x00fcberschreitung bei Zeilenindex"
+	Vcl_Consts_SChangeIconSize,	L"Die Gr\x00f6\x00dfe eines Symbols kann nicht ge\x00e4ndert werden"
+	Vcl_Consts_SChangeWicSize,	L"Die Gr\x00f6\x00dfe einer WIC-Grafik kann nicht ver\x00e4ndert werden"
+	Vcl_Consts_SOleGraphic,	L"Ung\x00fcltige Operation f\x00fcr TOleGraphic"
+	System_RTLConsts_SWindowsServer2003,	L"Windows Server 2003"
+	System_RTLConsts_SWindowsServer2003R2,	L"Windows Server 2003 R2"
+	System_RTLConsts_SWindowsServer2012,	L"Windows Server 2012"
+	System_RTLConsts_SWindowsServer2012R2,	L"Windows Server 2012 R2"
+	System_RTLConsts_SWindowsServer2016,	L"Windows Server 2016"
+	System_RTLConsts_SWindowsServer2019,	L"Windows Server 2019"
+	System_RTLConsts_SWindows8,	L"Windows 8"
+	System_RTLConsts_SWindows8Point1,	L"Windows 8.1"
+	System_RTLConsts_SWindows10,	L"Windows 10"
+	System_RTLConsts_SWinRTInstanceError,	L"Instanz der Klasse %s kann nicht erstellt werden"
+	System_RTLConsts_sObserverUnsupported,	L"Observer wird nicht unterst\x00fctzt"
+	System_RTLConsts_sObserverMultipleSingleCast,	L"Der Observer-Kollektion k\x00f6nnen nicht mehrere Einfach-Typumwandlungs-Observer hinzugef\x00fcgt werden"
+	System_RTLConsts_sObserverNoInterface,	L"Das Objekt implementiert das Observer-Interface nicht"
+	System_RTLConsts_sObserverNoSinglecastFound,	L"Der Observer-Kollektion wurde kein Einfach-Typumwandlungs-Observer mit der ID %d hinzugef\x00fcgt"
+	System_RTLConsts_sObserverNoMulticastFound,	L"Der Observer-Kollektion wurde kein Mehrfach-Typumwandlungs-Observer mit der ID %d hinzugef\x00fcgt"
+	System_RTLConsts_sObserverNotAvailable,	L"Observer ist nicht verf\x00fcgbar"
+	System_RTLConsts_SInsufficientRtti,	L"Unzureichende RTTI zur Unterst\x00fctzung dieser Operation verf\x00fcgbar"
+	System_RTLConsts_SParameterCountMismatch,	L"Parameteranzahl stimmt nicht \x00fcberein"
+	System_RTLConsts_SNonPublicType,	L"Typ '%s' ist im interface-Abschnitt einer Unit nicht deklariert"
+	System_RTLConsts_SByRefArgMismatch,	L"VAR- und OUT-Argumente m\x00fcssen exakt mit dem Parametertyp \x00fcbereinstimmen"
+	System_RTLConsts_SServiceNotFound,	L"Angegebener Dienst f\x00fcr die Anmeldeinformationen nicht gefunden"
+	System_RTLConsts_SVersionStr,	L"%s (Version %d.%d, Build %d, %5:s)"
+	System_RTLConsts_SSPVersionStr,	L"%s Service Pack %4:d (Version %1:d.%2:d, Build %3:d, %5:s)"
+	System_RTLConsts_SVersion32,	L"32-Bit-Edition"
+	System_RTLConsts_SVersion64,	L"64-Bit-Edition"
+	System_RTLConsts_SWindows,	L"Windows"
+	System_RTLConsts_SWindowsVista,	L"Windows Vista"
+	System_RTLConsts_SWindowsServer2008,	L"Windows Server 2008"
+	System_RTLConsts_SWindows7,	L"Windows 7"
+	System_RTLConsts_SWindowsServer2008R2,	L"Windows Server 2008 R2"
+	System_RTLConsts_SWindows2000,	L"Windows 2000"
+	System_RTLConsts_SWindowsXP,	L"Windows XP"
+	System_RTLConsts_sInvalidTimespanDuration,	L"Die Dauer kann nicht zur\x00fcckgegeben werden, weil der absolute Wert den Wert von TTimeSpan.MaxValue \x00fcberschreitet"
+	System_RTLConsts_sTimespanValueCannotBeNan,	L"Wert darf nicht NaN"
+	System_RTLConsts_sCannotNegateTimespan,	L"Negation des Minimalwertes einer Zeitspanne ist ung\x00fcltig"
+	System_RTLConsts_sInvalidTimespanFormat,	L"Ung\x00fcltiges TimeSpan-Format"
+	System_RTLConsts_sTimespanElementTooLong,	L"TimeSpan-Element zu lang"
+	System_RTLConsts_SNoContext,	L"Keine kontextsensitive Hilfe installiert"
+	System_RTLConsts_SNoContextFound,	L"Keine Hilfe f\x00fcr Kontext %d gefunden"
+	System_RTLConsts_SNoIndex,	L"Index kann nicht ge\x00f6ffnet werden"
+	System_RTLConsts_SNoSearch,	L"Suche kann nicht ge\x00f6ffnet werden"
+	System_RTLConsts_SNoTableOfContents,	L"Inhaltsverzeichnis nicht gefunden"
+	System_RTLConsts_SNoTopics,	L"Kein themenbezogenes Hilfesystem installiert"
+	System_RTLConsts_SNothingFound,	L"Keine Hilfe f\x00fcr %s gefunden"
+	System_RTLConsts_SArgumentOutOfRange,	L"Argument au\x00dferhalb des Bereichs"
+	System_RTLConsts_SArgumentNil,	L"Argument darf nicht nil sein"
+	System_RTLConsts_SGenericItemNotFound,	L"Eintrag nicht gefunden"
+	System_RTLConsts_SGenericDuplicateItem,	L"Duplikate nicht zul\x00e4ssig"
+	System_RTLConsts_SSpecifiedFileNotFound,	L"Die angegebene Datei wurde nicht gefunden"
+	System_RTLConsts_SMissingDateTimeField,	L"?"
+	System_RTLConsts_SLocalTimeInvalid,	L"Die angegebene \"%s\" lokale Uhrzeit ist ung\x00fcltig (befindet sich im fehlenden Zeitraum vor der Sommerzeit)."
+	System_RTLConsts_hNoFilterViewer,	L"Kein Hilfe-Viewer, der Filter unterst\x00fctzt"
+	System_RTLConsts_sArgumentInvalid,	L"Ung\x00fcltiges Argument"
+	System_RTLConsts_sArgumentOutOfRange_Index,	L"Index au\x00dferhalb des Bereichs (%d).  Muss >= 0 und < %d sein"
+	System_RTLConsts_sArgumentOutOfRange_StringIndex,	L"String-Index au\x00dferhalb des Bereichs (%d).  Muss >= %d und <= %d sein"
+	System_RTLConsts_sArgumentOutOfRange_InvalidUTF32,	L"Ung\x00fcltiger UTF32-Zeichenwert.  Muss >= 0 und <= $10FFFF sein, ausgenommen Ersatzpaarbereiche"
+	System_RTLConsts_sArgument_InvalidHighSurrogate,	L"Hohes Ersatzzeichen ohne folgendes niedriges Ersatzzeichen bei Index: %d. \x00dcberpr\x00fcfen Sie, ob der String korrekt codiert ist"
+	System_RTLConsts_sArgument_InvalidLowSurrogate,	L"Niedriges Ersatzzeichen ohne vorausgehendes hohes Ersatzzeichen bei Index: %d. \x00dcberpr\x00fcfen Sie, ob der String korrekt codiert ist"
+	System_RTLConsts_sInvalidStringAndObjectArrays,	L"Die L\x00e4nge von String- und Objekt-Arrays muss gleich sein"
+	System_RTLConsts_sSameArrays,	L"Quell- und Ziel-Arrays d\x00fcrfen nicht gleich sein"
+	System_RTLConsts_sNoConstruct,	L"Klasse %s soll nicht erzeugt werden"
+	System_RTLConsts_sInvalidTimeoutValue,	L"Ung\x00fcltiger Wert f\x00fcr Zeit\x00fcberschreitung: %s"
+	System_RTLConsts_sSpinCountOutOfRange,	L"SpinCount au\x00dferhalb des Bereichs. Muss zwischen 0 und %d liegen"
+	System_RTLConsts_sTimespanTooLong,	L"TimeSpan zu lang"
+	System_RTLConsts_SUnknownProperty,	L"Eigenschaft %s existiert nicht"
+	System_RTLConsts_SWriteError,	L"Stream-Schreibfehler"
+	System_RTLConsts_SThreadCreateError,	L"Fehler beim Erzeugen des Thread: %s"
+	System_RTLConsts_SThreadError,	L"Thread-Fehler: %s (%d)"
+	System_RTLConsts_SThreadExternalTerminate,	L"Ein extern erstellter Thread kann nicht beendet werden"
+	System_RTLConsts_SThreadExternalWait,	L"Auf einen extern erstellten Thread kann nicht gewartet werden"
+	System_RTLConsts_SThreadStartError,	L"Start kann f\x00fcr einen laufenden oder unterbrochenen Thread nicht aufgerufen werden"
+	System_RTLConsts_SThreadExternalCheckTerminated,	L"CheckTerminated kann nicht f\x00fcr einen extern erstellten Thread aufgerufen werden"
+	System_RTLConsts_SThreadExternalSetReturnValue,	L"SetReturnValue kann nicht f\x00fcr einen extern erstellten Thread aufgerufen werden"
+	System_RTLConsts_SParamIsNil,	L"Parameter %s darf nicht Nil sein"
+	System_RTLConsts_SParamIsNegative,	L"Parameter %s darf kein negativer Wert sein"
+	System_RTLConsts_SInputBufferExceed,	L"Eingabepuffer f\x00fcr %s = %d, %s = %d \x00fcberschritten"
+	System_RTLConsts_SInvalidCharsInPath,	L"Ung\x00fcltige Zeichen im Pfad"
+	System_RTLConsts_SPathTooLong,	L"Der angegebene Pfad ist zu lang"
+	System_RTLConsts_SPathNotFound,	L"Der angegebene Pfad wurde nicht gefunden"
+	System_RTLConsts_SPathFormatNotSupported,	L"Das Pfadformat wird nicht unterst\x00fctzt"
+	System_RTLConsts_SNoComSupport,	L"%s wurde nicht als COM-Klasse registriert"
+	System_RTLConsts_SNumberExpected,	L"Zahl erwartet"
+	System_RTLConsts_SAnsiUTF8Expected,	L"ANSI- oder UTF8-Codierung erwartet"
+	System_RTLConsts_SParseError,	L"%s in Zeile %d"
+	System_RTLConsts_SPropertyException,	L"Fehler beim Lesen von %s%s%s: %s"
+	System_RTLConsts_SReadError,	L"Stream-Lesefehler"
+	System_RTLConsts_SReadOnlyProperty,	L"Eigenschaft kann nur gelesen werden"
+	System_RTLConsts_SRegCreateFailed,	L"Erzeugung von Schl\x00fcssel %s misslungen"
+	System_RTLConsts_SRegGetDataFailed,	L"Fehler beim Holen der Daten f\x00fcr '%s'"
+	System_RTLConsts_SRegSetDataFailed,	L"Fehler beim Setzen der Daten f\x00fcr '%s'"
+	System_RTLConsts_SResNotFound,	L"Ressource %s nicht gefunden"
+	System_RTLConsts_SSeekNotImplemented,	L"%s.Seek nicht implementiert"
+	System_RTLConsts_SSortedListError,	L"Operation f\x00fcr sortierte Listen nicht zul\x00e4ssig"
+	System_RTLConsts_SStringExpected,	L"String erwartet"
+	System_RTLConsts_SSymbolExpected,	L"%s erwartet"
+	System_RTLConsts_SUnknownGroup,	L"%s befindet sich nicht in einer Gruppe f\x00fcr Klassenregistrierungen"
+	System_RTLConsts_SInvalidKnownFilename,	L"Ung\x00fcltiger Dateiname - %s"
+	System_RTLConsts_SInvalidImage,	L"Ung\x00fcltiges Stream-Format"
+	System_RTLConsts_SInvalidMask,	L"'%s' ist eine ung\x00fcltige Maske f\x00fcr (%d)"
+	System_RTLConsts_SInvalidName,	L"''%s'' ist kein g\x00fcltiger Komponentenname"
+	System_RTLConsts_SInvalidProperty,	L"Ung\x00fcltiger Eigenschaftswert"
+	System_RTLConsts_SInvalidPropertyElement,	L"Ung\x00fcltiges Eigenschaftselement: %s"
+	System_RTLConsts_SInvalidPropertyPath,	L"Ung\x00fcltiger Pfad f\x00fcr Eigenschaft"
+	System_RTLConsts_SInvalidPropertyType,	L"Ung\x00fcltiger Eigenschaftstyp: %s"
+	System_RTLConsts_SInvalidPropertyValue,	L"Ung\x00fcltiger Eigenschaftswert"
+	System_RTLConsts_SInvalidRegType,	L"Ung\x00fcltiger Datentyp f\x00fcr '%s'"
+	System_RTLConsts_SInvalidString,	L"Ung\x00fcltige Stringkonstante"
+	System_RTLConsts_SLineTooLong,	L"Zeile zu lang"
+	System_RTLConsts_SListCapacityError,	L"Kapazit\x00e4t der Liste ist ersch\x00f6pft (%d)"
+	System_RTLConsts_SListCountError,	L"Zu viele Eintr\x00e4ge in der Liste (%d)"
+	System_RTLConsts_SListIndexError,	L"Listenindex au\x00dferhalb des g\x00fcltigen Bereichs (%d)"
+	System_RTLConsts_SMemoryStreamError,	L"Expandieren des Speicher-Stream wegen Speichermangel nicht m\x00f6glich"
+	System_RTLConsts_SBitsIndexError,	L"Bits-Index au\x00dferhalb des zul\x00e4ssigen Bereichs"
+	System_RTLConsts_SCantWriteResourceStreamError,	L"In einen zum Lesen ge\x00f6ffneten Ressourcen-Stream kann nicht geschrieben werden"
+	System_RTLConsts_SCharExpected,	L"''%s'' erwartet"
+	System_RTLConsts_SCheckSynchronizeError,	L"CheckSynchronize wurde vom Thread $%x aufgerufen, der NICHT der Haupt-Thread ist."
+	System_RTLConsts_SClassNotFound,	L"Klasse %s nicht gefunden"
+	System_RTLConsts_SDuplicateClass,	L"Klasse mit der Bezeichnung %s existiert bereits"
+	System_RTLConsts_SDuplicateItem,	L"Liste gestattet keine doppelten Eintr\x00e4ge ($0%x)"
+	System_RTLConsts_SDuplicateName,	L"Komponente mit der Bezeichnung %s existiert bereits"
+	System_RTLConsts_SDuplicateString,	L"In der String-Liste sind Duplikate nicht zul\x00e4ssig"
+	System_RTLConsts_SFCreateErrorEx,	L"Datei \"%s\" kann nicht erstellt werden. %s"
+	System_RTLConsts_SFOpenErrorEx,	L"Datei %s kann nicht ge\x00f6ffnet werden. %s"
+	System_RTLConsts_SIdentifierExpected,	L"Bezeichner erwartet"
+	System_RTLConsts_SIniFileWriteError,	L"In %s kann nicht geschrieben werden"
+	System_RTLConsts_StrNoClientClass,	L"Der Client kann keine Instanz der Klasse %s sein"
+	System_RTLConsts_StrEActionNoSuported,	L"Klasse %s unterst\x00fctzt die Aktion nicht"
+	System_RTLConsts_SInvalidBinary,	L"Ung\x00fcltiger Bin\x00e4rwert"
+	System_SysConst_SLongDayNameThu,	L"Donnerstag"
+	System_SysConst_SLongDayNameFri,	L"Freitag"
+	System_SysConst_SLongDayNameSat,	L"Samstag"
+	System_SysConst_SCannotCreateDir,	L"Verzeichnis kann nicht erstellt werden"
+	System_SysConst_SInvalidSourceArray,	L"Ung\x00fcltiges Quell-Array"
+	System_SysConst_SInvalidDestinationArray,	L"Ung\x00fcltiges Ziel-Array"
+	System_SysConst_SCharIndexOutOfBounds,	L"Zeichenindex au\x00dferhalb des g\x00fcltigen Bereichs (%d)"
+	System_SysConst_SByteIndexOutOfBounds,	L"Startindex au\x00dferhalb des g\x00fcltigen Bereichs (%d)"
+	System_SysConst_SInvalidCharCount,	L"Ung\x00fcltige Anzahl (%d)"
+	System_SysConst_SInvalidDestinationIndex,	L"Ung\x00fcltiger Zielindex (%d)"
+	System_SysConst_SInvalidCodePage,	L"Ung\x00fcltige Codeseite"
+	System_SysConst_SInvalidEncodingName,	L"Ung\x00fcltiger Codierungsname"
+	System_SysConst_SNoMappingForUnicodeCharacter,	L"Keine Zuordnung f\x00fcr Unicode-Zeichen in der Multibyte-Zielcodeseite vorhanden"
+	System_SysConst_SInvalidStringBaseIndex,	L"Ung\x00fcltiger StringBaseIndex"
+	System_RTLConsts_SAncestorNotFound,	L"Vorfahr f\x00fcr '%s' nicht gefunden"
+	System_RTLConsts_SAssignError,	L"%s kann nicht zu %s zugewiesen werden"
+	System_SysConst_SLongMonthNameAug,	L"August"
+	System_SysConst_SLongMonthNameSep,	L"September"
+	System_SysConst_SLongMonthNameOct,	L"Oktober"
+	System_SysConst_SLongMonthNameNov,	L"November"
+	System_SysConst_SLongMonthNameDec,	L"Dezember"
+	System_SysConst_SShortDayNameSun,	L"So"
+	System_SysConst_SShortDayNameMon,	L"Mo"
+	System_SysConst_SShortDayNameTue,	L"Di"
+	System_SysConst_SShortDayNameWed,	L"Mi"
+	System_SysConst_SShortDayNameThu,	L"Do"
+	System_SysConst_SShortDayNameFri,	L"Fr"
+	System_SysConst_SShortDayNameSat,	L"Sa"
+	System_SysConst_SLongDayNameSun,	L"Sonntag"
+	System_SysConst_SLongDayNameMon,	L"Montag"
+	System_SysConst_SLongDayNameTue,	L"Dienstag"
+	System_SysConst_SLongDayNameWed,	L"Mittwoch"
+	System_SysConst_SShortMonthNameApr,	L"Apr"
+	System_SysConst_SShortMonthNameMay,	L"Mai"
+	System_SysConst_SShortMonthNameJun,	L"Jun"
+	System_SysConst_SShortMonthNameJul,	L"Jul"
+	System_SysConst_SShortMonthNameAug,	L"Aug"
+	System_SysConst_SShortMonthNameSep,	L"Sep"
+	System_SysConst_SShortMonthNameOct,	L"Okt"
+	System_SysConst_SShortMonthNameNov,	L"Nov"
+	System_SysConst_SShortMonthNameDec,	L"Dez"
+	System_SysConst_SLongMonthNameJan,	L"Januar"
+	System_SysConst_SLongMonthNameFeb,	L"Februar"
+	System_SysConst_SLongMonthNameMar,	L"M\x00e4rz"
+	System_SysConst_SLongMonthNameApr,	L"April"
+	System_SysConst_SLongMonthNameMay,	L"Mai"
+	System_SysConst_SLongMonthNameJun,	L"Juni"
+	System_SysConst_SLongMonthNameJul,	L"Juli"
+	System_SysConst_SExternalException,	L"Externe Exception %x"
+	System_SysConst_SAssertionFailed,	L"Auswertung von assert fehlgeschlagen"
+	System_SysConst_SIntfCastError,	L"Interface nicht unterst\x00fctzt"
+	System_SysConst_SSafecallException,	L"Exception in safecall-Methode"
+	System_SysConst_SMonitorLockException,	L"Kein Eigent\x00fcmer der Objektsperre"
+	System_SysConst_SNoMonitorSupportException,	L"Unterst\x00fctzungsfunktion f\x00fcr Monitor nicht initialisiert"
+	System_SysConst_SNotImplemented,	L"Feature nicht implementiert"
+	System_SysConst_SObjectDisposed,	L"Methode f\x00fcr freigegebenes Objekt aufgerufen"
+	System_SysConst_SAssertError,	L"%s (%s, Zeile %d)"
+	System_SysConst_SAbstractError,	L"Abstrakter Fehler"
+	System_SysConst_SModuleAccessViolation,	L"Zugriffsverletzung bei Adresse %p in Modul '%s'. %s von Adresse %p"
+	System_SysConst_SOSError,	L"Systemfehler.  Code: %d.\r\n%s%s"
+	System_SysConst_SUnkOSError,	L"Ein Aufruf einer Betriebssystemfunktion ist fehlgeschlagen"
+	System_SysConst_SShortMonthNameJan,	L"Jan"
+	System_SysConst_SShortMonthNameFeb,	L"Feb"
+	System_SysConst_SShortMonthNameMar,	L"M\x00e4r"
+	System_SysConst_SVarArrayLocked,	L"Variante oder sicheres Array ist gesperrt"
+	System_SysConst_SInvalidVarCast,	L"Ung\x00fcltige Varianten-Typumwandlung"
+	System_SysConst_SInvalidVarOp,	L"Ung\x00fcltige Variantenoperation"
+	System_SysConst_SInvalidVarNullOp,	L"Ung\x00fcltige NULL-Variantenoperation"
+	System_SysConst_SInvalidVarOpWithHResultWithPrefix,	L"Ung\x00fcltige Variantenoperation (%s%.8x)\n%s"
+	System_SysConst_SVarTypeOutOfRangeWithPrefix,	L"Benutzerdefinierter Variant-Typ (%s%.4x) au\x00dferhalb des g\x00fcltigen Bereichs"
+	System_SysConst_SVarTypeAlreadyUsedWithPrefix,	L"Benutzerdefinierter Variant-Typ (%s%.4x) bereits benutzt von %s"
+	System_SysConst_SVarTypeNotUsableWithPrefix,	L"Benutzerdefinierter Variant-Typ (%s%.4x) nicht brauchbar"
+	System_SysConst_SVarTypeTooManyCustom,	L"Es wurden zu viele benutzerdefinierte Variant-Typen registriert"
+	System_SysConst_SVarTypeCouldNotConvert,	L"Variante des Typs (%s) konnte nicht in Typ (%s) konvertiert werden"
+	System_SysConst_SVarTypeConvertOverflow,	L"\x00dcberlauf bei der Konvertierung einer Variante vom Typ (%s) in Typ (%s)"
+	System_SysConst_SVarOverflow,	L"Variant-\x00dcberlauf"
+	System_SysConst_SVarInvalid,	L"Ung\x00fcltiges Argument"
+	System_SysConst_SVarBadType,	L"Ung\x00fcltiger Variant-Typ"
+	System_SysConst_SVarNotImplemented,	L"Operation nicht unterst\x00fctzt"
+	System_SysConst_SVarUnexpected,	L"Unerwarteter Variant-Fehler"
+	System_SysConst_SStackOverflow,	L"Stack-\x00dcberlauf"
+	System_SysConst_SControlC,	L"Strg+C gedr\x00fcckt"
+	System_SysConst_SPrivilege,	L"Privilegierte Anweisung"
+	System_SysConst_SOperationAborted,	L"Operation abgebrochen"
+	System_SysConst_SException,	L"Exception %s in Modul %s bei %p.\r\n%s%s\r\n"
+	System_SysConst_SExceptTitle,	L"Anwendungsfehler"
+	System_SysConst_SInvalidFormat,	L"Format '%s' ung\x00fcltig oder nicht kompatibel mit Argument"
+	System_SysConst_SArgumentMissing,	L"Kein Argument f\x00fcr Format '%s'"
+	System_SysConst_SDispatchError,	L"Variant-Methodenaufruf nicht unterst\x00fctzt"
+	System_SysConst_SReadAccess,	L"Lesen"
+	System_SysConst_SWriteAccess,	L"Schreiben"
+	System_SysConst_SExecuteAccess,	L"Ausf\x00fchrung"
+	System_SysConst_SInvalidAccess,	L"Ung\x00fcltiger Zugriff"
+	System_SysConst_SFormatTooLong,	L"Format-String zu lang"
+	System_SysConst_SVarArrayCreate,	L"Fehler beim Erzeugen von Variante oder sicherem Array"
+	System_SysConst_SVarArrayBounds,	L"Variante oder sicheres Array-Index au\x00dferhalb des g\x00fcltigen Bereichs"
+	System_SysConst_STooManyOpenFiles,	L"Zu viele ge\x00f6ffnete Dateien"
+	System_SysConst_SAccessDenied,	L"Dateizugriff verweigert"
+	System_SysConst_SEndOfFile,	L"Versuch hinter dem Dateiende zu lesen"
+	System_SysConst_SDiskFull,	L"Zu wenig Speicherplatz"
+	System_SysConst_SInvalidInput,	L"Ung\x00fcltige numerische Eingabe"
+	System_SysConst_SDivByZero,	L"Division durch Null"
+	System_SysConst_SRangeError,	L"Fehler bei Bereichspr\x00fcfung"
+	System_SysConst_SIntOverflow,	L"Integer\x00fcberlauf"
+	System_SysConst_SInvalidOp,	L"Ung\x00fcltige Gleitkommaoperation"
+	System_SysConst_SZeroDivide,	L"Gleitkommadivision durch Null"
+	System_SysConst_SOverflow,	L"Gleitkomma\x00fcberlauf"
+	System_SysConst_SUnderflow,	L"Gleitkommaunterlauf"
+	System_SysConst_SInvalidPointer,	L"Ung\x00fcltige Zeigeroperation"
+	System_SysConst_SInvalidCast,	L"Ung\x00fcltige Typumwandlung"
+	System_SysConst_SAccessViolationArg3,	L"Zugriffsverletzung bei Adresse %p. %s von Adresse %p"
+	System_SysConst_SAccessViolationNoArg,	L"Zugriffsverletzung"
+	System_SysConst_SUnknown,	L"<unbekannt>"
+	System_SysConst_SInvalidInteger,	L"'%s' ist kein g\x00fcltiger Integerwert"
+	System_SysConst_SInvalidInteger2,	L"'%s' ist kein g\x00fcltiger Integerwert f\x00fcr Typ '%s'"
+	System_SysConst_SInvalidFloat,	L"'%s' ist kein g\x00fcltiger Gleitkommawert"
+	System_SysConst_SInvalidDate,	L"'%s' ist kein g\x00fcltiges Datum"
+	System_SysConst_SInvalidTime,	L"'%s' ist keine g\x00fcltige Uhrzeit"
+	System_SysConst_SInvalidDateTime,	L"'%s' ist keine g\x00fcltige Datums- und Uhrzeitangabe"
+	System_SysConst_SInvalidTimeStamp,	L"'%d.%d' ist kein g\x00fcltiger Zeitstempel"
+	System_SysConst_SInvalidGUID,	L"'%s' kein g\x00fcltiger Wert f\x00fcr GUID"
+	System_SysConst_SInvalidBoolean,	L"'%s' ist kein g\x00fcltiger boolescher Wert"
+	System_SysConst_STimeEncodeError,	L"Ung\x00fcltiges Argument zum Codieren der Uhrzeit"
+	System_SysConst_SDateEncodeError,	L"Ung\x00fcltiges Argument zum Codieren des Datums"
+	System_SysConst_SOutOfMemory,	L"Zu wenig Arbeitsspeicher"
+	System_SysConst_SInOutError,	L"E/A-Fehler %d"
+	System_SysConst_SFileNotFound,	L"Datei nicht gefunden"
+	System_SysConst_SInvalidUnknownFilename,	L"Ung\x00fcltiger Dateiname"
+END
+
+/* c:\program files (x86)\embarcadero\studio\21.0\lib\Win32\release\Controls.res */
+/* c:\program files (x86)\embarcadero\studio\21.0\lib\Win32\release\Dialogs.res */
+/* D:\Bachmann\Daten\OneDrive\Asus-PC-2018\Programmierung\Delphi\Sydney\Projekte\HarddriveClone2\Form\Form.Base.dfm */
+/* D:\Bachmann\Daten\OneDrive\Asus-PC-2018\Programmierung\Delphi\Sydney\Projekte\HarddriveClone2\Form\Form.JobItem.dfm */
+/* c:\Bachmann\Programmierung\Delphi\Sydney\Komponenten\Devart\UniDAC for RAD Studio 10.4\Lib\Win32\DBAccess.res */
+/* c:\program files (x86)\embarcadero\studio\21.0\lib\Win32\release\FMX.Filter.res */
+/* c:\program files (x86)\embarcadero\studio\21.0\lib\Win32\release\FMX.Controls.Win.res */
+/* D:\Bachmann\Daten\OneDrive\Asus-PC-2018\Programmierung\Delphi\Sydney\Projekte\HarddriveClone2\Form\dm.Datenbank.dfm */
+/* c:\program files (x86)\embarcadero\studio\21.0\lib\Win32\release\Buttons.res */
+/* c:\program files (x86)\embarcadero\studio\21.0\lib\Win32\release\SPIN.RES */
+/* c:\Bachmann\Programmierung\Delphi\Sydney\Komponenten\TMS\TMS VCL UI Pack v10.5.9.0\AdvGraphics.res */
+/* c:\Bachmann\Programmierung\Delphi\Sydney\Komponenten\TMS\TMS VCL UI Pack v10.5.9.0\AdvSVGImageCollection.dcr */
+/* c:\Bachmann\Programmierung\Delphi\Sydney\Komponenten\TMS\TMS VCL UI Pack v10.5.9.0\AdvEditGlyphs.res */
+/* c:\program files (x86)\embarcadero\studio\21.0\lib\Win32\release\FileCtrl.res */
+/* c:\Bachmann\Programmierung\Delphi\Sydney\Komponenten\TMS\TMS VCL UI Pack v10.5.9.0\AdvDirectoryEdit.RES */
+/* D:\Bachmann\Daten\OneDrive\Asus-PC-2018\Programmierung\Delphi\Sydney\Projekte\HarddriveClone2\Form\Form.JobItemEdit.dfm */
+/* D:\Bachmann\Daten\OneDrive\Asus-PC-2018\Programmierung\Delphi\Sydney\Projekte\HarddriveClone2\Form\Form.Joblist.dfm */
+/* c:\Bachmann\Programmierung\Delphi\Sydney\Komponenten\TMS\TMS VCL UI Pack v10.5.9.0\ASGSPIN.RES */
+/* c:\Bachmann\Programmierung\Delphi\Sydney\Komponenten\TMS\TMS VCL UI Pack v10.5.9.0\AdvColorPickerDropDown.RES */
+/* c:\Bachmann\Programmierung\Delphi\Sydney\Komponenten\TMS\TMS VCL UI Pack v10.5.9.0\ADVGRID.RES */
+/* c:\Bachmann\Programmierung\Delphi\Sydney\Komponenten\TMS\TMS VCL UI Pack v10.5.9.0\ASGRES.RES */
+/* c:\Bachmann\Programmierung\Delphi\Sydney\Komponenten\TMS\TMS VCL UI Pack v10.5.9.0\ADVMETRO.RES */
+/* c:\Bachmann\Programmierung\Delphi\Sydney\Komponenten\TMS\TMS VCL UI Pack v10.5.9.0\ASGFLTR.RES */
+/* D:\Bachmann\Daten\OneDrive\Asus-PC-2018\Programmierung\Delphi\Sydney\Projekte\HarddriveClone2\Form\Form.IgnorePfad.dfm */
+/* D:\Bachmann\Daten\OneDrive\Asus-PC-2018\Programmierung\Delphi\Sydney\Projekte\HarddriveClone2\Form\Form.Prozess.dfm */
+/* D:\Bachmann\Daten\OneDrive\Asus-PC-2018\Programmierung\Delphi\Sydney\Projekte\HarddriveClone2\Form\Form.Main.dfm */
+/* D:\Bachmann\Daten\OneDrive\Asus-PC-2018\Programmierung\Delphi\Sydney\Projekte\HarddriveClone2\Form\Form.HarddriveClone2.dfm */
+/* D:\Bachmann\Daten\OneDrive\Asus-PC-2018\Programmierung\Delphi\Sydney\Projekte\HarddriveClone2\HarddriveClone2.res */
+/* D:\Bachmann\Daten\OneDrive\Asus-PC-2018\Programmierung\Delphi\Sydney\Projekte\HarddriveClone2\HarddriveClone2.drf */

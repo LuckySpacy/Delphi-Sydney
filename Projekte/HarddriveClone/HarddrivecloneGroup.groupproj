@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{E52E0BBA-352F-4DA4-B03E-AF4B3F2F2D29}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="UI\HarddriveCloneUI.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Clone\HarddriveClone.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="HarddriveCloneUI">
+        <MSBuild Projects="UI\HarddriveCloneUI.dproj"/>
+    </Target>
+    <Target Name="HarddriveCloneUI:Clean">
+        <MSBuild Projects="UI\HarddriveCloneUI.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HarddriveCloneUI:Make">
+        <MSBuild Projects="UI\HarddriveCloneUI.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="HarddriveClone">
+        <MSBuild Projects="Clone\HarddriveClone.dproj"/>
+    </Target>
+    <Target Name="HarddriveClone:Clean">
+        <MSBuild Projects="Clone\HarddriveClone.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HarddriveClone:Make">
+        <MSBuild Projects="Clone\HarddriveClone.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="HarddriveCloneUI;HarddriveClone"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="HarddriveCloneUI:Clean;HarddriveClone:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="HarddriveCloneUI:Make;HarddriveClone:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

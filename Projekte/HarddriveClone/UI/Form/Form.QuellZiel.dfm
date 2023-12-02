@@ -1,0 +1,149 @@
+object frm_QuellZiel: Tfrm_QuellZiel
+  Left = 0
+  Top = 0
+  Caption = 'Quell- und Zielverzeichnis w'#228'hlen'
+  ClientHeight = 586
+  ClientWidth = 1021
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Splitter1: TSplitter
+    Left = 481
+    Top = 41
+    Height = 545
+    ExplicitLeft = 536
+    ExplicitTop = 54
+    ExplicitHeight = 734
+  end
+  object pnl_Quell: TPanel
+    Left = 0
+    Top = 41
+    Width = 481
+    Height = 545
+    Align = alLeft
+    BevelOuter = bvNone
+    Caption = 'pnl_Quell'
+    ShowCaption = False
+    TabOrder = 0
+    object Label1: TLabel
+      AlignWithMargins = True
+      Left = 3
+      Top = 3
+      Width = 92
+      Height = 16
+      Align = alTop
+      Caption = 'Quellverzeichnis'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object QuellDir: TDirectoryListBox
+      Left = 0
+      Top = 47
+      Width = 481
+      Height = 498
+      Align = alClient
+      TabOrder = 0
+    end
+    object QuellDrive: TDriveComboBox
+      AlignWithMargins = True
+      Left = 3
+      Top = 25
+      Width = 475
+      Height = 19
+      Align = alTop
+      DirList = QuellDir
+      TabOrder = 1
+    end
+  end
+  object pnl_Ziel: TPanel
+    Left = 484
+    Top = 41
+    Width = 537
+    Height = 545
+    Align = alClient
+    BevelOuter = bvNone
+    Caption = 'pnl_Quell'
+    ShowCaption = False
+    TabOrder = 1
+    object Label2: TLabel
+      AlignWithMargins = True
+      Left = 3
+      Top = 3
+      Width = 83
+      Height = 16
+      Align = alTop
+      Caption = 'Zielverzeichnis'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object ZielDir: TDirectoryListBox
+      Left = 0
+      Top = 47
+      Width = 537
+      Height = 498
+      Align = alClient
+      TabOrder = 0
+    end
+    object ZielDrive: TDriveComboBox
+      AlignWithMargins = True
+      Left = 3
+      Top = 25
+      Width = 531
+      Height = 19
+      Align = alTop
+      DirList = ZielDir
+      TabOrder = 1
+    end
+  end
+  object pnl_Button: TPanel
+    Left = 0
+    Top = 0
+    Width = 1021
+    Height = 41
+    Align = alTop
+    BevelOuter = bvNone
+    Caption = 'pnl_Quell'
+    ShowCaption = False
+    TabOrder = 2
+    object btn_Ok: TButton
+      AlignWithMargins = True
+      Left = 3
+      Top = 3
+      Width = 75
+      Height = 35
+      Align = alLeft
+      Caption = 'Ok'
+      TabOrder = 0
+      OnClick = btn_OkClick
+    end
+    object btn_Cancel: TButton
+      AlignWithMargins = True
+      Left = 943
+      Top = 3
+      Width = 75
+      Height = 35
+      Align = alRight
+      Caption = 'Abbrechen'
+      TabOrder = 1
+      OnClick = btn_CancelClick
+    end
+  end
+end

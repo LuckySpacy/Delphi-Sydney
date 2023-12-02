@@ -1,0 +1,71 @@
+object frm_Job: Tfrm_Job
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'frm_Job'
+  ClientHeight = 529
+  ClientWidth = 668
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnl_Toolbar: TPanel
+    Left = 0
+    Top = 0
+    Width = 668
+    Height = 41
+    Align = alTop
+    BevelOuter = bvNone
+    Caption = 'pnl_Toolbar'
+    ShowCaption = False
+    TabOrder = 0
+    object btn_Neu: TButton
+      AlignWithMargins = True
+      Left = 3
+      Top = 3
+      Width = 75
+      Height = 35
+      Align = alLeft
+      Caption = 'Neu'
+      TabOrder = 0
+      OnClick = btn_NeuClick
+    end
+    object btn_Delete: TButton
+      AlignWithMargins = True
+      Left = 84
+      Top = 3
+      Width = 75
+      Height = 35
+      Align = alLeft
+      Caption = 'L'#246'schen'
+      TabOrder = 1
+      OnClick = btn_DeleteClick
+    end
+  end
+  object ScrollBox1: TScrollBox
+    AlignWithMargins = True
+    Left = 3
+    Top = 44
+    Width = 662
+    Height = 482
+    Align = alClient
+    BevelInner = bvNone
+    BevelOuter = bvNone
+    TabOrder = 1
+  end
+  object tmr_ScrollboxRepaint: TTimer
+    Enabled = False
+    Interval = 1
+    OnTimer = tmr_ScrollboxRepaintTimer
+    Left = 480
+    Top = 153
+  end
+end
