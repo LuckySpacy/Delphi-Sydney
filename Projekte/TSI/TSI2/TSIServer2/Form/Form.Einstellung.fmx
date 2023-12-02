@@ -1,0 +1,258 @@
+object frm_Einstellung: Tfrm_Einstellung
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 530
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object GroupBox1: TGroupBox
+    Align = Top
+    Size.Width = 530.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Interval'
+    object Label1: TLabel
+      AutoSize = True
+      Position.X = 8.000000000000000000
+      Position.Y = 27.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 16.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Uhrzeit'
+    end
+    object edt_Uhrzeit: TTimeEdit
+      Time = 0.677687685185185200
+      Position.X = 53.000000000000000000
+      Position.Y = 25.000000000000000000
+      Size.Width = 76.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label2: TLabel
+      AutoSize = True
+      Position.X = 144.000000000000000000
+      Position.Y = 27.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 16.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Schnittstelle'
+    end
+    object cbo_Schnittstelle: TComboBox
+      Anchors = [akLeft, akTop, akRight]
+      Position.X = 216.000000000000000000
+      Position.Y = 25.000000000000000000
+      Size.Width = 298.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      OnExit = EditExit
+    end
+  end
+  object GroupBox2: TGroupBox
+    Align = Top
+    Position.Y = 65.000000000000000000
+    Size.Width = 530.000000000000000000
+    Size.Height = 100.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Pfade'
+    object Label3: TLabel
+      AutoSize = True
+      Position.X = 16.000000000000000000
+      Position.Y = 27.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 16.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Downloadpfad'
+    end
+    object Label4: TLabel
+      AutoSize = True
+      Position.X = 16.000000000000000000
+      Position.Y = 59.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 16.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Zielpfad'
+    end
+    object edt_Downloadpfad: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Anchors = [akLeft, akTop, akRight]
+      Position.X = 104.000000000000000000
+      Position.Y = 24.000000000000000000
+      Size.Width = 411.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object edt_Zielpfad: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Anchors = [akLeft, akTop, akRight]
+      Position.X = 104.000000000000000000
+      Position.Y = 56.000000000000000000
+      Size.Width = 411.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object GroupBox3: TGroupBox
+    Align = Top
+    Position.Y = 165.000000000000000000
+    Size.Width = 530.000000000000000000
+    Size.Height = 108.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Datenbank'
+    object Label5: TLabel
+      AutoSize = True
+      Position.X = 24.000000000000000000
+      Position.Y = 27.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 16.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Server'
+    end
+    object Label6: TLabel
+      AutoSize = True
+      Position.X = 24.000000000000000000
+      Position.Y = 51.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 16.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Kurse'
+    end
+    object Label7: TLabel
+      AutoSize = True
+      Position.X = 24.000000000000000000
+      Position.Y = 75.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 16.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'TSI'
+    end
+    object edt_Server: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Anchors = [akLeft, akTop, akRight]
+      Position.X = 104.000000000000000000
+      Position.Y = 24.000000000000000000
+      Size.Width = 411.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object edt_KurseFDB: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Anchors = [akLeft, akTop, akRight]
+      Position.X = 104.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 411.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object edt_TSIFDB: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Anchors = [akLeft, akTop, akRight]
+      Position.X = 104.000000000000000000
+      Position.Y = 72.000000000000000000
+      Size.Width = 411.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object btn_Start: TButton
+    Align = Top
+    Margins.Left = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 395.000000000000000000
+    Size.Width = 510.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Start'
+    OnClick = btn_StartClick
+  end
+  object Lay_Progress: TLayout
+    Align = Top
+    Position.Y = 345.000000000000000000
+    Size.Width = 530.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    object lbl_Progress: TLabel
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 520.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'lbl_Progress'
+    end
+    object pg: TProgressBar
+      Align = Top
+      Orientation = Horizontal
+      Margins.Left = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 22.000000000000000000
+      Size.Width = 510.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object Layout1: TLayout
+    Align = Top
+    Position.Y = 273.000000000000000000
+    Size.Width = 530.000000000000000000
+    Size.Height = 72.000000000000000000
+    Size.PlatformDefault = False
+    object cbx_DownloadKurse: TCheckBox
+      Position.X = 16.000000000000000000
+      Position.Y = 8.000000000000000000
+      Text = 'Download Kurse'
+    end
+    object cbx_AbwProz: TCheckBox
+      Position.X = 16.000000000000000000
+      Position.Y = 40.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Prozentabweichung'
+    end
+    object cbx_TSIWerte: TCheckBox
+      Position.X = 376.000000000000000000
+      Position.Y = 8.000000000000000000
+      Text = 'TSI - Werte'
+    end
+    object cbx_KursHochTief: TCheckBox
+      Position.X = 376.000000000000000000
+      Position.Y = 40.000000000000000000
+      Text = 'Hoch-Tief-Kurse'
+    end
+    object cbx_CSVKurseToDB: TCheckBox
+      Position.X = 160.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'CSV-Kurse zur Datenbank'
+    end
+    object cbx_GuVJahr: TCheckBox
+      Position.X = 160.000000000000000000
+      Position.Y = 40.000000000000000000
+      Text = 'GuV Jahr'
+    end
+  end
+  object lbl_NaechsterStart: TLabel
+    Align = Bottom
+    Margins.Left = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 453.000000000000000000
+    Size.Width = 510.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'lbl_NaechsterStart'
+    TabOrder = 0
+  end
+end

@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{BA65E0AE-77AB-4E71-A544-E2B5C6D1E06C}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Form\TSIServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\..\..\Test\Firedac\MySql\Test 1\Project1.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Einstellung\Form\Einstellung.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="TSIServer">
+        <MSBuild Projects="Form\TSIServer.dproj"/>
+    </Target>
+    <Target Name="TSIServer:Clean">
+        <MSBuild Projects="Form\TSIServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TSIServer:Make">
+        <MSBuild Projects="Form\TSIServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project1">
+        <MSBuild Projects="..\..\..\..\Test\Firedac\MySql\Test 1\Project1.dproj"/>
+    </Target>
+    <Target Name="Project1:Clean">
+        <MSBuild Projects="..\..\..\..\Test\Firedac\MySql\Test 1\Project1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project1:Make">
+        <MSBuild Projects="..\..\..\..\Test\Firedac\MySql\Test 1\Project1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Einstellung">
+        <MSBuild Projects="..\Einstellung\Form\Einstellung.dproj"/>
+    </Target>
+    <Target Name="Einstellung:Clean">
+        <MSBuild Projects="..\Einstellung\Form\Einstellung.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Einstellung:Make">
+        <MSBuild Projects="..\Einstellung\Form\Einstellung.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="TSIServer;Project1;Einstellung"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="TSIServer:Clean;Project1:Clean;Einstellung:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="TSIServer:Make;Project1:Make;Einstellung:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

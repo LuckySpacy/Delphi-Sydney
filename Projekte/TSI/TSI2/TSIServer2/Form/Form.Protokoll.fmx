@@ -1,0 +1,40 @@
+object frm_Protokoll: Tfrm_Protokoll
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object mem_Protokoll: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    StyledSettings = [Size, Style, FontColor]
+    TextSettings.Font.Family = 'Courier New'
+    Align = Client
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 50.000000000000000000
+    Size.Width = 620.000000000000000000
+    Size.Height = 420.000000000000000000
+    Size.PlatformDefault = False
+    Viewport.Width = 616.000000000000000000
+    Viewport.Height = 416.000000000000000000
+  end
+  object btn_ClearProtokoll: TButton
+    Anchors = [akRight, akBottom]
+    Position.X = 488.000000000000000000
+    Position.Y = 440.000000000000000000
+    Size.Width = 136.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Protokoll l'#246'schen'
+    OnClick = btn_ClearProtokollClick
+  end
+end

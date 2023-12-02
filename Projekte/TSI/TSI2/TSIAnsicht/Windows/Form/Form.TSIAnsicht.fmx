@@ -1,0 +1,89 @@
+object frm_TSIAnsicht: Tfrm_TSIAnsicht
+  Left = 0
+  Top = 0
+  Caption = 'TSI-Ansicht'
+  ClientHeight = 480
+  ClientWidth = 943
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnResize = FormResize
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 943.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabPosition = PlatformDefault
+    Sizes = (
+      943s
+      454s
+      943s
+      454s
+      943s
+      454s
+      943s
+      454s)
+    object tbs_TSI: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 36.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TSI'
+      ExplicitSize.cx = 36.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+    end
+    object tbs_TSI2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 43.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TSI2'
+      ExplicitSize.cx = 43.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+    end
+    object tbs_GuVJahre: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 70.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'GuVJahre'
+      ExplicitSize.cx = 70.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+    end
+    object tbs_Chart: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 49.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Chart'
+      ExplicitSize.cx = 49.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+    end
+  end
+end

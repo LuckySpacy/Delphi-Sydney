@@ -1,0 +1,197 @@
+object frm_TSIDepot: Tfrm_TSIDepot
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 576
+  ClientWidth = 500
+  StyleBook = dm_Style.StyleBook
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object rec_Background: TRectangle
+    Align = Client
+    Fill.Color = claSkyblue
+    Size.Width = 500.000000000000000000
+    Size.Height = 576.000000000000000000
+    Size.PlatformDefault = False
+    object lay_Grid: TLayout
+      Align = Client
+      Size.Width = 500.000000000000000000
+      Size.Height = 445.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object grd: TStringGrid
+        Align = Client
+        CanFocus = True
+        ClipChildren = True
+        Size.Width = 500.000000000000000000
+        Size.Height = 445.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        OnDrawColumnCell = grdDrawColumnCell
+        OnEditingDone = grdEditingDone
+        Viewport.Width = 495.000000000000000000
+        Viewport.Height = 413.000000000000000000
+        object Col_WKN: TStringColumn
+        end
+        object Col_Aktie: TStringColumn
+          Size.Width = 188.000000000000000000
+        end
+        object Col_Depot: TCheckColumn
+        end
+      end
+    end
+    object Lay_Depot: TLayout
+      Align = Top
+      Position.Y = 85.000000000000000000
+      Size.Width = 500.000000000000000000
+      Size.Height = 46.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object lbl_Depot: TLabel
+        Align = Left
+        StyledSettings = [Family, Style, FontColor]
+        Margins.Left = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Size.Width = 63.000000000000000000
+        Size.Height = 46.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 14.000000000000000000
+        Text = 'Depot'
+        TabOrder = 0
+      end
+      object cbx_Depot: TComboBox
+        Align = Left
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Margins.Top = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 73.000000000000000000
+        Position.Y = 7.000000000000000000
+        Size.Width = 284.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        OnChange = cbx_DepotChange
+      end
+      object lay_DepotButtons: TLayout
+        Align = Right
+        Position.X = 357.000000000000000000
+        Size.Width = 143.000000000000000000
+        Size.Height = 46.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object btn_ChangeDepot: TSpeedButton
+          Align = Right
+          Position.X = -1.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'composetoolbutton'
+          Text = 'btn_DepotAdd'
+          OnClick = btn_ChangeDepotClick
+        end
+        object btn_DepotAdd: TSpeedButton
+          Align = Right
+          Position.X = 47.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'addtoolbutton'
+          Text = 'btn_DepotAdd'
+          OnClick = btn_DepotAddClick
+        end
+        object btn_DepotDel: TSpeedButton
+          Align = Right
+          Position.X = 95.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'trashtoolbutton'
+          Text = 'btn_DepotAdd'
+          OnClick = btn_DepotDelClick
+        end
+      end
+    end
+    object lay_Benutzer: TLayout
+      Align = MostTop
+      Size.Width = 500.000000000000000000
+      Size.Height = 46.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object lbl_Benutzer: TLabel
+        Align = Left
+        StyledSettings = [Family, Style, FontColor]
+        Margins.Left = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Size.Width = 63.000000000000000000
+        Size.Height = 46.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 14.000000000000000000
+        Text = 'Benutzer'
+        TabOrder = 0
+      end
+      object cbx_Benutzer: TComboBox
+        Align = Left
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Margins.Top = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 73.000000000000000000
+        Position.Y = 7.000000000000000000
+        Size.Width = 285.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+      end
+    end
+    object lay_Aktie: TLayout
+      Align = Top
+      Position.Y = 46.000000000000000000
+      Size.Width = 500.000000000000000000
+      Size.Height = 39.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object edt_Aktie: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Left
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        TabOrder = 0
+        TextSettings.Font.Size = 14.000000000000000000
+        Position.X = 73.000000000000000000
+        Position.Y = 4.000000000000000000
+        Size.Width = 285.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style, FontColor]
+        OnKeyUp = edt_AktieKeyUp
+      end
+      object lbl_Aktie: TLabel
+        Align = Left
+        StyledSettings = [Family, Style, FontColor]
+        Margins.Left = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Size.Width = 63.000000000000000000
+        Size.Height = 39.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 14.000000000000000000
+        Text = 'Aktie'
+        TabOrder = 1
+      end
+      object cbx_ImDepot: TCheckBox
+        Align = Right
+        StyledSettings = [Family, Style, FontColor]
+        Position.X = 405.000000000000000000
+        Size.Width = 95.000000000000000000
+        Size.Height = 39.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = 'Im Depot'
+        TextSettings.Font.Size = 14.000000000000000000
+        OnChange = cbx_ImDepotChange
+      end
+    end
+  end
+end

@@ -1,0 +1,156 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{31BBFAB5-13F1-48B9-97F8-6389A849658D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="TSIServer2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Rezept\Rezept.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\TSI\TSI\Server\Form\TSIServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Rezept\App\RezeptApp.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Minitools\EntfernenCR\EntferneCR.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Rezept\RezeptServer\RezeptServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\TSISnapServer\TSISnapServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\TSIAnsicht\Windows\TSIAnsichtWin.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\TSI\TSI\Ansicht\TSIAnsicht.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\TSIDepot\TSIDepot.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\TSI\TSI\Einstellung\Form\Einstellung.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="TSIServer2">
+        <MSBuild Projects="TSIServer2.dproj"/>
+    </Target>
+    <Target Name="TSIServer2:Clean">
+        <MSBuild Projects="TSIServer2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TSIServer2:Make">
+        <MSBuild Projects="TSIServer2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Rezept">
+        <MSBuild Projects="..\..\Rezept\Rezept.dproj"/>
+    </Target>
+    <Target Name="Rezept:Clean">
+        <MSBuild Projects="..\..\Rezept\Rezept.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Rezept:Make">
+        <MSBuild Projects="..\..\Rezept\Rezept.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TSIServer">
+        <MSBuild Projects="..\..\TSI\TSI\Server\Form\TSIServer.dproj"/>
+    </Target>
+    <Target Name="TSIServer:Clean">
+        <MSBuild Projects="..\..\TSI\TSI\Server\Form\TSIServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TSIServer:Make">
+        <MSBuild Projects="..\..\TSI\TSI\Server\Form\TSIServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RezeptApp">
+        <MSBuild Projects="..\..\Rezept\App\RezeptApp.dproj"/>
+    </Target>
+    <Target Name="RezeptApp:Clean">
+        <MSBuild Projects="..\..\Rezept\App\RezeptApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RezeptApp:Make">
+        <MSBuild Projects="..\..\Rezept\App\RezeptApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EntferneCR">
+        <MSBuild Projects="..\..\Minitools\EntfernenCR\EntferneCR.dproj"/>
+    </Target>
+    <Target Name="EntferneCR:Clean">
+        <MSBuild Projects="..\..\Minitools\EntfernenCR\EntferneCR.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EntferneCR:Make">
+        <MSBuild Projects="..\..\Minitools\EntfernenCR\EntferneCR.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RezeptServer">
+        <MSBuild Projects="..\..\Rezept\RezeptServer\RezeptServer.dproj"/>
+    </Target>
+    <Target Name="RezeptServer:Clean">
+        <MSBuild Projects="..\..\Rezept\RezeptServer\RezeptServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RezeptServer:Make">
+        <MSBuild Projects="..\..\Rezept\RezeptServer\RezeptServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TSISnapServer">
+        <MSBuild Projects="..\TSISnapServer\TSISnapServer.dproj"/>
+    </Target>
+    <Target Name="TSISnapServer:Clean">
+        <MSBuild Projects="..\TSISnapServer\TSISnapServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TSISnapServer:Make">
+        <MSBuild Projects="..\TSISnapServer\TSISnapServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TSIAnsichtWin">
+        <MSBuild Projects="..\TSIAnsicht\Windows\TSIAnsichtWin.dproj"/>
+    </Target>
+    <Target Name="TSIAnsichtWin:Clean">
+        <MSBuild Projects="..\TSIAnsicht\Windows\TSIAnsichtWin.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TSIAnsichtWin:Make">
+        <MSBuild Projects="..\TSIAnsicht\Windows\TSIAnsichtWin.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TSIAnsicht">
+        <MSBuild Projects="..\..\TSI\TSI\Ansicht\TSIAnsicht.dproj"/>
+    </Target>
+    <Target Name="TSIAnsicht:Clean">
+        <MSBuild Projects="..\..\TSI\TSI\Ansicht\TSIAnsicht.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TSIAnsicht:Make">
+        <MSBuild Projects="..\..\TSI\TSI\Ansicht\TSIAnsicht.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TSIDepot">
+        <MSBuild Projects="..\TSIDepot\TSIDepot.dproj"/>
+    </Target>
+    <Target Name="TSIDepot:Clean">
+        <MSBuild Projects="..\TSIDepot\TSIDepot.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TSIDepot:Make">
+        <MSBuild Projects="..\TSIDepot\TSIDepot.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Einstellung">
+        <MSBuild Projects="..\..\TSI\TSI\Einstellung\Form\Einstellung.dproj"/>
+    </Target>
+    <Target Name="Einstellung:Clean">
+        <MSBuild Projects="..\..\TSI\TSI\Einstellung\Form\Einstellung.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Einstellung:Make">
+        <MSBuild Projects="..\..\TSI\TSI\Einstellung\Form\Einstellung.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="TSIServer2;Rezept;TSIServer;RezeptApp;EntferneCR;RezeptServer;TSISnapServer;TSIAnsichtWin;TSIAnsicht;TSIDepot;Einstellung"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="TSIServer2:Clean;Rezept:Clean;TSIServer:Clean;RezeptApp:Clean;EntferneCR:Clean;RezeptServer:Clean;TSISnapServer:Clean;TSIAnsichtWin:Clean;TSIAnsicht:Clean;TSIDepot:Clean;Einstellung:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="TSIServer2:Make;Rezept:Make;TSIServer:Make;RezeptApp:Make;EntferneCR:Make;RezeptServer:Make;TSISnapServer:Make;TSIAnsichtWin:Make;TSIAnsicht:Make;TSIDepot:Make;Einstellung:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

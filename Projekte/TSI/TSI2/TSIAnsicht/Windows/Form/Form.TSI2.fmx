@@ -1,0 +1,141 @@
+object frm_TSI2: Tfrm_TSI2
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 1091
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Top
+    Size.Width = 1091.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    object cbx_DebotwerteFirst: TCheckBox
+      Position.X = 8.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 161.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Depotwerte nach oben'
+      OnClick = cbx_DebotwerteFirstClick
+    end
+    object cbx_HochKursNachOben: TCheckBox
+      Position.X = 160.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 161.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'H'#246'chstkurse nach oben'
+      OnClick = cbx_HochKursNachObenClick
+    end
+    object edt_Aktie: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 1
+      Position.X = 367.000000000000000000
+      Position.Y = 15.000000000000000000
+      Size.Width = 161.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      OnKeyUp = edt_AktieKeyUp
+      object lbl_Aktie: TLabel
+        Position.X = -48.000000000000000000
+        Position.Y = 2.000000000000000000
+        Size.Width = 49.000000000000000000
+        Size.Height = 16.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Aktie:'
+        TabOrder = 0
+      end
+    end
+    object Label1: TLabel
+      Position.X = 536.000000000000000000
+      Position.Y = 18.000000000000000000
+      Size.Width = 41.000000000000000000
+      Size.Height = 16.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Depot:'
+      TabOrder = 0
+    end
+    object cbx_Depot: TComboBox
+      Position.X = 576.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 169.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+    end
+  end
+  object grd: TGrid
+    Align = Client
+    CanFocus = True
+    ClipChildren = True
+    Size.Width = 1091.000000000000000000
+    Size.Height = 431.000000000000000000
+    Size.PlatformDefault = False
+    Options = [ColumnResize, ColumnMove, ColLines, RowLines, Tabs, Header, HeaderClick, AutoDisplacement]
+    OnHeaderClick = grdHeaderClick
+    OnDrawColumnCell = grdDrawColumnCell
+    OnGetValue = grdGetValue
+    OnCellClick = grdCellClick
+    OnCellDblClick = grdCellDblClick
+    Viewport.Width = 1071.000000000000000000
+    Viewport.Height = 406.000000000000000000
+    object Col_WKN: TColumn
+      Header = 'WKN'
+      Size.Width = 65.000000000000000000
+    end
+    object Col_Aktie: TColumn
+      Header = 'Aktie'
+      Size.Width = 151.000000000000000000
+    end
+    object Col_LetzterKurs: TColumn
+      Header = 'Letzter Kurs'
+      Size.Width = 71.000000000000000000
+    end
+    object Col_TSI27: TColumn
+      Header = 'TSI 27'
+      Size.Width = 58.000000000000000000
+    end
+    object Col_TSI12: TColumn
+      Header = 'TSI 12'
+      Size.Width = 69.000000000000000000
+    end
+    object Col_7Tage: TColumn
+      Header = '7 Tage'
+      Size.Width = 48.000000000000000000
+    end
+    object Col_14Tage: TColumn
+      Header = '14 Tage'
+      Size.Width = 56.000000000000000000
+    end
+    object Col_30Tage: TColumn
+      Header = '30 Tage'
+      Size.Width = 55.000000000000000000
+    end
+    object Col_90Tage: TColumn
+      Header = '90 Tage'
+      Size.Width = 55.000000000000000000
+    end
+    object Col_180Tage: TColumn
+      Header = '180 Tage'
+      Size.Width = 63.000000000000000000
+    end
+    object Col_365: TColumn
+      Header = '365 Tage'
+      Size.Width = 63.000000000000000000
+    end
+    object Col_1Tag: TColumn
+      Header = '1 Tag'
+      Size.Width = 36.000000000000000000
+    end
+    object Col_KGV: TColumn
+      Header = 'KGV'
+      Size.Width = 63.000000000000000000
+    end
+  end
+end

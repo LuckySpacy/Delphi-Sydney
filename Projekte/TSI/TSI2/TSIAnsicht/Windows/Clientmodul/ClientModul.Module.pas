@@ -1,0 +1,54 @@
+unit ClientModul.Module;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, ClientModul.Classes, Datasnap.DSClientRest;
+
+type
+  TClientModule2 = class(TDataModule)
+    DSRestConnection1: TDSRestConnection;
+  private
+    FInstanceOwner: Boolean;
+    FServerMethods1Client: TServerMethods1Client;
+    function GetServerMethods1Client: TServerMethods1Client;
+    { Private-Deklarationen }
+  public
+    constructor Create(AOwner: TComponent); override;
+    destructor Destroy; override;
+    property InstanceOwner: Boolean read FInstanceOwner write FInstanceOwner;
+    property ServerMethods1Client: TServerMethods1Client read GetServerMethods1Client write FServerMethods1Client;
+
+end;
+
+var
+  ClientModule2: TClientModule2;
+
+implementation
+
+//85.214.205.43
+{%CLASSGROUP 'FMX.Controls.TControl'}
+
+{$R *.dfm}
+
+constructor TClientModule2.Create(AOwner: TComponent);
+begin
+  inherited;
+  DSRestConnection1.Host := 'localhost';
+  FInstanceOwner := True;
+end;
+
+destructor TClientModule2.Destroy;
+begin
+  FServerMethods1Client.Free;
+  inherited;
+end;
+
+function TClientModule2.GetServerMethods1Client: TServerMethods1Client;
+begin
+  if FServerMethods1Client = nil then
+    FServerMethods1Client:= TServerMethods1Client.Create(DSRestConnection1, FInstanceOwner);
+  Result := FServerMethods1Client;
+end;
+
+end.

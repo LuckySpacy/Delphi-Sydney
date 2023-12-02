@@ -1,0 +1,19 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 200
+  ClientWidth = 309
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  DesignerMasterStyle = 0
+  object btn_BrowserOeffnen: TButton
+    Position.X = 24.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Browser '#246'ffnen'
+  end
+end

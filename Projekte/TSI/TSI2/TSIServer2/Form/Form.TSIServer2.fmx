@@ -1,0 +1,71 @@
+object frm_TSIServer2: Tfrm_TSIServer2
+  Left = 0
+  Top = 0
+  Caption = 'TSI - Server 2'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabPosition = PlatformDefault
+    Sizes = (
+      640s
+      454s
+      640s
+      454s)
+    object tbs_Einstellung: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 78.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Einstellung'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+    end
+    object tbs_Protokoll: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 68.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Protokoll'
+      ExplicitSize.cx = 68.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+    end
+  end
+  object Timer: TTimer
+    Interval = 600000
+    OnTimer = TimerTimer
+    Left = 440
+    Top = 88
+  end
+  object IdSSLIOHandlerSocketOpenSSL1: TIdSSLIOHandlerSocketOpenSSL
+    MaxLineAction = maException
+    Port = 0
+    DefaultPort = 0
+    SSLOptions.Mode = sslmUnassigned
+    SSLOptions.VerifyMode = []
+    SSLOptions.VerifyDepth = 0
+    Left = 232
+    Top = 128
+  end
+end

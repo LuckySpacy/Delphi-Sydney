@@ -1,0 +1,64 @@
+object frm_MainTSIDepot2: Tfrm_MainTSIDepot2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 564
+  ClientWidth = 495
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object tbc: TTabControl
+    Align = Client
+    Size.Width = 495.000000000000000000
+    Size.Height = 564.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = PlatformDefault
+    Sizes = (
+      495s
+      515s
+      495s
+      515s)
+    object tab_Depot: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 53.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Depot'
+      ExplicitSize.cx = 53.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object rec_Background: TRectangle
+        Align = Client
+        Fill.Color = claAqua
+        Size.Width = 495.000000000000000000
+        Size.Height = 515.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object tab_Depotname: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 105.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tab_Depotname'
+      ExplicitSize.cx = 135.000000000000000000
+      ExplicitSize.cy = 30.000000000000000000
+    end
+  end
+end

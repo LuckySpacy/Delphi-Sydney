@@ -1,0 +1,56 @@
+inherited frm_TSIDepot_LgXhdpiPh: Tfrm_TSIDepot_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited rec_Background: TRectangle
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    inherited lay_Grid: TLayout
+      Size.Width = 450.000000000000000000
+      Size.Height = 564.000000000000000000
+      inherited grd: TStringGrid
+        Size.Width = 450.000000000000000000
+        Size.Height = 564.000000000000000000
+        Viewport.Width = 450.000000000000000000
+        Viewport.Height = 564.000000000000000000
+        inherited Col_Aktie: TStringColumn
+          Size.Width = 188.000000000000000000
+        end
+      end
+    end
+    inherited Lay_Depot: TLayout
+      Size.Width = 450.000000000000000000
+      inherited cbx_Depot: TComboBox
+        Size.Width = 224.000000000000000000
+      end
+      inherited lay_DepotButtons: TLayout
+        Position.X = 304.000000000000000000
+        Size.Width = 146.000000000000000000
+        inherited btn_ChangeDepot: TSpeedButton
+          Position.X = 2.000000000000000000
+        end
+        inherited btn_DepotAdd: TSpeedButton
+          Position.X = 50.000000000000000000
+        end
+        inherited btn_DepotDel: TSpeedButton
+          Position.X = 98.000000000000000000
+        end
+      end
+    end
+    inherited lay_Benutzer: TLayout
+      Size.Width = 450.000000000000000000
+      inherited cbx_Benutzer: TComboBox
+        Size.Width = 224.000000000000000000
+      end
+    end
+    inherited lay_Aktie: TLayout
+      Size.Width = 450.000000000000000000
+      inherited edt_Aktie: TEdit
+        Size.Width = 224.000000000000000000
+      end
+      inherited cbx_ImDepot: TCheckBox
+        Position.X = 355.000000000000000000
+      end
+    end
+  end
+end

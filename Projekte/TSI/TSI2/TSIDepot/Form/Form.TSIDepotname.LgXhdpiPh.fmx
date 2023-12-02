@@ -1,0 +1,24 @@
+inherited frm_TSIDepotname_LgXhdpiPh: Tfrm_TSIDepotname_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited rec_Background: TRectangle
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    inherited Lay_Top: TLayout
+      Size.Width = 450.000000000000000000
+      inherited btn_Save: TSpeedButton
+        Position.X = 354.000000000000000000
+      end
+      inherited btn_Cancel: TSpeedButton
+        Position.X = 402.000000000000000000
+        Position.Y = 1.000000000000000000
+        Size.Width = 48.000000000000000000
+        Size.Height = 48.000000000000000000
+      end
+      inherited edt_Depotname: TEdit
+        Size.Width = 301.000000000000000000
+      end
+    end
+  end
+end
