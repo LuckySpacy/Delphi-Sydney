@@ -1,0 +1,91 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 640.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Button1: TButton
+      Position.X = 24.000000000000000000
+      Position.Y = 16.000000000000000000
+      TabOrder = 0
+      Text = 'Button1'
+    end
+  end
+  object Layout2: TLayout
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 430.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Image1: TImage
+      MultiResBitmap = <
+        item
+        end>
+      Align = Contents
+      Size.Width = 640.000000000000000000
+      Size.Height = 430.000000000000000000
+      Size.PlatformDefault = False
+      OnPaint = Image1Paint
+    end
+    object Ellipse1: TEllipse
+      Position.X = 368.000000000000000000
+      Position.Y = 64.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object ListView1: TListView
+      ItemAppearanceClassName = 'TDynamicAppearance'
+      ItemEditAppearanceClassName = 'TDynamicAppearance'
+      HeaderAppearanceClassName = 'TListHeaderObjects'
+      FooterAppearanceClassName = 'TListHeaderObjects'
+      Position.X = 176.000000000000000000
+      Position.Y = 152.000000000000000000
+      Size.Width = 361.000000000000000000
+      Size.Height = 233.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+        item
+          AppearanceObjectName = 'Text1'
+          AppearanceClassName = 'TTextObjectAppearance'
+          Appearance.Width = 332.000000000000000000
+          Appearance.Height = 44.000000000000000000
+          Appearance.PlaceOffset.X = 8.000000000000000000
+        end>
+      ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+        item
+          AppearanceObjectName = 'Text1'
+          AppearanceClassName = 'TTextObjectAppearance'
+        end>
+      ItemAppearanceObjects.FooterObjects.Text.Width = 183.000000000000000000
+      ItemAppearanceObjects.FooterObjects.Text.Height = 32.000000000000000000
+      ItemAppearanceObjects.FooterObjects.Text.PlaceOffset.X = 56.000000000000000000
+      ItemAppearanceObjects.FooterObjects.Text.PlaceOffset.Y = 24.000000000000000000
+    end
+  end
+  object Ellipse2: TEllipse
+    Position.X = 384.000000000000000000
+    Position.Y = 416.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label1: TLabel
+    Position.X = 120.000000000000000000
+    Position.Y = 424.000000000000000000
+    Text = 'Label1'
+  end
+end

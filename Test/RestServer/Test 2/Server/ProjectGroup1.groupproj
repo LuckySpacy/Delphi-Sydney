@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{65095875-4A77-4765-87EE-DEB7A9B3C62D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="DataSnapServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Client\DataSnapclient.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DataSnapServer">
+        <MSBuild Projects="DataSnapServer.dproj"/>
+    </Target>
+    <Target Name="DataSnapServer:Clean">
+        <MSBuild Projects="DataSnapServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataSnapServer:Make">
+        <MSBuild Projects="DataSnapServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataSnapclient">
+        <MSBuild Projects="..\Client\DataSnapclient.dproj"/>
+    </Target>
+    <Target Name="DataSnapclient:Clean">
+        <MSBuild Projects="..\Client\DataSnapclient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataSnapclient:Make">
+        <MSBuild Projects="..\Client\DataSnapclient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DataSnapServer;DataSnapclient"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DataSnapServer:Clean;DataSnapclient:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DataSnapServer:Make;DataSnapclient:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

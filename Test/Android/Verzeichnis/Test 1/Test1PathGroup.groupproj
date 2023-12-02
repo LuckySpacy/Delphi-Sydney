@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{8638674F-ADDF-44C9-ACD1-E4EDB285D893}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Test1Path.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\..\Musik\Media\StreamingMedia\StreamingMedia.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\..\Musik\Media\MusicPlayer\FMMusicPlayer.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Test1Path">
+        <MSBuild Projects="Test1Path.dproj"/>
+    </Target>
+    <Target Name="Test1Path:Clean">
+        <MSBuild Projects="Test1Path.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Test1Path:Make">
+        <MSBuild Projects="Test1Path.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="StreamingMedia">
+        <MSBuild Projects="..\..\..\Musik\Media\StreamingMedia\StreamingMedia.dproj"/>
+    </Target>
+    <Target Name="StreamingMedia:Clean">
+        <MSBuild Projects="..\..\..\Musik\Media\StreamingMedia\StreamingMedia.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="StreamingMedia:Make">
+        <MSBuild Projects="..\..\..\Musik\Media\StreamingMedia\StreamingMedia.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FMMusicPlayer">
+        <MSBuild Projects="..\..\..\Musik\Media\MusicPlayer\FMMusicPlayer.dproj"/>
+    </Target>
+    <Target Name="FMMusicPlayer:Clean">
+        <MSBuild Projects="..\..\..\Musik\Media\MusicPlayer\FMMusicPlayer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FMMusicPlayer:Make">
+        <MSBuild Projects="..\..\..\Musik\Media\MusicPlayer\FMMusicPlayer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Test1Path;StreamingMedia;FMMusicPlayer"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Test1Path:Clean;StreamingMedia:Clean;FMMusicPlayer:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Test1Path:Make;StreamingMedia:Make;FMMusicPlayer:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

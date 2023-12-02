@@ -1,0 +1,9 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited Grid1: TGrid
+    Viewport.Width = 281.000000000000000000
+    Viewport.Height = 209.000000000000000000
+  end
+end

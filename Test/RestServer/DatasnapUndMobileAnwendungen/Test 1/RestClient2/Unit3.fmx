@@ -1,0 +1,59 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 353
+  ClientWidth = 290
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Label1'
+  end
+  object Label2: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 120.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Label1'
+  end
+  object edt_A: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Position.X = 136.000000000000000000
+    Position.Y = 32.000000000000000000
+  end
+  object edt_B: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Position.X = 136.000000000000000000
+    Position.Y = 118.000000000000000000
+  end
+  object lbl_Ergebnis: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 296.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Ergebnis'
+  end
+  object edt_Ergebnis: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Position.X = 168.000000000000000000
+    Position.Y = 294.000000000000000000
+  end
+  object btn_Rechnen: TButton
+    Position.X = 32.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'btn_Rechnen'
+    OnClick = btn_RechnenClick
+  end
+end

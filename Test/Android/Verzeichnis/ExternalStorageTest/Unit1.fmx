@@ -1,0 +1,45 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object btnInternal: TButton
+    Align = Top
+    Size.Width = 640.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'buttonstyle'
+    TabOrder = 1
+    Text = 'Internal'
+    OnClick = btnInternalClick
+  end
+  object btnExternal: TButton
+    Align = Top
+    Position.Y = 33.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 38.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'cornerbuttonstyle'
+    TabOrder = 0
+    Text = 'External'
+    OnClick = btnExternalClick
+  end
+  object Label1: TLabel
+    Align = Top
+    StyledSettings = [Style, FontColor]
+    Position.Y = 71.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Arial'
+    TextSettings.Font.Size = 13.000000000000000000
+    Text = 'Label1'
+    TabOrder = 2
+  end
+end

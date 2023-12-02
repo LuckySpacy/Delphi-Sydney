@@ -9,3 +9,15 @@
 Komponenten/tb/Package/Win32/
 *.identcache
 Komponenten/tb/tbButton/Test/Project2.exe
+*.~dfm
+*.~pas
+Test/Delphi_Backup/Dienst/bugreport.txt
+Test/Musik/ID3v2 Library 2.0.84.204/Bin/Win32/
+Test/Musik/ID3v2 Library 2.0.84.204/Bin/Win64/
+Test/Musik/AudioWerkzeugeBibliothek-master/DemoMp3/DemoMp3.exe
+Test/Musik/ID3v2 Library 2.0.84.204/Delphi/Tutorial/Win32/
+Test/Musik/ID3v2 Library 2.0.84.204/Delphi/Tutorial/Win64/
+Test/Musik/AudioWerkzeugeBibliothek-master/DemoExtended/DemoExtended.exe
+Test/Musik/AudioWerkzeugeBibliothek-master/DemoSimple/DemoSimple.exe
+Test/Musik/ID3v2 Library 2.0.84.204/Lazarus-FPC/generics.collections-master.zip
+Test/Musik/ID3v2 Library 2.0.84.204/Delphi/Tutorial Lyrics3v2 Tag/Win32/Debug/

@@ -1,0 +1,84 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{ED492429-922A-43F9-AACF-D1FECE122834}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="RestServer\RestServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Test 2\Server\DataSnapServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Test 2\Client\DataSnapclient.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="RestClient\RestClient.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="RestClient2\RestClient2.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="RestServer">
+        <MSBuild Projects="RestServer\RestServer.dproj"/>
+    </Target>
+    <Target Name="RestServer:Clean">
+        <MSBuild Projects="RestServer\RestServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RestServer:Make">
+        <MSBuild Projects="RestServer\RestServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataSnapServer">
+        <MSBuild Projects="..\..\Test 2\Server\DataSnapServer.dproj"/>
+    </Target>
+    <Target Name="DataSnapServer:Clean">
+        <MSBuild Projects="..\..\Test 2\Server\DataSnapServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataSnapServer:Make">
+        <MSBuild Projects="..\..\Test 2\Server\DataSnapServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataSnapclient">
+        <MSBuild Projects="..\..\Test 2\Client\DataSnapclient.dproj"/>
+    </Target>
+    <Target Name="DataSnapclient:Clean">
+        <MSBuild Projects="..\..\Test 2\Client\DataSnapclient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataSnapclient:Make">
+        <MSBuild Projects="..\..\Test 2\Client\DataSnapclient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RestClient">
+        <MSBuild Projects="RestClient\RestClient.dproj"/>
+    </Target>
+    <Target Name="RestClient:Clean">
+        <MSBuild Projects="RestClient\RestClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RestClient:Make">
+        <MSBuild Projects="RestClient\RestClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RestClient2">
+        <MSBuild Projects="RestClient2\RestClient2.dproj"/>
+    </Target>
+    <Target Name="RestClient2:Clean">
+        <MSBuild Projects="RestClient2\RestClient2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RestClient2:Make">
+        <MSBuild Projects="RestClient2\RestClient2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="RestServer;DataSnapServer;DataSnapclient;RestClient;RestClient2"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="RestServer:Clean;DataSnapServer:Clean;DataSnapclient:Clean;RestClient:Clean;RestClient2:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="RestServer:Make;DataSnapServer:Make;DataSnapclient:Make;RestClient:Make;RestClient2:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

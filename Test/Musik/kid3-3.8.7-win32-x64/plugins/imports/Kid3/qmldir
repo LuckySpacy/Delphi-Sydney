@@ -1,0 +1,4 @@
+module Kid3
+plugin libkid3qml
+Kid3Script 1.0 Kid3Script.qml
+Kid3Script 1.1 Kid3Script.qml

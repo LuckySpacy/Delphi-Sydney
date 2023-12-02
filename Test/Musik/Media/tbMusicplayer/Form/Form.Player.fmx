@@ -1,0 +1,33 @@
+object frm_Player: Tfrm_Player
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 301
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 301.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object btn_Play: TSpeedButton
+      Align = Right
+      Position.X = 253.000000000000000000
+      Position.Y = 1.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'playtoolbutton'
+      Text = 'btn_Play'
+      OnClick = btn_PlayClick
+    end
+  end
+  object MediaPlayer: TMediaPlayer
+    Left = 80
+    Top = 120
+  end
+end

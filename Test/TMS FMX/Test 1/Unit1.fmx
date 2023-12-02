@@ -1,0 +1,123 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 528
+  ClientWidth = 664
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object TMSFMXToolBarButton1: TTMSFMXToolBarButton
+    ClipChildren = True
+    DisableFocusEffect = False
+    Position.X = 512.000000000000000000
+    Position.Y = 216.000000000000000000
+    Size.Width = 100.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Button1'
+    TextVisible = True
+    Appearance.NormalFill.Gradient.Points = <
+      item
+        Color = xFFF9FBFC
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = xFFDCDCEC
+        Offset = 0.500000000000000000
+      end
+      item
+        Color = xFFE6EBEB
+        Offset = 0.500000000000000000
+      end
+      item
+        Color = xFFDCE1EC
+        Offset = 1.000000000000000000
+      end>
+    Appearance.HoverFill.Gradient.Points = <
+      item
+        Color = xFFE5E7E8
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = xFFC8C8D8
+        Offset = 0.500000000000000000
+      end
+      item
+        Color = xFFD2D7D7
+        Offset = 0.500000000000000000
+      end
+      item
+        Color = xFFC8CDD8
+        Offset = 1.000000000000000000
+      end>
+    Appearance.DownFill.Gradient.Points = <
+      item
+        Color = xFFDBDDDE
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = xFFBEBECE
+        Offset = 0.500000000000000000
+      end
+      item
+        Color = xFFC8CDCD
+        Offset = 0.500000000000000000
+      end
+      item
+        Color = xFFBEC3CE
+        Offset = 1.000000000000000000
+      end>
+  end
+  object TMSFMXRichEditor1: TTMSFMXRichEditor
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Client
+    Cursor = crIBeam
+    DisableFocusEffect = False
+    Size.Width = 664.000000000000000000
+    Size.Height = 468.000000000000000000
+    Size.PlatformDefault = False
+    Font.Size = 14.000000000000000000
+    Fill.Kind = Solid
+    Stroke.Color = claGray
+    Stroke.Kind = Solid
+    CanFocus = True
+  end
+  object TMSFMXRichEditorEditToolBar1: TTMSFMXRichEditorEditToolBar
+    Version = '1.0.0.4'
+    Appearance.Fill.Gradient.Points = <
+      item
+        Color = claWhite
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = xFFE6E6E6
+        Offset = 1.000000000000000000
+      end>
+    Align = Top
+    DisableFocusEffect = False
+    Size.Width = 664.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object TMSFMXRichEditorFormatToolBar1: TTMSFMXRichEditorFormatToolBar
+    Version = '1.0.0.4'
+    Appearance.Fill.Gradient.Points = <
+      item
+        Color = claWhite
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = xFFE6E6E6
+        Offset = 1.000000000000000000
+      end>
+    Align = Top
+    DisableFocusEffect = False
+    Position.Y = 30.000000000000000000
+    Size.Width = 664.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    RichEditor = TMSFMXRichEditor1
+  end
+end

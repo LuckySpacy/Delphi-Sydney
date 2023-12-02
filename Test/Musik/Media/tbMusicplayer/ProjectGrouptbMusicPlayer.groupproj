@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{456230BB-A338-4D0F-B99D-8D1BAC8226E9}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="..\StreamingMedia\StreamingMedia.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\..\Android\Verzeichnis\ExternalStorageTest\ExternalStorageTest.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="tbMusicplayer.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="StreamingMedia">
+        <MSBuild Projects="..\StreamingMedia\StreamingMedia.dproj"/>
+    </Target>
+    <Target Name="StreamingMedia:Clean">
+        <MSBuild Projects="..\StreamingMedia\StreamingMedia.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="StreamingMedia:Make">
+        <MSBuild Projects="..\StreamingMedia\StreamingMedia.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ExternalStorageTest">
+        <MSBuild Projects="..\..\..\Android\Verzeichnis\ExternalStorageTest\ExternalStorageTest.dproj"/>
+    </Target>
+    <Target Name="ExternalStorageTest:Clean">
+        <MSBuild Projects="..\..\..\Android\Verzeichnis\ExternalStorageTest\ExternalStorageTest.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ExternalStorageTest:Make">
+        <MSBuild Projects="..\..\..\Android\Verzeichnis\ExternalStorageTest\ExternalStorageTest.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="tbMusicplayer">
+        <MSBuild Projects="tbMusicplayer.dproj"/>
+    </Target>
+    <Target Name="tbMusicplayer:Clean">
+        <MSBuild Projects="tbMusicplayer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="tbMusicplayer:Make">
+        <MSBuild Projects="tbMusicplayer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="StreamingMedia;ExternalStorageTest;tbMusicplayer"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="StreamingMedia:Clean;ExternalStorageTest:Clean;tbMusicplayer:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="StreamingMedia:Make;ExternalStorageTest:Make;tbMusicplayer:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

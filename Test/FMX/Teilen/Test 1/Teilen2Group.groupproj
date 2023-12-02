@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{C721A8DC-2AC9-4CD9-9949-B83097746962}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="..\..\..\..\Kastri-master\Demos\ShareItems\ShareItemsDemo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Test 2\tbTeilen2.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ShareItemsDemo">
+        <MSBuild Projects="..\..\..\..\Kastri-master\Demos\ShareItems\ShareItemsDemo.dproj"/>
+    </Target>
+    <Target Name="ShareItemsDemo:Clean">
+        <MSBuild Projects="..\..\..\..\Kastri-master\Demos\ShareItems\ShareItemsDemo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ShareItemsDemo:Make">
+        <MSBuild Projects="..\..\..\..\Kastri-master\Demos\ShareItems\ShareItemsDemo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="tbTeilen2">
+        <MSBuild Projects="..\Test 2\tbTeilen2.dproj"/>
+    </Target>
+    <Target Name="tbTeilen2:Clean">
+        <MSBuild Projects="..\Test 2\tbTeilen2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="tbTeilen2:Make">
+        <MSBuild Projects="..\Test 2\tbTeilen2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ShareItemsDemo;tbTeilen2"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ShareItemsDemo:Clean;tbTeilen2:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ShareItemsDemo:Make;tbTeilen2:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,55 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object lv: TListView
+    ItemAppearanceClassName = 'TDynamicAppearance'
+    ItemEditAppearanceClassName = 'TDynamicAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    ItemAppearance.ItemHeight = 80
+    ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+      item
+        AppearanceObjectName = 'Text1'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Width = 250.000000000000000000
+        Appearance.Height = 40.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'TextButton2'
+        AppearanceClassName = 'TTextButtonObjectAppearance'
+        Appearance.Width = 60.000000000000000000
+        Appearance.PlaceOffset.X = 10.000000000000000000
+        Appearance.PlaceOffset.Y = 10.000000000000000000
+        Appearance.Text = 'Button'
+      end
+      item
+        AppearanceObjectName = 'GlyphButton3'
+        AppearanceClassName = 'TGlyphButtonObjectAppearance'
+        Appearance.Width = 50.000000000000000000
+        Appearance.Height = 50.000000000000000000
+        Appearance.Align = Trailing
+      end
+      item
+        AppearanceObjectName = 'Accessory4'
+        AppearanceClassName = 'TAccessoryObjectAppearance'
+      end>
+    ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+      item
+        AppearanceObjectName = 'Text1'
+        AppearanceClassName = 'TTextObjectAppearance'
+      end>
+  end
+end

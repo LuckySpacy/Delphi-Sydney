@@ -1,0 +1,31 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 491
+  ClientWidth = 440
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object DSProviderConnection1: TDSProviderConnection
+    Left = 200
+    Top = 72
+  end
+  object RESTClient1: TRESTClient
+    Params = <>
+    Left = 320
+    Top = 48
+  end
+  object RESTRequest1: TRESTRequest
+    Client = RESTClient1
+    Params = <>
+    Response = RESTResponse1
+    Left = 280
+    Top = 136
+  end
+  object RESTResponse1: TRESTResponse
+    Left = 320
+    Top = 248
+  end
+end
