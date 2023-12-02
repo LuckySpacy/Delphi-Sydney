@@ -1,0 +1,84 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{D7ABFC31-9815-485C-BC9F-1205DCB99380}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="BugreportUI.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\nfsBackup\Zeitplaner\NFSBackupUI.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Office365\MailOffice365.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Dienst\BugreportMail.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\nfsBackup\Dienst\nfsBackupdienst.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="BugreportUI">
+        <MSBuild Projects="BugreportUI.dproj"/>
+    </Target>
+    <Target Name="BugreportUI:Clean">
+        <MSBuild Projects="BugreportUI.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BugreportUI:Make">
+        <MSBuild Projects="BugreportUI.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NFSBackupUI">
+        <MSBuild Projects="..\..\nfsBackup\Zeitplaner\NFSBackupUI.dproj"/>
+    </Target>
+    <Target Name="NFSBackupUI:Clean">
+        <MSBuild Projects="..\..\nfsBackup\Zeitplaner\NFSBackupUI.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NFSBackupUI:Make">
+        <MSBuild Projects="..\..\nfsBackup\Zeitplaner\NFSBackupUI.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MailOffice365">
+        <MSBuild Projects="..\..\Office365\MailOffice365.dproj"/>
+    </Target>
+    <Target Name="MailOffice365:Clean">
+        <MSBuild Projects="..\..\Office365\MailOffice365.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MailOffice365:Make">
+        <MSBuild Projects="..\..\Office365\MailOffice365.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BugreportMail">
+        <MSBuild Projects="..\Dienst\BugreportMail.dproj"/>
+    </Target>
+    <Target Name="BugreportMail:Clean">
+        <MSBuild Projects="..\Dienst\BugreportMail.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BugreportMail:Make">
+        <MSBuild Projects="..\Dienst\BugreportMail.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="nfsBackupdienst">
+        <MSBuild Projects="..\..\nfsBackup\Dienst\nfsBackupdienst.dproj"/>
+    </Target>
+    <Target Name="nfsBackupdienst:Clean">
+        <MSBuild Projects="..\..\nfsBackup\Dienst\nfsBackupdienst.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="nfsBackupdienst:Make">
+        <MSBuild Projects="..\..\nfsBackup\Dienst\nfsBackupdienst.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="BugreportUI;NFSBackupUI;MailOffice365;BugreportMail;nfsBackupdienst"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="BugreportUI:Clean;NFSBackupUI:Clean;MailOffice365:Clean;BugreportMail:Clean;nfsBackupdienst:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="BugreportUI:Make;NFSBackupUI:Make;MailOffice365:Make;BugreportMail:Make;nfsBackupdienst:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

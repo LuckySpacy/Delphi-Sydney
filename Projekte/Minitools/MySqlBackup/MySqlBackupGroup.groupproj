@@ -1,0 +1,120 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{92CF9BD8-FDC3-4A0B-969D-5A9F62441A0A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Zeitplaner\MySqlBackupZeitplaner.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\FirebirdBackup\Zeitplaner\Zeitplaner.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\FirebirdBackup\Dienst\FirebirdBackup.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Dienst\MySqlBackup.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\MyFileSaver\MyFilerSaverUI\MyFileSaverUI.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\MyFileSaver\Dienst\MyFileSaver.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\MyFileSaver\FileSaverbat\FileSaverBat.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\..\ASS\Sourcecode\Test\Zip\Test 1\Zip.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="MySqlBackupZeitplaner">
+        <MSBuild Projects="Zeitplaner\MySqlBackupZeitplaner.dproj"/>
+    </Target>
+    <Target Name="MySqlBackupZeitplaner:Clean">
+        <MSBuild Projects="Zeitplaner\MySqlBackupZeitplaner.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MySqlBackupZeitplaner:Make">
+        <MSBuild Projects="Zeitplaner\MySqlBackupZeitplaner.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Zeitplaner">
+        <MSBuild Projects="..\FirebirdBackup\Zeitplaner\Zeitplaner.dproj"/>
+    </Target>
+    <Target Name="Zeitplaner:Clean">
+        <MSBuild Projects="..\FirebirdBackup\Zeitplaner\Zeitplaner.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Zeitplaner:Make">
+        <MSBuild Projects="..\FirebirdBackup\Zeitplaner\Zeitplaner.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FirebirdBackup">
+        <MSBuild Projects="..\FirebirdBackup\Dienst\FirebirdBackup.dproj"/>
+    </Target>
+    <Target Name="FirebirdBackup:Clean">
+        <MSBuild Projects="..\FirebirdBackup\Dienst\FirebirdBackup.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FirebirdBackup:Make">
+        <MSBuild Projects="..\FirebirdBackup\Dienst\FirebirdBackup.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MySqlBackup">
+        <MSBuild Projects="Dienst\MySqlBackup.dproj"/>
+    </Target>
+    <Target Name="MySqlBackup:Clean">
+        <MSBuild Projects="Dienst\MySqlBackup.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MySqlBackup:Make">
+        <MSBuild Projects="Dienst\MySqlBackup.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MyFileSaverUI">
+        <MSBuild Projects="..\MyFileSaver\MyFilerSaverUI\MyFileSaverUI.dproj"/>
+    </Target>
+    <Target Name="MyFileSaverUI:Clean">
+        <MSBuild Projects="..\MyFileSaver\MyFilerSaverUI\MyFileSaverUI.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MyFileSaverUI:Make">
+        <MSBuild Projects="..\MyFileSaver\MyFilerSaverUI\MyFileSaverUI.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MyFileSaver">
+        <MSBuild Projects="..\MyFileSaver\Dienst\MyFileSaver.dproj"/>
+    </Target>
+    <Target Name="MyFileSaver:Clean">
+        <MSBuild Projects="..\MyFileSaver\Dienst\MyFileSaver.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MyFileSaver:Make">
+        <MSBuild Projects="..\MyFileSaver\Dienst\MyFileSaver.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FileSaverBat">
+        <MSBuild Projects="..\MyFileSaver\FileSaverbat\FileSaverBat.dproj"/>
+    </Target>
+    <Target Name="FileSaverBat:Clean">
+        <MSBuild Projects="..\MyFileSaver\FileSaverbat\FileSaverBat.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FileSaverBat:Make">
+        <MSBuild Projects="..\MyFileSaver\FileSaverbat\FileSaverBat.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Zip">
+        <MSBuild Projects="..\..\..\ASS\Sourcecode\Test\Zip\Test 1\Zip.dproj"/>
+    </Target>
+    <Target Name="Zip:Clean">
+        <MSBuild Projects="..\..\..\ASS\Sourcecode\Test\Zip\Test 1\Zip.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Zip:Make">
+        <MSBuild Projects="..\..\..\ASS\Sourcecode\Test\Zip\Test 1\Zip.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="MySqlBackupZeitplaner;Zeitplaner;FirebirdBackup;MySqlBackup;MyFileSaverUI;MyFileSaver;FileSaverBat;Zip"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="MySqlBackupZeitplaner:Clean;Zeitplaner:Clean;FirebirdBackup:Clean;MySqlBackup:Clean;MyFileSaverUI:Clean;MyFileSaver:Clean;FileSaverBat:Clean;Zip:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="MySqlBackupZeitplaner:Make;Zeitplaner:Make;FirebirdBackup:Make;MySqlBackup:Make;MyFileSaverUI:Make;MyFileSaver:Make;FileSaverBat:Make;Zip:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,829 @@
+gbak:readied database D:\MeineProgramme\VServerStrato\Datenbank\DOKUORGA.FDB for backup 
+gbak:creating file D:\MeineProgramme\VServerStrato\Datenbank\DOKUORGA_202101132013.bak 
+gbak:starting transaction 
+gbak:database D:\MeineProgramme\VServerStrato\Datenbank\DOKUORGA.FDB has a page size of 8192 bytes. 
+gbak:writing domains 
+gbak:    writing domain RDB$1 
+gbak:    writing domain RDB$2 
+gbak:    writing domain RDB$3 
+gbak:    writing domain RDB$4 
+gbak:    writing domain RDB$5 
+gbak:    writing domain RDB$6 
+gbak:    writing domain RDB$7 
+gbak:    writing domain RDB$8 
+gbak:    writing domain RDB$9 
+gbak:    writing domain RDB$10 
+gbak:    writing domain RDB$11 
+gbak:    writing domain RDB$12 
+gbak:    writing domain RDB$13 
+gbak:    writing domain RDB$14 
+gbak:    writing domain RDB$15 
+gbak:    writing domain RDB$16 
+gbak:    writing domain RDB$17 
+gbak:    writing domain RDB$18 
+gbak:    writing domain RDB$19 
+gbak:    writing domain RDB$20 
+gbak:    writing domain RDB$21 
+gbak:    writing domain RDB$22 
+gbak:    writing domain RDB$23 
+gbak:    writing domain RDB$24 
+gbak:    writing domain RDB$25 
+gbak:    writing domain RDB$26 
+gbak:    writing domain RDB$27 
+gbak:    writing domain RDB$28 
+gbak:    writing domain RDB$29 
+gbak:    writing domain RDB$30 
+gbak:    writing domain RDB$31 
+gbak:    writing domain RDB$32 
+gbak:    writing domain RDB$33 
+gbak:    writing domain RDB$34 
+gbak:    writing domain RDB$35 
+gbak:    writing domain RDB$36 
+gbak:    writing domain RDB$37 
+gbak:    writing domain RDB$38 
+gbak:    writing domain RDB$39 
+gbak:    writing domain RDB$40 
+gbak:    writing domain RDB$41 
+gbak:    writing domain RDB$42 
+gbak:    writing domain RDB$43 
+gbak:    writing domain RDB$44 
+gbak:    writing domain RDB$45 
+gbak:    writing domain RDB$46 
+gbak:    writing domain RDB$47 
+gbak:    writing domain RDB$48 
+gbak:    writing domain RDB$49 
+gbak:    writing domain RDB$50 
+gbak:    writing domain RDB$51 
+gbak:    writing domain RDB$52 
+gbak:    writing domain RDB$53 
+gbak:    writing domain RDB$54 
+gbak:    writing domain RDB$55 
+gbak:    writing domain RDB$56 
+gbak:    writing domain RDB$57 
+gbak:    writing domain RDB$58 
+gbak:    writing domain RDB$59 
+gbak:    writing domain RDB$60 
+gbak:    writing domain RDB$61 
+gbak:    writing domain RDB$62 
+gbak:    writing domain RDB$63 
+gbak:    writing domain RDB$64 
+gbak:    writing domain RDB$65 
+gbak:    writing domain RDB$66 
+gbak:    writing domain RDB$67 
+gbak:    writing domain RDB$68 
+gbak:    writing domain RDB$69 
+gbak:    writing domain RDB$70 
+gbak:    writing domain RDB$71 
+gbak:    writing domain RDB$72 
+gbak:    writing domain RDB$73 
+gbak:    writing domain RDB$74 
+gbak:    writing domain RDB$75 
+gbak:    writing domain RDB$76 
+gbak:    writing domain RDB$77 
+gbak:    writing domain RDB$78 
+gbak:    writing domain RDB$79 
+gbak:    writing domain RDB$80 
+gbak:    writing domain RDB$81 
+gbak:    writing domain RDB$82 
+gbak:    writing domain RDB$83 
+gbak:    writing domain RDB$84 
+gbak:    writing domain RDB$85 
+gbak:    writing domain RDB$86 
+gbak:    writing domain RDB$87 
+gbak:    writing domain RDB$88 
+gbak:    writing domain RDB$89 
+gbak:    writing domain RDB$90 
+gbak:    writing domain RDB$91 
+gbak:    writing domain RDB$92 
+gbak:    writing domain RDB$93 
+gbak:    writing domain RDB$94 
+gbak:    writing domain RDB$95 
+gbak:    writing domain RDB$96 
+gbak:    writing domain RDB$97 
+gbak:    writing domain RDB$98 
+gbak:    writing domain RDB$99 
+gbak:    writing domain RDB$100 
+gbak:    writing domain RDB$101 
+gbak:    writing domain RDB$102 
+gbak:    writing domain RDB$103 
+gbak:    writing domain RDB$104 
+gbak:    writing domain RDB$105 
+gbak:    writing domain RDB$106 
+gbak:    writing domain RDB$107 
+gbak:    writing domain RDB$108 
+gbak:    writing domain RDB$109 
+gbak:    writing domain RDB$110 
+gbak:    writing domain RDB$111 
+gbak:    writing domain RDB$112 
+gbak:    writing domain RDB$113 
+gbak:    writing domain RDB$114 
+gbak:    writing domain RDB$115 
+gbak:    writing domain RDB$116 
+gbak:    writing domain RDB$117 
+gbak:    writing domain RDB$118 
+gbak:    writing domain RDB$119 
+gbak:    writing domain RDB$120 
+gbak:    writing domain RDB$121 
+gbak:    writing domain RDB$122 
+gbak:    writing domain RDB$123 
+gbak:    writing domain RDB$124 
+gbak:    writing domain RDB$125 
+gbak:    writing domain RDB$126 
+gbak:    writing domain RDB$127 
+gbak:    writing domain RDB$128 
+gbak:writing shadow files 
+gbak:writing character sets 
+gbak:writing collations 
+gbak:writing tables 
+gbak:    writing table DBINFO 
+gbak:         writing column DI_LASTUPDATE 
+gbak:         writing column DI_ID 
+gbak:         writing column DI_NUMMER 
+gbak:         writing column DI_TEXT 
+gbak:    writing table SPRACHE 
+gbak:         writing column SP_TEXT_DE 
+gbak:         writing column SP_TEXT_ORI 
+gbak:         writing column SP_ID 
+gbak:    writing table SYSSPRACHE 
+gbak:         writing column SYSSP_MSG 
+gbak:         writing column SYSSP_ID 
+gbak:         writing column SYSSP_SP_ID 
+gbak:         writing column SYSSP_MSGF 
+gbak:    writing table GUID 
+gbak:         writing column GU_GUID 
+gbak:         writing column GU_INSERT 
+gbak:         writing column GU_UPDATE 
+gbak:         writing column GU_USERID_INSERT 
+gbak:         writing column GU_USERID_UPDATE 
+gbak:         writing column GU_REFKEY 
+gbak:         writing column GU_REFID 
+gbak:         writing column GU_BE_ID 
+gbak:         writing column GU_TABELLE 
+gbak:         writing column GU_DELETE 
+gbak:    writing table SPRACHLIST 
+gbak:         writing column SL_GUID 
+gbak:         writing column SL_BLOBTEXT 
+gbak:         writing column SL_ID 
+gbak:         writing column SL_SP_ID 
+gbak:         writing column SL_TEXT 
+gbak:    writing table ITEMLIST 
+gbak:         writing column IT_ID 
+gbak:         writing column IT_GRUPPE 
+gbak:         writing column IT_INDEX 
+gbak:    writing table BUTTONPROP 
+gbak:         writing column BP_ID 
+gbak:         writing column BP_IT_ID 
+gbak:         writing column BP_BI_ID 
+gbak:         writing column BP_TEXT 
+gbak:         writing column BP_DELETE 
+gbak:         writing column BP_USEPW 
+gbak:    writing table BAUMBUTTON 
+gbak:         writing column BB_ID 
+gbak:         writing column BB_EBENE 
+gbak:         writing column BB_BP_ID 
+gbak:         writing column BB_DELETE 
+gbak:    writing table BILDER 
+gbak:         writing column BI_BILD 
+gbak:         writing column BI_ID 
+gbak:         writing column BI_TYP 
+gbak:         writing column BI_ERWEITERUNG 
+gbak:         writing column BI_DELETE 
+gbak:    writing table PROPERTYFORM 
+gbak:         writing column PF_NAME 
+gbak:         writing column PF_ID 
+gbak:         writing column PF_BE_ID 
+gbak:         writing column PF_HEIGHT 
+gbak:         writing column PF_WIDTH 
+gbak:         writing column PF_LEFT 
+gbak:         writing column PF_TOP 
+gbak:         writing column PF_PC 
+gbak:         writing column PF_WINDOWSTATE 
+gbak:         writing column PF_DELETE 
+gbak:    writing table ZWEIGPROP 
+gbak:         writing column ZP_ID 
+gbak:         writing column ZP_BI_ID 
+gbak:         writing column ZP_TEXT 
+gbak:         writing column ZP_DELETE 
+gbak:    writing table BAUMSTRUK 
+gbak:         writing column BS_ID 
+gbak:         writing column BS_EBENE 
+gbak:         writing column BS_ZP_ID 
+gbak:         writing column BS_BB_ID 
+gbak:         writing column BS_DELETE 
+gbak:    writing table SEITE 
+gbak:         writing column SE_HEADER 
+gbak:         writing column SE_BODY 
+gbak:         writing column SE_ID 
+gbak:         writing column SE_HEADERHEIGHT 
+gbak:         writing column SE_HEADER_SEARCH 
+gbak:         writing column SE_BODY_SEARCH 
+gbak:         writing column SE_DELETE 
+gbak:         writing column SE_PW 
+gbak:         writing column SE_PFAD 
+gbak:         writing column SE_HEADER_ANZEIGEN 
+gbak:         writing column SE_PFADFTP 
+gbak:         writing column SE_FTPUEBERTRAGEN 
+gbak:         writing column SE_PFADGDRIVE 
+gbak:         writing column SE_GDRIVEUEBERTRAGEN 
+gbak:    writing table SEITEVERBINDUNG 
+gbak:         writing column VS_ID 
+gbak:         writing column VS_SE_ID 
+gbak:         writing column VS_EBENE 
+gbak:         writing column VS_BS_ID 
+gbak:         writing column VS_DELETE 
+gbak:    writing table SYSTEMEINSTELLUNG 
+gbak:         writing column SY_BLOB1 
+gbak:         writing column SY_BLOB2 
+gbak:         writing column SY_BLOB3 
+gbak:         writing column SY_ID 
+gbak:         writing column SY_KEY 
+gbak:         writing column SY_BEZ 
+gbak:         writing column SY_VALUE1 
+gbak:    writing table BENUTZEREINSTELLUNG 
+gbak:         writing column BG_BLOB1 
+gbak:         writing column BG_BLOB2 
+gbak:         writing column BG_BLOB3 
+gbak:         writing column BG_ID 
+gbak:         writing column BG_BE_ID 
+gbak:         writing column BG_KEY 
+gbak:         writing column BG_BEZ 
+gbak:         writing column BG_VALUE1 
+gbak:    writing table DOKUMENT 
+gbak:         writing column DO_ID 
+gbak:         writing column DO_EXT 
+gbak:         writing column DO_BEZ 
+gbak:         writing column DO_DATEINAME 
+gbak:         writing column DO_PFAD 
+gbak:         writing column DO_DELETE 
+gbak:         writing column DO_SAVE_FP 
+gbak:         writing column DO_SAVE_FTP 
+gbak:         writing column DO_SAVE_CLOUD 
+gbak:         writing column DO_PFADGDRIVE 
+gbak:    writing table SEITEDOKUMENT 
+gbak:         writing column SD_ID 
+gbak:         writing column SD_SE_ID 
+gbak:         writing column SD_DO_ID 
+gbak:         writing column SD_DELETE 
+gbak:    writing table BENUTZER 
+gbak:         writing column BE_VORNAME 
+gbak:         writing column BE_NACHNAME 
+gbak:         writing column BE_LOGIN 
+gbak:         writing column BE_ID 
+gbak:         writing column BE_PW 
+gbak:         writing column BE_DELETE 
+gbak:    writing table SEITEDOKUMENTLINK 
+gbak:         writing column SK_ID 
+gbak:         writing column SK_SE_ID 
+gbak:         writing column SK_SE_ID_LINK 
+gbak:         writing column SK_DO_ID 
+gbak:         writing column SK_VERLINKT 
+gbak:         writing column SK_DELETE 
+gbak:    writing table SEITELINK 
+gbak:         writing column KS_ID 
+gbak:         writing column KS_SE_ID 
+gbak:         writing column KS_SE_ID_LINK 
+gbak:         writing column KS_TYP 
+gbak:         writing column KS_DELETE 
+gbak:writing types 
+gbak:writing filters 
+gbak:writing id generators 
+gbak:    writing generator SP_ID value 1 
+gbak:    writing generator SYSSP_ID value 1 
+gbak:    writing generator SL_ID value 2 
+gbak:    writing generator IT_ID value 2 
+gbak:    writing generator BP_ID value 179 
+gbak:    writing generator BB_ID value 179 
+gbak:    writing generator BI_ID value 3 
+gbak:    writing generator ZP_ID value 573 
+gbak:    writing generator BS_ID value 573 
+gbak:    writing generator SE_ID value 788 
+gbak:    writing generator VS_ID value 757 
+gbak:    writing generator SY_ID value 12 
+gbak:    writing generator DO_ID value 617 
+gbak:    writing generator SD_ID value 618 
+gbak:    writing generator BE_ID value 1 
+gbak:    writing generator PF_ID value 24 
+gbak:    writing generator BG_ID value 0 
+gbak:    writing generator SK_ID value 94 
+gbak:    writing generator KS_ID value 17 
+gbak:writing exceptions 
+gbak:writing functions 
+gbak:writing stored procedures 
+gbak:writing packages 
+gbak:    writing index PK_KS_ID 
+gbak:    writing data for table SEITELINK 
+gbak:15 records written 
+gbak:    writing index PK_SK_ID 
+gbak:    writing data for table SEITEDOKUMENTLINK 
+gbak:70 records written 
+gbak:    writing index PK_BE_ID 
+gbak:    writing data for table BENUTZER 
+gbak:1 records written 
+gbak:    writing index PK_SD_ID 
+gbak:    writing data for table SEITEDOKUMENT 
+gbak:595 records written 
+gbak:    writing index PK_DO_ID 
+gbak:    writing data for table DOKUMENT 
+gbak:594 records written 
+gbak:    writing index PK_BG_ID 
+gbak:    writing data for table BENUTZEREINSTELLUNG 
+gbak:0 records written 
+gbak:    writing index PK_SY_ID 
+gbak:    writing data for table SYSTEMEINSTELLUNG 
+gbak:12 records written 
+gbak:    writing index PK_VS_ID 
+gbak:    writing data for table SEITEVERBINDUNG 
+gbak:688 records written 
+gbak:    writing index PK_SE_ID 
+gbak:    writing data for table SEITE 
+gbak:719 records written 
+gbak:    writing index PK_BS_ID 
+gbak:    writing data for table BAUMSTRUK 
+gbak:513 records written 
+gbak:    writing index PK_ZP_ID 
+gbak:    writing data for table ZWEIGPROP 
+gbak:513 records written 
+gbak:    writing index PK_PF_ID 
+gbak:    writing data for table PROPERTYFORM 
+gbak:24 records written 
+gbak:    writing index PK_BI_ID 
+gbak:    writing data for table BILDER 
+gbak:1 records written 
+gbak:    writing index PK_BB_ID 
+gbak:    writing data for table BAUMBUTTON 
+gbak:169 records written 
+gbak:    writing index PK_BP_ID 
+gbak:    writing data for table BUTTONPROP 
+gbak:169 records written 
+gbak:    writing index PK_IT_ID 
+gbak:    writing data for table ITEMLIST 
+gbak:2 records written 
+gbak:    writing index PK_SL_ID 
+gbak:    writing data for table SPRACHLIST 
+gbak:2 records written 
+gbak:    writing index PK_GUID 
+gbak:    writing data for table GUID 
+gbak:4440 records written 
+gbak:    writing index PK_SYSSP_ID 
+gbak:    writing data for table SYSSPRACHE 
+gbak:1 records written 
+gbak:    writing index PK_SP_ID 
+gbak:    writing data for table SPRACHE 
+gbak:1 records written 
+gbak:    writing data for table DBINFO 
+gbak:1 records written 
+gbak:writing triggers 
+gbak:writing trigger messages 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:    writing privilege for user SYSDBA 
+gbak:    writing privilege for user PUBLIC 
+gbak:writing security classes 
+gbak:writing table constraints 
+gbak:writing constraint INTEG_1 
+gbak:writing constraint INTEG_2 
+gbak:writing constraint PK_SP_ID 
+gbak:writing constraint INTEG_3 
+gbak:writing constraint PK_SYSSP_ID 
+gbak:writing constraint INTEG_4 
+gbak:writing constraint INTEG_5 
+gbak:writing constraint INTEG_6 
+gbak:writing constraint PK_GUID 
+gbak:writing constraint INTEG_7 
+gbak:writing constraint PK_SL_ID 
+gbak:writing constraint INTEG_8 
+gbak:writing constraint PK_IT_ID 
+gbak:writing constraint INTEG_9 
+gbak:writing constraint PK_BP_ID 
+gbak:writing constraint INTEG_10 
+gbak:writing constraint PK_BB_ID 
+gbak:writing constraint INTEG_11 
+gbak:writing constraint PK_BI_ID 
+gbak:writing constraint INTEG_12 
+gbak:writing constraint PK_ZP_ID 
+gbak:writing constraint INTEG_13 
+gbak:writing constraint PK_BS_ID 
+gbak:writing constraint INTEG_14 
+gbak:writing constraint PK_SE_ID 
+gbak:writing constraint INTEG_15 
+gbak:writing constraint INTEG_16 
+gbak:writing constraint PK_VS_ID 
+gbak:writing constraint INTEG_17 
+gbak:writing constraint INTEG_18 
+gbak:writing constraint PK_SY_ID 
+gbak:writing constraint INTEG_19 
+gbak:writing constraint PK_DO_ID 
+gbak:writing constraint INTEG_20 
+gbak:writing constraint PK_SD_ID 
+gbak:writing constraint INTEG_21 
+gbak:writing constraint PK_BE_ID 
+gbak:writing constraint INTEG_22 
+gbak:writing constraint PK_PF_ID 
+gbak:writing constraint INTEG_23 
+gbak:writing constraint INTEG_24 
+gbak:writing constraint PK_BG_ID 
+gbak:writing constraint INTEG_25 
+gbak:writing constraint PK_SK_ID 
+gbak:writing constraint INTEG_26 
+gbak:writing constraint PK_KS_ID 
+gbak:writing referential constraints 
+gbak:writing check constraints 
+gbak:writing SQL roles 
+gbak:writing names mapping 
+gbak:closing file, committing, and finishing. 227576320 bytes written 
+

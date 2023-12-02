@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{FC8C4DEB-E0CA-4664-9CB7-21FE07B92C06}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Zeitplaner.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\..\Test\Delphi_Backup\Zeitplaner\NFSBackupUI.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\..\Test\Delphi_Backup\Dienst\nfsBackupdienst.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Dienst\FirebirdBackup.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Zeitplaner">
+        <MSBuild Projects="Zeitplaner.dproj"/>
+    </Target>
+    <Target Name="Zeitplaner:Clean">
+        <MSBuild Projects="Zeitplaner.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Zeitplaner:Make">
+        <MSBuild Projects="Zeitplaner.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NFSBackupUI">
+        <MSBuild Projects="..\..\..\Test\Delphi_Backup\Zeitplaner\NFSBackupUI.dproj"/>
+    </Target>
+    <Target Name="NFSBackupUI:Clean">
+        <MSBuild Projects="..\..\..\Test\Delphi_Backup\Zeitplaner\NFSBackupUI.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NFSBackupUI:Make">
+        <MSBuild Projects="..\..\..\Test\Delphi_Backup\Zeitplaner\NFSBackupUI.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="nfsBackupdienst">
+        <MSBuild Projects="..\..\..\Test\Delphi_Backup\Dienst\nfsBackupdienst.dproj"/>
+    </Target>
+    <Target Name="nfsBackupdienst:Clean">
+        <MSBuild Projects="..\..\..\Test\Delphi_Backup\Dienst\nfsBackupdienst.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="nfsBackupdienst:Make">
+        <MSBuild Projects="..\..\..\Test\Delphi_Backup\Dienst\nfsBackupdienst.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FirebirdBackup">
+        <MSBuild Projects="..\Dienst\FirebirdBackup.dproj"/>
+    </Target>
+    <Target Name="FirebirdBackup:Clean">
+        <MSBuild Projects="..\Dienst\FirebirdBackup.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FirebirdBackup:Make">
+        <MSBuild Projects="..\Dienst\FirebirdBackup.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Zeitplaner;NFSBackupUI;nfsBackupdienst;FirebirdBackup"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Zeitplaner:Clean;NFSBackupUI:Clean;nfsBackupdienst:Clean;FirebirdBackup:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Zeitplaner:Make;NFSBackupUI:Make;nfsBackupdienst:Make;FirebirdBackup:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

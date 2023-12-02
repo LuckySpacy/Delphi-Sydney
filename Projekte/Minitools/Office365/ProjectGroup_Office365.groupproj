@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{70918944-D007-4FBA-81E2-D17288B3F321}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="MailOffice365.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Test 2\Project1.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="MailOffice365">
+        <MSBuild Projects="MailOffice365.dproj"/>
+    </Target>
+    <Target Name="MailOffice365:Clean">
+        <MSBuild Projects="MailOffice365.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MailOffice365:Make">
+        <MSBuild Projects="MailOffice365.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project1">
+        <MSBuild Projects="Test 2\Project1.dproj"/>
+    </Target>
+    <Target Name="Project1:Clean">
+        <MSBuild Projects="Test 2\Project1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project1:Make">
+        <MSBuild Projects="Test 2\Project1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="MailOffice365;Project1"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="MailOffice365:Clean;Project1:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="MailOffice365:Make;Project1:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,5 @@
+1;c:\Datenbank\Backup\DokuOrga\*.bak;z:\Backup\Blackview-2023\Datenbank\Firebird\DokuOrga\;7;7;0;0
+2;c:\Datenbank\Backup\TSI\*.bak;z:\Backup\Blackview-2023\Datenbank\Firebird\TSI\;7;7;0;0
+3;c:\Datenbank\Backup\TSIKurse\*.bak;z:\Backup\Blackview-2023\Datenbank\Firebird\TSIKurse\;7;7;0;0
+4;c:\Datenbank\Backup\tsi2\*.bak;z:\Backup\Blackview-2023\Datenbank\Firebird\TSI2;3;3;0;0
+5;c:\Datenbank\Backup\Rezept\*.bak;z:\Backup\Blackview-2023\Datenbank\Firebird\Rezept;3;3;0;0

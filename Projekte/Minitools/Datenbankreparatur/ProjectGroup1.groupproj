@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{CF54EAAA-F800-4B9D-8329-775A0E0B10DF}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Datenbankreparatur.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Optima\client\opticli.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Datenbankreparatur">
+        <MSBuild Projects="Datenbankreparatur.dproj"/>
+    </Target>
+    <Target Name="Datenbankreparatur:Clean">
+        <MSBuild Projects="Datenbankreparatur.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Datenbankreparatur:Make">
+        <MSBuild Projects="Datenbankreparatur.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="opticli">
+        <MSBuild Projects="..\..\Optima\client\opticli.dproj"/>
+    </Target>
+    <Target Name="opticli:Clean">
+        <MSBuild Projects="..\..\Optima\client\opticli.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="opticli:Make">
+        <MSBuild Projects="..\..\Optima\client\opticli.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Datenbankreparatur;opticli"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Datenbankreparatur:Clean;opticli:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Datenbankreparatur:Make;opticli:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
