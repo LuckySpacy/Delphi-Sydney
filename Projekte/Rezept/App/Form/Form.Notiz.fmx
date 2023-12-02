@@ -1,0 +1,43 @@
+object frm_Notiz: Tfrm_Notiz
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object TMSFMXRichEditor1: TTMSFMXRichEditor
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    Cursor = crIBeam
+    DisableFocusEffect = False
+    Position.Y = 30.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 336.000000000000000000
+    Size.PlatformDefault = False
+    Font.Size = 14.000000000000000000
+    Fill.Kind = Solid
+    Stroke.Color = claGray
+    Stroke.Kind = Solid
+    CanFocus = True
+  end
+  object TMSFMXRichEditorFormatToolBar1: TTMSFMXRichEditorFormatToolBar
+    Version = '1.0.0.4'
+    Appearance.Fill.Gradient.Points = <
+      item
+        Color = claWhite
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = xFFE6E6E6
+        Offset = 1.000000000000000000
+      end>
+    Align = Top
+    DisableFocusEffect = False
+    Size.Width = 640.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

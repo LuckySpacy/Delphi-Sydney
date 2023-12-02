@@ -1,0 +1,20 @@
+object frm_MusikOrga: Tfrm_MusikOrga
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 370
+  ClientWidth = 319
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object MainMenu: TMainMenu
+    Left = 136
+    Top = 88
+    object mnu_Einstellung: TMenuItem
+      Text = 'Einstellung'
+    end
+  end
+end

@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{587C7E7D-8ABB-46AB-B0EE-E9EDF9AC4D1A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Rezept.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\Bachmann\Programmierung\Delphi\Sydney\Komponenten\VirtualTreeView\Demos\Minimal\Minimal.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Test\Firedac\MySql\Test 1\Project1.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Test\MySqlAndFirebird\Test 1\Project2.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Rezept">
+        <MSBuild Projects="Rezept.dproj"/>
+    </Target>
+    <Target Name="Rezept:Clean">
+        <MSBuild Projects="Rezept.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Rezept:Make">
+        <MSBuild Projects="Rezept.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Minimal">
+        <MSBuild Projects="C:\Bachmann\Programmierung\Delphi\Sydney\Komponenten\VirtualTreeView\Demos\Minimal\Minimal.dproj"/>
+    </Target>
+    <Target Name="Minimal:Clean">
+        <MSBuild Projects="C:\Bachmann\Programmierung\Delphi\Sydney\Komponenten\VirtualTreeView\Demos\Minimal\Minimal.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Minimal:Make">
+        <MSBuild Projects="C:\Bachmann\Programmierung\Delphi\Sydney\Komponenten\VirtualTreeView\Demos\Minimal\Minimal.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project1">
+        <MSBuild Projects="..\..\Test\Firedac\MySql\Test 1\Project1.dproj"/>
+    </Target>
+    <Target Name="Project1:Clean">
+        <MSBuild Projects="..\..\Test\Firedac\MySql\Test 1\Project1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project1:Make">
+        <MSBuild Projects="..\..\Test\Firedac\MySql\Test 1\Project1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project2">
+        <MSBuild Projects="..\..\Test\MySqlAndFirebird\Test 1\Project2.dproj"/>
+    </Target>
+    <Target Name="Project2:Clean">
+        <MSBuild Projects="..\..\Test\MySqlAndFirebird\Test 1\Project2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project2:Make">
+        <MSBuild Projects="..\..\Test\MySqlAndFirebird\Test 1\Project2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Rezept;Minimal;Project1;Project2"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Rezept:Clean;Minimal:Clean;Project1:Clean;Project2:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Rezept:Make;Minimal:Make;Project1:Make;Project2:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

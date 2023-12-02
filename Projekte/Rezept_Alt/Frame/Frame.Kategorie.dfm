@@ -1,0 +1,130 @@
+object fra_Kategorie: Tfra_Kategorie
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'fra_Kategorie'
+  ClientHeight = 338
+  ClientWidth = 651
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 651
+    Height = 41
+    Align = alTop
+    BevelOuter = bvNone
+    Caption = 'Panel1'
+    ShowCaption = False
+    TabOrder = 0
+    ExplicitLeft = 352
+    ExplicitTop = 88
+    ExplicitWidth = 185
+    object btn_Neu: TTBButton
+      AlignWithMargins = True
+      Left = 3
+      Top = 10
+      Width = 25
+      Height = 28
+      Margins.Top = 10
+      Margins.Right = 0
+      Flat = True
+      SelectColor = clSkyBlue
+      DownColor = clSkyBlue
+      BtnLabel.HAlign = tbHLeft
+      BtnLabel.VAlign = tbVTop
+      BtnLabel.HMargin = 3
+      BtnLabel.VMargin = 0
+      BtnLabel.HTextAlign = tbHTextCenter
+      BtnLabel.VTextAlign = tbVTextCenter
+      BtnLabel.Font.Charset = DEFAULT_CHARSET
+      BtnLabel.Font.Color = clWindowText
+      BtnLabel.Font.Height = -11
+      BtnLabel.Font.Name = 'Tahoma'
+      BtnLabel.Font.Style = []
+      BtnLabel.Wordwrap = True
+      BtnImage.AlignLeft = True
+      BtnImage.AlignRight = False
+      BtnImage.Margin = 5
+      BtnImage.Height = 16
+      BtnImage.Width = 16
+      Images = dm.Img_Small
+      ImageIndex = 10
+      Align = alLeft
+    end
+    object btn_Loeschen: TTBButton
+      AlignWithMargins = True
+      Left = 31
+      Top = 10
+      Width = 25
+      Height = 28
+      Margins.Top = 10
+      Flat = True
+      SelectColor = clSkyBlue
+      DownColor = clSkyBlue
+      BtnLabel.HAlign = tbHLeft
+      BtnLabel.VAlign = tbVTop
+      BtnLabel.HMargin = 3
+      BtnLabel.VMargin = 0
+      BtnLabel.HTextAlign = tbHTextCenter
+      BtnLabel.VTextAlign = tbVTextCenter
+      BtnLabel.Font.Charset = DEFAULT_CHARSET
+      BtnLabel.Font.Color = clWindowText
+      BtnLabel.Font.Height = -11
+      BtnLabel.Font.Name = 'Tahoma'
+      BtnLabel.Font.Style = []
+      BtnLabel.Wordwrap = True
+      BtnImage.AlignLeft = True
+      BtnImage.AlignRight = False
+      BtnImage.Margin = 5
+      BtnImage.Height = 16
+      BtnImage.Width = 16
+      Images = dm.Img_Small
+      ImageIndex = 11
+      Align = alLeft
+      ExplicitLeft = 34
+    end
+  end
+  object VirtualStringTree1: TVirtualStringTree
+    AlignWithMargins = True
+    Left = 3
+    Top = 44
+    Width = 645
+    Height = 291
+    Align = alClient
+    Header.AutoSizeIndex = 0
+    Header.Font.Charset = DEFAULT_CHARSET
+    Header.Font.Color = clWindowText
+    Header.Font.Height = -11
+    Header.Font.Name = 'Tahoma'
+    Header.Font.Style = []
+    Header.MainColumn = -1
+    PopupMenu = pop
+    TabOrder = 1
+    ExplicitLeft = -2
+    Columns = <>
+  end
+  object pop: TPopupMenu
+    Left = 112
+    Top = 72
+    object mnu_Neu_auf_dieser_Ebene: TMenuItem
+      Caption = 'Neuer Eintrag auf dieser Ebene'
+    end
+    object mnu_Neu_auf_naechster_Ebene: TMenuItem
+      Caption = 'Neuer Eintrag auf n'#228'chster Ebene'
+    end
+    object N1: TMenuItem
+      Caption = '-'
+    end
+    object mnu_Loeschen: TMenuItem
+      Caption = 'L'#246'schen'
+    end
+  end
+end

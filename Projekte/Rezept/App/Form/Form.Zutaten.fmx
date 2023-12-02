@@ -1,0 +1,64 @@
+object frm_Zutaten: Tfrm_Zutaten
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 258
+  ClientWidth = 339
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 3
+  object tbc_Zutaten: TTabControl
+    Align = Client
+    Size.Width = 339.000000000000000000
+    Size.Height = 217.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabPosition = PlatformDefault
+    Sizes = (
+      339s
+      168s)
+    object tbs_Zutat: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 339.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tbs_Zutat'
+      ExplicitSize.cx = 70.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+    end
+  end
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 339.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    object edt_Basismenge: TSpinBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Cursor = crIBeam
+      Value = 4.000000000000000000
+      Position.X = 112.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      OnChange = edt_BasismengeChange
+    end
+    object Label1: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Basismenge'
+    end
+  end
+end

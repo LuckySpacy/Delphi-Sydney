@@ -1,0 +1,43 @@
+object frm_Zutat: Tfrm_Zutat
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 301
+  ClientWidth = 496
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 496.000000000000000000
+    Size.Height = 301.000000000000000000
+    Size.PlatformDefault = False
+    object grd: TGrid
+      Align = Client
+      CanFocus = True
+      ClipChildren = True
+      Size.Width = 496.000000000000000000
+      Size.Height = 301.000000000000000000
+      Size.PlatformDefault = False
+      Options = [ColumnResize, ColumnMove, ColLines, RowLines, Tabs, Header, HeaderClick, AutoDisplacement]
+      OnGetValue = grdGetValue
+      Viewport.Width = 476.000000000000000000
+      Viewport.Height = 276.000000000000000000
+      object Col_Menge: TFloatColumn
+        Header = 'Menge'
+        Size.Width = 65.000000000000000000
+      end
+      object Col_Einheit: TStringColumn
+        Header = 'Einheit'
+        Size.Width = 55.000000000000000000
+      end
+      object Col_Zutat: TStringColumn
+        Header = 'Zutat'
+        Size.Width = 311.000000000000000000
+      end
+    end
+  end
+end

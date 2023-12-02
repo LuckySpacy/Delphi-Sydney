@@ -1,0 +1,42 @@
+object frm_PhotoOrga: Tfrm_PhotoOrga
+  Left = 0
+  Top = 0
+  Caption = 'PhotoOrga'
+  ClientHeight = 557
+  ClientWidth = 579
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnl_Toolbar: TPanel
+    Left = 0
+    Top = 0
+    Width = 579
+    Height = 44
+    Align = alTop
+    BevelOuter = bvNone
+    Caption = 'pnl_Toolbar'
+    ShowCaption = False
+    TabOrder = 0
+  end
+  object pnl_Forms: TPanel
+    Left = 0
+    Top = 44
+    Width = 579
+    Height = 513
+    Align = alClient
+    BevelOuter = bvNone
+    Caption = 'pnl_Toolbar'
+    ShowCaption = False
+    TabOrder = 1
+  end
+end

@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{5DFB97A7-8596-4B38-BFE8-6028C2C18AA6}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="RezeptServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Rezept.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\App\RezeptApp.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="RezeptServer">
+        <MSBuild Projects="RezeptServer.dproj"/>
+    </Target>
+    <Target Name="RezeptServer:Clean">
+        <MSBuild Projects="RezeptServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RezeptServer:Make">
+        <MSBuild Projects="RezeptServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Rezept">
+        <MSBuild Projects="..\Rezept.dproj"/>
+    </Target>
+    <Target Name="Rezept:Clean">
+        <MSBuild Projects="..\Rezept.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Rezept:Make">
+        <MSBuild Projects="..\Rezept.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RezeptApp">
+        <MSBuild Projects="..\App\RezeptApp.dproj"/>
+    </Target>
+    <Target Name="RezeptApp:Clean">
+        <MSBuild Projects="..\App\RezeptApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RezeptApp:Make">
+        <MSBuild Projects="..\App\RezeptApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="RezeptServer;Rezept;RezeptApp"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="RezeptServer:Clean;Rezept:Clean;RezeptApp:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="RezeptServer:Make;Rezept:Make;RezeptApp:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

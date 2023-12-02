@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{782F6DE5-9376-4ABA-8939-A3B22018BC65}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Windows\tbMusikOrga.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\..\Test\Musik\MP4 Tag Library 1.0.58.114\Delphi\Tutorial\MP4TagLibraryTutorial.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\..\Test\Musik\ID3v2 Library 2.0.84.204\Delphi\Tutorial Lyrics3v2 Tag\TutorialLyrics3v2Tag.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\..\Test\Musik\ID3v2 Library 2.0.84.204\Delphi\Tutorial\ID3v2Tutorial.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="tbMusikOrga">
+        <MSBuild Projects="Windows\tbMusikOrga.dproj"/>
+    </Target>
+    <Target Name="tbMusikOrga:Clean">
+        <MSBuild Projects="Windows\tbMusikOrga.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="tbMusikOrga:Make">
+        <MSBuild Projects="Windows\tbMusikOrga.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MP4TagLibraryTutorial">
+        <MSBuild Projects="..\..\..\Test\Musik\MP4 Tag Library 1.0.58.114\Delphi\Tutorial\MP4TagLibraryTutorial.dproj"/>
+    </Target>
+    <Target Name="MP4TagLibraryTutorial:Clean">
+        <MSBuild Projects="..\..\..\Test\Musik\MP4 Tag Library 1.0.58.114\Delphi\Tutorial\MP4TagLibraryTutorial.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MP4TagLibraryTutorial:Make">
+        <MSBuild Projects="..\..\..\Test\Musik\MP4 Tag Library 1.0.58.114\Delphi\Tutorial\MP4TagLibraryTutorial.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TutorialLyrics3v2Tag">
+        <MSBuild Projects="..\..\..\Test\Musik\ID3v2 Library 2.0.84.204\Delphi\Tutorial Lyrics3v2 Tag\TutorialLyrics3v2Tag.dproj"/>
+    </Target>
+    <Target Name="TutorialLyrics3v2Tag:Clean">
+        <MSBuild Projects="..\..\..\Test\Musik\ID3v2 Library 2.0.84.204\Delphi\Tutorial Lyrics3v2 Tag\TutorialLyrics3v2Tag.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TutorialLyrics3v2Tag:Make">
+        <MSBuild Projects="..\..\..\Test\Musik\ID3v2 Library 2.0.84.204\Delphi\Tutorial Lyrics3v2 Tag\TutorialLyrics3v2Tag.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ID3v2Tutorial">
+        <MSBuild Projects="..\..\..\Test\Musik\ID3v2 Library 2.0.84.204\Delphi\Tutorial\ID3v2Tutorial.dproj"/>
+    </Target>
+    <Target Name="ID3v2Tutorial:Clean">
+        <MSBuild Projects="..\..\..\Test\Musik\ID3v2 Library 2.0.84.204\Delphi\Tutorial\ID3v2Tutorial.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ID3v2Tutorial:Make">
+        <MSBuild Projects="..\..\..\Test\Musik\ID3v2 Library 2.0.84.204\Delphi\Tutorial\ID3v2Tutorial.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="tbMusikOrga;MP4TagLibraryTutorial;TutorialLyrics3v2Tag;ID3v2Tutorial"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="tbMusikOrga:Clean;MP4TagLibraryTutorial:Clean;TutorialLyrics3v2Tag:Clean;ID3v2Tutorial:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="tbMusikOrga:Make;MP4TagLibraryTutorial:Make;TutorialLyrics3v2Tag:Make;ID3v2Tutorial:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

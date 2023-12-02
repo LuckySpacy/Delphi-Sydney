@@ -1,0 +1,281 @@
+object frm_Rezept: Tfrm_Rezept
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 707
+  StyleLookup = 'panelstyle'
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Size.Width = 707.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    object btn_Zurueck: TSpeedButton
+      Align = Left
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'priortoolbutton'
+      Text = 'btn_Zurueck'
+      OnClick = btn_ZurueckClick
+    end
+    object btn_SaveNotiz: TTMSFMXSpeedButton
+      Align = Right
+      CanFocus = True
+      GroupName = ''
+      Margins.Left = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 664.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 43.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'btn_Save'
+      OnClick = btn_SaveNotizClick
+      BitmapContainer = TMSFMXBitmapContainer1
+      BitmapName = 'Item1'
+      ShowImage = True
+      ShowText = False
+      Version = '1.6.0.0'
+    end
+  end
+  object tbc: TTabControl
+    Align = Client
+    Size.Width = 707.000000000000000000
+    Size.Height = 432.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 2
+    TabPosition = PlatformDefault
+    OnChange = tbcChange
+    Sizes = (
+      707s
+      383s
+      707s
+      383s
+      707s
+      383s
+      707s
+      383s)
+    object tbs_Rezept: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 176.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Rezept'
+      ExplicitSize.cx = 320.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object mem_Rezept: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        ReadOnly = True
+        StyledSettings = [Style, FontColor]
+        TextSettings.Font.Family = 'Courier New'
+        TextSettings.Font.Size = 20.000000000000000000
+        Align = Client
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 687.000000000000000000
+        Size.Height = 363.000000000000000000
+        Size.PlatformDefault = False
+        Viewport.Width = 679.000000000000000000
+        Viewport.Height = 355.000000000000000000
+      end
+    end
+    object tbs_Zutaten: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 176.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Zutaten'
+      ExplicitSize.cx = 320.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object lay_Zutaten: TLayout
+        Align = Client
+        Size.Width = 707.000000000000000000
+        Size.Height = 383.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object tbs_Notiz: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 176.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Notiz'
+      ExplicitSize.cx = 214.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object lay_Notiz: TLayout
+        Align = Client
+        Size.Width = 707.000000000000000000
+        Size.Height = 383.000000000000000000
+        Size.PlatformDefault = False
+        object re_Notiz: TTMSFMXRichEditor
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          Cursor = crIBeam
+          DisableFocusEffect = False
+          Margins.Left = 3.000000000000000000
+          Margins.Top = 3.000000000000000000
+          Margins.Right = 3.000000000000000000
+          Margins.Bottom = 3.000000000000000000
+          Size.Width = 701.000000000000000000
+          Size.Height = 336.000000000000000000
+          Size.PlatformDefault = False
+          Font.Size = 14.000000000000000000
+          Fill.Kind = Solid
+          Stroke.Color = claGray
+          Stroke.Kind = Solid
+          CanFocus = True
+        end
+        object Layout1: TLayout
+          Align = Top
+          Size.Width = 707.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          object Layout2: TLayout
+            Align = Left
+            Size.Width = 33.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            object btn_Save: TTMSFMXSpeedButton
+              Align = Client
+              CanFocus = True
+              GroupName = ''
+              Margins.Left = 3.000000000000000000
+              Margins.Right = 3.000000000000000000
+              Margins.Bottom = 5.000000000000000000
+              Size.Width = 27.000000000000000000
+              Size.Height = 36.000000000000000000
+              Size.PlatformDefault = False
+              Text = 'btn_Save'
+              OnClick = btn_SaveClick
+              BitmapContainer = TMSFMXBitmapContainer1
+              BitmapName = 'Item1'
+              ShowImage = True
+              ShowText = False
+              Version = '1.6.0.0'
+            end
+          end
+          object Layout3: TLayout
+            Align = Client
+            Size.Width = 674.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            object Toolbar_Notiz: TTMSFMXRichEditorFormatToolBar
+              Version = '1.0.0.4'
+              Appearance.Fill.Gradient.Points = <
+                item
+                  Color = claWhite
+                  Offset = 0.000000000000000000
+                end
+                item
+                  Color = xFFE6E6E6
+                  Offset = 1.000000000000000000
+                end>
+              Align = Top
+              DisableFocusEffect = False
+              Margins.Left = 3.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Right = 3.000000000000000000
+              Margins.Bottom = 3.000000000000000000
+              Position.X = 3.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 668.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              RichEditor = re_Notiz
+              Options = [ftoFontName, ftoFontSize, ftoBold, ftoItalic, ftoAlignLeft, ftoAlignCenter, ftoAlignRight, ftoTextColor]
+            end
+          end
+        end
+      end
+    end
+    object tbs_PlainNotiz: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 179.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Notiz'
+      ExplicitSize.cx = 179.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object mem_Notiz: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        Align = Client
+        Size.Width = 707.000000000000000000
+        Size.Height = 383.000000000000000000
+        Size.PlatformDefault = False
+        Viewport.Width = 699.000000000000000000
+        Viewport.Height = 375.000000000000000000
+      end
+    end
+  end
+  object TMSFMXBitmapContainer1: TTMSFMXBitmapContainer
+    Items = <
+      item
+        Bitmap.PNG = {
+          89504E470D0A1A0A0000000D4948445200000040000000400806000000AA6971
+          DE000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+          02BF49444154785EEDD73F4C13511800F0AF77D75E29A1628A4B036E06ECE604
+          9A9AE8E4649488A0317177D0843818C70EC6518D7177F11F694016133BD4C168
+          D49D709D8C10588A800152DABE7BE75DF84C6873155EEFDD3FEEFD9297F7BEBB
+          A67DF7F5BDEFEE4010044188B018F62D66AECFC8CB7A8C60187E12CDDC2F4EAD
+          63D442C23EB2229F80AEB64066280D63933918CA0D4032AD8224D97E8DAB0C6A
+          406DAB012B8B55F856D4A0FA7313CFD8E0B9058E67FBE0E6E38B307C6E1052FD
+          495F2EDE12337F37754C8553638370E3D105183899C6336C9813307A6D04123D
+          718C8221AE2A303A711A2336CC09C80E6770142CD991EEE6C59C00B53758FFFE
+          3F6A6F02476C988BE09D9797A1A74FC5680F2104CAE53246EECBE7F3904AA530
+          DAD3DC25F0FCD67B8CDA78F11CA0EBBA678D272E2BC0300CEE13FB1F59962116
+          6B9DBAAF2BC09A8CA2289EB5F68B7782DB16082B2E5BC0522A9570E4BEC01541
+          EB2ED05EA8DC6C3C71BB0D7A297045D09A905DB172AB05AE08F29C90D74411C4
+          DE115104CD04587BD34FBEAE00BF2FDE092E0908335104B1774414C148154103
+          FB7D8250046DA67528CC09D8DD69E22858EADB0D1CB1614EC0AAB686A36059D5
+          7EE3880D73027ECC55A0510BD62A68D6097C9FD53062C39C808D952D78FDA00C
+          DAE725D85EAF814E289EF116357F7767A306952FCBF0E6E12758FBF507CFB061
+          BE0B8492DBCF01612612807DD7E249C5F7E684E31A70EFED3828711923EFD5CD
+          E79217B7E731EA40D480CE5C590154A7F0747216237B775F5D75BC7C2D620538
+          2412807D648904601F592201D847964800F62D16720B062550C5F048B34D40A1
+          50A04A829E37282CE1A123ABE316982E4E55C020790AB088870E4D920FDE593C
+          1E8379B07D17D8EFD9C4BB1384C04790A43378A845D8DF060F4C80E5C995B97E
+          5D261FCC0F9FC543E1E2F465687A7E7C5327F14B60D0AF784810044110420FE0
+          2FF5338D7F98BCB6040000000049454E44AE426082}
+        Name = 'Item1'
+        Tag = 0
+      end>
+    Version = '1.5.0.0'
+    Left = 536
+    Top = 185
+  end
+  object TMSFMXRichEditorRTFIO1: TTMSFMXRichEditorRTFIO
+    Left = 480
+    Top = 150
+  end
+end

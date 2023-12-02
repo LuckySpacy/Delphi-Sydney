@@ -1,0 +1,91 @@
+object frm_Uebersicht: Tfrm_Uebersicht
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 633
+  ClientWidth = 470
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object tbc_Rezept: TTabControl
+    Align = Client
+    Size.Width = 470.000000000000000000
+    Size.Height = 633.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabPosition = None
+    Sizes = (
+      470s
+      633s
+      470s
+      633s)
+    object tbs_Uebersicht: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tbs_Uebersicht'
+      ExplicitSize.cx = 235.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object lb: TListBox
+        Align = Client
+        Size.Width = 470.000000000000000000
+        Size.Height = 633.000000000000000000
+        Size.PlatformDefault = False
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        Viewport.Width = 470.000000000000000000
+        Viewport.Height = 633.000000000000000000
+        object ListBoxItem1: TListBoxItem
+          TextSettings.Font.Family = 'Times New Roman'
+          TextSettings.Font.Size = 25.000000000000000000
+          StyledSettings = [Family, Style, FontColor, Other]
+          ItemData.Accessory = aMore
+          ItemData.Bitmap.PNG = {
+            89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+            61000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            007049444154384F63FCCFF0FF3F030500A701891B2740591030DFBF00CA4205
+            4C501A037CFBF30B05E302380D20160CBC01E0408C5BDFC7F0E7FF3FA81004FC
+            45E3333362DAB52CA804E2029062748C0E70A91924610065A380F0B55D501604
+            AC0C2E83B250C1C07B6110072271808101002EFC47811896678F000000004945
+            4E44AE426082}
+          Padding.Left = 20.000000000000000000
+          StyleLookup = 'listboxitemstyle'
+          Text = 'Bild1'
+        end
+      end
+    end
+    object tbs_Rezept: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tbs_Rezept'
+      ExplicitSize.cx = 235.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Lay_Rezept: TLayout
+        Align = Client
+        Size.Width = 470.000000000000000000
+        Size.Height = 633.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+end

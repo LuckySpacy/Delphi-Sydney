@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{DF382A0C-8C44-4ADE-9AF7-7ACC16A69DFD}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="PhotoOrga.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Rezept\Rezept.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\HarddriveClone2\HarddriveClone2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Test\Bilder\thumbs 330\PrepareImages.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="PhotoOrga">
+        <MSBuild Projects="PhotoOrga.dproj"/>
+    </Target>
+    <Target Name="PhotoOrga:Clean">
+        <MSBuild Projects="PhotoOrga.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PhotoOrga:Make">
+        <MSBuild Projects="PhotoOrga.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Rezept">
+        <MSBuild Projects="..\Rezept\Rezept.dproj"/>
+    </Target>
+    <Target Name="Rezept:Clean">
+        <MSBuild Projects="..\Rezept\Rezept.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Rezept:Make">
+        <MSBuild Projects="..\Rezept\Rezept.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="HarddriveClone2">
+        <MSBuild Projects="..\HarddriveClone2\HarddriveClone2.dproj"/>
+    </Target>
+    <Target Name="HarddriveClone2:Clean">
+        <MSBuild Projects="..\HarddriveClone2\HarddriveClone2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HarddriveClone2:Make">
+        <MSBuild Projects="..\HarddriveClone2\HarddriveClone2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PrepareImages">
+        <MSBuild Projects="..\..\Test\Bilder\thumbs 330\PrepareImages.dproj"/>
+    </Target>
+    <Target Name="PrepareImages:Clean">
+        <MSBuild Projects="..\..\Test\Bilder\thumbs 330\PrepareImages.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PrepareImages:Make">
+        <MSBuild Projects="..\..\Test\Bilder\thumbs 330\PrepareImages.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="PhotoOrga;Rezept;HarddriveClone2;PrepareImages"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="PhotoOrga:Clean;Rezept:Clean;HarddriveClone2:Clean;PrepareImages:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="PhotoOrga:Make;Rezept:Make;HarddriveClone2:Make;PrepareImages:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

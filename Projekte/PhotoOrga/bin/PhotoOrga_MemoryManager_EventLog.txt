@@ -1,0 +1,1406 @@
+
+--------------------------------2022/5/29 17:56:02--------------------------------
+Ein Speicherblock hat Speicher verloren. Die Grˆﬂe ist: 100
+
+This block was allocated by thread 0x51E4, and the stack trace (return addresses) at the time was:
+407152 [System.pas][System][@GetMem$qqri][4843]
+40AD1B [System.pas][System][@NewUnicodeString$qqri][25659]
+40AF4C [System.pas][System][@UStrFromPWCharLen$qqrr20System.UnicodeStringpbi][26337]
+4EB134 [System.Classes.pas][System.Classes][Classes.TStrings.GetTextStr][6929]
+8F195C [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.BezeichnungAendern][320]
+8F0EC4 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.pop_BezeichnungndernClick][113]
+684C98 [Vcl.Menus.pas][Vcl.Menus][Menus.TMenuItem.Click][2605]
+686456 [Vcl.Menus.pas][Vcl.Menus][Menus.TMenu.DispatchCommand][3562]
+6876D3 [Vcl.Menus.pas][Vcl.Menus][Menus.TPopupList.WndProc][4735]
+409779 [System.pas][System][TMonitor.CheckOwningThread][19506]
+409A9F [System.pas][System][TMonitor.Exit][19696]
+
+Der Block wird momentan f¸r eine Objektklasse benutzt UnicodeString
+
+The allocation number is: 18871
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FE326E0:
+B0 04 02 00 01 00 00 00 27 00 00 00 73 00 65 00 6C 00 65 00 63 00 74 00 20 00 2A 00 20 00 66 00
+72 00 6F 00 6D 00 20 00 50 00 68 00 6F 00 74 00 6F 00 42 00 61 00 75 00 6D 00 20 00 77 00 68 00
+65 00 72 00 65 00 20 00 50 00 42 00 5F 00 49 00 44 00 3D 00 32 00 0D 00 0A 00 00 00 61 1F 1A 78
+80 80 80 80 80 80 80 80 00 00 00 00 B1 21 E3 7F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+B4 49 00 00 52 71 40 00 1B AD 40 00 4C AF 40 00 B9 BF 40 00 00 64 73 00 21 A9 7D 00 48 C4 4E 00
+E9 CE 4E 00 84 A9 4E 00 D9 BB 4E 00 76 A5 40 00 E4 51 00 00 E4 51 00 00 6E 71 40 00 D8 B1 40 00
+31 A9 7D 00 48 C4 4E 00 E9 CE 4E 00 84 A9 4E 00 D9 BB 4E 00 76 A5 40 00 05 BB 4E 00 99 A2 84 00
+55 EB 8E 00 5C 00 00 00 B0 04 02 00 DD 05 32 87 80 4C 91 00 80 80 80 80 80 80 80 80 80 80 80 80
+∞  .  .  .  .  .  .  .  '  .  .  .  s  .  e  .  l  .  e  .  c  .  t  .     .  *  .     .  f  .
+r  .  o  .  m  .     .  P  .  h  .  o  .  t  .  o  .  B  .  a  .  u  .  m  .     .  w  .  h  .
+e  .  r  .  e  .     .  P  .  B  .  _  .  I  .  D  .  =  .  2  .  .  .  .  .  .  .  a  .  .  x
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .  ±  !  „    .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+¥  I  .  .  R  q  @  .  .  ≠  @  .  L  Ø  @  .  π  ø  @  .  .  d  s  .  !  ©  }  .  H  ƒ  N  .
+È  Œ  N  .  Ñ  ©  N  .  Ÿ  ª  N  .  v  •  @  .  ‰  Q  .  .  ‰  Q  .  .  n  q  @  .  ÿ  ±  @  .
+1  ©  }  .  H  ƒ  N  .  È  Œ  N  .  Ñ  ©  N  .  Ÿ  ª  N  .  v  •  @  .  .  ª  N  .  ô  ¢  Ñ  .
+U  Î  é  .  \  .  .  .  ∞  .  .  .  ›  .  2  á  Ä  L  ë  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+
+--------------------------------2022/5/29 17:56:02--------------------------------
+Diese Anwendung hat Speicher verloren. Die Grˆﬂen von kleinen Speicherblˆcken, die verlorengegangen sind, betragen (ausgenommen erwartete Speicherlecks, die durch Zeiger registriert wurden):
+
+85 - 100 Bytes: UnicodeString x 1
+
+Notiz: Speicherleck-Details werden in eine Textdatei geschrieben, die sich im selben Verzeichnis wie diese Anwendung befindet. Um diese Speicherleck-‹berpr¸fung abzuschalten, kommentieren Sie "EnableMemoryLeakReporting" aus.
+
+--------------------------------2022/5/29 17:59:36--------------------------------
+Ein Speicherblock hat Speicher verloren. Die Grˆﬂe ist: 20
+
+This block was allocated by thread 0x109C, and the stack trace (return addresses) at the time was:
+407152 [System.pas][System][@GetMem$qqri][4843]
+40AD1B [System.pas][System][@NewUnicodeString$qqri][25659]
+40BD87 [System.pas][System][@UStrSetLength$qqrr20System.UnicodeStringi][30965]
+4581DC [System.SysUtils.pas][System.SysUtils][Sysutils._IntToStr32$qqruio][8293]
+458581 [System.SysUtils.pas][System.SysUtils][Sysutils.IntToStr$qqri][8416]
+84AD5A [Objekt.DBFeld.pas][Objekt.DBFeld][Dbfeld.TDBFeld.setInteger][148]
+8EE5BD [DB.Basis.pas][DB.Basis][Basis.TDBBasis.FuelleDBFelder][143]
+8EF642 [DB.PhotoBaum.pas][DB.PhotoBaum][Photobaum.TDBPhotoBaum.FuelleDBFelder][75]
+8EF868 [DB.PhotoBaum.pas][DB.PhotoBaum][Photobaum.TDBPhotoBaum.LoadByQuery][103]
+8EEFEC [DB.Basis.pas][DB.Basis][Basis.TDBBasis.Read][349]
+8F1964 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.BezeichnungAendern][320]
+
+Der Block wird momentan f¸r eine Objektklasse benutzt UnicodeString
+
+The allocation number is: 19456
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FC708A0:
+B0 04 02 00 01 00 00 00 01 00 00 00 32 00 00 00 66 94 92 76 80 80 80 80 00 00 00 00 E1 1F C7 7F
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 D9 4B 00 00 52 71 40 00 1B AD 40 00 A8 B1 40 00
+79 F7 8E 00 35 E5 8E 00 42 F6 8E 00 7C F5 8E 00 20 E7 8E 00 BD F7 8E 00 EC EF 8E 00 64 19 8F 00
+9C 10 00 00 9C 10 00 00 5B B0 41 00 8F 71 40 00 5D BD 40 00 DE BD 40 00 42 E5 8E 00 42 F6 8E 00
+7C F5 8E 00 20 E7 8E 00 BD F7 8E 00 EC EF 8E 00 64 19 8F 00 12 00 00 00 B0 04 02 00 93 51 EF 89
+80 4C 91 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 6C AE 10 76 80 80 00 00 00 00 41 06 C7 7F
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 4E 28 00 00 52 71 40 00 C3 8D 40 00 FE 94 40 00
+A8 8E 40 00 A5 7B 4E 00 73 2F 5E 00 F8 9A 5E 00 B1 9B 5E 00 19 4D 5E 00 BA 10 5F 00 01 58 69 00
+∞  .  .  .  .  .  .  .  .  .  .  .  2  .  .  .  f  î  í  v  Ä  Ä  Ä  Ä  .  .  .  .  ·  .  «  
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Ÿ  K  .  .  R  q  @  .  .  ≠  @  .  ®  ±  @  .
+y  ˜  é  .  5  Â  é  .  B  ˆ  é  .  |  ı  é  .     Á  é  .  Ω  ˜  é  .  Ï  Ô  é  .  d  .  è  .
+ú  .  .  .  ú  .  .  .  [  ∞  A  .  è  q  @  .  ]  Ω  @  .  ﬁ  Ω  @  .  B  Â  é  .  B  ˆ  é  .
+|  ı  é  .     Á  é  .  Ω  ˜  é  .  Ï  Ô  é  .  d  .  è  .  .  .  .  .  ∞  .  .  .  ì  Q  Ô  â
+Ä  L  ë  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  l  Æ  .  v  Ä  Ä  .  .  .  .  A  .  «  
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  N  (  .  .  R  q  @  .  √  ç  @  .  ˛  î  @  .
+®  é  @  .  •  {  N  .  s  /  ^  .  ¯  ö  ^  .  ±  õ  ^  .  .  M  ^  .  ∫  .  _  .  .  X  i  .
+
+--------------------------------2022/5/29 17:59:36--------------------------------
+Diese Anwendung hat Speicher verloren. Die Grˆﬂen von kleinen Speicherblˆcken, die verlorengegangen sind, betragen (ausgenommen erwartete Speicherlecks, die durch Zeiger registriert wurden):
+
+13 - 20 Bytes: UnicodeString x 1
+
+Notiz: Speicherleck-Details werden in eine Textdatei geschrieben, die sich im selben Verzeichnis wie diese Anwendung befindet. Um diese Speicherleck-‹berpr¸fung abzuschalten, kommentieren Sie "EnableMemoryLeakReporting" aus.
+
+--------------------------------2022/6/4 15:47:49--------------------------------
+FastMM hat einen Versuch entdeckt, eine virtuelle Methode eines freigegebenen Objektes aufzurufen. Eine Schutzverletzung wird nun aufgerufen, um die aktuelle Operation abzubrechen.
+
+Freigegebene Objekt-Klasse: TFormPointer
+
+Virtuelle Methode: Destroy
+
+Adresse der virtuellen Methode: 8F2914
+
+The allocation number was: 10426
+
+The object was allocated by thread 0x6F2C, and the stack trace (return addresses) at the time was:
+407152 [System.pas][System][@GetMem$qqri][4843]
+408DC3 [System.pas][System][TObject.NewInstance][17861]
+4094FE [System.pas][System][@ClassCreate$qqrpvzc][19251]
+8F28EE [Objekt.FormPointer.pas][Objekt.FormPointer][Formpointer.TFormPointer.Create]
+5ECB78 [Vcl.Controls.pas][Vcl.Controls][Controls.TWinControl.RequestAlign][11108]
+8F2B99 [Objekt.FormPointerList.pas][Objekt.FormPointerList][Formpointerlist.TFormPointerList.Add][47]
+5E4062 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.SetAlign][5796]
+8F3531 [Form.PhotoOrga.pas][Form.PhotoOrga][Photoorga.Tfrm_PhotoOrga.RegisterForm][164]
+8F350F [Form.PhotoOrga.pas][Form.PhotoOrga][Photoorga.Tfrm_PhotoOrga.CreateFormPhoto][155]
+8F3267 [Form.PhotoOrga.pas][Form.PhotoOrga][Photoorga.Tfrm_PhotoOrga.FormCreate][92]
+6948D3 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.DoCreate][3986]
+
+The object was subsequently freed by thread 0x6F2C, and the stack trace (return addresses) at the time was:
+40716E [System.pas][System][@FreeMem$qqrpv][4891]
+408DE1 [System.pas][System][TObject.FreeInstance][17870]
+4B4634 [madExcept][InterceptClassDestroy$qqrp14System.TObject]
+8F2941 [Objekt.FormPointer.pas][Objekt.FormPointer][Formpointer.TFormPointer.Destroy][33]
+408ED7 [System.pas][System][TObject.Free][17933]
+8F3345 [Form.PhotoOrga.pas][Form.PhotoOrga][Photoorga.Tfrm_PhotoOrga.FormDestroy][105]
+69D75B [Vcl.Forms.pas][Vcl.Forms][Forms.TScreen.AlignForm][9402]
+69D77A [Vcl.Forms.pas][Vcl.Forms][Forms.TScreen.AlignForm][9405]
+69494F [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.DoDestroy][3998]
+694723 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.BeforeDestruction][3930]
+4095A8 [System.pas][System][@BeforeDestruction$qqrxp14System.TObjectzc][19334]
+
+The current thread ID is 0x6F2C, and the stack trace (return addresses) leading to this error is:
+408ED7 [System.pas][System][TObject.Free][17933]
+849921 [Objekt.ObjektList.pas][Objekt.ObjektList][Objektlist.TObjektList.Clear][30]
+849995 [Objekt.ObjektList.pas][Objekt.ObjektList][Objektlist.TObjektList.Destroy][43]
+408ED7 [System.pas][System][TObject.Free][17933]
+849CA1 [Objekt.BasisList.pas][Objekt.Basislist][Basislist.TBasisList.Destroy][48]
+4095A8 [System.pas][System][@BeforeDestruction$qqrxp14System.TObjectzc][19334]
+8F2B37 [Objekt.FormPointerList.pas][Objekt.FormPointerList][Formpointerlist.TFormPointerList.Destroy][34]
+408ED7 [System.pas][System][TObject.Free][17933]
+8F33AC [Form.PhotoOrga.pas][Form.PhotoOrga][Photoorga.Tfrm_PhotoOrga.FormDestroy][112]
+69D75B [Vcl.Forms.pas][Vcl.Forms][Forms.TScreen.AlignForm][9402]
+69494F [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.DoDestroy][3998]
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FC70EE0:
+80 5C 91 00 80 80 80 80 80 80 80 80 80 80 80 80 0C E3 E2 76 80 80 80 80 00 00 00 00 20 D9 C6 7F
+00 00 00 00 00 00 00 00 F8 AC 41 00 00 00 00 00 B8 28 00 00 52 71 40 00 C3 8D 40 00 FE 94 40 00
+A8 8E 40 00 A5 7B 4E 00 73 2F 5E 00 F8 9A 5E 00 B1 9B 5E 00 19 4D 5E 00 BA 10 5F 00 01 58 69 00
+2C 6F 00 00 2C 6F 00 00 6E 71 40 00 D8 B1 40 00 F6 3D 4F 00 26 38 4F 00 18 34 50 00 D5 37 4F 00
+EE CD 4F 00 7C 3E 5E 00 8A 89 5E 00 2E 50 69 00 63 47 4F 00 14 00 00 00 B0 04 02 00 F0 B4 22 87
+60 E6 4B 00 A8 83 C5 7F 01 00 00 00 04 00 00 00 00 00 00 00 0F 4B DD 78 00 00 00 00 41 10 C7 7F
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 8E 29 00 00 52 71 40 00 1B AD 40 00 A8 B1 40 00
+AC A2 4E 00 AD CF 4E 00 FE 94 40 00 96 72 72 00 07 9E 73 00 9D A3 75 00 84 A6 7D 00 74 A2 84 00
+Ä  \  ë  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  „  ‚  v  Ä  Ä  Ä  Ä  .  .  .  .     Ÿ  ∆  
+.  .  .  .  .  .  .  .  ¯  ¨  A  .  .  .  .  .  ∏  (  .  .  R  q  @  .  √  ç  @  .  ˛  î  @  .
+®  é  @  .  •  {  N  .  s  /  ^  .  ¯  ö  ^  .  ±  õ  ^  .  .  M  ^  .  ∫  .  _  .  .  X  i  .
+,  o  .  .  ,  o  .  .  n  q  @  .  ÿ  ±  @  .  ˆ  =  O  .  &  8  O  .  .  4  P  .  ’  7  O  .
+Ó  Õ  O  .  |  >  ^  .  ä  â  ^  .  .  P  i  .  c  G  O  .  .  .  .  .  ∞  .  .  .    ¥  "  á
+`  Ê  K  .  ®  É  ≈    .  .  .  .  .  .  .  .  .  .  .  .  .  K  ›  x  .  .  .  .  A  .  «  
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  é  )  .  .  R  q  @  .  .  ≠  @  .  ®  ±  @  .
+¨  ¢  N  .  ≠  œ  N  .  ˛  î  @  .  ñ  r  r  .  .  û  s  .  ù  £  u  .  Ñ  ¶  }  .  t  ¢  Ñ  .
+
+--------------------------------2022/6/5 13:40:14--------------------------------
+Ein Speicherblock hat Speicher verloren. Die Grˆﬂe ist: 132
+
+This block was allocated by thread 0x4BD4, and the stack trace (return addresses) at the time was:
+40AD1B [System.pas][System][@NewUnicodeString$qqri][25659]
+40AF4C [System.pas][System][@UStrFromPWCharLen$qqrr20System.UnicodeStringpbi][26337]
+5E4E6F [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.GetText][6368]
+1E0036 
+8F2C1D [Form.IniEinstellung.pas][Form.IniEinstellung][Inieinstellung.Tfrm_IniEinstellung.CMVISIBLECHANGED][64]
+5E6719 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.WndProc][7480]
+5E6353 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.Perform][7258]
+5EAA1C [Vcl.Controls.pas][Vcl.Controls][Controls.TWinControl.UpdateControlState][10062]
+5EAA73 [Vcl.Controls.pas][Vcl.Controls][Controls.TWinControl.UpdateControlState][10071]
+5EDA67 [Vcl.Controls.pas][Vcl.Controls][Controls.TWinControl.CMVisibleChanged][11874]
+5E6719 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.WndProc][7480]
+
+Der Block wird momentan f¸r eine Objektklasse benutzt UnicodeString
+
+The allocation number is: 23959
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FE1F1B0:
+B0 04 02 00 01 00 00 00 3A 00 00 00 64 00 3A 00 5C 00 42 00 61 00 63 00 68 00 6D 00 61 00 6E 00
+6E 00 5C 00 44 00 61 00 74 00 65 00 6E 00 5C 00 4F 00 6E 00 65 00 44 00 72 00 69 00 76 00 65 00
+5C 00 41 00 73 00 75 00 73 00 2D 00 50 00 43 00 2D 00 32 00 30 00 31 00 38 00 5C 00 42 00 69 00
+6C 00 64 00 65 00 72 00 5C 00 50 00 68 00 6F 00 74 00 6F 00 41 00 6C 00 62 00 75 00 6D 00 5C 00
+00 00 A5 B0 3D 8C 80 80 00 00 00 00 51 F3 E1 7F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+15 2A 00 00 52 71 40 00 C3 8D 40 00 FE 94 40 00 A8 8E 40 00 1A 8A 4E 00 78 6F 5C 00 EA 5E 5C 00
+84 80 5C 00 D5 C4 81 00 E3 CC 81 00 BA EF C8 75 D4 4B 00 00 D4 4B 00 00 6E 71 40 00 E1 8D 40 00
+34 46 4B 00 12 52 5C 00 D7 8E 40 00 A9 51 5C 00 2E 5D 5C 00 D7 8E 40 00 16 96 81 00 A8 95 40 00
+∞  .  .  .  .  .  .  .  :  .  .  .  d  .  :  .  \  .  B  .  a  .  c  .  h  .  m  .  a  .  n  .
+n  .  \  .  D  .  a  .  t  .  e  .  n  .  \  .  O  .  n  .  e  .  D  .  r  .  i  .  v  .  e  .
+\  .  A  .  s  .  u  .  s  .  -  .  P  .  C  .  -  .  2  .  0  .  1  .  8  .  \  .  B  .  i  .
+l  .  d  .  e  .  r  .  \  .  P  .  h  .  o  .  t  .  o  .  A  .  l  .  b  .  u  .  m  .  \  .
+.  .  •  ∞  =  å  Ä  Ä  .  .  .  .  Q  Û  ·    .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  *  .  .  R  q  @  .  √  ç  @  .  ˛  î  @  .  ®  é  @  .  .  ä  N  .  x  o  \  .  Í  ^  \  .
+Ñ  Ä  \  .  ’  ƒ  Å  .  „  Ã  Å  .  ∫  Ô  »  u  ‘  K  .  .  ‘  K  .  .  n  q  @  .  ·  ç  @  .
+4  F  K  .  .  R  \  .  ◊  é  @  .  ©  Q  \  .  .  ]  \  .  ◊  é  @  .  .  ñ  Å  .  ®  ï  @  .
+
+--------------------------------2022/6/5 13:40:14--------------------------------
+Ein Speicherblock hat Speicher verloren. Die Grˆﬂe ist: 132
+
+This block was allocated by thread 0x4BD4, and the stack trace (return addresses) at the time was:
+40AD1B [System.pas][System][@NewUnicodeString$qqri][25659]
+40AF4C [System.pas][System][@UStrFromPWCharLen$qqrr20System.UnicodeStringpbi][26337]
+5E4E6F [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.GetText][6368]
+1E0036 
+8F2C1D [Form.IniEinstellung.pas][Form.IniEinstellung][Inieinstellung.Tfrm_IniEinstellung.CMVISIBLECHANGED][64]
+5E6719 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.WndProc][7480]
+7726C79C [RtlDeactivateActivationContextUnsafeFast]
+4FEE46 [System.Classes.pas][System.Classes][Classes.StdWndProc$qqsp6HWND__uiuiui][18175]
+75C90FCB [Unknown function at AddClipboardFormatListener]
+75C87F9A [Unknown function at GetClassLongW]
+75C881DF [Unknown function at GetClassLongW]
+
+Der Block wird momentan f¸r eine Objektklasse benutzt UnicodeString
+
+The allocation number is: 23163
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FE1FE70:
+B0 04 02 00 01 00 00 00 3A 00 00 00 64 00 3A 00 5C 00 42 00 61 00 63 00 68 00 6D 00 61 00 6E 00
+6E 00 5C 00 44 00 61 00 74 00 65 00 6E 00 5C 00 4F 00 6E 00 65 00 44 00 72 00 69 00 76 00 65 00
+5C 00 41 00 73 00 75 00 73 00 2D 00 50 00 43 00 2D 00 32 00 30 00 31 00 38 00 5C 00 42 00 69 00
+6C 00 64 00 65 00 72 00 5C 00 50 00 68 00 6F 00 74 00 6F 00 41 00 6C 00 62 00 75 00 6D 00 5C 00
+00 00 D4 7E 6F DF 80 80 00 00 00 00 11 00 E2 7F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+0A 53 00 00 52 71 40 00 C3 8D 40 00 FE 94 40 00 A8 8E 40 00 1A 8A 4E 00 78 6F 5C 00 EA 5E 5C 00
+84 80 5C 00 D5 C4 81 00 E3 CC 81 00 7D 4E 29 77 D4 4B 00 00 D4 4B 00 00 6E 71 40 00 E1 8D 40 00
+34 46 4B 00 12 52 5C 00 D7 8E 40 00 A9 51 5C 00 2E 5D 5C 00 D7 8E 40 00 16 96 81 00 A8 95 40 00
+∞  .  .  .  .  .  .  .  :  .  .  .  d  .  :  .  \  .  B  .  a  .  c  .  h  .  m  .  a  .  n  .
+n  .  \  .  D  .  a  .  t  .  e  .  n  .  \  .  O  .  n  .  e  .  D  .  r  .  i  .  v  .  e  .
+\  .  A  .  s  .  u  .  s  .  -  .  P  .  C  .  -  .  2  .  0  .  1  .  8  .  \  .  B  .  i  .
+l  .  d  .  e  .  r  .  \  .  P  .  h  .  o  .  t  .  o  .  A  .  l  .  b  .  u  .  m  .  \  .
+.  .  ‘  ~  o  ﬂ  Ä  Ä  .  .  .  .  .  .  ‚    .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  S  .  .  R  q  @  .  √  ç  @  .  ˛  î  @  .  ®  é  @  .  .  ä  N  .  x  o  \  .  Í  ^  \  .
+Ñ  Ä  \  .  ’  ƒ  Å  .  „  Ã  Å  .  }  N  )  w  ‘  K  .  .  ‘  K  .  .  n  q  @  .  ·  ç  @  .
+4  F  K  .  .  R  \  .  ◊  é  @  .  ©  Q  \  .  .  ]  \  .  ◊  é  @  .  .  ñ  Å  .  ®  ï  @  .
+
+--------------------------------2022/6/5 13:40:14--------------------------------
+Diese Anwendung hat Speicher verloren. Die Grˆﬂen von kleinen Speicherblˆcken, die verlorengegangen sind, betragen (ausgenommen erwartete Speicherlecks, die durch Zeiger registriert wurden):
+
+117 - 132 Bytes: UnicodeString x 2
+
+Notiz: Speicherleck-Details werden in eine Textdatei geschrieben, die sich im selben Verzeichnis wie diese Anwendung befindet. Um diese Speicherleck-‹berpr¸fung abzuschalten, kommentieren Sie "EnableMemoryLeakReporting" aus.
+
+--------------------------------2022/6/5 16:38:13--------------------------------
+Ein Speicherblock hat Speicher verloren. Die Grˆﬂe ist: 36
+
+This block was allocated by thread 0x29AC, and the stack trace (return addresses) at the time was:
+407152 [System.pas][System][@GetMem$qqri][4843]
+408DC3 [System.pas][System][TObject.NewInstance][17861]
+4094FE [System.pas][System][@ClassCreate$qqrpvzc][19251]
+45F07C [System.SysUtils.pas][System.SysUtils][Sysutils.Exception.CreateFmt][23075]
+40C93E [System.pas][System][@FinalizeArray$qqrpvt1ui][33303]
+4E7E39 [System.Classes.pas][System.Classes][Classes.TList.Error][4999]
+4E7EF8 [System.Classes.pas][System.Classes][Classes.TList.Get][5030]
+4E7EF8 [System.Classes.pas][System.Classes][Classes.TList.Get][5030]
+84B9B5 [Objekt.DBFeldList.pas][Objekt.DBFeldList][Dbfeldlist.TDBFeldList.getFeld][82]
+84B1FE [Objekt.DBFeld.pas][Objekt.DBFeld][Dbfeld.TDBFeld.setAsDateTime][125]
+84B222 [Objekt.DBFeld.pas][Objekt.DBFeld][Dbfeld.TDBFeld.setAsDateTime][128]
+
+Der Block wird momentan f¸r eine Objektklasse benutzt EListError
+
+The allocation number is: 53020
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FC306D0:
+30 13 45 00 7C FD DC 7F 00 00 00 00 00 00 00 00 20 B8 CC 01 00 00 00 00 00 00 00 00 15 FE 34 78
+80 80 80 80 80 80 80 80 00 00 00 00 21 D4 C2 7F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+7E CF 00 00 52 71 40 00 C3 8D 40 00 FE 94 40 00 D0 17 77 00 14 62 77 00 29 73 77 00 7B 75 77 00
+66 AF 40 00 B9 BF 40 00 6C 7C 45 00 CE D3 75 00 AC 29 00 00 AC 29 00 00 E1 8D 40 00 98 47 4B 00
+C5 51 77 00 D7 8E 40 00 6F 59 77 00 D7 8E 40 00 D1 63 77 00 D7 8E 40 00 AB CC 4F 00 34 C7 4F 00
+91 A4 73 00 24 00 00 00 60 FE 76 00 C1 A7 DD 87 80 AC 91 00 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 3E 58 22 78 00 00 00 00 F1 EE C2 7F
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 84 CF 00 00 52 71 40 00 C3 8D 40 00 FE 94 40 00
+0  .  E  .  |  ˝  ‹    .  .  .  .  .  .  .  .     ∏  Ã  .  .  .  .  .  .  .  .  .  .  ˛  4  x
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .  !  ‘  ¬    .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+~  œ  .  .  R  q  @  .  √  ç  @  .  ˛  î  @  .  –  .  w  .  .  b  w  .  )  s  w  .  {  u  w  .
+f  Ø  @  .  π  ø  @  .  l  |  E  .  Œ  ”  u  .  ¨  )  .  .  ¨  )  .  .  ·  ç  @  .  ò  G  K  .
+≈  Q  w  .  ◊  é  @  .  o  Y  w  .  ◊  é  @  .  —  c  w  .  ◊  é  @  .  ´  Ã  O  .  4  «  O  .
+ë  §  s  .  $  .  .  .  `  ˛  v  .  ¡  ß  ›  á  Ä  ¨  ë  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  >  X  "  x  .  .  .  .  Ò  Ó  ¬  
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Ñ  œ  .  .  R  q  @  .  √  ç  @  .  ˛  î  @  .
+
+--------------------------------2022/6/5 16:38:13--------------------------------
+Ein Speicherblock hat Speicher verloren. Die Grˆﬂe ist: 116
+
+This block was allocated by thread 0x29AC, and the stack trace (return addresses) at the time was:
+407152 [System.pas][System][@GetMem$qqri][4843]
+40AD1B [System.pas][System][@NewUnicodeString$qqri][25659]
+40AF4C [System.pas][System][@UStrFromPWCharLen$qqrr20System.UnicodeStringpbi][26337]
+459E6C [System.SysUtils.pas][System.SysUtils][Sysutils.FmtStr$qqrr20System.UnicodeStringx20System.UnicodeStringpx14System.TVarRecxirx31System.Sysutils.TFormatSettings][12895]
+41117F [System.pas][System][LoadResString$qqrp20System.TResStringRec][40987]
+7AFB917C [Unknown function at fb_shutdown]
+7AFC2211 [Unknown function at fb_shutdown]
+7B00DC32 [Unknown function at fb_shutdown]
+7B00DCF3 [Unknown function at fb_shutdown]
+7B00DD2D [Unknown function at fb_shutdown]
+7B00054D [Unknown function at fb_shutdown]
+
+Der Block wird momentan f¸r eine Objektklasse benutzt UnicodeString
+
+The allocation number is: 53022
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FDCFD70:
+B0 04 02 00 01 00 00 00 2F 00 00 00 4C 00 69 00 73 00 74 00 65 00 6E 00 69 00 6E 00 64 00 65 00
+78 00 20 00 61 00 75 00 DF 00 65 00 72 00 68 00 61 00 6C 00 62 00 20 00 64 00 65 00 73 00 20 00
+67 00 FC 00 6C 00 74 00 69 00 67 00 65 00 6E 00 20 00 42 00 65 00 72 00 65 00 69 00 63 00 68 00
+73 00 20 00 28 00 39 00 29 00 00 00 D4 0E 49 98 80 80 80 80 80 80 80 80 00 00 00 00 01 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FA 9C 01 00 C2 B0 41 00 8F 71 40 00 97 DB 40 00
+0A DD 40 00 0F D0 4E 00 17 C9 4E 00 C2 CD 4E 00 11 C4 4E 00 B4 C3 4E 00 FB 59 77 00 E8 5E 77 00
+AC 29 00 00 AC 29 00 00 6E 71 40 00 64 DE 40 00 71 DA 40 00 36 93 16 02 0A DD 40 00 0F D0 4E 00
+42 C6 4E 00 31 61 77 00 52 78 77 00 66 AF 40 00 B9 BF 40 00 68 00 00 00 00 00 00 00 A2 EA 82 88
+∞  .  .  .  .  .  .  .  /  .  .  .  L  .  i  .  s  .  t  .  e  .  n  .  i  .  n  .  d  .  e  .
+x  .     .  a  .  u  .  ﬂ  .  e  .  r  .  h  .  a  .  l  .  b  .     .  d  .  e  .  s  .     .
+g  .  ¸  .  l  .  t  .  i  .  g  .  e  .  n  .     .  B  .  e  .  r  .  e  .  i  .  c  .  h  .
+s  .     .  (  .  9  .  )  .  .  .  ‘  .  I  ò  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  ˙  ú  .  .  ¬  ∞  A  .  è  q  @  .  ó  €  @  .
+.  ›  @  .  .  –  N  .  .  …  N  .  ¬  Õ  N  .  .  ƒ  N  .  ¥  √  N  .  ˚  Y  w  .  Ë  ^  w  .
+¨  )  .  .  ¨  )  .  .  n  q  @  .  d  ﬁ  @  .  q  ⁄  @  .  6  ì  .  .  .  ›  @  .  .  –  N  .
+B  ∆  N  .  1  a  w  .  R  x  w  .  f  Ø  @  .  π  ø  @  .  h  .  .  .  .  .  .  .  ¢  Í  Ç  à
+
+--------------------------------2022/6/5 16:38:13--------------------------------
+Diese Anwendung hat Speicher verloren. Die Grˆﬂen von kleinen Speicherblˆcken, die verlorengegangen sind, betragen (ausgenommen erwartete Speicherlecks, die durch Zeiger registriert wurden):
+
+21 - 36 Bytes: EListError x 1
+101 - 116 Bytes: UnicodeString x 1
+
+Notiz: Speicherleck-Details werden in eine Textdatei geschrieben, die sich im selben Verzeichnis wie diese Anwendung befindet. Um diese Speicherleck-‹berpr¸fung abzuschalten, kommentieren Sie "EnableMemoryLeakReporting" aus.
+
+--------------------------------2022/6/5 18:06:07--------------------------------
+Ein Speicherblock hat Speicher verloren. Die Grˆﬂe ist: 100
+
+This block was allocated by thread 0x50BC, and the stack trace (return addresses) at the time was:
+40AD1B [System.pas][System][@NewUnicodeString$qqri][25659]
+40AF4C [System.pas][System][@UStrFromPWCharLen$qqrr20System.UnicodeStringpbi][26337]
+75A51B [IBX.IBCustomDataSet.pas][IBX.IBCustomDataSet][Ibcustomdataset.TIBStringField.GetValue][720]
+75A44F [IBX.IBCustomDataSet.pas][IBX.IBCustomDataSet][Ibcustomdataset.TIBStringField.GetAsString][699]
+1E0036 
+8F3741 [VW.PhotoUndBaumList.pas][VW.PhotoUndBaumList][Photoundbaumlist.TVWPhotoUndBaumList.Read][82]
+8F3CAB [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][46]
+8F41A3 [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][55]
+8F2092 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+8297E0 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+82F68A [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+Der Block wird momentan f¸r eine Objektklasse benutzt UnicodeString
+
+The allocation number is: 21290
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FC3C810:
+B0 04 02 00 01 00 00 00 26 00 00 00 7B 00 42 00 30 00 30 00 34 00 39 00 30 00 43 00 37 00 2D 00
+45 00 42 00 42 00 43 00 2D 00 34 00 41 00 37 00 41 00 2D 00 39 00 34 00 33 00 31 00 2D 00 39 00
+46 00 32 00 42 00 43 00 45 00 31 00 39 00 30 00 42 00 44 00 33 00 7D 00 00 00 90 5B 4A 76 80 80
+80 80 80 80 80 80 80 80 00 00 00 00 71 C9 C3 7F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+31 53 00 00 52 71 40 00 1B AD 40 00 4C AF 40 00 1B A5 75 00 4F A4 75 00 63 32 8F 00 41 37 8F 00
+AB 3C 8F 00 A3 41 8F 00 92 20 8F 00 E0 97 82 00 BC 50 00 00 BC 50 00 00 6E 71 40 00 3A AE 40 00
+22 C8 40 00 9F 9A 40 00 B9 C6 40 00 B1 8F 40 00 DA 8D 40 00 98 47 4B 00 09 31 8F 00 D7 8E 40 00
+79 9E 84 00 5A 00 00 00 B0 04 02 00 58 86 26 88 80 CC 91 00 80 80 80 80 80 80 80 80 80 80 80 80
+∞  .  .  .  .  .  .  .  &  .  .  .  {  .  B  .  0  .  0  .  4  .  9  .  0  .  C  .  7  .  -  .
+E  .  B  .  B  .  C  .  -  .  4  .  A  .  7  .  A  .  -  .  9  .  4  .  3  .  1  .  -  .  9  .
+F  .  2  .  B  .  C  .  E  .  1  .  9  .  0  .  B  .  D  .  3  .  }  .  .  .  ê  [  J  v  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .  q  …  √    .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+1  S  .  .  R  q  @  .  .  ≠  @  .  L  Ø  @  .  .  •  u  .  O  §  u  .  c  2  è  .  A  7  è  .
+´  <  è  .  £  A  è  .  í     è  .  ‡  ó  Ç  .  º  P  .  .  º  P  .  .  n  q  @  .  :  Æ  @  .
+"  »  @  .  ü  ö  @  .  π  ∆  @  .  ±  è  @  .  ⁄  ç  @  .  ò  G  K  .  .  1  è  .  ◊  é  @  .
+y  û  Ñ  .  Z  .  .  .  ∞  .  .  .  X  Ü  &  à  Ä  Ã  ë  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+
+--------------------------------2022/6/5 18:06:07--------------------------------
+Diese Anwendung hat Speicher verloren. Die Grˆﬂen von kleinen Speicherblˆcken, die verlorengegangen sind, betragen (ausgenommen erwartete Speicherlecks, die durch Zeiger registriert wurden):
+
+85 - 100 Bytes: UnicodeString x 1
+
+Notiz: Speicherleck-Details werden in eine Textdatei geschrieben, die sich im selben Verzeichnis wie diese Anwendung befindet. Um diese Speicherleck-‹berpr¸fung abzuschalten, kommentieren Sie "EnableMemoryLeakReporting" aus.
+
+--------------------------------2022/6/6 14:41:35--------------------------------
+Ein Speicherblock hat Speicher verloren. Die Grˆﬂe ist: 36
+
+This block was allocated by thread 0x59D0, and the stack trace (return addresses) at the time was:
+407152 [System.pas][System][@GetMem$qqri][4843]
+408DC3 [System.pas][System][TObject.NewInstance][17861]
+4094FE [System.pas][System][@ClassCreate$qqrpvzc][19251]
+45F07C [System.SysUtils.pas][System.SysUtils][Sysutils.Exception.CreateFmt][23075]
+473E5E [System.Variants.pas][System.Variants][Variants.VarTypeAsText$qqrxus][5221]
+46A92B [System.Variants.pas][System.Variants][Variants.VarCastError$qqrxusxus][684]
+46AD8F [System.Variants.pas][System.Variants][Variants.VarResultCheck$qqrlusus][753]
+46E795 [System.Variants.pas][System.Variants][Variants.VarToDateViaOS$qqrrx8TVarData][2742]
+46ECF3 [System.Variants.pas][System.Variants][Variants.@VarToDate$qqrrx8TVarData][2833]
+4741B9 [System.Variants.pas][System.Variants][Variants.VarToDateTime$qqrrx14System.Variant][5382]
+1E0036 
+
+Der Block wird momentan f¸r eine Objektklasse benutzt EVariantTypeCastError
+
+The allocation number is: 21902
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FC36400:
+F0 9E 46 00 9C E9 DB 7F 00 00 00 00 00 00 00 00 78 44 EE 01 00 00 00 00 00 00 00 00 F9 3D 04 79
+80 80 80 80 80 80 80 80 00 00 00 00 41 5B C3 7F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+FA 55 00 00 52 71 40 00 C3 8D 40 00 FE 94 40 00 C8 0E 77 00 0C 59 77 00 21 6A 77 00 73 6C 77 00
+66 AF 40 00 B9 BF 40 00 6C 7C 45 00 C6 CA 75 00 D0 59 00 00 D0 59 00 00 E1 8D 40 00 98 47 4B 00
+BD 48 77 00 D7 8E 40 00 67 50 77 00 D7 8E 40 00 C9 5A 77 00 D7 8E 40 00 EF CC 4F 00 78 C7 4F 00
+89 9B 73 00 24 00 00 00 58 F5 76 00 ED 91 DD 87 80 BC 93 00 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 12 6E 22 78 00 00 00 00 C1 76 C3 7F
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FC 55 00 00 52 71 40 00 C3 8D 40 00 FE 94 40 00
+  û  F  .  ú  È  €    .  .  .  .  .  .  .  .  x  D  Ó  .  .  .  .  .  .  .  .  .  ˘  =  .  y
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .  A  [  √    .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+˙  U  .  .  R  q  @  .  √  ç  @  .  ˛  î  @  .  »  .  w  .  .  Y  w  .  !  j  w  .  s  l  w  .
+f  Ø  @  .  π  ø  @  .  l  |  E  .  ∆     u  .  –  Y  .  .  –  Y  .  .  ·  ç  @  .  ò  G  K  .
+Ω  H  w  .  ◊  é  @  .  g  P  w  .  ◊  é  @  .  …  Z  w  .  ◊  é  @  .  Ô  Ã  O  .  x  «  O  .
+â  õ  s  .  $  .  .  .  X  ı  v  .  Ì  ë  ›  á  Ä  º  ì  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  n  "  x  .  .  .  .  ¡  v  √  
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  ¸  U  .  .  R  q  @  .  √  ç  @  .  ˛  î  @  .
+
+--------------------------------2022/6/6 14:41:35--------------------------------
+Ein Speicherblock hat Speicher verloren. Die Grˆﬂe ist: 180
+
+This block was allocated by thread 0x59D0, and the stack trace (return addresses) at the time was:
+407152 [System.pas][System][@GetMem$qqri][4843]
+40AD1B [System.pas][System][@NewUnicodeString$qqri][25659]
+40AF4C [System.pas][System][@UStrFromPWCharLen$qqrr20System.UnicodeStringpbi][26337]
+459E6C [System.SysUtils.pas][System.SysUtils][Sysutils.FmtStr$qqrr20System.UnicodeStringx20System.UnicodeStringpx14System.TVarRecxirx31System.Sysutils.TFormatSettings][12895]
+77250FC8 [RtlRunOnceExecuteOnce]
+77292B9C [ZwFreeVirtualMemory]
+7724FAD4 [RtlDestroyHeap]
+772A7985 [RtlGetNtGlobalFlags]
+77250FC8 [RtlRunOnceExecuteOnce]
+77292B9C [ZwFreeVirtualMemory]
+7724FAD4 [RtlDestroyHeap]
+
+Der Block wird momentan f¸r eine Objektklasse benutzt UnicodeString
+
+The allocation number is: 21903
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FDBE990:
+B0 04 02 00 01 00 00 00 4C 00 00 00 56 00 61 00 72 00 69 00 61 00 6E 00 74 00 65 00 20 00 64 00
+65 00 73 00 20 00 54 00 79 00 70 00 73 00 20 00 28 00 41 00 72 00 72 00 61 00 79 00 20 00 42 00
+79 00 74 00 65 00 29 00 20 00 6B 00 6F 00 6E 00 6E 00 74 00 65 00 20 00 6E 00 69 00 63 00 68 00
+74 00 20 00 69 00 6E 00 20 00 54 00 79 00 70 00 20 00 28 00 44 00 61 00 74 00 65 00 29 00 20 00
+6B 00 6F 00 6E 00 76 00 65 00 72 00 74 00 69 00 65 00 72 00 74 00 20 00 77 00 65 00 72 00 64 00
+65 00 6E 00 00 00 98 5B 9B 37 80 80 80 80 80 80 80 80 80 80 80 80 80 80 00 00 00 00 01 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 69 62 00 00 C2 B0 41 00 8F 71 40 00 5D BD 40 00
+E1 BE 40 00 76 B3 84 00 43 B2 84 00 65 B2 84 00 10 E8 8E 00 59 AC 84 00 6E AC 84 00 CF 66 91 00
+∞  .  .  .  .  .  .  .  L  .  .  .  V  .  a  .  r  .  i  .  a  .  n  .  t  .  e  .     .  d  .
+e  .  s  .     .  T  .  y  .  p  .  s  .     .  (  .  A  .  r  .  r  .  a  .  y  .     .  B  .
+y  .  t  .  e  .  )  .     .  k  .  o  .  n  .  n  .  t  .  e  .     .  n  .  i  .  c  .  h  .
+t  .     .  i  .  n  .     .  T  .  y  .  p  .     .  (  .  D  .  a  .  t  .  e  .  )  .     .
+k  .  o  .  n  .  v  .  e  .  r  .  t  .  i  .  e  .  r  .  t  .     .  w  .  e  .  r  .  d  .
+e  .  n  .  .  .  ò  [  õ  7  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  i  b  .  .  ¬  ∞  A  .  è  q  @  .  ]  Ω  @  .
+·  æ  @  .  v  ≥  Ñ  .  C  ≤  Ñ  .  e  ≤  Ñ  .  .  Ë  é  .  Y  ¨  Ñ  .  n  ¨  Ñ  .  œ  f  ë  .
+
+--------------------------------2022/6/6 14:41:35--------------------------------
+Diese Anwendung hat Speicher verloren. Die Grˆﬂen von kleinen Speicherblˆcken, die verlorengegangen sind, betragen (ausgenommen erwartete Speicherlecks, die durch Zeiger registriert wurden):
+
+21 - 36 Bytes: EVariantTypeCastError x 1
+165 - 180 Bytes: UnicodeString x 1
+
+Notiz: Speicherleck-Details werden in eine Textdatei geschrieben, die sich im selben Verzeichnis wie diese Anwendung befindet. Um diese Speicherleck-‹berpr¸fung abzuschalten, kommentieren Sie "EnableMemoryLeakReporting" aus.
+
+--------------------------------2022/6/11 16:47:46--------------------------------
+FastMM hat einen Versuch entdeckt, eine virtuelle Methode eines freigegebenen Objektes aufzurufen. Eine Schutzverletzung wird nun aufgerufen, um die aktuelle Operation abzubrechen.
+
+Freigegebene Objekt-Klasse: Tfrm_Bild
+
+Virtuelle Methode: Offset +212
+
+Adresse der virtuellen Methode: 5F7228
+
+The allocation number was: 50451
+
+The object was allocated by thread 0x6B00, and the stack trace (return addresses) at the time was:
+4072D6 [System.pas][System][@GetMem$qqri][4843]
+408F9F [System.pas][System][TObject.NewInstance][17861]
+4096DA [System.pas][System][@ClassCreate$qqrpvzc][19251]
+69C474 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Create][3820]
+5ED80F [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.GetClientWidth][5985]
+D8A161 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ErzeugeBildImages][193]
+D89DFD [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][77]
+D91DFF [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+The object was subsequently freed by thread 0x6B00, and the stack trace (return addresses) at the time was:
+4072F2 [System.pas][System][@FreeMem$qqrpv][4891]
+408FBD [System.pas][System][TObject.FreeInstance][17870]
+4B9BE8 [madExcept][InterceptClassDestroy$qqrp14System.TObject]
+69CA4A [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Destroy][3980]
+4090B3 [System.pas][System][TObject.Free][17933]
+D8A084 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ClearBilderList][157]
+D89D93 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][72]
+D91DFF [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+The current thread ID is 0x6B00, and the stack trace (return addresses) leading to this error is:
+5ED4F9 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.SetLeft][5865]
+6A3D25 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.SetLeft][8120]
+D89FC9 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.scResize][125]
+5ED04B [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.Resize][5737]
+5F5B17 [Vcl.Controls.pas][Vcl.Controls][Controls.TWinControl.WMSize][10932]
+69C07D [Vcl.Forms.pas][Vcl.Forms][Forms.TScrollingWinControl.WMSize][3528]
+40953C [System.pas][System][TObject.Dispatch][18835]
+5EF921 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.WndProc][7480]
+6B87FC46 [Unknown function at GetThemePartSize]
+7727AB69 [RtlSetLastWin32Error]
+75C85929 [Unknown function at PostMessageW]
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FD6FF30:
+80 8C DD 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+Ä  å  ›  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+
+--------------------------------2022/6/11 16:49:00--------------------------------
+FastMM hat einen Versuch entdeckt, eine virtuelle Methode eines freigegebenen Objektes aufzurufen. Eine Schutzverletzung wird nun aufgerufen, um die aktuelle Operation abzubrechen.
+
+Freigegebene Objekt-Klasse: Tfrm_Bild
+
+Virtuelle Methode: Offset +212
+
+Adresse der virtuellen Methode: 5F7228
+
+The allocation number was: 110742
+
+The object was allocated by thread 0x6308, and the stack trace (return addresses) at the time was:
+4072D6 [System.pas][System][@GetMem$qqri][4843]
+408F9F [System.pas][System][TObject.NewInstance][17861]
+4096DA [System.pas][System][@ClassCreate$qqrpvzc][19251]
+69C474 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Create][3820]
+5ED80F [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.GetClientWidth][5985]
+D8A161 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ErzeugeBildImages][193]
+D89DFD [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][77]
+D91DFF [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+The object was subsequently freed by thread 0x6308, and the stack trace (return addresses) at the time was:
+4072F2 [System.pas][System][@FreeMem$qqrpv][4891]
+408FBD [System.pas][System][TObject.FreeInstance][17870]
+4B9BE8 [madExcept][InterceptClassDestroy$qqrp14System.TObject]
+69CA4A [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Destroy][3980]
+4090B3 [System.pas][System][TObject.Free][17933]
+D8A084 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ClearBilderList][157]
+D89D93 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][72]
+D91DFF [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+The current thread ID is 0x6308, and the stack trace (return addresses) leading to this error is:
+5ED4F9 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.SetLeft][5865]
+6A3D25 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.SetLeft][8120]
+D89FC9 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.scResize][125]
+5ED04B [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.Resize][5737]
+5F5B17 [Vcl.Controls.pas][Vcl.Controls][Controls.TWinControl.WMSize][10932]
+69C07D [Vcl.Forms.pas][Vcl.Forms][Forms.TScrollingWinControl.WMSize][3528]
+40953C [System.pas][System][TObject.Dispatch][18835]
+5EF921 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.WndProc][7480]
+6B87FC46 [Unknown function at GetThemePartSize]
+7727AB69 [RtlSetLastWin32Error]
+75C85929 [Unknown function at PostMessageW]
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FD7D2B0:
+80 8C DD 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+Ä  å  ›  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+
+--------------------------------2022/6/11 16:56:28--------------------------------
+FastMM hat einen Versuch entdeckt, eine virtuelle Methode eines freigegebenen Objektes aufzurufen. Eine Schutzverletzung wird nun aufgerufen, um die aktuelle Operation abzubrechen.
+
+Freigegebene Objekt-Klasse: Tfrm_Bild
+
+Virtuelle Methode: Offset +212
+
+Adresse der virtuellen Methode: 5F7228
+
+The allocation number was: 50073
+
+The object was allocated by thread 0x73E4, and the stack trace (return addresses) at the time was:
+4072D6 [System.pas][System][@GetMem$qqri][4843]
+408F9F [System.pas][System][TObject.NewInstance][17861]
+4096DA [System.pas][System][@ClassCreate$qqrpvzc][19251]
+69C474 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Create][3820]
+5ED80F [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.GetClientWidth][5985]
+D8A189 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ErzeugeBildImages][194]
+D89DFD [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][77]
+D91E27 [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+The object was subsequently freed by thread 0x73E4, and the stack trace (return addresses) at the time was:
+4072F2 [System.pas][System][@FreeMem$qqrpv][4891]
+408FBD [System.pas][System][TObject.FreeInstance][17870]
+4B9BE8 [madExcept][InterceptClassDestroy$qqrp14System.TObject]
+69CA4A [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Destroy][3980]
+4090B3 [System.pas][System][TObject.Free][17933]
+D8A0AC [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ClearBilderList][158]
+D89D93 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][72]
+D91E27 [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+The current thread ID is 0x73E4, and the stack trace (return addresses) leading to this error is:
+5ED4F9 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.SetLeft][5865]
+6A3D25 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.SetLeft][8120]
+D89FF1 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.scResize][126]
+5ED04B [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.Resize][5737]
+5F5B17 [Vcl.Controls.pas][Vcl.Controls][Controls.TWinControl.WMSize][10932]
+69C07D [Vcl.Forms.pas][Vcl.Forms][Forms.TScrollingWinControl.WMSize][3528]
+40953C [System.pas][System][TObject.Dispatch][18835]
+5EF921 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.WndProc][7480]
+6B87FC46 [Unknown function at GetThemePartSize]
+7727AB69 [RtlSetLastWin32Error]
+75C85929 [Unknown function at PostMessageW]
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FD6FF30:
+80 8C DD 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+Ä  å  ›  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+
+--------------------------------2022/6/19 14:58:06--------------------------------
+FastMM hat einen Versuch entdeckt, eine virtuelle Methode eines freigegebenen Objektes aufzurufen. Eine Schutzverletzung wird nun aufgerufen, um die aktuelle Operation abzubrechen.
+
+Freigegebene Objekt-Klasse: Tfrm_Bild
+
+Virtuelle Methode: Offset +212
+
+Adresse der virtuellen Methode: 5F7228
+
+The allocation number was: 50073
+
+The object was allocated by thread 0x47A4, and the stack trace (return addresses) at the time was:
+4072D6 [System.pas][System][@GetMem$qqri][4843]
+408F9F [System.pas][System][TObject.NewInstance][17861]
+4096DA [System.pas][System][@ClassCreate$qqrpvzc][19251]
+69C474 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Create][3820]
+5ED80F [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.GetClientWidth][5985]
+D8A25D [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ErzeugeBildImages][196]
+D89DFD [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][77]
+D91EFB [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+The object was subsequently freed by thread 0x47A4, and the stack trace (return addresses) at the time was:
+4072F2 [System.pas][System][@FreeMem$qqrpv][4891]
+408FBD [System.pas][System][TObject.FreeInstance][17870]
+4B9BE8 [madExcept][InterceptClassDestroy$qqrp14System.TObject]
+69CA4A [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Destroy][3980]
+4090B3 [System.pas][System][TObject.Free][17933]
+D8A0C0 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ClearBilderList][159]
+D89D93 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][72]
+D91EFB [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+The current thread ID is 0x47A4, and the stack trace (return addresses) leading to this error is:
+5ED4F9 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.SetLeft][5865]
+6A3D25 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.SetLeft][8120]
+D89FF1 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.scResize][126]
+5ED04B [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.Resize][5737]
+5F5B17 [Vcl.Controls.pas][Vcl.Controls][Controls.TWinControl.WMSize][10932]
+69C07D [Vcl.Forms.pas][Vcl.Forms][Forms.TScrollingWinControl.WMSize][3528]
+40953C [System.pas][System][TObject.Dispatch][18835]
+5EF921 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.WndProc][7480]
+6BCEFC46 [Unknown function at GetThemePartSize]
+7727AB69 [RtlSetLastWin32Error]
+75C85929 [Unknown function at PostMessageW]
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FD6FF30:
+80 8C DD 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+Ä  å  ›  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+
+--------------------------------2022/6/19 15:05:36--------------------------------
+FastMM hat einen Versuch entdeckt, eine virtuelle Methode eines freigegebenen Objektes aufzurufen. Eine Schutzverletzung wird nun aufgerufen, um die aktuelle Operation abzubrechen.
+
+Freigegebene Objekt-Klasse: Tfrm_Bild
+
+Virtuelle Methode: Offset +212
+
+Adresse der virtuellen Methode: 5F7228
+
+The allocation number was: 169262
+
+The object was allocated by thread 0x5668, and the stack trace (return addresses) at the time was:
+4072D6 [System.pas][System][@GetMem$qqri][4843]
+408F9F [System.pas][System][TObject.NewInstance][17861]
+4096DA [System.pas][System][@ClassCreate$qqrpvzc][19251]
+69C474 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Create][3820]
+5ED80F [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.GetClientWidth][5985]
+D8A25D [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ErzeugeBildImages][196]
+D89DFD [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][77]
+D91EFB [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+The object was subsequently freed by thread 0x5668, and the stack trace (return addresses) at the time was:
+4072F2 [System.pas][System][@FreeMem$qqrpv][4891]
+408FBD [System.pas][System][TObject.FreeInstance][17870]
+4B9BE8 [madExcept][InterceptClassDestroy$qqrp14System.TObject]
+69CA4A [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Destroy][3980]
+4090B3 [System.pas][System][TObject.Free][17933]
+D8A0C0 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ClearBilderList][159]
+D89D93 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][72]
+D91EFB [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+The current thread ID is 0x5668, and the stack trace (return addresses) leading to this error is:
+5ED4F9 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.SetLeft][5865]
+6A3D25 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.SetLeft][8120]
+D89FF1 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.scResize][126]
+5ED04B [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.Resize][5737]
+5F5B17 [Vcl.Controls.pas][Vcl.Controls][Controls.TWinControl.WMSize][10932]
+69C07D [Vcl.Forms.pas][Vcl.Forms][Forms.TScrollingWinControl.WMSize][3528]
+40953C [System.pas][System][TObject.Dispatch][18835]
+5EF921 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.WndProc][7480]
+6BCEFC46 [Unknown function at GetThemePartSize]
+7727AB69 [RtlSetLastWin32Error]
+75C85929 [Unknown function at PostMessageW]
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FD6FF30:
+80 8C DD 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+Ä  å  ›  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+
+--------------------------------2022/6/19 15:06:26--------------------------------
+FastMM hat einen Versuch entdeckt, eine virtuelle Methode eines freigegebenen Objektes aufzurufen. Eine Schutzverletzung wird nun aufgerufen, um die aktuelle Operation abzubrechen.
+
+Freigegebene Objekt-Klasse: Tfrm_Bild
+
+Virtuelle Methode: Offset +212
+
+Adresse der virtuellen Methode: 5F7228
+
+The allocation number was: 107359
+
+The object was allocated by thread 0x4144, and the stack trace (return addresses) at the time was:
+4072D6 [System.pas][System][@GetMem$qqri][4843]
+408F9F [System.pas][System][TObject.NewInstance][17861]
+4096DA [System.pas][System][@ClassCreate$qqrpvzc][19251]
+69C474 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Create][3820]
+5ED80F [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.GetClientWidth][5985]
+D8A25D [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ErzeugeBildImages][196]
+D89DFD [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][77]
+D91EFB [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+The object was subsequently freed by thread 0x4144, and the stack trace (return addresses) at the time was:
+4072F2 [System.pas][System][@FreeMem$qqrpv][4891]
+408FBD [System.pas][System][TObject.FreeInstance][17870]
+4B9BE8 [madExcept][InterceptClassDestroy$qqrp14System.TObject]
+69CA4A [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Destroy][3980]
+4090B3 [System.pas][System][TObject.Free][17933]
+D8A0C0 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ClearBilderList][159]
+D89D93 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][72]
+D91EFB [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+The current thread ID is 0x4144, and the stack trace (return addresses) leading to this error is:
+5ED4F9 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.SetLeft][5865]
+6A3D25 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.SetLeft][8120]
+D89FF1 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.scResize][126]
+5ED04B [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.Resize][5737]
+5F5B17 [Vcl.Controls.pas][Vcl.Controls][Controls.TWinControl.WMSize][10932]
+69C07D [Vcl.Forms.pas][Vcl.Forms][Forms.TScrollingWinControl.WMSize][3528]
+40953C [System.pas][System][TObject.Dispatch][18835]
+5EF921 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.WndProc][7480]
+6BCEFC46 [Unknown function at GetThemePartSize]
+7727AB69 [RtlSetLastWin32Error]
+75C85929 [Unknown function at PostMessageW]
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FD7D2B0:
+80 8C DD 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+Ä  å  ›  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+
+--------------------------------2022/6/19 15:07:01--------------------------------
+FastMM hat einen Versuch entdeckt, eine virtuelle Methode eines freigegebenen Objektes aufzurufen. Eine Schutzverletzung wird nun aufgerufen, um die aktuelle Operation abzubrechen.
+
+Freigegebene Objekt-Klasse: Tfrm_Bild
+
+Virtuelle Methode: Offset +212
+
+Adresse der virtuellen Methode: 5F7228
+
+The allocation number was: 50102
+
+The object was allocated by thread 0x2068, and the stack trace (return addresses) at the time was:
+4072D6 [System.pas][System][@GetMem$qqri][4843]
+408F9F [System.pas][System][TObject.NewInstance][17861]
+4096DA [System.pas][System][@ClassCreate$qqrpvzc][19251]
+69C474 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Create][3820]
+5ED80F [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.GetClientWidth][5985]
+D8A25D [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ErzeugeBildImages][196]
+D89DFD [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][77]
+D91EFB [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+The object was subsequently freed by thread 0x2068, and the stack trace (return addresses) at the time was:
+4072F2 [System.pas][System][@FreeMem$qqrpv][4891]
+408FBD [System.pas][System][TObject.FreeInstance][17870]
+4B9BE8 [madExcept][InterceptClassDestroy$qqrp14System.TObject]
+69CA4A [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Destroy][3980]
+4090B3 [System.pas][System][TObject.Free][17933]
+D8A0C0 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ClearBilderList][159]
+D89D93 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][72]
+D91EFB [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+The current thread ID is 0x2068, and the stack trace (return addresses) leading to this error is:
+5ED4F9 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.SetLeft][5865]
+6A3D25 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.SetLeft][8120]
+D89FF1 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.scResize][126]
+5ED04B [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.Resize][5737]
+5F5B17 [Vcl.Controls.pas][Vcl.Controls][Controls.TWinControl.WMSize][10932]
+69C07D [Vcl.Forms.pas][Vcl.Forms][Forms.TScrollingWinControl.WMSize][3528]
+40953C [System.pas][System][TObject.Dispatch][18835]
+5EF921 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.WndProc][7480]
+6BCEFC46 [Unknown function at GetThemePartSize]
+7727AB69 [RtlSetLastWin32Error]
+75C85929 [Unknown function at PostMessageW]
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FD6FF30:
+80 8C DD 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+Ä  å  ›  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+
+--------------------------------2022/6/19 15:07:42--------------------------------
+FastMM hat einen Versuch entdeckt, eine virtuelle Methode eines freigegebenen Objektes aufzurufen. Eine Schutzverletzung wird nun aufgerufen, um die aktuelle Operation abzubrechen.
+
+Freigegebene Objekt-Klasse: Tfrm_Bild
+
+Virtuelle Methode: Offset +212
+
+Adresse der virtuellen Methode: 5F7228
+
+The allocation number was: 50077
+
+The object was allocated by thread 0x27BC, and the stack trace (return addresses) at the time was:
+4072D6 [System.pas][System][@GetMem$qqri][4843]
+408F9F [System.pas][System][TObject.NewInstance][17861]
+4096DA [System.pas][System][@ClassCreate$qqrpvzc][19251]
+69C474 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Create][3820]
+5ED80F [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.GetClientWidth][5985]
+D8A25D [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ErzeugeBildImages][196]
+D89DFD [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][77]
+D91EFB [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+The object was subsequently freed by thread 0x27BC, and the stack trace (return addresses) at the time was:
+4072F2 [System.pas][System][@FreeMem$qqrpv][4891]
+408FBD [System.pas][System][TObject.FreeInstance][17870]
+4B9BE8 [madExcept][InterceptClassDestroy$qqrp14System.TObject]
+69CA4A [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Destroy][3980]
+4090B3 [System.pas][System][TObject.Free][17933]
+D8A0C0 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ClearBilderList][159]
+D89D93 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][72]
+D91EFB [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+The current thread ID is 0x27BC, and the stack trace (return addresses) leading to this error is:
+5ED4F9 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.SetLeft][5865]
+6A3D25 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.SetLeft][8120]
+D89FF1 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.scResize][126]
+5ED04B [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.Resize][5737]
+5F5B17 [Vcl.Controls.pas][Vcl.Controls][Controls.TWinControl.WMSize][10932]
+69C07D [Vcl.Forms.pas][Vcl.Forms][Forms.TScrollingWinControl.WMSize][3528]
+40953C [System.pas][System][TObject.Dispatch][18835]
+5EF921 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.WndProc][7480]
+6BCEFC46 [Unknown function at GetThemePartSize]
+7727AB69 [RtlSetLastWin32Error]
+75C85929 [Unknown function at PostMessageW]
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FD6FF30:
+80 8C DD 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+Ä  å  ›  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+
+--------------------------------2022/6/19 15:10:36--------------------------------
+FastMM hat einen Versuch entdeckt, eine virtuelle Methode eines freigegebenen Objektes aufzurufen. Eine Schutzverletzung wird nun aufgerufen, um die aktuelle Operation abzubrechen.
+
+Freigegebene Objekt-Klasse: Tfrm_Bild
+
+Virtuelle Methode: Offset +212
+
+Adresse der virtuellen Methode: 5F7228
+
+The allocation number was: 50077
+
+The object was allocated by thread 0x64A0, and the stack trace (return addresses) at the time was:
+4072D6 [System.pas][System][@GetMem$qqri][4843]
+408F9F [System.pas][System][TObject.NewInstance][17861]
+4096DA [System.pas][System][@ClassCreate$qqrpvzc][19251]
+69C474 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Create][3820]
+5ED80F [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.GetClientWidth][5985]
+D8A25D [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ErzeugeBildImages][196]
+D89DFD [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][77]
+D91EFB [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+The object was subsequently freed by thread 0x64A0, and the stack trace (return addresses) at the time was:
+4072F2 [System.pas][System][@FreeMem$qqrpv][4891]
+408FBD [System.pas][System][TObject.FreeInstance][17870]
+4B9BE8 [madExcept][InterceptClassDestroy$qqrp14System.TObject]
+69CA4A [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Destroy][3980]
+4090B3 [System.pas][System][TObject.Free][17933]
+D8A0C0 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ClearBilderList][159]
+D89D93 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][72]
+D91EFB [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+The current thread ID is 0x64A0, and the stack trace (return addresses) leading to this error is:
+5ED4F9 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.SetLeft][5865]
+6A3D25 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.SetLeft][8120]
+D89FF1 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.scResize][126]
+5ED04B [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.Resize][5737]
+5F5B17 [Vcl.Controls.pas][Vcl.Controls][Controls.TWinControl.WMSize][10932]
+69C07D [Vcl.Forms.pas][Vcl.Forms][Forms.TScrollingWinControl.WMSize][3528]
+40953C [System.pas][System][TObject.Dispatch][18835]
+5EF921 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.WndProc][7480]
+6BCEFC46 [Unknown function at GetThemePartSize]
+7727AB69 [RtlSetLastWin32Error]
+75C85929 [Unknown function at PostMessageW]
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FD6FF30:
+80 8C DD 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+Ä  å  ›  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+
+--------------------------------2022/6/19 15:13:29--------------------------------
+FastMM hat einen Versuch entdeckt, eine virtuelle Methode eines freigegebenen Objektes aufzurufen. Eine Schutzverletzung wird nun aufgerufen, um die aktuelle Operation abzubrechen.
+
+Freigegebene Objekt-Klasse: Tfrm_Bild
+
+Virtuelle Methode: Offset +212
+
+Adresse der virtuellen Methode: 5F7228
+
+The allocation number was: 58403
+
+The object was allocated by thread 0x3914, and the stack trace (return addresses) at the time was:
+4072D6 [System.pas][System][@GetMem$qqri][4843]
+408F9F [System.pas][System][TObject.NewInstance][17861]
+4096DA [System.pas][System][@ClassCreate$qqrpvzc][19251]
+69C474 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Create][3820]
+D8A255 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ErzeugeBildImages][196]
+D89DFD [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][77]
+D91EF3 [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+5EFF65 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.DoMouseDown][7619]
+
+The object was subsequently freed by thread 0x3914, and the stack trace (return addresses) at the time was:
+4072F2 [System.pas][System][@FreeMem$qqrpv][4891]
+408FBD [System.pas][System][TObject.FreeInstance][17870]
+4B9BE8 [madExcept][InterceptClassDestroy$qqrp14System.TObject]
+69CA4A [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Destroy][3980]
+4090B3 [System.pas][System][TObject.Free][17933]
+D8A0B9 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ClearBilderList][159]
+D89D93 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][72]
+D91EF3 [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+The current thread ID is 0x3914, and the stack trace (return addresses) leading to this error is:
+5ED4F9 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.SetLeft][5865]
+6A3D25 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.SetLeft][8120]
+D89FF1 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.scResize][126]
+5ED04B [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.Resize][5737]
+5F5B17 [Vcl.Controls.pas][Vcl.Controls][Controls.TWinControl.WMSize][10932]
+69C07D [Vcl.Forms.pas][Vcl.Forms][Forms.TScrollingWinControl.WMSize][3528]
+40953C [System.pas][System][TObject.Dispatch][18835]
+5EF921 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.WndProc][7480]
+6BCEFC46 [Unknown function at GetThemePartSize]
+7727AB69 [RtlSetLastWin32Error]
+75C85929 [Unknown function at PostMessageW]
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FD7A5B0:
+80 8C DD 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+Ä  å  ›  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+
+--------------------------------2022/6/19 15:14:59--------------------------------
+FastMM hat einen Versuch entdeckt, eine virtuelle Methode eines freigegebenen Objektes aufzurufen. Eine Schutzverletzung wird nun aufgerufen, um die aktuelle Operation abzubrechen.
+
+Freigegebene Objekt-Klasse: Tfrm_Bild
+
+Virtuelle Methode: Offset +212
+
+Adresse der virtuellen Methode: 5F7228
+
+The allocation number was: 58443
+
+The object was allocated by thread 0x4E6C, and the stack trace (return addresses) at the time was:
+4072D6 [System.pas][System][@GetMem$qqri][4843]
+408F9F [System.pas][System][TObject.NewInstance][17861]
+4096DA [System.pas][System][@ClassCreate$qqrpvzc][19251]
+69C474 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Create][3820]
+D8A2E5 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ErzeugeBildImages][197]
+D89DFD [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][77]
+D91F83 [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+5EFF65 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.DoMouseDown][7619]
+
+The object was subsequently freed by thread 0x4E6C, and the stack trace (return addresses) at the time was:
+4072F2 [System.pas][System][@FreeMem$qqrpv][4891]
+408FBD [System.pas][System][TObject.FreeInstance][17870]
+4B9BE8 [madExcept][InterceptClassDestroy$qqrp14System.TObject]
+69CA4A [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.Destroy][3980]
+4090B3 [System.pas][System][TObject.Free][17933]
+D8A102 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.ClearBilderList][160]
+D89D93 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][72]
+D91F83 [Form.Photo.pas][Form.Photo][Photo.Tfrm_Photo.ZweigClick][66]
+D73986 [Form.PhotoBaum.pas][Form.PhotoBaum][Photobaum.Tfrm_PhotoBaum.vtFocusChanging][274]
+CAAE44 [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.DoFocusChanging][19948]
+CB0CEE [VirtualTrees.pas][VirtualTrees][TBaseVirtualTree.HandleMouseDown][22647]
+
+The current thread ID is 0x4E6C, and the stack trace (return addresses) leading to this error is:
+5ED4F9 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.SetLeft][5865]
+6A3D25 [Vcl.Forms.pas][Vcl.Forms][Forms.TCustomForm.SetLeft][8120]
+D89FF1 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.scResize][126]
+5ED04B [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.Resize][5737]
+5F5B17 [Vcl.Controls.pas][Vcl.Controls][Controls.TWinControl.WMSize][10932]
+69C07D [Vcl.Forms.pas][Vcl.Forms][Forms.TScrollingWinControl.WMSize][3528]
+40953C [System.pas][System][TObject.Dispatch][18835]
+5EF921 [Vcl.Controls.pas][Vcl.Controls][Controls.TControl.WndProc][7480]
+6BCEFC46 [Unknown function at GetThemePartSize]
+7727AB69 [RtlSetLastWin32Error]
+75C85929 [Unknown function at PostMessageW]
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FD7A5B0:
+80 8C DD 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80
+Ä  å  ›  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+
+--------------------------------2022/6/19 18:23:15--------------------------------
+FastMM hat einen Versuch entdeckt, eine virtuelle Methode eines freigegebenen Objektes aufzurufen. Eine Schutzverletzung wird nun aufgerufen, um die aktuelle Operation abzubrechen.
+
+Freigegebene Objekt-Klasse: TIconImage
+
+Virtuelle Methode: Destroy
+
+Adresse der virtuellen Methode: 5D0DE0
+
+The allocation number was: 81908
+
+The object was allocated by thread 0x4AF4, and the stack trace (return addresses) at the time was:
+4072D6 [System.pas][System][@GetMem$qqri][4843]
+408F9F [System.pas][System][TObject.NewInstance][17861]
+4096DA [System.pas][System][@ClassCreate$qqrpvzc][19251]
+409084 [System.pas][System][TObject.Create][17920]
+4096DA [System.pas][System][@ClassCreate$qqrpvzc][19251]
+5CA36F [Vcl.Graphics.pas][Vcl.Graphics][Graphics.TGraphic.Create][5415]
+5D1154 [Vcl.Graphics.pas][Vcl.Graphics][Graphics.TIcon.Create][10117]
+61AD9C [Vcl.Dialogs.pas][Vcl.Dialogs][Dialogs.TCustomTaskDialog.Create][5595]
+61D078 [Vcl.Dialogs.pas][Vcl.Dialogs][Dialogs.InternalDoTaskMessageDlgPosHelp$qqrx20System.UnicodeStringt126System.Uitypes.TMsgDlgType53System.%Set$25System.Uitypes.TMsgDlgBtnt1$i0$t1$i11$%iiit125System.Uitypes.TMsgDlgBtno55System.%Set$27Vcl.Dialogs.TTaskDialog
+41F21D [FastMM4][DebugFreeMem$qqrpv]
+61CBE0 [Vcl.Dialogs.pas][Vcl.Dialogs][Dialogs.MessageDlgPosHelp$qqrx20System.UnicodeString26System.Uitypes.TMsgDlgType53System.%Set$25System.Uitypes.TMsgDlgBtnt1$i0$t1$i11$%iiit1][6642]
+
+The object was subsequently freed by thread 0x4AF4, and the stack trace (return addresses) at the time was:
+4072F2 [System.pas][System][@FreeMem$qqrpv][4891]
+408FBD [System.pas][System][TObject.FreeInstance][17870]
+4B9BE8 [madExcept][InterceptClassDestroy$qqrp14System.TObject]
+5D0E09 [Vcl.Graphics.pas][Vcl.Graphics][Graphics.TIconImage.Destroy][10001]
+4090B3 [System.pas][System][TObject.Free][17933]
+5CDEED [Vcl.Graphics.pas][Vcl.Graphics][Graphics.TSharedImage.Release][7480]
+5D118F [Vcl.Graphics.pas][Vcl.Graphics][Graphics.TIcon.Destroy][10123]
+4090B3 [System.pas][System][TObject.Free][17933]
+61AE37 [Vcl.Dialogs.pas][Vcl.Dialogs][Dialogs.TCustomTaskDialog.Destroy][5609]
+4090B3 [System.pas][System][TObject.Free][17933]
+61D225 [Vcl.Dialogs.pas][Vcl.Dialogs][Dialogs.InternalDoTaskMessageDlgPosHelp$qqrx20System.UnicodeStringt126System.Uitypes.TMsgDlgType53System.%Set$25System.Uitypes.TMsgDlgBtnt1$i0$t1$i11$%iiit125System.Uitypes.TMsgDlgBtno55System.%Set$27Vcl.Dialogs.TTaskDialog
+
+The current thread ID is 0x4AF4, and the stack trace (return addresses) leading to this error is:
+4090B3 [System.pas][System][TObject.Free][17933]
+4B9BCA [madExcept][InterceptFreeExceptObject$qqrv]
+40A72B [System.pas][System][@DoneExcept$qqrv][23309]
+D8B448 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][102]
+D8A297 [Form.Bild.pas][Form.Bild][Bild.Tfrm_Bild.LoadFromStream][77]
+772A8882 [Unknown function at RtlInterlockedCompareExchange64]
+772A8854 [Unknown function at RtlInterlockedCompareExchange64]
+772890FF [RtlUnwind]
+7725D500 [Unknown function at RtlPcToFileHeader]
+77294EC6 [KiUserExceptionDispatcher]
+758CC3A2 [RaiseException]
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7EBC6090:
+80 AC DD 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 75 F7 18 7A
+80 80 80 80 80 80 80 80 00 00 00 00 20 0E BC 7E 00 00 00 00 00 00 00 00 BC EF 41 00 00 00 00 00
+5B 3F 01 00 D6 72 40 00 9F 8F 40 00 DA 96 40 00 7F EC 5F 00 3D CB 5E 00 40 A3 5F 00 83 26 62 00
+84 9C 4F 00 B1 9E 4F 00 F2 72 40 00 B1 AF 40 00 F4 4A 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 24 00 00 00 00 00 00 00 95 53 62 82 88 04 5E 00 50 70 BE 7E 03 00 00 00 03 00 00 00
+03 00 00 00 03 00 00 00 C8 11 5F 00 50 70 BE 7E 00 00 00 00 6A AC 9D 7D 00 00 00 00 20 0E BC 7E
+00 00 00 00 00 00 00 00 BC EF 41 00 00 00 00 00 5C 3F 01 00 D6 72 40 00 9F 8F 40 00 DA 96 40 00
+Ä  ¨  ›  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  u  ˜  .  z
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .     .  º  ~  .  .  .  .  .  .  .  .  º  Ô  A  .  .  .  .  .
+[  ?  .  .  ÷  r  @  .  ü  è  @  .  ⁄  ñ  @  .    Ï  _  .  =  À  ^  .  @  £  _  .  É  &  b  .
+Ñ  ú  O  .  ±  û  O  .  Ú  r  @  .  ±  Ø  @  .  Ù  J  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  $  .  .  .  .  .  .  .  ï  S  b  Ç  à  .  ^  .  P  p  æ  ~  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  »  .  _  .  P  p  æ  ~  .  .  .  .  j  ¨  ù  }  .  .  .  .     .  º  ~
+.  .  .  .  .  .  .  .  º  Ô  A  .  .  .  .  .  \  ?  .  .  ÷  r  @  .  ü  è  @  .  ⁄  ñ  @  .
+
+--------------------------------2022/6/19 18:25:05--------------------------------
+FastMM hat einen Versuch entdeckt, eine virtuelle Methode eines freigegebenen Objektes aufzurufen. Eine Schutzverletzung wird nun aufgerufen, um die aktuelle Operation abzubrechen.
+
+Freigegebene Objekt-Klasse: TIconImage
+
+Virtuelle Methode: Destroy
+
+Adresse der virtuellen Methode: 5D0DE0
+
+The allocation number was: 83385
+
+The object was allocated by thread 0x4FE4, and the stack trace (return addresses) at the time was:
+4072D6 [System.pas][System][@GetMem$qqri][4843]
+408F9F [System.pas][System][TObject.NewInstance][17861]
+4096DA [System.pas][System][@ClassCreate$qqrpvzc][19251]
+409084 [System.pas][System][TObject.Create][17920]
+4096DA [System.pas][System][@ClassCreate$qqrpvzc][19251]
+5CA36F [Vcl.Graphics.pas][Vcl.Graphics][Graphics.TGraphic.Create][5415]
+5D1154 [Vcl.Graphics.pas][Vcl.Graphics][Graphics.TIcon.Create][10117]
+61AD9C [Vcl.Dialogs.pas][Vcl.Dialogs][Dialogs.TCustomTaskDialog.Create][5595]
+61D078 [Vcl.Dialogs.pas][Vcl.Dialogs][Dialogs.InternalDoTaskMessageDlgPosHelp$qqrx20System.UnicodeStringt126System.Uitypes.TMsgDlgType53System.%Set$25System.Uitypes.TMsgDlgBtnt1$i0$t1$i11$%iiit125System.Uitypes.TMsgDlgBtno55System.%Set$27Vcl.Dialogs.TTaskDialog
+41F21D [FastMM4][DebugFreeMem$qqrpv]
+61CBE0 [Vcl.Dialogs.pas][Vcl.Dialogs][Dialogs.MessageDlgPosHelp$qqrx20System.UnicodeString26System.Uitypes.TMsgDlgType53System.%Set$25System.Uitypes.TMsgDlgBtnt1$i0$t1$i11$%iiit1][6642]
+
+The object was subsequently freed by thread 0x4FE4, and the stack trace (return addresses) at the time was:
+4072F2 [System.pas][System][@FreeMem$qqrpv][4891]
+408FBD [System.pas][System][TObject.FreeInstance][17870]
+4B9BE8 [madExcept][InterceptClassDestroy$qqrp14System.TObject]
+5D0E09 [Vcl.Graphics.pas][Vcl.Graphics][Graphics.TIconImage.Destroy][10001]
+4090B3 [System.pas][System][TObject.Free][17933]
+5CDEED [Vcl.Graphics.pas][Vcl.Graphics][Graphics.TSharedImage.Release][7480]
+5D118F [Vcl.Graphics.pas][Vcl.Graphics][Graphics.TIcon.Destroy][10123]
+4090B3 [System.pas][System][TObject.Free][17933]
+61AE37 [Vcl.Dialogs.pas][Vcl.Dialogs][Dialogs.TCustomTaskDialog.Destroy][5609]
+4090B3 [System.pas][System][TObject.Free][17933]
+61D225 [Vcl.Dialogs.pas][Vcl.Dialogs][Dialogs.InternalDoTaskMessageDlgPosHelp$qqrx20System.UnicodeStringt126System.Uitypes.TMsgDlgType53System.%Set$25System.Uitypes.TMsgDlgBtnt1$i0$t1$i11$%iiit125System.Uitypes.TMsgDlgBtno55System.%Set$27Vcl.Dialogs.TTaskDialog
+
+The current thread ID is 0x4FE4, and the stack trace (return addresses) leading to this error is:
+4090B3 [System.pas][System][TObject.Free][17933]
+4B9BCA [madExcept][InterceptFreeExceptObject$qqrv]
+40A72B [System.pas][System][@DoneExcept$qqrv][23309]
+D8B448 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][102]
+D8A297 [Form.Bild.pas][Form.Bild][Bild.Tfrm_Bild.LoadFromStream][77]
+772A8882 [Unknown function at RtlInterlockedCompareExchange64]
+772A8854 [Unknown function at RtlInterlockedCompareExchange64]
+772890FF [RtlUnwind]
+7725D500 [Unknown function at RtlPcToFileHeader]
+77294EC6 [KiUserExceptionDispatcher]
+758CC3A2 [RaiseException]
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7EBC6090:
+80 AC DD 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 D0 E7 18 7A
+80 80 80 80 80 80 80 80 00 00 00 00 20 0E BC 7E 00 00 00 00 00 00 00 00 BC EF 41 00 00 00 00 00
+20 45 01 00 D6 72 40 00 9F 8F 40 00 DA 96 40 00 7F EC 5F 00 3D CB 5E 00 40 A3 5F 00 83 26 62 00
+84 9C 4F 00 B1 9E 4F 00 F2 72 40 00 B1 AF 40 00 E4 4F 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 24 00 00 00 00 00 00 00 4A 5E 62 82 88 04 5E 00 50 70 BE 7E 03 00 00 00 03 00 00 00
+03 00 00 00 03 00 00 00 C8 11 5F 00 50 70 BE 7E 00 00 00 00 B5 A1 9D 7D 00 00 00 00 20 0E BC 7E
+00 00 00 00 00 00 00 00 BC EF 41 00 00 00 00 00 21 45 01 00 D6 72 40 00 9F 8F 40 00 DA 96 40 00
+Ä  ¨  ›  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  –  Á  .  z
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .     .  º  ~  .  .  .  .  .  .  .  .  º  Ô  A  .  .  .  .  .
+   E  .  .  ÷  r  @  .  ü  è  @  .  ⁄  ñ  @  .    Ï  _  .  =  À  ^  .  @  £  _  .  É  &  b  .
+Ñ  ú  O  .  ±  û  O  .  Ú  r  @  .  ±  Ø  @  .  ‰  O  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  $  .  .  .  .  .  .  .  J  ^  b  Ç  à  .  ^  .  P  p  æ  ~  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  »  .  _  .  P  p  æ  ~  .  .  .  .  µ  °  ù  }  .  .  .  .     .  º  ~
+.  .  .  .  .  .  .  .  º  Ô  A  .  .  .  .  .  !  E  .  .  ÷  r  @  .  ü  è  @  .  ⁄  ñ  @  .
+
+--------------------------------2022/6/19 18:27:58--------------------------------
+FastMM hat einen Versuch entdeckt, eine virtuelle Methode eines freigegebenen Objektes aufzurufen. Eine Schutzverletzung wird nun aufgerufen, um die aktuelle Operation abzubrechen.
+
+Freigegebene Objekt-Klasse: TIconImage
+
+Virtuelle Methode: Destroy
+
+Adresse der virtuellen Methode: 5D0DE0
+
+The allocation number was: 224285
+
+The object was allocated by thread 0x6F38, and the stack trace (return addresses) at the time was:
+4072D6 [System.pas][System][@GetMem$qqri][4843]
+408F9F [System.pas][System][TObject.NewInstance][17861]
+4096DA [System.pas][System][@ClassCreate$qqrpvzc][19251]
+409084 [System.pas][System][TObject.Create][17920]
+4096DA [System.pas][System][@ClassCreate$qqrpvzc][19251]
+5CA36F [Vcl.Graphics.pas][Vcl.Graphics][Graphics.TGraphic.Create][5415]
+5D1154 [Vcl.Graphics.pas][Vcl.Graphics][Graphics.TIcon.Create][10117]
+61AD9C [Vcl.Dialogs.pas][Vcl.Dialogs][Dialogs.TCustomTaskDialog.Create][5595]
+61D078 [Vcl.Dialogs.pas][Vcl.Dialogs][Dialogs.InternalDoTaskMessageDlgPosHelp$qqrx20System.UnicodeStringt126System.Uitypes.TMsgDlgType53System.%Set$25System.Uitypes.TMsgDlgBtnt1$i0$t1$i11$%iiit125System.Uitypes.TMsgDlgBtno55System.%Set$27Vcl.Dialogs.TTaskDialog
+41F21D [FastMM4][DebugFreeMem$qqrpv]
+61CBE0 [Vcl.Dialogs.pas][Vcl.Dialogs][Dialogs.MessageDlgPosHelp$qqrx20System.UnicodeString26System.Uitypes.TMsgDlgType53System.%Set$25System.Uitypes.TMsgDlgBtnt1$i0$t1$i11$%iiit1][6642]
+
+The object was subsequently freed by thread 0x6F38, and the stack trace (return addresses) at the time was:
+4072F2 [System.pas][System][@FreeMem$qqrpv][4891]
+408FBD [System.pas][System][TObject.FreeInstance][17870]
+4B9BE8 [madExcept][InterceptClassDestroy$qqrp14System.TObject]
+5D0E09 [Vcl.Graphics.pas][Vcl.Graphics][Graphics.TIconImage.Destroy][10001]
+4090B3 [System.pas][System][TObject.Free][17933]
+5CDEED [Vcl.Graphics.pas][Vcl.Graphics][Graphics.TSharedImage.Release][7480]
+5D118F [Vcl.Graphics.pas][Vcl.Graphics][Graphics.TIcon.Destroy][10123]
+4090B3 [System.pas][System][TObject.Free][17933]
+61AE37 [Vcl.Dialogs.pas][Vcl.Dialogs][Dialogs.TCustomTaskDialog.Destroy][5609]
+4090B3 [System.pas][System][TObject.Free][17933]
+61D225 [Vcl.Dialogs.pas][Vcl.Dialogs][Dialogs.InternalDoTaskMessageDlgPosHelp$qqrx20System.UnicodeStringt126System.Uitypes.TMsgDlgType53System.%Set$25System.Uitypes.TMsgDlgBtnt1$i0$t1$i11$%iiit125System.Uitypes.TMsgDlgBtno55System.%Set$27Vcl.Dialogs.TTaskDialog
+
+The current thread ID is 0x6F38, and the stack trace (return addresses) leading to this error is:
+4090B3 [System.pas][System][TObject.Free][17933]
+4B9BCA [madExcept][InterceptFreeExceptObject$qqrv]
+40A72B [System.pas][System][@DoneExcept$qqrv][23309]
+D8B448 [Form.Bilder.pas][Form.Bilder][Bilder.Tfrm_Bilder.LoadBilder][102]
+D8A297 [Form.Bild.pas][Form.Bild][Bild.Tfrm_Bild.LoadFromStream][77]
+772A8882 [Unknown function at RtlInterlockedCompareExchange64]
+772A8854 [Unknown function at RtlInterlockedCompareExchange64]
+772890FF [RtlUnwind]
+7725D500 [Unknown function at RtlPcToFileHeader]
+77294EC6 [KiUserExceptionDispatcher]
+758CC3A2 [RaiseException]
+
+Aktueller Speicherauszug von 256 Bytes, beginnend ab Zeigeradresse 7FA39B90:
+80 AC DD 00 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 C4 47 2F 79
+80 80 80 80 80 80 80 80 00 00 00 00 F0 8F A3 7F 00 00 00 00 00 00 00 00 BC EF 41 00 00 00 00 00
+85 6B 03 00 D6 72 40 00 9F 8F 40 00 DA 96 40 00 7F EC 5F 00 3D CB 5E 00 40 A3 5F 00 83 26 62 00
+84 9C 4F 00 B1 9E 4F 00 F2 72 40 00 B1 AF 40 00 38 6F 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 24 00 00 00 00 00 00 00 03 DF 4B 83 88 04 5E 00 10 00 A5 7F 03 00 00 00 03 00 00 00
+03 00 00 00 03 00 00 00 C8 11 5F 00 10 00 A5 7F 00 00 00 00 FC 20 B4 7C 00 00 00 00 F0 8F A3 7F
+00 00 00 00 00 00 00 00 BC EF 41 00 00 00 00 00 86 6B 03 00 D6 72 40 00 9F 8F 40 00 DA 96 40 00
+Ä  ¨  ›  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  ƒ  G  /  y
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  .  .  .  .    è  £    .  .  .  .  .  .  .  .  º  Ô  A  .  .  .  .  .
+Ö  k  .  .  ÷  r  @  .  ü  è  @  .  ⁄  ñ  @  .    Ï  _  .  =  À  ^  .  @  £  _  .  É  &  b  .
+Ñ  ú  O  .  ±  û  O  .  Ú  r  @  .  ±  Ø  @  .  8  o  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+.  .  .  .  $  .  .  .  .  .  .  .  .  ﬂ  K  É  à  .  ^  .  .  .  •    .  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .  »  .  _  .  .  .  •    .  .  .  .  ¸     ¥  |  .  .  .  .    è  £  
+.  .  .  .  .  .  .  .  º  Ô  A  .  .  .  .  .  Ü  k  .  .  ÷  r  @  .  ü  è  @  .  ⁄  ñ  @  .

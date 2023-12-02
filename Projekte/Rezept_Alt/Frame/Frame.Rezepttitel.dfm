@@ -1,0 +1,57 @@
+object fra_Rezepttitel: Tfra_Rezepttitel
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'fra_Rezepttitel'
+  ClientHeight = 338
+  ClientWidth = 805
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnl_Left: TPanel
+    Left = 0
+    Top = 0
+    Width = 73
+    Height = 338
+    Align = alLeft
+    BevelOuter = bvNone
+    Caption = 'pnl_Left'
+    ShowCaption = False
+    TabOrder = 0
+    object Label1: TLabel
+      AlignWithMargins = True
+      Left = 10
+      Top = 10
+      Width = 60
+      Height = 13
+      Margins.Left = 10
+      Margins.Top = 10
+      Align = alTop
+      Caption = 'Rezepttitel'
+      ExplicitLeft = 3
+      ExplicitTop = 3
+      ExplicitWidth = 52
+    end
+  end
+  object pnl_Client: TPanel
+    Left = 73
+    Top = 0
+    Width = 732
+    Height = 338
+    Align = alClient
+    BevelOuter = bvNone
+    Caption = 'pnl_Left'
+    ShowCaption = False
+    TabOrder = 1
+    ExplicitLeft = 400
+    ExplicitTop = 232
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+  end
+end

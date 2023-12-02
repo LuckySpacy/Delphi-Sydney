@@ -1,0 +1,32 @@
+inherited frm_Uebersicht_LgXhdpiPh: Tfrm_Uebersicht_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited tbc_Rezept: TTabControl
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    Sizes = (
+      450s
+      695s
+      450s
+      695s)
+    inherited tbs_Uebersicht: TTabItem
+      ExplicitSize.cx = 235.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited lb: TListBox
+        Size.Width = 450.000000000000000000
+        Size.Height = 695.000000000000000000
+        Viewport.Width = 450.000000000000000000
+        Viewport.Height = 695.000000000000000000
+      end
+    end
+    inherited tbs_Rezept: TTabItem
+      ExplicitSize.cx = 235.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Lay_Rezept: TLayout
+        Size.Width = 450.000000000000000000
+        Size.Height = 695.000000000000000000
+      end
+    end
+  end
+end
