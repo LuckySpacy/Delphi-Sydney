@@ -1,0 +1,1 @@
+IniFilename = C:\Users\Thomas\AppData\Roaming\DokuOrga_Entw\DokuOrga.ini
