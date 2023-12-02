@@ -1,0 +1,62 @@
+package Package.ASS;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  dbrtl,
+  dsnap,
+  ibxpress,
+  vclx,
+  TMSVCLUIPackPkgDXE13,
+  RVPkgD10_4,
+  RVHunSpellPkgD10_4;
+
+contains
+  LockProvider in '..\LockProvider\LockProvider.pas',
+  ExecOnTime in '..\ExecOnTime\ExecOnTime.pas',
+  ProcessQueue in '..\ProcessQueue\ProcessQueue.pas',
+  Ueberschriftenpanel_norm in '..\Ueberschriftenpanel\Ueberschriftenpanel_norm.pas',
+  nfsButton in '..\NFSButton\nfsButton.pas',
+  nfsCheckListEdit in '..\NFSChecklistedit\nfsCheckListEdit.pas',
+  NFSComboBox in '..\NFSComboBox\NFSComboBox.pas',
+  NFSDatePicker in '..\NFSDatePicker\NFSDatePicker.pas',
+  nfsEditAutoComplete in '..\NFSEditAutoComplete\nfsEditAutoComplete.pas',
+  NFSEditBtn in '..\NFSEditBtn\NFSEditBtn.pas',
+  NFSEditFloat in '..\NFSEditFloat\NFSEditFloat.pas',
+  NewFrontiers.Vcl.Ueberschrift in '..\NfsFramework\NewFrontiers.Vcl\NewFrontiers.Vcl.Ueberschrift.pas',
+  NfsLabel in '..\NFSLabel\NfsLabel.pas',
+  nfsRichView in '..\NFSRichView\nfsRichView.pas',
+  NFSRichViewEdit in '..\NFSRichViewEdit\NFSRichViewEdit.pas',
+  NFSRichviewPopUp in '..\NFSRichViewPopUp\NFSRichviewPopUp.pas',
+  NFSRichViewtoolbar in '..\NFSRichViewToolbar\NFSRichViewtoolbar.pas',
+  gridadapter in '..\GridAdapter\gridadapter.pas',
+  o_processe_text in '..\..\..\Server\source\klassen\o_processe_text.pas';
+
+end.
